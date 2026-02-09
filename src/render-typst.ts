@@ -28,6 +28,20 @@ const FONTS = {
   lyrics: "Comic Neue",
 };
 
+// Metadata por cancioneiro (chave = nome do subdirectório em cifras/)
+const CANCIONEIRO_META: Record<string, { displayName: string; logoFile: string }> = {
+  tunadao: { displayName: "Cancioneiro Tunadão 1998", logoFile: "tunadao-logo.png" },
+  portugues: { displayName: "Cancioneiro de Música Portuguesa", logoFile: "tunadao-logo.png" },
+};
+
+// Fallback para cancioneiros sem metadata explícita
+function getCancioneiroMeta(subdir: string) {
+  return CANCIONEIRO_META[subdir] ?? {
+    displayName: `Cancioneiro ${subdir.charAt(0).toUpperCase() + subdir.slice(1)}`,
+    logoFile: "tunadao-logo.png",
+  };
+}
+
 // Escapar caracteres especiais para Typst content mode
 function escTypst(s: string): string {
   return s
