@@ -204,9 +204,20 @@ function renderPart(part: SongPart, isFirst: boolean): string {
   return out;
 }
 
+// Gerar label ID sanitizado para Typst (letras ASCII, dígitos, hífens)
+function songLabelId(title: string): string {
+  return title
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")  // remove diacríticos
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 // Gerar uma música completa
 function renderSong(song: Song): string {
   let out = "";
+  const labelId = songLabelId(song.metadata.titulo);
+  out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
   out += `#song-title("${escLiteral(song.metadata.titulo)}", "${escLiteral(song.metadata.tom)}")\n`;
 
   for (let i = 0; i < song.parts.length; i++) {
@@ -236,6 +247,8 @@ function generateTypFile(config: CancioneiroConfig): string {
   const coverVersionSize = isA5 ? "8pt" : "10pt";
   const coverLogoWidth = isA5 ? "40%" : "35%";
   const coverMargin = isA5 ? "15mm" : "25mm";
+  const indexTitleSize = isA5 ? "20pt" : "26pt";
+  const indexEntrySize = isA5 ? "9pt" : "11pt";
 
   // Cover subtitle: strip "Cancioneiro " prefix from displayName
   const coverSubtitle = displayName.replace(/^Cancioneiro\s*/, "");
@@ -334,7 +347,28 @@ function generateTypFile(config: CancioneiroConfig): string {
 ]
 
 // ─── Índice (página dedicada, coluna única) ───
-// TODO: Phase 2 — index content
+#page(header: none, footer: none)[
+  #align(center)[
+    #text(font: title-font, fill: title-color, size: ${indexTitleSize}, weight: "bold")[Índice]
+    #v(1em)
+  ]
+  #set text(size: ${indexEntrySize})
+${songs
+  .slice()
+  .sort((a, b) => a.metadata.titulo.localeCompare(b.metadata.titulo, "pt"))
+  .map(song => {
+    const labelId = songLabelId(song.metadata.titulo);
+    const title = escTypst(song.metadata.titulo);
+    return `  #context {
+    let loc = locate(label("song-${labelId}"))
+    let pg = counter(page).at(loc).first()
+    [${title} #box(width: 1fr, repeat[.#h(2pt)]) #pg \\ ]
+  }`;
+  })
+  .join("\n")}
+]
+
+#counter(page).update(1)
 
 // ─── Páginas de músicas (duas colunas, com headers/footers) ───
 #set columns(gutter: ${columnGutter})
