@@ -243,7 +243,6 @@ function generateTypFile(config: CancioneiroConfig): string {
   const columnGutter = isA5 ? "8mm" : "12mm";
   const coverTitleSize = isA5 ? "36pt" : "48pt";
   const coverSubtitleSize = isA5 ? "16pt" : "20pt";
-  const coverCifrasSize = isA5 ? "10pt" : "13pt";
   const coverVersionSize = isA5 ? "8pt" : "10pt";
   const coverLogoWidth = isA5 ? "40%" : "35%";
   const coverMargin = isA5 ? "15mm" : "25mm";
@@ -337,9 +336,6 @@ function generateTypFile(config: CancioneiroConfig): string {
     #image("${escLiteral(logoRelPath)}", width: ${coverLogoWidth})
     #v(2fr)
     #text(font: title-font, fill: title-color, size: ${coverTitleSize}, weight: "bold")[CANCIONEIRO]
-    #linebreak()
-    #v(0.3em)
-    #text(font: title-font, fill: subtitle-color, size: ${coverCifrasSize})[com cifras]
     #v(1em)
     #text(font: title-font, fill: subtitle-color, size: ${coverSubtitleSize})[${escTypst(coverSubtitle)}]
     #v(1fr)
