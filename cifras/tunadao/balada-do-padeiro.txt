@@ -1,0 +1,93 @@
+---
+titulo: Balada do Padeiro
+tom: G
+---
+
+[INTRO]   F F# G (3x)
+          G Gdim7 Am C D G
+          E Am Cm
+          G D G
+
+                 G
+Quem sabe se te amo
+  Gdim7       Am
+Talvez só o padeiro
+                   D
+Que amassa a tua vida
+                   G
+Se dá de corpo inteiro
+                     E
+Mostra-me os teus medos
+                         Am      Cm
+Que são segredos, e são teus
+                 G
+Quem sabe se te amo
+                 D
+Quem sabe se te amo
+               G    (G A B)
+Talvez só o padeiro
+
+                 Em
+**Não esqueço a saudade**
+                    B
+**É verdade, eu não nego**
+
+**Mando embora a tristeza**
+                    Em
+**Na certeza que te levo**
+                      E7
+**E se eu ficar esquecido**
+                         Am Cm
+**Entre um beijo que te dou**
+                  G
+**Podes mandar-me embora**
+                D
+**Pra sempre ou agora**
+                    G
+**Sabes bem que não vou**
+
+[PASSAGEM]       D7 Gm D7 Gm
+La Cumparsita    Cm Gm D7 Gm D7
+
+[PASSAGEM]   F F# G (3x)
+             G Gdim7 Am D G
+             E Am Cm
+             G D G
+
+      D7            G
+Quem sabe se te adoro
+   Gdim7           Am
+Eu sigo os teus passos
+               D
+Me levam ao abrigo
+                    G
+Onde eu te dou abraços
+                 E
+Mostra-me a certeza
+                      Am   Cm
+Com firmeza, num sentido
+                    G
+Quem sabe se te adoro
+                    D
+Quem sabe se te adoro
+               G       (G A B)
+Num beijo prometido
+
+                 Em
+**Não esqueço a saudade**
+                    B
+**É verdade, eu não nego**
+
+**Mando embora a tristeza**
+                    Em
+**Na certeza que te levo**
+                      E7
+**E se eu ficar esquecido**
+                         Am Cm
+**Entre um beijo que te dou**
+                  G
+**Podes mandar-me embora**
+                D
+**Pra sempre ou agora**
+                    G
+**Sabes bem que não vou**
