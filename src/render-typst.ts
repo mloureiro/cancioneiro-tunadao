@@ -302,11 +302,15 @@ function generateTypFile(config: CancioneiroConfig): string {
   v(0.4em)
 }
 
-// TODO: Phase 2 — cover page
-// TODO: Phase 2 — index
+// ─── Capa (página dedicada, coluna única) ───
+// TODO: Phase 2 — cover page content
 
-// ─── Layout em duas colunas ───
-#show: doc => columns(2, gutter: ${columnGutter}, doc)
+// ─── Índice (página dedicada, coluna única) ───
+// TODO: Phase 2 — index content
+
+// ─── Páginas de músicas (duas colunas, com headers/footers) ───
+#set columns(gutter: ${columnGutter})
+#set page(columns: 2)
 
 // TODO: Phase 2 — headers/footers
 
