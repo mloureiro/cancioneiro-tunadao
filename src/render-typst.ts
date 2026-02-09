@@ -9,6 +9,7 @@ const CIFRAS_BASE = path.resolve(__dirname, "../cifras");
 const OUTPUT_DIR = path.resolve(__dirname, "../output");
 const TYPST_DIR = path.resolve(__dirname, "../typst");
 const FONTS_DIR = path.resolve(TYPST_DIR, "fonts");
+const PROJECT_ROOT = path.resolve(__dirname, "..");
 
 // Cores do design system
 const COLORS = {
@@ -229,6 +230,18 @@ function generateTypFile(config: CancioneiroConfig): string {
   const lyricsSize = isA5 ? "7.5pt" : "10pt";
   const chordSize = isA5 ? "7pt" : "9pt";
   const columnGutter = isA5 ? "8mm" : "12mm";
+  const coverTitleSize = isA5 ? "36pt" : "48pt";
+  const coverSubtitleSize = isA5 ? "16pt" : "20pt";
+  const coverCifrasSize = isA5 ? "10pt" : "13pt";
+  const coverVersionSize = isA5 ? "8pt" : "10pt";
+  const coverLogoWidth = isA5 ? "40%" : "35%";
+  const coverMargin = isA5 ? "15mm" : "25mm";
+
+  // Cover subtitle: strip "Cancioneiro " prefix from displayName
+  const coverSubtitle = displayName.replace(/^Cancioneiro\s*/, "");
+
+  // Logo path relative to .typ file (which lives in typst/)
+  const logoRelPath = path.relative(TYPST_DIR, logoPath).replace(/\\/g, "/");
 
   let typ = `// Cancioneiro: ${displayName} — gerado automaticamente
 // Formato: ${pageSize.toUpperCase()} (${pageWidth} × ${pageHeight})
@@ -303,7 +316,22 @@ function generateTypFile(config: CancioneiroConfig): string {
 }
 
 // ─── Capa (página dedicada, coluna única) ───
-// TODO: Phase 2 — cover page content
+#page(margin: ${coverMargin}, header: none, footer: none)[
+  #align(center)[
+    #v(0.5fr)
+    #image("${escLiteral(logoRelPath)}", width: ${coverLogoWidth})
+    #v(2fr)
+    #text(font: title-font, fill: title-color, size: ${coverTitleSize}, weight: "bold")[CANCIONEIRO]
+    #linebreak()
+    #v(0.3em)
+    #text(font: title-font, fill: subtitle-color, size: ${coverCifrasSize})[com cifras]
+    #v(1em)
+    #text(font: title-font, fill: subtitle-color, size: ${coverSubtitleSize})[${escTypst(coverSubtitle)}]
+    #v(1fr)
+    #text(fill: subtitle-color, size: ${coverVersionSize})[v${escTypst(version)}]
+    #v(0.2fr)
+  ]
+]
 
 // ─── Índice (página dedicada, coluna única) ───
 // TODO: Phase 2 — index content
@@ -390,7 +418,7 @@ function main() {
 
     console.log(`Compilando ${subdir} A5...`);
     try {
-      execSync(`typst compile --font-path "${FONTS_DIR}" "${typA5Path}" "${outputA5}"`, {
+      execSync(`typst compile --root "${PROJECT_ROOT}" --font-path "${FONTS_DIR}" "${typA5Path}" "${outputA5}"`, {
         stdio: "inherit",
       });
       console.log(`PDF A5 gerado: ${outputA5}`);
@@ -401,7 +429,7 @@ function main() {
 
     console.log(`Compilando ${subdir} A4...`);
     try {
-      execSync(`typst compile --font-path "${FONTS_DIR}" "${typA4Path}" "${outputA4}"`, {
+      execSync(`typst compile --root "${PROJECT_ROOT}" --font-path "${FONTS_DIR}" "${typA4Path}" "${outputA4}"`, {
         stdio: "inherit",
       });
       console.log(`PDF A4 gerado: ${outputA4}`);
