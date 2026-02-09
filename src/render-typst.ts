@@ -42,6 +42,16 @@ function getCancioneiroMeta(subdir: string) {
   };
 }
 
+// Configuração passada a generateTypFile
+interface CancioneiroConfig {
+  songs: Song[];
+  pageSize: "a5" | "a4";
+  subdir: string;
+  displayName: string;
+  logoPath: string;
+  version: string;
+}
+
 // Escapar caracteres especiais para Typst content mode
 function escTypst(s: string): string {
   return s
@@ -206,7 +216,8 @@ function renderSong(song: Song): string {
 }
 
 // Gerar o ficheiro .typ completo
-function generateTypFile(songs: Song[], pageSize: "a5" | "a4", cancioneiroName: string): string {
+function generateTypFile(config: CancioneiroConfig): string {
+  const { songs, pageSize, subdir, displayName, logoPath, version } = config;
   const isA5 = pageSize === "a5";
   const pageWidth = isA5 ? "148mm" : "210mm";
   const pageHeight = isA5 ? "210mm" : "297mm";
@@ -219,7 +230,7 @@ function generateTypFile(songs: Song[], pageSize: "a5" | "a4", cancioneiroName: 
   const chordSize = isA5 ? "7pt" : "9pt";
   const columnGutter = isA5 ? "8mm" : "12mm";
 
-  let typ = `// Cancioneiro: ${cancioneiroName} — gerado automaticamente
+  let typ = `// Cancioneiro: ${displayName} — gerado automaticamente
 // Formato: ${pageSize.toUpperCase()} (${pageWidth} × ${pageHeight})
 
 // ─── Cores ───
@@ -291,8 +302,13 @@ function generateTypFile(songs: Song[], pageSize: "a5" | "a4", cancioneiroName: 
   v(0.4em)
 }
 
+// TODO: Phase 2 — cover page
+// TODO: Phase 2 — index
+
 // ─── Layout em duas colunas ───
 #show: doc => columns(2, gutter: ${columnGutter}, doc)
+
+// TODO: Phase 2 — headers/footers
 
 // ─── Conteúdo ───
 
@@ -339,6 +355,9 @@ function main() {
 
     console.log(`\n=== Cancioneiro: ${subdir} (${files.length} cifras) ===`);
 
+    const meta = getCancioneiroMeta(subdir);
+    const logoPath = path.resolve(__dirname, "../assets", meta.logoFile);
+
     const songs: Song[] = files.map(f => {
       const filePath = path.join(cifrasDir, f);
       console.log(`  Parsing: ${f}`);
@@ -346,13 +365,13 @@ function main() {
     });
 
     // Gerar e compilar A5
-    const typA5 = generateTypFile(songs, "a5", subdir);
+    const typA5 = generateTypFile({ songs, pageSize: "a5", subdir, displayName: meta.displayName, logoPath, version: "dev" });
     const typA5Path = path.join(TYPST_DIR, `cancioneiro-${subdir}-a5.typ`);
     fs.writeFileSync(typA5Path, typA5, "utf-8");
     console.log(`Gerado: ${typA5Path}`);
 
     // Gerar e compilar A4
-    const typA4 = generateTypFile(songs, "a4", subdir);
+    const typA4 = generateTypFile({ songs, pageSize: "a4", subdir, displayName: meta.displayName, logoPath, version: "dev" });
     const typA4Path = path.join(TYPST_DIR, `cancioneiro-${subdir}-a4.typ`);
     fs.writeFileSync(typA4Path, typA4, "utf-8");
     console.log(`Gerado: ${typA4Path}`);
