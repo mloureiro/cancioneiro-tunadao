@@ -327,6 +327,10 @@ function generateTypFile(config: CancioneiroConfig): string {
 
 // --- Main ---
 function main() {
+  const runNumber = process.env.CANCIONEIRO_VERSION;
+  const version = runNumber ? `${new Date().getFullYear()}.${runNumber}` : "dev";
+  console.log(`Versão: ${version}`);
+
   // Iterar subdirectórios de cifras/ como cancioneiros separados
   const subdirs = fs.readdirSync(CIFRAS_BASE).filter(d => {
     const fullPath = path.join(CIFRAS_BASE, d);
@@ -365,13 +369,13 @@ function main() {
     });
 
     // Gerar e compilar A5
-    const typA5 = generateTypFile({ songs, pageSize: "a5", subdir, displayName: meta.displayName, logoPath, version: "dev" });
+    const typA5 = generateTypFile({ songs, pageSize: "a5", subdir, displayName: meta.displayName, logoPath, version });
     const typA5Path = path.join(TYPST_DIR, `cancioneiro-${subdir}-a5.typ`);
     fs.writeFileSync(typA5Path, typA5, "utf-8");
     console.log(`Gerado: ${typA5Path}`);
 
     // Gerar e compilar A4
-    const typA4 = generateTypFile({ songs, pageSize: "a4", subdir, displayName: meta.displayName, logoPath, version: "dev" });
+    const typA4 = generateTypFile({ songs, pageSize: "a4", subdir, displayName: meta.displayName, logoPath, version });
     const typA4Path = path.join(TYPST_DIR, `cancioneiro-${subdir}-a4.typ`);
     fs.writeFileSync(typA4Path, typA4, "utf-8");
     console.log(`Gerado: ${typA4Path}`);
