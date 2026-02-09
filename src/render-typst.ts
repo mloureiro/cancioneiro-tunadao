@@ -249,6 +249,8 @@ function generateTypFile(config: CancioneiroConfig): string {
   const coverMargin = isA5 ? "15mm" : "25mm";
   const indexTitleSize = isA5 ? "20pt" : "26pt";
   const indexEntrySize = isA5 ? "9pt" : "11pt";
+  const headerSize = isA5 ? "7pt" : "9pt";
+  const footerSize = isA5 ? "7pt" : "9pt";
 
   // Cover subtitle: strip "Cancioneiro " prefix from displayName
   const coverSubtitle = displayName.replace(/^Cancioneiro\s*/, "");
@@ -372,9 +374,19 @@ ${songs
 
 // ─── Páginas de músicas (duas colunas, com headers/footers) ───
 #set columns(gutter: ${columnGutter})
-#set page(columns: 2)
-
-// TODO: Phase 2 — headers/footers
+#set page(
+  columns: 2,
+  header: context {
+    set text(font: title-font, fill: subtitle-color, size: ${headerSize})
+    [${escTypst(displayName)}]
+    v(-3pt)
+    line(length: 100%, stroke: 0.4pt + subtitle-color)
+  },
+  footer: context {
+    set text(fill: subtitle-color, size: ${footerSize})
+    align(center, counter(page).display())
+  },
+)
 
 // ─── Conteúdo ───
 
