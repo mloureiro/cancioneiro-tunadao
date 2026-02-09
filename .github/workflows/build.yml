@@ -1,0 +1,40 @@
+name: Build Cancioneiro PDFs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
+
+      - uses: typst-community/setup-typst@v4
+
+      - run: npm run build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cancioneiro-pdfs
+          path: output/*.pdf
+
+      - name: Create Release
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: "Build #${{ github.run_number }}"
+          files: output/*.pdf
+          generate_release_notes: true
