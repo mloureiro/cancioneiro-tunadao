@@ -9,7 +9,7 @@ import {
 
 // Padrão para detectar acordes: letra maiúscula + opcionais (# b m 7 maj dim aug sus add / etc.)
 const CHORD_TOKEN_RE =
-  /^[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+|[0-9]+)?(?:\/[A-G][#b]?)?$/;
+  /^[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*(?:\/[A-G][#b]?)?$/;
 
 /**
  * Verifica se uma linha contém APENAS acordes (sem letras).
@@ -36,7 +36,7 @@ function isChordLine(line: string): boolean {
  */
 function extractChordPositions(chordLine: string): ChordPosition[] {
   const positions: ChordPosition[] = [];
-  const re = /[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+|[0-9]+)?(?:\/[A-G][#b]?)?/g;
+  const re = /[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*(?:\/[A-G][#b]?)?/g;
   let match: RegExpExecArray | null;
   while ((match = re.exec(chordLine)) !== null) {
     positions.push({
