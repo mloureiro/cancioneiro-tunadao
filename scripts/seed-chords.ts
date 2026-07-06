@@ -57,6 +57,15 @@ interface InstrumentChords {
 
 // ─── Nomes: separar fundamental/sufixo/baixo ───
 
+// Notação brasileira: "7M" = sétima maior ("C7M" → "Cmaj7", "Cm7M" → "Cmmaj7").
+// Aplicado só na resolução de shapes — o nome original mantém-se nas cifras
+// e como chave nos JSONs.
+export function normalizeChordName(name: string): string {
+  return name.replace(/^([A-G][#b]?)(m?)7M/, (_, root, minor) =>
+    `${root}${minor ? "mmaj7" : "maj7"}`
+  );
+}
+
 export function splitBass(name: string): { base: string; bass: string | null } {
   const idx = name.indexOf("/");
   if (idx === -1) return { base: name, bass: null };
@@ -81,7 +90,11 @@ function collectChords(): string[] {
       for (const part of song.parts)
         for (const sec of part.sections)
           for (const line of sec.lines)
-            for (const c of line.chords ?? []) chords.add(c.chord);
+            for (const c of line.chords ?? []) {
+              // Runs de notas "(G A B)" não são acordes para os diagramas
+              if (c.chord.startsWith("(")) continue;
+              chords.add(c.chord);
+            }
     }
   }
   return [...chords].sort();
@@ -323,7 +336,7 @@ function main() {
     const instOverrides = overrides[data.instrument] ?? {};
     const missing: string[] = [];
     for (const name of names) {
-      const shapes = instOverrides[name] ?? resolve(name);
+      const shapes = instOverrides[name] ?? resolve(normalizeChordName(name));
       if (shapes) data.chords[name] = shapes;
       else missing.push(name);
     }
