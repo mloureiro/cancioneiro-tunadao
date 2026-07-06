@@ -70,7 +70,7 @@ function isInstruction(line: string): string | null {
     // ou se for referência a anexo, ou instrução musical
     const sectionNames = [
       "INTRO", "REFRÃO", "REFRAO", "PASSAGEM", "SOLO",
-      "INSTR.", "SAÍDA", "SAIDA", "SOLISTA", "/SOLISTA",
+      "INSTR.", "INSTRUMENTAL", "SAÍDA", "SAIDA", "SOLISTA", "/SOLISTA",
     ];
     // Secções com conteúdo extra (ex: [PASSAGEM] ou [SAÍDA] seguidos de acordes)
     // são tratadas como secções, não instruções
