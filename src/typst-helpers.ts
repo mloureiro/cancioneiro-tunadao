@@ -16,7 +16,10 @@ export function escTypst(s: string): string {
     .replace(/\{/g, "\\{")
     .replace(/\}/g, "\\}")
     .replace(/\[/g, "\\[")
-    .replace(/\]/g, "\\]");
+    .replace(/\]/g, "\\]")
+    // "//" é comentário em Typst; escapar a barra evita que letras/acordes
+    // (ex: "G/B", ou lixo de extração "Ré//Fá") comentem o resto da linha.
+    .replace(/\//g, "\\/");
 }
 
 // Escapar string literal para Typst (entre aspas)

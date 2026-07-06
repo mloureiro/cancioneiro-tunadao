@@ -32,7 +32,11 @@ const FONTS = {
 // continuações de [INTRO] com espaços à esquerda) — o content mode do
 // Typst colapsa whitespace.
 function chordRunContent(s: string): string {
-  return escTypst(s).replace(/ {2,}/g, (m) => `#h(${(m.length * 0.5).toFixed(1)}em)`);
+  // Escapar os parênteses do conteúdo ANTES de inserir "#h()": em markup, um
+  // "#h(..)" seguido de "(" seria encadeado como chamada `h(..)(2x)` e "2x"
+  // lido como número (ex: "E   (2x)"). Com "\(" o encadeamento não acontece.
+  const escaped = escTypst(s).replace(/\(/g, "\\(").replace(/\)/g, "\\)");
+  return escaped.replace(/ {2,}/g, (m) => `#h(${(m.length * 0.5).toFixed(1)}em)`);
 }
 
 // Linha com acordes sobre letras.
@@ -171,9 +175,8 @@ function renderPart(part: SongPart, isFirst: boolean): string {
   return out;
 }
 
-function renderSong(song: Song): string {
+function renderSong(song: Song, labelId: string): string {
   let out = "";
-  const labelId = songLabelId(song.metadata.titulo);
   out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
   out += `#song-title("${escLiteral(song.metadata.titulo)}", "${escLiteral(song.metadata.tom)}")\n`;
 
@@ -187,6 +190,24 @@ function renderSong(song: Song): string {
 function generate(input: LayoutInput): string {
   const { songs, pageSize, displayName, headerTitle, logoRelPath, version } = input;
   const isA5 = pageSize === "a5";
+
+  // Secções: se não vierem, o livro é uma lista simples (uma secção sem nome).
+  const bookSections = (input.sections && input.sections.length)
+    ? input.sections
+    : [{ name: "", songs }];
+  const hasSections = bookSections.some(s => s.name.trim() !== "");
+
+  // Label único por música (títulos repetem-se — ex: várias "Madalena" — e
+  // labels Typst duplicados quebram a compilação). Ordem = ordem do livro.
+  const labelOf = new Map<Song, string>();
+  const usedLabels = new Set<string>();
+  for (const song of songs) {
+    const base = songLabelId(song.metadata.titulo) || "musica";
+    let id = base;
+    for (let k = 2; usedLabels.has(id); k++) id = `${base}-${k}`;
+    usedLabels.add(id);
+    labelOf.set(song, id);
+  }
 
   const pageWidth = isA5 ? "148mm" : "210mm";
   const pageHeight = isA5 ? "210mm" : "297mm";
@@ -213,9 +234,30 @@ function generate(input: LayoutInput): string {
 
   const indexTitleSize = isA5 ? "22pt" : "30pt";
   const indexEntrySize = isA5 ? "9pt" : "11pt";
+  const indexSectionSize = isA5 ? "12pt" : "15pt";
+  const sectionTitleSize = isA5 ? "28pt" : "40pt";
 
   // Subtítulo da capa: displayName sem o prefixo "Cancioneiro "
   const coverSubtitle = displayName.replace(/^Cancioneiro\s*/, "");
+
+  // Índice: uma entrada por música (página resolvida via label). Agrupado por
+  // secção quando o livro tem secções nomeadas.
+  const indexEntry = (song: Song): string => {
+    const labelId = labelOf.get(song)!;
+    const title = escTypst(song.metadata.titulo);
+    return `  #context {
+    let loc = locate(label("song-${labelId}"))
+    let pg = counter(page).at(loc).first()
+    [${title} #box(width: 1fr, repeat(gap: 2.5pt)[#text(fill: hairline-color)[.]]) #text(font: sans-font, stretch: 100%, weight: 700, fill: blue)[#pg] \\ ]
+  }`;
+  };
+  const sortByTitle = (a: Song, b: Song) => a.metadata.titulo.localeCompare(b.metadata.titulo, "pt");
+  const indexBody = hasSections
+    ? bookSections.map(sec =>
+        `  #index-section-title[${escTypst(sec.name)}]\n` +
+        sec.songs.slice().sort(sortByTitle).map(indexEntry).join("\n")
+      ).join("\n")
+    : songs.slice().sort(sortByTitle).map(indexEntry).join("\n");
 
   let typ = `// Cancioneiro: ${displayName} — gerado automaticamente
 // Layout: v2 | Formato: ${pageSize.toUpperCase()} (${pageWidth} × ${pageHeight})
@@ -338,6 +380,21 @@ function generate(input: LayoutInput): string {
   )
 })
 
+// Título de secção no índice (livros com secções)
+#let index-section-title(body) = block(above: 0.9em, below: 0.5em, sticky: true,
+  cond-text(upper(body), size: ${indexSectionSize}, fill: coral, tracking: 0.08em),
+)
+
+// Página divisória de secção: barra coral, nome centrado, sem header/footer
+#let section-divider(name) = page(header: none, footer: none, columns: 1)[
+  #set align(center + horizon)
+  #box(width: 26%, height: 3pt, fill: coral)
+  #v(16pt)
+  #cond-text(upper(name), size: ${sectionTitleSize}, tracking: 0.12em)
+  #v(16pt)
+  #box(width: 26%, height: 3pt, fill: coral)
+]
+
 // ─── Capa (composição do palco, fundo branco) ───
 #page(margin: ${coverMargin}, header: none, footer: none)[
   #set align(center)
@@ -371,19 +428,9 @@ function generate(input: LayoutInput): string {
   #v(1.1em)
   #set text(size: ${indexEntrySize})
   #set par(leading: 0.5em, spacing: 0.62em)
-${songs
-  .slice()
-  .sort((a, b) => a.metadata.titulo.localeCompare(b.metadata.titulo, "pt"))
-  .map(song => {
-    const labelId = songLabelId(song.metadata.titulo);
-    const title = escTypst(song.metadata.titulo);
-    return `  #context {
-    let loc = locate(label("song-${labelId}"))
-    let pg = counter(page).at(loc).first()
-    [${title} #box(width: 1fr, repeat(gap: 2.5pt)[#text(fill: hairline-color)[.]]) #text(font: sans-font, stretch: 100%, weight: 700, fill: blue)[#pg] \\ ]
-  }`;
-  })
-  .join("\n")}
+  #columns(2, gutter: ${columnGutter})[
+${indexBody}
+  ]
 ]
 
 #counter(page).update(1)
@@ -431,19 +478,25 @@ ${songs
 
 `;
 
-  // Músicas: respeitar colunas por música. Mudar de modo quebra página
-  // (o #set page fá-lo automaticamente); dentro do mesmo modo, colbreak.
+  // Músicas por secção. Cada secção nomeada abre com uma página divisória.
+  // Respeitar colunas por música: mudar de modo quebra página; senão colbreak.
   let currentCols: number | null = null;
-  for (let i = 0; i < songs.length; i++) {
-    const cols = songs[i].metadata.colunas === 1 ? 1 : 2;
-    if (cols !== currentCols) {
-      typ += `#set page(columns: ${cols})\n\n`;
-      currentCols = cols;
-    } else if (i > 0) {
-      typ += `#colbreak()\n\n`;
+  for (const sec of bookSections) {
+    if (hasSections && sec.name.trim() !== "") {
+      typ += `#section-divider("${escLiteral(sec.name)}")\n\n`;
+      currentCols = null; // a 1.ª música da secção re-emite o modo de colunas
     }
-    typ += renderSong(songs[i]);
-    typ += `\n`;
+    for (const song of sec.songs) {
+      const cols = song.metadata.colunas === 1 ? 1 : 2;
+      if (cols !== currentCols) {
+        typ += `#set page(columns: ${cols})\n\n`;
+        currentCols = cols;
+      } else {
+        typ += `#colbreak()\n\n`;
+      }
+      typ += renderSong(song, labelOf.get(song)!);
+      typ += `\n`;
+    }
   }
 
   return typ;

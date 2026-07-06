@@ -1,0 +1,27 @@
+# Cancioneiro para o Vinho — todas as outras músicas, agrupadas por secção.
+# Cada secção abre com uma página divisória e é agrupada no índice.
+title: Cancioneiro para o Vinho
+header: Para o Vinho
+logo: tunadao-logo.png
+formats: [a5, a4]
+
+# Cada secção tem um `name` e uma lista `songs` (globs e/ou caminhos exactos,
+# por ordem). Para escolher só algumas músicas, listar os ficheiros em vez do
+# glob — ex:
+#   - name: Fados
+#     songs:
+#       - cifras/fados/Amália Rodrigues - Barco Negro.txt
+#       - cifras/fados/Mariza - Chuva.txt
+sections:
+  - name: Tunas
+    songs:
+      - cifras/tunas/*.txt
+  - name: Fados
+    songs:
+      - cifras/fados/*.txt
+  - name: Portuguesas
+    songs:
+      - cifras/portugues/*.txt
+  - name: Internacional
+    songs:
+      - cifras/internacional/*.txt
