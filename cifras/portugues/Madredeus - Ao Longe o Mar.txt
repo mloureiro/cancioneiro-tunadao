@@ -6,8 +6,8 @@ tom: C#
 
 
 [INTRO]
-Dóm Miø MibM7
-C#6 (b5, b9, no3) Dóm
+Cm  Em7b5 Ebmaj7
+C#6 (b5, b9, no3) Cm
 
 Cm                      Gm
 Porto calmo de abrigo
@@ -31,7 +31,7 @@ A promessa anterior
 Quando avistei
                  Bb
 (Quando avistei)
-    (Si dim) Dóm
+    (Bdim  ) Cm 
 Ao longe o mar
                Gm
 (Ao longe o mar)
@@ -39,7 +39,7 @@ Ao longe o mar
 Ali fiquei
          Bb
 (Ali fiquei)
- (Si dim)
+ (Bdim  )
 Parada a olhar
 
 [INTRO]
@@ -53,7 +53,7 @@ Canto o tempo a passar
 Quando avistei
                  Bb
 (Quando avistei)
-    (Si dim) Dóm
+    (Bdim  ) Cm 
 Ao longe o mar
                     Gm
 (Ao longe o mar)
@@ -61,19 +61,19 @@ Ao longe o mar
 Ali fiquei
                   Bb
 (Ali fiquei)
-                (Si dim)      Dóm    Solm
+                (Bdim  )      Cm     Gm  
 Parada a olhar
 
                  Fm     Bb
 Quando avistei
-    (Si dim) Dóm       Solm
+    (Bdim  ) Cm        Gm  
 Ao longe o mar
                       Fm  Bb
 Sem querer deixei-me
-(Si dim)
+(Bdim  )
 Ali…
 
-Dó m (10x)
+Cm   (10x)
 4ª volta: Tuna
 6ª volta: Solista
 

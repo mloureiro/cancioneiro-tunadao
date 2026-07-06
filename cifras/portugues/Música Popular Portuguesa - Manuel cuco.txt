@@ -2,9 +2,9 @@
 titulo: Manuel cuco
 artista: Música Popular Portuguesa
 tom: Gm
+creditos: Letra e música: popular;
 ---
 
-Letra e música: popular;
 Gm                     C              F
 O meu pai é Manuel Cuco, [2]
 D7                                  G         C

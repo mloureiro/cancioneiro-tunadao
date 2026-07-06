@@ -2,11 +2,8 @@
 titulo: Olhos Negros
 artista: Teresa Salgueiro
 tom: G
+creditos: Música: Teresa Salgueiro; Letra: Teresa Salgueiro
 ---
-
-
-Música: Teresa Salgueiro
-Letra: Teresa Salgueiro
 
 [Estrutura de acordes preservada do cancioneiro]
 

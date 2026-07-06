@@ -4,8 +4,6 @@ artista: Dulce Pontes
 tom: Em
 ---
 
-Acordes: Em, D/F#, C, Am, B, D#º, D4, D, G, F#, A#º, B4
-
 [INTRO] Em D/F# C Am B D#º
 
 C      B   Am     Em

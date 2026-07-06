@@ -2,10 +2,8 @@
 titulo: Serenatas
 artista: João Paulo Freitas
 tom: E
+creditos: Música: João Paulo Freitas
 ---
-
-
-Música: João Paulo Freitas
 
 [INTRO] A  E  B7  E  E7  A  Am  E  C#m  F#m  B7  E
 

@@ -2,9 +2,8 @@
 titulo: Rua Do Capelão
 artista: Júlio Dantas
 tom: Am
+ano: 1999
 ---
-
-1999
 
 Entrada viola
 [INSTR.]

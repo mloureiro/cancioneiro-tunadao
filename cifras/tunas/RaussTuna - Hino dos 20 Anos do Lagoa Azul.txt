@@ -2,11 +2,8 @@
 titulo: Hino dos 20 Anos do Lagoa Azul
 artista: RaussTuna
 tom: A
+creditos: Letra: Ricardo Lopes; Música: João Escobar
 ---
-
-
-Letra: Ricardo Lopes
-Música: João Escobar
 
 [INTRO] A , C#m , Bm , E , A  (2x)
 

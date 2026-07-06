@@ -2,11 +2,8 @@
 titulo: Cantar de Emigração
 artista: Adriano Correia de Oliveira
 tom: Am
+creditos: Original: Adriano Correia de Oliveira
 ---
-
-
-Adriano Correia de Oliveira (Original)
-Tom: Am
 
 Am            C
 Este parte, aquele parte

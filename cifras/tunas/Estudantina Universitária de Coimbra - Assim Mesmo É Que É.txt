@@ -6,7 +6,7 @@ tom: G
 
 
 [INTRO]
-Fá Dó Sol Dó ( 2x)
+F  C  G   C  ( 2x)
 
 C                    G
 Lá na aldeia donde eu sou
@@ -27,7 +27,7 @@ Que eu não quero mexericos
 E assim mesmo é que é
                         F
 Que eu não quero mexericos
-Sol                   Dó (Sol Dó)
+G                     C  (G   C )
 E assim mesmo é que é
 
 [REFRÃO]

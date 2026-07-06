@@ -2,12 +2,9 @@
 titulo: Rua da Saudade
 artista: Tunídeos
 tom: E
+creditos: Letra: Miguel Matias; Música: Bruno Couto, João Pedro Ponte, Miguel Matias
 ---
 
-
-Letra: Miguel Matias
-Música: Bruno Couto, João Pedro Ponte,
-Miguel Matias
     E               A
 De olhos postos na Lua
 B                E

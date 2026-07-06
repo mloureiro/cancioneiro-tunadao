@@ -4,9 +4,6 @@ artista: Phartuna
 tom: Am
 ---
 
-
-Phartuna - Tuna de Farmácia de Coimbra
-
 [INSTR.]
 Am  G   Am  G   F  C  F  G
 C  G   C  G   F  C  F  G   (Am )
@@ -64,8 +61,8 @@ C  G   C  G   F  C  F  G   E7
 
 Refrão (Acapella)
 
-Refrão (a acabar em LáM em
-vez de Lám)
+Refrão (a acabar em A em
+vez de Am)
 
 A           C#m  F#m
 Sigo sozinho,

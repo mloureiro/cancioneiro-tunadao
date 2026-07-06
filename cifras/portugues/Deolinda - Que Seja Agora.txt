@@ -2,10 +2,8 @@
 titulo: Que Seja Agora
 artista: Deolinda
 tom: F#
+creditos: Música: Deolinda
 ---
-
-
-Música: Deolinda
 
 [INTRO] B  E  B  F#
 

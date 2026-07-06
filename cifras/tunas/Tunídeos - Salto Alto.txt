@@ -2,10 +2,8 @@
 titulo: Salto Alto
 artista: Tunídeos
 tom: Am
+creditos: Música: Carlos Cabral; Letra: Carlos Cabral e Hugo Almeida
 ---
-
-Música: Carlos Cabral
-Letra: Carlos Cabral e Hugo Almeida
 
 E9
 Vem, não olhes

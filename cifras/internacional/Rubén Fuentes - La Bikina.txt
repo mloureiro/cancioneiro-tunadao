@@ -1,46 +1,56 @@
 ---
 titulo: La Bikina
 artista: Rubén Fuentes
-tom: A
+tom: G
 ---
 
 
-A               C#
-Solitaria camina la bikina,
-F#m                   Em  A7
-la gente se pone a murmurar,
-D          C#       F#m
-dicen que tiene una pena;
-B7
-dicen que tiene una pena
-                E
-que le hace llorar.
 
-     A                  C#
+[INTRO]                G  , B7 , Em , G7  , C , B7 , Em , A7 , D7
+
+         G                    B7
+Por las calles camina la bikina,
+    Em                            G7
+Y la gente comienza a murmurar,
+C            B7          Em
+Dicen que tiene una pena,
+ A7                                          D7
+Dicen que tiene una pena que le hace llorar.
+
+    G                  B7
 Altanera, preciosa y orgullosa,
-F#m                 Em  A7
-no permite la quieran consolar,
-D        C#       F#m  Dm
-pasa luciendo su real majestad
-A                  E7
-pasa, camina y los mira
-                  A
-sin ver hacia atrás.
+   Em                          G7
+No permite la quieran consolar,
+C        B7       Em            Cm
+Pasa luciendo su real majestad,
+G        Em          Am         D7  G
+Pasa, camina, los mira sin verlos jamás.
 
-F  G   Am  F  G   Am
-La bikina tiene pena y dolor,
-F  G   Am  F          E
-la bikina no conoce el amor.
+[REFRÃO]
+      Cm  F7  Dm  Gm
+      Lá      bi - ki - na
+      Cm  F7            A#
+      Tiene pena y dolor,
+      Cm  F7  Dm  Gm
+      Lá     bi - ki - na
+      A7                D7
+      No conoce el amor
 
-     A              C#
-Solitaria camina la bikina,
-F#m                 Em  A7
-la gente se pone a murmurar,
-D         C#        F#m      Dm
-dicen que alguien ya vino y se fue,
-A               E7
-dicen que pasa la vida
-                A
-soñando con él.
+(*)
+    G                  B7
+Altanera, preciosa y orgullosa,
+   Em                         G7
+No permite la quieran consolar,
+C         B7    Em       Cm
+Dicen que alguíen ya vino y se fue,
+G         Em         Am         D7  G
+Dicen que pasa la vida soñando con él.
 
-Letra & Música: Rubén Fuentes//Tuna de Melilla
+[INSTR.] G, B7, Em, G7, C, B7, Em, A7, D7 (introdução)
+                            G  , B7 , Em , G7  , C , B7 , Em , Cm
+                            G  , Em , Am , D7 , G
+
+[REFRÃO]
+[Quadra a partir de (*), com o úlitmo verso repetido x3]
+
+©Afonsina 2019 - 5/7min, Bananalidades

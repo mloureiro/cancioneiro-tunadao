@@ -2,11 +2,8 @@
 titulo: Noite Puxa Noite
 artista: RaussTuna
 tom: E
+creditos: Letra: Ricardo Amorim; Música: Bruno Gonçalves, João Escobar
 ---
-
-
-Letra: Ricardo Amorim
-Música: Bruno Gonçalves, João Escobar
 
 [SOLO] (2x): E, C#m, A, B
 

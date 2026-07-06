@@ -2,6 +2,7 @@
 titulo: Cavalinho
 artista: Popular Infantil
 tom: G
+creditos: Letra & Música: Popular Infantil
 ---
 
 Era uma vez um cavalo
@@ -15,4 +16,3 @@ Cavalinho não saia do lugar!
 (Sirene) (Improviso do Avô Tom)
 REPETE ATÉ CANSAR
 
-Letra & Música: Popular Infantil

@@ -2,12 +2,8 @@
 titulo: Confidência
 artista: Jorge de Altinho
 tom: G
+creditos: Música de Jorge de Altinho
 ---
-
-
-
-(Música de Jorge de Altinho)
-
 
 [INTRO] G    Bm  C   Am  D
 Weleleee weleleee (…)

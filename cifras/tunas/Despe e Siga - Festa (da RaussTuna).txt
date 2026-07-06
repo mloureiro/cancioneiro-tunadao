@@ -2,11 +2,8 @@
 titulo: Festa (da RaussTuna)
 artista: Despe e Siga
 tom: E
+creditos: Letra: Despe e Siga (adaptação RaussTuna; Música: Despe e Siga
 ---
-
-
-Letra: Despe e Siga (adaptação RaussTuna)
-Música: Despe e Siga
 
 [INTRO] E , B , E , A , B , A , E
 

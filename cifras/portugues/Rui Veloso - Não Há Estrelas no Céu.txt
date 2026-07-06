@@ -1,96 +1,137 @@
 ---
-titulo: Não Há Estrelas no Céu
+titulo: Não Há Estrelas No Céu
 artista: Rui Veloso
-tom: d
+tom: C
 ---
-
-
-[INTRO] Solo da 1ª estrofe.
 
 C
 Não há estrelas no céu
-A adorar o meu caminho
-          F            G
+A dourar o meu caminho
+           F            G
 Por mais amigos que tenha
-   C
-Sinto-me sempre sozinho.
+     C
+Sinto-me sempre sozinho
 
+   C
 De que vale ter a chave
 De casa para entrar
-             F     G
+         F         G
 Ter uma nota no bolso
-     C
-Para cigarros e bilhar.
+        C
+Para cigarros e bilhar
 
-[REFRÃO]
-  Am
+     Am
 A Primavera da vida
-   D
-é bonita de viver
-     G               F
+     D7
+É bonita de viver
+       G              F
 Tão depressa o sol brilha
-        G                C
-como a seguir está chover.
-   Am
+           G     F      C
+Como a seguir está chover
+     Am
 Para mim hoje é Janeiro
-   D
-está um frio de rachar
-     G                    F
+     D7
+Está um frio de rachar
+     G              F
 Parece que o mundo inteiro
-     G              C
-se uniu para me tramar.
-
+      Em           G
+Se uniu para me tramar
 C
 Passo horas no café
-Sem saber para onde ir
-        F                 G
-Tudo á volta é tão feio
-              C
-Só me apetece fugir.
 
+Sem saber para onde ir
+F             G
+Tudo á volta é tão feio
+C
+Só me apetece fugir
 C
 Vejo-me à noite ao espelho
-O corpo sempre a mudar
-                                    F                 G
-De manhã ouço o conselho
-                      C
-Que o velho tem para me dar.
 
-[REFRÃO]
+O corpo sempre a mudar
+ F                 G
+De manhã ouço o conselho
+  C
+Que o velho tem para me dar
+
+    Am
+A Primavera da vida
+    D7
+É bonita de viver
+       G              F
+Tão depressa o sol brilha
+           G         C
+Como a seguir está chover
+     Am
+Para mim hoje é Janeiro
+     D7
+Está um frio de rachar
+      G              F
+Parece que o mundo inteiro
+      Em           G
+Se uniu para me tramar
+
+Am     D7
+Huuuuu huuu hu hu
+Am     D7
+Huuuuu huuu hu hu
+Am     D7
+Huuuuu huuu hu hu
+
+( G  F  Em  G  C)
 
 C
 Vou por aí às escondidas
+
 A espreitar às janelas
-           F            G
+F             G
 Perdido nas avenidas
-         C
-E achado nas vielas.
+   C
+E achado nas vielas
 
+C
 Mãe o meu primeiro amor
-Foi um trapézio sem rede
-               F                  G
-Sai da frente por favor
-                      C
-Estou entre a espada e a parede.
 
-[REFRÃO]
-     Am
+Foi um trapézio sem rede
+        F            G
+Sai da frente por favor
+     C
+Estou entre a espada e a parede
+
+  Am
 Não vês como isto é duro
-        D
+  D7
 Ser jovem não é um posto
-        G                  F
+ G                    F
 Ter de encarar o futuro
-        G                C
-Com borbulhas no rosto.
-         Am
+ G                C
+Com borbulhas no rosto
+
+  Am
 Porque é que tudo é incerto
-                  D
+  D7
 Não pode ser sempre assim
-              G             F
+  G                      F
 Se não fosse o "rock and roll"
-          G         C
+  Em               G
 O que seria de mim?
 
-Final: 6 vezes:
-C  Am  F  G   C
-Não há estrelas no céu.
+Am
+A Primavera da vida
+  D7
+É bonita de viver
+   G                 F
+Tão depressa o sol brilha
+     G               C
+Como a seguir está chover
+
+  Am
+Para mim hoje é Janeiro
+    D7
+Está um frio de rachar
+     G           F
+Parece que o mundo inteiro
+   Em             G     C
+Se uniu para me tramar
+
+Am   F     G        C
+Não há estrelas no céu

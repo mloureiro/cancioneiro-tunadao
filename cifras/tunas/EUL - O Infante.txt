@@ -2,14 +2,8 @@
 titulo: O Infante
 artista: EUL
 tom: Gm
+versao: EUL - Estudantina Universitária de Lisboa / Dulce Pontes
 ---
-
-
-EUL - Estudantina Universitária de Lisboa / Dulce Pontes
-Fonte: Cifra Club (versão Dulce Pontes)
-
-Tom: Gm
-Acordes: Gm, Gm/F, Dm7, Eb, Cm, F/A, F, C#°
 
 [INTRO] : Gm, Gm/F, Dm7, Eb, Cm, F/A, Gm
 

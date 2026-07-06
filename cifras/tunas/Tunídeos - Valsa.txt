@@ -2,9 +2,9 @@
 titulo: Valsa
 artista: Tunídeos
 tom: F
+creditos: Letra e Música: Rafael Fraga
 ---
 
-Letra e Música: Rafael Fraga
 [INTRO] (Fazer isto em loop)
 E G#m/E E C# F#m C#
 F#m B7 E E G#m/E

@@ -56,7 +56,7 @@ Esqueço a recordação (1ª vez)
 Serei esquecido como a chuva no
 verão (2ª vez)
 
-Transição: SolM RéM (2x)
+Transição: G    D   (2x)
 
 Estrofe 1:
     Gm                   Bb
@@ -98,7 +98,7 @@ Estrofe 2:
 Mas tudo mudou num instante assim
 D#                       Gm
 Vejo o mundo, sei que não espera por
-mim
+Em 
 G#                   Gm
 Troco o futuro pelo que vivi
 D

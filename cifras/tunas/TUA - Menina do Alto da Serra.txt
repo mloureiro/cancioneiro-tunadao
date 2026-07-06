@@ -2,15 +2,10 @@
 titulo: Menina do Alto da Serra
 artista: TUA
 tom: Am
+creditos: Compositor: Nuno Nazareth Fernandes; Letra: Ary dos Santos; Intérprete: TUA - Tuna Universitária de Aveiro (2023
 ---
 
-
-Compositor: Nuno Nazareth Fernandes
-Letra: Ary dos Santos
 Intérprete Original: Tonicha (Eurovision 1971)
-Intérprete: TUA - Tuna Universitária de Aveiro (2023)
-Tom: Am (Lá menor)
-Tempo: Moderado
 
 [INTRO] Am  D  F  E  Am  D  F  E
 

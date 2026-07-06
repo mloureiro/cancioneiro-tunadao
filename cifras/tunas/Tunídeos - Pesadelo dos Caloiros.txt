@@ -2,10 +2,8 @@
 titulo: Pesadelo dos Caloiros
 artista: Tunídeos
 tom: C
+creditos: Letra: João Gregório, José Carlos Ferreira, Sérgio Ávila
 ---
-
-Letra: João Gregório, José Carlos
-Ferreira, Sérgio Ávila
 
 [INTRO] C
 

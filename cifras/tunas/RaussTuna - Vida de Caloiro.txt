@@ -2,11 +2,8 @@
 titulo: Vida de Caloiro
 artista: RaussTuna
 tom: B
+creditos: Letra: Ricardo Amorim; Música: Bruno Gonçalves, João Escobar
 ---
-
-
-Letra: Ricardo Amorim
-Música: Bruno Gonçalves, João Escobar
 
 [REFRÃO]
 A      B

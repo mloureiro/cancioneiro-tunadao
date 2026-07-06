@@ -5,17 +5,17 @@ tom: G
 ---
 
 
-Do                      sol
+C                       G  
 Quem quiser que eu cante bem
-                     do
+                     C 
 Dê-me uma pinga de vinho
-Fa                  do
+F                   C 
 Que o vinho é coisa boa
-Fa             sol
+F              G  
 Faz o cantar delgadinho
-Fa                   do
+F                    C 
 Que o vinho é coisa boa
-Sol             do
+G               C 
 Faz o cantar delgadinho
 F
 
@@ -24,9 +24,9 @@ F
 Olh'ó verdinho
  C
 Ó Sr. Manel
- sol
+ G  
 Encha o copinho
- do
+ C 
 Do seu tonel
 
 

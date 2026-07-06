@@ -4,9 +4,6 @@ artista: Phartuna
 tom: C
 ---
 
-
-Phartuna - Tuna de Farmácia de Coimbra
-
 C  G   F  C  (2x)
 
 C                             G
@@ -29,7 +26,7 @@ dorme
 Esta Tuna não vai deixar
       C                       G
 A noite ainda é jovem
-           Fá           Sol          Dó (Sol Dó)
+           F            G            C  (G   C )
 A tradição não vai parar
 
       F                              C
@@ -41,7 +38,7 @@ No fundo há um destino
        F          G            C
 E só tu o sabes levar
 
-Dó Sol Fá Dó Fá Dó Fá Sol Dó (Sol Dó)
+C  G   F  C  F  C  F  G   C  (G   C )
 
       F                   C
 A Fama de Irreverente
@@ -49,7 +46,7 @@ A Fama de Irreverente
 Na alma se faz sentir
             F              C
 Nas ruas o movimento
-            Fá      Sol           Dó (Sol Dó)
+            F       G             C  (G   C )
 Da rotina sabemos fugir
 
 Refrão (2x)

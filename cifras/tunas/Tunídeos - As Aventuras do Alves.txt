@@ -2,9 +2,8 @@
 titulo: As Aventuras do Alves
 artista: Tunídeos
 tom: E
+creditos: Letra e Música: Agostinho Leão
 ---
-
-Letra e Música: Agostinho Leão
 
                  F#m B
 No final do secundário

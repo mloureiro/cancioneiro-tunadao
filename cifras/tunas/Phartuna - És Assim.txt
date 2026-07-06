@@ -31,7 +31,7 @@ F#
 Canto a ti
                  Bm
 Porque um dia te vi
-                Lá          (Lá# dim)
+                A           (A#dim  )
 E o mundo canta ao passar
           Bm
 da tua luz
@@ -51,7 +51,7 @@ F#
 Canto a ti
                     Bm
 Porque em ti me perdi
-                     Lá          (Lá# dim)
+                     A           (A#dim  )
 Minha alma afoga-se no rio
              Bm
 que é o amor
@@ -65,7 +65,7 @@ A cidade que há em ti
 Em
 Brilho que está sempre em
 G   F#
-mim
+Em 
 
 Bm
 És assim
@@ -73,7 +73,7 @@ Bm
 Mais do que o sol p'ra mim
                G             Em
 A lua brilha na beleza do
-                 Dó# dim Final*
+                 C#dim  Final*
 teu…..olhar….
 
 Final:

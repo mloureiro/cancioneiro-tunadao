@@ -4,11 +4,6 @@ artista: TUM
 tom: D
 ---
 
-Tuna Universitária do Minho
-Fonte: Cifra Club
-
-Tom: D
-
 [INTRO] D  C  B7  Em  A
         D  D7  G  Gm  F#m
         B7  Em  A7  D

@@ -2,10 +2,9 @@
 titulo: Morrer de Amores
 artista: Tunídeos
 tom: D
+creditos: Letra e Música: João Gregório
 ---
 
-
-Letra e Música: João Gregório
 [INTRO] Em  Bm  (3x) C  Bm  Em  (2x)
    Em                Bm
 Senhora dos sonhos meus (2x)

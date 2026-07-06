@@ -2,9 +2,8 @@
 titulo: Corrido das Ilhas
 artista: Tunídeos
 tom: Dm
+creditos: Letra e Música: João Gregório
 ---
-
-Letra e Música: João Gregório
 
 [INTRO] Dm G C Am Dm G C
 

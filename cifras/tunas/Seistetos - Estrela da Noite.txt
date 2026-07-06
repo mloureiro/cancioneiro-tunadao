@@ -4,7 +4,7 @@ artista: Seistetos
 tom: Em
 ---
 
-(Lá# Fá Sol Dó)
+(A#  F  G   C )
 
 Á noite,á Luz da Lua, contigo sonhei
 Na minha capa, fui pelas ruas, não te

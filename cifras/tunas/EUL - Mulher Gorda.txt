@@ -4,8 +4,6 @@ artista: EUL
 tom: Am
 ---
 
-Acordes: Am, E, Dm
-
 {x2} 
 Am                             E 
 A mulher gorda para mim não me convém 

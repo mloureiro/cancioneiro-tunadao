@@ -2,14 +2,8 @@
 titulo: Burguesinha
 artista: Estudantina Académica de Castelo Branco
 tom: A
+creditos: Original: Seu Jorge (Gabriel Moura / Pretinho da Serrinha / Seu Jorge)
 ---
-
-Seu Jorge (Gabriel Moura / Pretinho da Serrinha / Seu Jorge)
-Fonte: Cifra Club
-
-Tonalidade: A7M
-Tempo: Médio
-Acordes utilizados: A7M, D7M, C#m7, Bm7, E7(9)
 
 [INTRO] A7M  D7M  A7M  D7M
         A7M  D7M  A7M  D7M 

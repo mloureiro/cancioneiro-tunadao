@@ -46,7 +46,7 @@ Yo no puedo querer más que a una, y esa una en mi vida eres tú.
 [REFRÃO]
 26                                  Volume I - Tuna de Ciências da Univ. do Minho
 La Bikina
-«Ré7»
+D7   
      G                       F#m      B7
 Solitária camina la bikina
       Em                                    G
@@ -55,7 +55,7 @@ C                B7          Em
 Dicen que tiene una pena
 A7                                                            D
 Dicen que tiene una pena que la hace llorar.
- «Ré7» Sol                            Fá#m        Si7
+ D7    G                              F#m         B7 
 Alta__nera, preciosa y orgullosa
            Em                                     G
 No permite que la quieran consolar

@@ -2,11 +2,8 @@
 titulo: Barco Negro
 artista: Amália Rodrigues
 tom: A
+creditos: Original: Amália Rodrigues
 ---
-
-
-Amália Rodrigues (Original)
-Tom: A
 
 A                         E       A
 De manhã, que medo, que me achasses feia!

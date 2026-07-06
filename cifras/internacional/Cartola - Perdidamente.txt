@@ -2,11 +2,8 @@
 titulo: Perdidamente
 artista: Cartola
 tom: E
+creditos: Original: Cartola - Magna Tuna Cartola (versão da música dos Trovante - 2015)
 ---
-
-
-Cartola - Magna Tuna Cartola (versão da música dos Trovante - 2015)
-Tom: A
 
 A            Em/G-F#    Bm 
 Ser poeta é ser mais alto,         é ser maior 

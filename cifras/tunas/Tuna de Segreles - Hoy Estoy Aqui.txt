@@ -2,10 +2,8 @@
 titulo: Hoy Estoy Aqui
 artista: Tuna de Segreles
 tom: Am
+creditos: Música: Tuna de Segreles
 ---
-
-
-Música: Tuna de Segreles
 
 [INTRO] C, F, G, C, G; C, G, C, G, C, E7, Am, E, Am, E, Am
 

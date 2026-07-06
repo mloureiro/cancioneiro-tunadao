@@ -8,7 +8,7 @@ tom: G
 1,2,3,1,2,3
 G#                      G
 Meninas, meninas, meninas...
-Entrada (Dó Ré Sol Dó) 2x
+Entrada (C  D  G   C ) 2x
 
 [REFRÃO]
 C                            Dm

@@ -4,9 +4,6 @@ artista: TUM
 tom: Dm
 ---
 
-TUM - Tuna Universitária do Minho
-Fonte: Cifras.com.br
-
 [INTRO] Dm  Bb  Gm  C
         Dm  Bb  Gm  C  Bb  A7
 

@@ -5,21 +5,21 @@ tom: a
 ---
 
 
-Intro ( la mi) x 4
+Intro ( la E ) x 4
 
-Lam                   rem
+Am                    Dm 
 Hei de cantar com paixão
-Mi             lam
+E              Am 
 Viana linda princesa
-Lam             mi
+Am              E 
 A quem dei o coração
-             lam
+             Am 
 Num acto de gentileza
-                     rem
+                     Dm 
 E com minha alma a vibrar
-Mi                 lam
+E                  Am 
 Num roubo de melodias
-            mi
+            E 
 Engrandecer a cantar
 
 A cidade o rio e o mar
@@ -28,10 +28,10 @@ O monte de Sta. Luzia
 
 [REFRÃO]
 
-la
+A 
 Sta. Luzia
 Tem encantos de magia
-                mi
+                E 
 Com beleza sem igual
 Linda Viana
 Formosura de tricana
@@ -39,7 +39,7 @@ Formosura de tricana
 Num sorriso Virginal
 
 [INSTR.]
-La mi x4
+A  E  x4
 
 Viana guarda em segredo
 As noites de melodia

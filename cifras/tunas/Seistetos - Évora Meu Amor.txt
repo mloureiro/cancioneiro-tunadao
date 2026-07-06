@@ -7,7 +7,7 @@ tom: G
 
 Entrada
 
-notas passarem Lá-: Ré Sol Fá#
+notas passarem A-: D G F#
    Am          Em
 Oh! Évora do Sol,
 Do meu calor.
