@@ -5,15 +5,19 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "build": "ts-node src/render-typst.ts"
+    "build": "ts-node src/render-typst.ts",
+    "seed:chords": "tsx scripts/seed-chords.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@tombatossals/chords-db": "^0.5.1",
     "@types/node": "^25.2.2",
+    "chord-fingering": "^1.0.2",
     "ts-node": "^10.9.2",
+    "tsx": "^4.23.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   }

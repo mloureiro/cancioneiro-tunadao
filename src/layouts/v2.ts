@@ -1,6 +1,15 @@
 import { Song, SongPart, Section, SongLine } from "../types";
 import { escTypst, escLiteral, songLabelId } from "../typst-helpers";
 import { Layout, LayoutInput } from "./layout";
+import {
+  APPENDIX_INSTRUMENTS,
+  loadInstrument,
+  sortChordNames,
+  chartChordCall,
+  miniPianoCall,
+  ChordShape,
+  PianoShape,
+} from "../chord-diagrams";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Layout "v2" — combinação dos melhores elementos dos protótipos:
@@ -187,6 +196,166 @@ function renderSong(song: Song, labelId: string): string {
   return out;
 }
 
+// Nomes de acordes usados num conjunto de músicas
+function collectChordNames(songs: Song[]): string[] {
+  const names = new Set<string>();
+  for (const song of songs)
+    for (const part of song.parts)
+      for (const section of part.sections)
+        for (const line of section.lines)
+          for (const c of line.chords ?? []) names.add(c.chord);
+  return sortChordNames([...names]);
+}
+
+// Apêndice de acordes: tabela com acordes em colunas e instrumentos em
+// linhas (guitarra com várias linhas — uma por variação; acordeão com
+// mini-teclado + baixos Stradella). Acordes sem shape levam "—". Como não
+// cabem todos os acordes à largura, a tabela é dividida em blocos.
+function renderChordAppendix(songs: Song[], isA5: boolean): string {
+  const chordNames = collectChordNames(songs);
+  const titleSize = isA5 ? "22pt" : "30pt";
+  const diagramSize = isA5 ? "11pt" : "15pt";
+  const pianoWidth = isA5 ? "36pt" : "42pt";
+  const chordsPerTable = isA5 ? 7 : 9;
+  const colWidth = isA5 ? "44pt" : "49pt";
+  const cellInsetY = isA5 ? "3pt" : "5pt";
+
+  const instruments = APPENDIX_INSTRUMENTS.map((meta) => ({
+    ...meta,
+    data: loadInstrument(meta.file),
+  }));
+
+  // Índices das linhas onde começa cada instrumento (0 = header) — usados
+  // para desenhar os separadores horizontais entre instrumentos
+  const groupStartRows: number[] = [];
+  {
+    let row = 1;
+    for (const inst of instruments) {
+      groupStartRows.push(row);
+      row += inst.variations;
+    }
+  }
+
+  // Avisos de cobertura (uma vez por instrumento)
+  for (const { data } of instruments) {
+    const missing = chordNames.filter((n) => !data.chords[n]?.length);
+    if (missing.length > 0) {
+      console.warn(`  Aviso: ${data.instrument} sem diagrama para: ${missing.join(", ")}`);
+    }
+  }
+
+  let out = `\n// ─── Apêndice: acordes ───\n`;
+  out += `#pagebreak()\n`;
+  out += `#set page(columns: 1)\n`;
+  out += `#let chart-chord-d = chart-chord.with(size: ${diagramSize}, font: sans-font, hold-color: blue)\n`;
+  out += `#let chord-dash = text(fill: grey, size: 1.2em)[—]\n`;
+  // Mini-teclado: 8 teclas brancas (uma oitava a partir da fundamental);
+  // pw = índices das brancas premidas, blacks = ((posição, premida), ...)
+  out += `#let piano-pressed = blue\n`;
+  out += `#let mini-piano(pw: (), blacks: (), width: ${pianoWidth}) = {
+  let n = 8
+  let kw = width / n
+  let kh = kw * 3.2
+  box(width: width, height: kh, {
+    for i in range(n) {
+      place(dx: i * kw, rect(
+        width: kw, height: kh,
+        stroke: 0.5pt + luma(120),
+        fill: if i in pw { piano-pressed } else { white },
+      ))
+    }
+    for (pos, pressed) in blacks {
+      let bw = kw * 0.62
+      place(dx: pos * kw - bw / 2, rect(
+        width: bw, height: kh * 0.6,
+        stroke: 0.5pt + luma(120),
+        fill: if pressed { piano-pressed } else { black },
+      ))
+    }
+  })
+}\n`;
+  // Baixos Stradella (mão esquerda do acordeão): 6 botões — contrabaixo (3ª),
+  // baixo, Maior, menor, 7ª, diminuto. Premidos: baixo (índice 1) + o botão
+  // da qualidade do acorde.
+  out += `#let stradella(quality: none, width: ${pianoWidth}) = {
+  let labels = ("3ª", "B", "M", "m", "7", "d")
+  let pressed = (1,) + if quality != none { (quality,) } else { () }
+  let n = 6
+  let cw = width / n
+  let r = cw * 0.34
+  box(width: width, height: 2 * r + 6.5pt, {
+    for i in range(n) {
+      place(dx: i * cw + cw / 2 - r, circle(
+        radius: r,
+        stroke: 0.5pt + luma(120),
+        fill: if i in pressed { piano-pressed } else { white },
+      ))
+      place(dx: i * cw, dy: 2 * r + 1.5pt, box(
+        width: cw,
+        align(center, text(size: 4pt, fill: grey, labels.at(i))),
+      ))
+    }
+  })
+}\n`;
+  out += `#metadata("Acordes") <song-acordes>\n`;
+  out += `#v(4pt)\n`;
+  out += `#cond-text([ACORDES], size: ${titleSize}, tracking: 0.06em)\n`;
+  out += `#v(5pt)\n`;
+  out += `#box(width: 38pt, height: 3pt, fill: blue)\n`;
+  out += `#v(1.1em)\n`;
+
+  for (let start = 0; start < chordNames.length; start += chordsPerTable) {
+    const chunk = chordNames.slice(start, start + chordsPerTable);
+
+    const headerCells = chunk
+      .map((name) => `[#chord-text("${escLiteral(name)}")]`)
+      .join(", ");
+
+    const rows: string[] = [];
+    for (const { label, variations, kind, data } of instruments) {
+      for (let v = 0; v < variations; v++) {
+        const cells: string[] = [];
+        if (v === 0) {
+          let labelContent = `#cond-text([${escTypst(label)}], size: 0.9em)`;
+          if (data.tuning) {
+            labelContent += `#linebreak()#cond-text([${data.tuning.join(" ")}], size: 0.66em, fill: grey, weight: 500, tracking: 0.06em)`;
+          }
+          cells.push(`table.cell(rowspan: ${variations}, align: left + horizon, [${labelContent}])`);
+        }
+        for (const name of chunk) {
+          const shape = data.chords[name]?.[v];
+          if (!shape) {
+            cells.push(`[#chord-dash]`);
+          } else if (kind === "piano") {
+            cells.push(`[#${miniPianoCall(shape as PianoShape, name)}]`);
+          } else {
+            cells.push(`[#${chartChordCall(shape as ChordShape)}]`);
+          }
+        }
+        rows.push(`    ${cells.join(", ")},`);
+      }
+    }
+
+    out += `#block(breakable: false, below: 1.2em)[\n`;
+    out += `  #table(\n`;
+    out += `    columns: (auto,) + (${colWidth},) * ${chunk.length},\n`;
+    out += `    align: center + horizon,\n`;
+    // Separadores verticais entre colunas + horizontais entre instrumentos
+    // (sem contorno exterior)
+    out += `    stroke: (x, y) => (\n`;
+    out += `      left: if x > 0 { 0.4pt + hairline-color },\n`;
+    out += `      top: if y in (${groupStartRows.join(", ")}) { 0.4pt + hairline-color },\n`;
+    out += `    ),\n`;
+    out += `    inset: (x: 2pt, y: ${cellInsetY}),\n`;
+    out += `    table.header([], ${headerCells}),\n`;
+    out += rows.join("\n") + "\n";
+    out += `  )\n`;
+    out += `]\n`;
+  }
+
+  return out;
+}
+
 function generate(input: LayoutInput): string {
   const { songs, pageSize, displayName, headerTitle, logoRelPath, version } = input;
   const isA5 = pageSize === "a5";
@@ -261,6 +430,9 @@ function generate(input: LayoutInput): string {
 
   let typ = `// Cancioneiro: ${displayName} — gerado automaticamente
 // Layout: v2 | Formato: ${pageSize.toUpperCase()} (${pageWidth} × ${pageHeight})
+
+// chordx vendored (typst/chordx) com patch hold-color para colorir dedilhado
+#import "chordx/lib.typ": chart-chord
 
 // ─── Cores ───
 #let ink = rgb("${COLORS.ink}")
@@ -430,6 +602,12 @@ function generate(input: LayoutInput): string {
   #set par(leading: 0.5em, spacing: 0.62em)
   #columns(2, gutter: ${columnGutter})[
 ${indexBody}
+  #v(0.5em)
+  #context {
+    let loc = locate(label("song-acordes"))
+    let pg = counter(page).at(loc).first()
+    [#text(style: "italic")[Acordes] #box(width: 1fr, repeat(gap: 2.5pt)[#text(fill: hairline-color)[.]]) #text(font: sans-font, stretch: 100%, weight: 700, fill: blue)[#pg] \\ ]
+  }
   ]
 ]
 
@@ -498,6 +676,8 @@ ${indexBody}
       typ += `\n`;
     }
   }
+
+  typ += renderChordAppendix(songs, isA5);
 
   return typ;
 }

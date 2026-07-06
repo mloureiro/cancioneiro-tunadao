@@ -1,0 +1,20 @@
+{
+  "ukulele": {
+    "F#m11": [
+      { "frets": [2, 4, 2, 2], "fingers": null, "baseFret": 1, "barres": [2] }
+    ]
+  },
+  "mandolin": {
+    "F#m11": [
+      { "frets": [4, 2, 0, 2], "fingers": null, "baseFret": 1, "barres": [] }
+    ]
+  },
+  "cavaquinho": {
+    "F#m11": [
+      { "frets": [4, 2, 5, 4], "fingers": null, "baseFret": 1, "barres": [] }
+    ],
+    "G#m7": [
+      { "frets": [1, 4, 4, 4], "fingers": null, "baseFret": 1, "barres": [4] }
+    ]
+  }
+}

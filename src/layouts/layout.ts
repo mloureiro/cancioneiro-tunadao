@@ -37,6 +37,8 @@ export interface LayoutInput {
 //   Mudar de modo de colunas deve quebrar página.
 // - Se `sections` for fornecido (secções nomeadas), mostrar uma divisória por
 //   secção e agrupar o índice por secção. Caso contrário, lista simples.
+// - Apêndice "Acordes" no fim (com entrada no índice): diagramas dos acordes
+//   usados, por instrumento (dados em chords/, helpers em src/chord-diagrams.ts).
 // - Fonts custom vão em typst/fonts/ (o build passa --font-path).
 export interface Layout {
   /** Identificador usado nos nomes de ficheiros (kebab-case). */
