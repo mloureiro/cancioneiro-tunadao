@@ -94,7 +94,7 @@ ${placeCalls}
 `;
 }
 
-function renderLine(line: SongLine): string {
+function renderLine(line: SongLine, forceBold: boolean): string {
   switch (line.type) {
     case "empty":
       return `#v(0.35em)\n`;
@@ -109,7 +109,7 @@ function renderLine(line: SongLine): string {
       }
       return "";
     case "lyrics":
-      return renderChordLyricsLine(line);
+      return renderChordLyricsLine(forceBold && line.lyrics ? { ...line, isBold: true } : line);
   }
 }
 
@@ -127,10 +127,12 @@ function renderSectionTag(type: string, hasContent: boolean): string {
   if (upper === "INTRO") {
     return `#sec-pill("INTRO", blue${sticky})\n`;
   }
+  // Nomes normalizados: variantes instrumentais/passagens → INST
   const known: Record<string, string> = {
-    "PASSAGEM": "PASSAGEM",
+    "PASSAGEM": "INST",
     "SOLO": "SOLO",
-    "INSTR.": "INSTR.",
+    "INSTR.": "INST",
+    "INSTRUMENTAL": "INST",
     "SAÍDA": "SAÍDA",
     "SAIDA": "SAÍDA",
     "SOLISTA": "SOLISTA",
@@ -151,18 +153,21 @@ function renderSection(section: Section): string {
     const hasContent = section.lines.some((l) => l.type !== "empty");
     out += renderSectionTag(section.type, hasContent);
   }
-  // Refrões sem tag explícita são marcados só com **bold**: dar espaço
-  // extra na fronteira verso ↔ refrão (e vice-versa), como uma secção.
+  // Refrão consistente nos dois sentidos:
+  // - secção [REFRÃO] → letras sempre a bold;
+  // - bloco a **bold** sem secção → ganha a pill REFRÃO no início do bloco.
   let prevBold: boolean | null = null;
   for (const line of section.lines) {
     if (line.type === "lyrics" && line.lyrics) {
       const isBold = !!line.isBold;
-      if (prevBold !== null && isBold !== prevBold) {
+      if (!section.isChorus && isBold && prevBold !== true) {
+        out += `#sec-pill("REFRÃO", coral)\n`;
+      } else if (prevBold === true && !isBold) {
         out += `#v(0.6em)\n`;
       }
       prevBold = isBold;
     }
-    out += renderLine(line);
+    out += renderLine(line, section.isChorus);
   }
   return out;
 }
@@ -189,10 +194,10 @@ function renderPart(part: SongPart, isFirst: boolean): string {
   return out;
 }
 
-function renderSong(song: Song, labelId: string): string {
+function renderSong(song: Song, labelId: string, autor: string): string {
   let out = "";
   out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
-  out += `#song-title("${escLiteral(song.metadata.titulo)}", "${escLiteral(song.metadata.tom)}")\n`;
+  out += `#song-title("${escLiteral(song.metadata.titulo)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}")\n`;
 
   for (let i = 0; i < song.parts.length; i++) {
     out += renderPart(song.parts[i], i === 0);
@@ -548,7 +553,7 @@ function generate(input: LayoutInput): string {
 
 // Cabeça de música (estilo editorial, sem número): título condensed,
 // filete fino a preencher até ao chip do tom — "TÍTULO ———— [TOM X]".
-#let song-title(titulo, tom) = block(breakable: false, sticky: true, below: 0.9em, {
+#let song-title(titulo, tom, autor: "") = block(breakable: false, sticky: true, below: 0.9em, {
   grid(
     columns: (auto, 1fr, auto),
     column-gutter: 6pt,
@@ -557,6 +562,10 @@ function generate(input: LayoutInput): string {
     line(length: 100%, stroke: 0.5pt + hairline-color),
     tom-chip(tom),
   )
+  if autor != "" {
+    v(2.5pt)
+    cond-text(upper(autor), size: 0.78em, fill: grey, weight: 600, tracking: 0.1em)
+  }
 })
 
 // Título de secção no índice (livros com secções)
@@ -679,7 +688,11 @@ ${indexBody}
       } else {
         typ += `#colbreak()\n\n`;
       }
-      typ += renderSong(song, labelOf.get(song)!);
+      // Autor por baixo do título — omitido quando é o próprio grupo do
+      // livro (nos originais do Tunadão só os covers mostram o autor).
+      const autor = song.metadata.artista && song.metadata.artista !== headerTitle
+        ? song.metadata.artista : "";
+      typ += renderSong(song, labelOf.get(song)!, autor);
       typ += `\n`;
     }
   }
