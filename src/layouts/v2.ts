@@ -115,13 +115,17 @@ function renderLine(line: SongLine): string {
 
 // Pill de secção: sempre com contorno (hollow); a cor distingue o tipo —
 // REFRÃO coral, INTRO azul, restantes tinta.
-function renderSectionTag(type: string): string {
+// Secções SEM conteúdo (ex: [SOLO] no fim da cifra) não são sticky: uma pill
+// sticky sem linhas a seguir era arrastada sozinha para a coluna seguinte,
+// deixando colunas fantasma quase vazias.
+function renderSectionTag(type: string, hasContent: boolean): string {
+  const sticky = hasContent ? "" : ", sticky: false";
   const upper = type.toUpperCase();
   if (upper === "REFRÃO" || upper === "REFRAO") {
-    return `#sec-pill("REFRÃO", coral)\n`;
+    return `#sec-pill("REFRÃO", coral${sticky})\n`;
   }
   if (upper === "INTRO") {
-    return `#sec-pill("INTRO", blue)\n`;
+    return `#sec-pill("INTRO", blue${sticky})\n`;
   }
   const known: Record<string, string> = {
     "PASSAGEM": "PASSAGEM",
@@ -132,11 +136,11 @@ function renderSectionTag(type: string): string {
     "SOLISTA": "SOLISTA",
   };
   if (known[upper]) {
-    return `#sec-pill("${known[upper]}", ink)\n`;
+    return `#sec-pill("${known[upper]}", ink${sticky})\n`;
   }
   if (type.trim()) {
     // Secção custom (sub-músicas, etc.): marca azul + label
-    return `#section-label("${escLiteral(type.toUpperCase())}")\n`;
+    return `#section-label("${escLiteral(type.toUpperCase())}"${sticky})\n`;
   }
   return "";
 }
@@ -144,7 +148,8 @@ function renderSectionTag(type: string): string {
 function renderSection(section: Section): string {
   let out = "";
   if (section.type) {
-    out += renderSectionTag(section.type);
+    const hasContent = section.lines.some((l) => l.type !== "empty");
+    out += renderSectionTag(section.type, hasContent);
   }
   // Refrões sem tag explícita são marcados só com **bold**: dar espaço
   // extra na fronteira verso ↔ refrão (e vice-versa), como uma secção.
@@ -495,7 +500,7 @@ function generate(input: LayoutInput): string {
 // Pill de secção com contorno (hollow) — cor distingue o tipo.
 // sticky: nunca fica órfã no fundo de uma coluna.
 // "above" generoso: espaço claro entre secções.
-#let sec-pill(label, color) = block(sticky: true, above: 1.3em, below: 0.45em,
+#let sec-pill(label, color, sticky: true) = block(sticky: sticky, above: 1.3em, below: 0.45em,
   box(
     stroke: 0.8pt + color,
     radius: 2pt,
@@ -505,7 +510,7 @@ function generate(input: LayoutInput): string {
 )
 
 // Label de secção custom (sub-músicas etc.): quadrado azul + texto
-#let section-label(label) = block(sticky: true, above: 1.3em, below: 0.45em, {
+#let section-label(label, sticky: true) = block(sticky: sticky, above: 1.3em, below: 0.45em, {
   box(baseline: -0.08em, square(size: 0.5em, fill: blue))
   h(0.45em)
   cond-text(label, size: 0.85em, tracking: 0.04em)
@@ -526,16 +531,18 @@ function generate(input: LayoutInput): string {
   v(0.15em)
 }
 
-// Título de parte de medley ([parte: X] / [tom: Y]): marca coral + nome + tom
+// Título de parte de medley ([parte: X] / [tom: Y]): marca coral + nome + tom.
+// Tom em texto cinzento (sem chip azul) e nome mais contido, para não se
+// confundir com uma cabeça de música nova a meio da coluna.
 #let part-title(nome, tom) = block(breakable: false, sticky: true, above: 0.5em, below: 0.5em, {
   if nome != "" {
     box(baseline: -0.1em, square(size: 0.55em, fill: coral))
     h(0.45em)
-    cond-text(upper(nome), size: 1.25em)
+    cond-text(upper(nome), size: 1.1em)
   }
   if tom != "" {
     if nome != "" { h(6pt) }
-    tom-chip(tom)
+    cond-text([TOM #tom], size: 0.72em, fill: grey, weight: 600, tracking: 0.04em)
   }
 })
 
