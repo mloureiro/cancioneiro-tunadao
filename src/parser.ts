@@ -11,10 +11,6 @@ import {
 const CHORD_TOKEN_RE =
   /^[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+|[0-9]+)?(?:\/[A-G][#b]?)?$/;
 
-const SECTION_RE = /^\[([^\]]+)\](.*)$/;
-const REPETITION_RE = /\((\d+)x\)\s*$/;
-const BRACE_REPETITION_RE = /\}\s*(\d+)x\s*$/;
-
 /**
  * Verifica se uma linha contém APENAS acordes (sem letras).
  * Tolera espaços, parêntesis de repetição, e chaves de repetição.
@@ -119,12 +115,17 @@ function parseYamlHeader(lines: string[]): {
     }
   }
 
+  const colunas = metadata["colunas"]
+    ? parseInt(metadata["colunas"], 10)
+    : undefined;
+
   return {
     metadata: {
       titulo: metadata["titulo"] || "",
       tom: metadata["tom"] || "",
       artista: metadata["artista"],
       subtitulo: metadata["subtitulo"],
+      colunas: colunas === 1 || colunas === 2 ? colunas : undefined,
     },
     restIndex: endIndex + 1,
   };
@@ -298,12 +299,7 @@ function parsePartLines(lines: string[]): Section[] {
 
       // Se tem conteúdo inline (ex: acordes de INTRO)
       if (sectionHeader.inlineContent) {
-        // Pode ter múltiplas linhas de conteúdo inline (continuação)
         const inlineText = sectionHeader.inlineContent;
-
-        // Verificar chaves de repetição no inline
-        const braceMatch = inlineText.match(BRACE_REPETITION_RE);
-
         currentSection.lines.push({
           type: "chords-only",
           chords: extractChordPositions(inlineText),
@@ -411,10 +407,12 @@ function parsePartLines(lines: string[]): Section[] {
 
     // Passagem com nome (ex: "Pulp Fiction   A# A (4 tempos cada)")
     if (currentSection?.type.toUpperCase() === "PASSAGEM" && /^\S/.test(line)) {
+      const { text, isBold } = parseBold(trimmed);
       const sec = ensureSection();
       sec.lines.push({
         type: "lyrics",
-        lyrics: trimmed,
+        lyrics: text,
+        isBold: isBold || undefined,
       });
       i++;
       continue;
@@ -423,22 +421,11 @@ function parsePartLines(lines: string[]): Section[] {
     // Linha de letras pura (possivelmente com bold)
     const { text, isBold } = parseBold(line);
     const sec = ensureSection();
-
-    // Verificar se tem chaves de repetição
-    const braceMatch = trimmed.match(BRACE_REPETITION_RE);
-    if (braceMatch) {
-      sec.lines.push({
-        type: "lyrics",
-        lyrics: text,
-        isBold: isBold || undefined,
-      });
-    } else {
-      sec.lines.push({
-        type: "lyrics",
-        lyrics: text,
-        isBold: isBold || undefined,
-      });
-    }
+    sec.lines.push({
+      type: "lyrics",
+      lyrics: text,
+      isBold: isBold || undefined,
+    });
     i++;
   }
 

@@ -20,6 +20,7 @@ Campos:
 - **tom** (obrigatório): tonalidade principal (notação internacional: C, D, E, F, G, A, B)
 - **artista** (opcional): compositor ou intérprete
 - **subtitulo** (opcional): informação adicional
+- **colunas** (opcional): `1` para renderizar a música em coluna única (útil para versos longos); default é `2`
 
 Para medleys com múltiplas tonalidades: `tom: Dm / Am`
 

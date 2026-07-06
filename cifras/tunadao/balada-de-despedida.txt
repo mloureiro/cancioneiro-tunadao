@@ -1,6 +1,7 @@
 ---
 titulo: Balada de Despedida (5º Ano Jurídico 88/89)
 tom: G
+colunas: 1
 ---
 
 [INTRO]   G Em Bm C Am D
