@@ -8,26 +8,42 @@ import {
 } from "./types";
 
 // Padrão para detectar acordes: letra maiúscula + opcionais (# b m 7 maj dim aug sus add / etc.)
+// Aceita notação brasileira ("D7M", "C#m7/5-", "D7/9"), baixo alterado
+// ("G6/D") e baixo entre parêntesis (ex: "Em(E)") — baixo descendente.
 const CHORD_TOKEN_RE =
-  /^[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*(?:\/[A-G][#b]?)?$/;
+  /^[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*M?(?:\/(?:[A-G][#b]?|\d+[+-]?))?(?:\([A-G][#b]?\))?$/;
+
+// Tokens decorativos permitidos numa linha de acordes: repetições
+// ("x2", "2x", "(x2)", "(2x)", "(bis)"), separadores soltos ("-", "|")
+// e baixos soltos ("/G" — ex: "D /G").
+const CHORD_DECORATION_RE = /^(\(?\d+x\)?|\(?x\d+\)?|\(?bis\)?|[-|]|\/[A-G][#b]?)$/i;
 
 /**
  * Verifica se uma linha contém APENAS acordes (sem letras).
- * Tolera espaços, parêntesis de repetição, e chaves de repetição.
+ * Tolera espaços, vírgulas, indicações de repetição ("x2", "(2x)", "(bis)")
+ * e chaves/separadores de repetição.
  */
 function isChordLine(line: string): boolean {
   // Linha vazia não é linha de acordes
   if (line.trim() === "") return false;
 
-  // Remover indicações de repetição e chaves para análise
-  let cleaned = line.replace(/\(\d+x\)\s*$/, "").replace(/[{}]\s*\d*x?\s*$/i, "").trim();
+  // Remover chaves de repetição e tratar vírgulas, parêntesis rectos de
+  // agrupamento (ex: "[E Am] x2") e parêntesis de runs de notas
+  // (ex: "G (G A B)") como separadores. Nota: parêntesis colados ao acorde
+  // ("Em(E)") fazem parte do token e não são separados.
+  let cleaned = line
+    .replace(/[{}]\s*\d*x?\s*$/i, "")
+    .replace(/(?<=^|[\s,])\(([^()]*)\)/g, " $1 ")
+    .replace(/[,\[\]]/g, " ")
+    .trim();
   if (cleaned === "") return false;
 
-  // Separar em tokens e verificar se todos são acordes ou espaços
+  // Separar em tokens; ignorar decorações, exigir pelo menos um acorde
   const tokens = cleaned.split(/\s+/).filter((t) => t.length > 0);
-  if (tokens.length === 0) return false;
+  const chordTokens = tokens.filter((t) => !CHORD_DECORATION_RE.test(t));
+  if (chordTokens.length === 0) return false;
 
-  return tokens.every((t) => CHORD_TOKEN_RE.test(t));
+  return chordTokens.every((t) => CHORD_TOKEN_RE.test(t));
 }
 
 /**
@@ -36,15 +52,40 @@ function isChordLine(line: string): boolean {
  */
 function extractChordPositions(chordLine: string): ChordPosition[] {
   const positions: ChordPosition[] = [];
-  const re = /[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*(?:\/[A-G][#b]?)?/g;
+
+  // 1º passo: runs de notas entre parêntesis soltos (ex: "G (G A B)",
+  // "D (C# C) Bm") ficam como UM elemento — preservam os parêntesis na
+  // renderização e não geram acordes individuais. Parêntesis colados ao
+  // acorde ("Em(E)") não contam — fazem parte do token.
+  let masked = chordLine;
+  const groupRe = /(?<=^|[\s,])\(([^()]*)\)/g;
+  let gm: RegExpExecArray | null;
+  while ((gm = groupRe.exec(chordLine)) !== null) {
+    const inner = gm[1].split(/[\s,]+/).filter((t) => t.length > 0);
+    const isNoteRun =
+      inner.some((t) => CHORD_TOKEN_RE.test(t)) &&
+      inner.every((t) => CHORD_TOKEN_RE.test(t) || CHORD_DECORATION_RE.test(t));
+    if (!isNoteRun) continue;
+    positions.push({ chord: gm[0], position: gm.index });
+    masked =
+      masked.slice(0, gm.index) +
+      " ".repeat(gm[0].length) +
+      masked.slice(gm.index + gm[0].length);
+  }
+
+  // 2º passo: acordes normais no resto da linha. O baixo entre parêntesis
+  // (ex: "Em(E)") é consumido pelo match (para não gerar um acorde
+  // fantasma), mas removido do nome — o apêndice só conhece o acorde base.
+  const re = /[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*M?(?:\/(?:[A-G][#b]?|\d+[+-]?))?(?:\([A-G][#b]?\))?/g;
   let match: RegExpExecArray | null;
-  while ((match = re.exec(chordLine)) !== null) {
+  while ((match = re.exec(masked)) !== null) {
     positions.push({
-      chord: match[0],
+      chord: match[0].replace(/\([A-G][#b]?\)$/, ""),
       position: match.index,
     });
   }
-  return positions;
+
+  return positions.sort((a, b) => a.position - b.position);
 }
 
 /**
@@ -62,6 +103,8 @@ function parseBold(line: string): { text: string; isBold: boolean } {
  */
 function isInstruction(line: string): string | null {
   const trimmed = line.trim();
+  // Runs de acordes agrupados (ex: "[E Am] x2") não são instruções
+  if (isChordLine(trimmed)) return null;
   // Instruções entre [] que não são secções standard
   const match = trimmed.match(/^\[(.+)\]$/);
   if (match) {
@@ -182,6 +225,10 @@ function parseSectionHeader(
   // Metadata: [parte: X], [tom: X] — não é secção
   if (/^(parte|tom):/i.test(raw)) return null;
 
+  // Run de acordes agrupados (ex: "[E Am] x2", "[G7 C E Am] x2") — não é
+  // secção; será tratado como linha de acordes
+  if (isChordLine(trimmed)) return null;
+
   // Secções conhecidas
   if (KNOWN_SECTION_NAMES.has(raw.toUpperCase())) {
     return {
@@ -249,6 +296,18 @@ function parsePartLines(lines: string[]): Section[] {
       continue;
     }
 
+    // Nota livre (ex: "> o baixo desce meio tom") — texto auxiliar do autor,
+    // renderizado como instrução (itálico, discreto)
+    if (trimmed.startsWith("> ")) {
+      const sec = ensureSection();
+      sec.lines.push({
+        type: "instruction",
+        instruction: trimmed.slice(2).trim(),
+      });
+      i++;
+      continue;
+    }
+
     // Início de bloco Solista
     if (trimmed === "[SOLISTA]") {
       inSolista = true;
@@ -309,17 +368,33 @@ function parsePartLines(lines: string[]): Section[] {
 
       i++;
 
-      // Verificar linhas de continuação (indentadas, sem [] prefix)
+      // Verificar linhas de continuação (indentadas, sem [] prefix).
+      // A indentação alinha-as com o conteúdo inline a seguir a "[SOLO] ",
+      // que desaparece na renderização — por isso são emitidas sem indent.
       while (i < lines.length) {
         const nextLine = lines[i];
         const nextTrimmed = nextLine.trim();
         // Continuação: linha indentada com espaços que é chord-only
         if (
           nextTrimmed !== "" &&
-          nextLine.startsWith("          ") &&
+          /^ {4,}/.test(nextLine) &&
           !nextTrimmed.startsWith("[") &&
           isChordLine(nextTrimmed)
         ) {
+          // Se a linha seguinte for letra, isto é um par acorde+letra do
+          // corpo da secção — não consumir como continuação
+          const after = lines[i + 1];
+          const afterTrimmed = after?.trim() ?? "";
+          if (
+            after !== undefined &&
+            afterTrimmed !== "" &&
+            !isChordLine(after) &&
+            !parseSectionHeader(after) &&
+            !isMedleySeparator(after) &&
+            !isInstruction(after)
+          ) {
+            break;
+          }
           currentSection.lines.push({
             type: "chords-only",
             chords: extractChordPositions(nextTrimmed),
@@ -385,11 +460,13 @@ function parsePartLines(lines: string[]): Section[] {
           continue;
         }
       }
-      // Linha de acordes sem letra seguinte
+      // Linha de acordes sem letra seguinte — preservar o texto original
+      // (vírgulas, repetições tipo "x2", agrupamentos "[E Am]") na renderização
       const sec = ensureSection();
       sec.lines.push({
         type: "chords-only",
         chords,
+        lyrics: line.replace(/\s+$/, ""),
       });
       i++;
       continue;

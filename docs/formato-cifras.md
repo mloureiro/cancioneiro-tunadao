@@ -50,6 +50,17 @@ Acordes suportados:
 - Menores: `Am`, `Dm`, `Em`
 - Sétimas: `G7`, `D7`, `Am7`
 - Complexos: `C/G`, `F#m`, `Bdim`, `Gsus4`, `Cadd9`
+- Notação brasileira: `D7M`, `C#m7/5-`, `D7/9`
+- Baixo entre parêntesis (baixo descendente): `Em(E)`, `Em(D#)`
+
+Linhas só de acordes toleram vírgulas, repetições e agrupamentos:
+
+```
+Dm , C , Dm , C , A (x2)
+A E x4
+F C G C (bis)
+[E Am] x2
+```
 
 ### Secções
 
@@ -99,6 +110,15 @@ Texto entre `[...]` que não seja um nome de secção é tratado como instruçã
 [Param os instrumentos]
 [CONCLUSÃO – ANEXO DE PODES PARTIR]
 [SAÍDA PARA AI VISEU]
+```
+
+### Notas livres
+
+Linhas começadas por `> ` são notas do autor — texto auxiliar renderizado
+como instrução (itálico, discreto):
+
+```
+> a nota entre parêntesis é o baixo do acorde, que desce sempre meio tom
 ```
 
 ### Medleys

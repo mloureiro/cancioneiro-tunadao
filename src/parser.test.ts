@@ -342,3 +342,131 @@ describe("parseSong — bold após secção PASSAGEM", () => {
     expect(bold!.isBold).toBe(true);
   });
 });
+
+describe("parseSongContent — linhas de acordes com vírgulas e repetições", () => {
+  const header = "---\ntitulo: Teste\ntom: C\n---\n\n";
+
+  it("acordes separados por vírgulas são linha de acordes", () => {
+    const song = parseSongContent(header + "Dm , C , Dm , C , A (x2)\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("chords-only");
+    expect(line.chords!.map((c) => c.chord)).toEqual(["Dm", "C", "Dm", "C", "A"]);
+  });
+
+  it("sufixo xN sem parêntesis é tolerado (ex: 'A E x4')", () => {
+    const song = parseSongContent(header + "A E x4\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("chords-only");
+    expect(line.chords!.map((c) => c.chord)).toEqual(["A", "E"]);
+  });
+
+  it("agrupamento '[E Am] x2' é linha de acordes, não secção nem instrução", () => {
+    const song = parseSongContent(header + "[E Am] x2\n");
+    const sections = song.parts[0].sections;
+    expect(sections).toHaveLength(1);
+    expect(sections[0].type).toBe("");
+    const line = sections[0].lines[0];
+    expect(line.type).toBe("chords-only");
+    expect(line.chords!.map((c) => c.chord)).toEqual(["E", "Am"]);
+  });
+
+  it("'(bis)' é tolerado numa linha de acordes", () => {
+    const song = parseSongContent(header + "F C G C (bis)\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("chords-only");
+  });
+
+  it("linha de acordes solta preserva o texto original", () => {
+    const song = parseSongContent(header + "Dm , G , F (x2)\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.lyrics).toBe("Dm , G , F (x2)");
+  });
+
+  it("linha de letra com vírgulas não é confundida com acordes", () => {
+    const song = parseSongContent(header + "Adeus, adeus, até amanhã\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("lyrics");
+  });
+
+  it("acordes com vírgulas sobre letra continuam a ser par acorde+letra", () => {
+    const song = parseSongContent(header + "C , G\nLinha de letra\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("lyrics");
+    expect(line.lyrics).toBe("Linha de letra");
+    expect(line.chords!.map((c) => c.chord)).toEqual(["C", "G"]);
+  });
+});
+
+describe("parseSongContent — notas livres ('> ...')", () => {
+  it("linha começada por '> ' é instrução", () => {
+    const song = parseSongContent(
+      "---\ntitulo: Teste\ntom: C\n---\n\n> o baixo desce meio tom\nLetra\n"
+    );
+    const lines = song.parts[0].sections.flatMap((s) => s.lines);
+    expect(lines[0].type).toBe("instruction");
+    expect(lines[0].instruction).toBe("o baixo desce meio tom");
+  });
+});
+
+describe("parseSongContent — runs de notas entre parêntesis", () => {
+  const header = "---\ntitulo: Teste\ntom: C\n---\n\n";
+
+  it("'G    (G A B)' sobre letra: run fica como um elemento com parêntesis", () => {
+    const song = parseSongContent(header + "G    (G A B)\nTalvez só o padeiro\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("lyrics");
+    expect(line.chords!.map((c) => c.chord)).toEqual(["G", "(G A B)"]);
+  });
+
+  it("'D (C# C) Bm' mantém a ordem por posição", () => {
+    const song = parseSongContent(header + "D (C# C) Bm\nLetra qualquer\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.chords!.map((c) => c.chord)).toEqual(["D", "(C# C)", "Bm"]);
+  });
+
+  it("'Em  (F#, G)    A' é linha de acordes", () => {
+    const song = parseSongContent(header + "Em  (F#, G)    A\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("chords-only");
+  });
+
+  it("baixo colado 'Em(E)' não é separado pelo run", () => {
+    const song = parseSongContent(header + "Em(E), Em(D#) (x4)\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("chords-only");
+    expect(line.chords!.map((c) => c.chord)).toEqual(["Em", "Em"]);
+  });
+
+  it("linha de letra com parêntesis não vira acordes", () => {
+    const song = parseSongContent(header + "Canta comigo (outra vez)\n");
+    const line = song.parts[0].sections[0].lines[0];
+    expect(line.type).toBe("lyrics");
+  });
+});
+
+describe("parseSongContent — continuações indentadas de secções", () => {
+  const header = "---\ntitulo: Teste\ntom: C\n---\n\n";
+
+  it("continuações com indentação ≠ 10 espaços são apanhadas e sem indent", () => {
+    const song = parseSongContent(
+      header + "[SOLO]   Em Am D C B7 (2x)\n         Am D G C Am B7 Em\n         C B7 Em (2x)\n"
+    );
+    const solo = song.parts[0].sections.find((s) => s.type === "SOLO")!;
+    const runs = solo.lines.filter((l) => l.type === "chords-only");
+    expect(runs).toHaveLength(3);
+    expect(runs[1].lyrics).toBe("Am D G C Am B7 Em");
+    expect(runs[1].chords![0].position).toBe(0);
+    expect(runs[2].lyrics).toBe("C B7 Em (2x)");
+  });
+
+  it("par acorde+letra indentado logo após secção não é consumido como continuação", () => {
+    const song = parseSongContent(
+      header + "[REFRÃO]\n    C       G\nTexto do refrão\n"
+    );
+    const refrao = song.parts[0].sections.find((s) => s.isChorus)!;
+    const line = refrao.lines[0];
+    expect(line.type).toBe("lyrics");
+    expect(line.lyrics).toBe("Texto do refrão");
+    expect(line.chords!.map((c) => c.chord)).toEqual(["C", "G"]);
+  });
+});
