@@ -2,10 +2,8 @@
 titulo: Flor sem Tempo
 artista: TAL
 tom: Gm
+creditos: Original: Paulo de Carvalho
 ---
-
-Paulo de Carvalho (Original)
-Tom: Gm
 
 [INTRO] Gm
 

@@ -2,11 +2,9 @@
 titulo: Hoy Estoy Aqui (interpretação)
 artista: Tuna Universitária do Minho
 tom: Am
+creditos: ARRANJO: TUNA UNIVERSITÁRIA DO MINHO
 ---
 
-
-
-ARRANJO: TUNA UNIVERSITÁRIA DO MINHO
 [INTRO]                F , G  , C  (x2)
                             G  , C , G  , C , E , Am  (x2)
                             F  (x4)

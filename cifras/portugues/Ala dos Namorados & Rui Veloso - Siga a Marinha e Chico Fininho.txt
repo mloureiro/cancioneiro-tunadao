@@ -4,8 +4,6 @@ artista: Ala dos Namorados & Rui Veloso
 tom: G
 ---
 
-ALA DOS NAMORADOS/RUI VELOSO
-
 [INTRO]
 C , D# , G  , E , A , D  (x2)
 G  , D7

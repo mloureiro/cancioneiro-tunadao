@@ -2,9 +2,8 @@
 titulo: Noites de Lua
 artista: Tunídeos
 tom: Gm
+creditos: Letra e Música: Rui Ivo
 ---
-
-Letra e Música: Rui Ivo
 
 Entrada:
 G G7 C Cm

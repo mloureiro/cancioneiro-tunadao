@@ -2,11 +2,8 @@
 titulo: A Aventura Começou
 artista: RaussTuna
 tom: G
+creditos: Letra: João Escobar, Bruno Gonçalves, Óscar Português; Música: Filipe Morais, Bruno Gonçalves
 ---
-
-
-Letra: João Escobar, Bruno Gonçalves, Óscar Português
-Música: Filipe Morais, Bruno Gonçalves
 
 [INTRO] G  , D , Em , D , G  , D , C , D
 

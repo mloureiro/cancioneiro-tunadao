@@ -2,9 +2,8 @@
 titulo: Chamateia
 artista: Popular Açoriana
 tom: C#m
+creditos: Música Popular Açoriana
 ---
-
-(Música Popular Açoriana)
 
 [INTRO] E B7 E A B7 E A B7 F#m B7 E (bis)
 

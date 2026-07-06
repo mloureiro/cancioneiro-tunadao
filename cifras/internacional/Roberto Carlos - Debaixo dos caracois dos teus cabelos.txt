@@ -2,13 +2,8 @@
 titulo: Debaixo dos caracois dos teus cabelos
 artista: Roberto Carlos
 tom: A
+creditos: Compositor: Erasmo Carlos / Roberto Carlos; Intérprete: TUA - Tuna Universitária de Aveiro (2004
 ---
-
-
-Compositor: Erasmo Carlos / Roberto Carlos
-Intérprete: TUA - Tuna Universitária de Aveiro (2004)
-Tom: A (Lá maior)
-Tempo: Moderado
 
 [INTRO] A  E7  A  E7
 

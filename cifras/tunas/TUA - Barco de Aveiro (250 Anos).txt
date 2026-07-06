@@ -2,14 +2,10 @@
 titulo: Barco de Aveiro (250 Anos)
 artista: TUA
 tom: Dm
+creditos: Compositor: Paulo Moreira; Intérprete: TUA - Tuna Universitária de Aveiro (2009
 ---
 
-
-Compositor: Paulo Moreira
-Intérprete: TUA - Tuna Universitária de Aveiro (2009)
 Colaboração: Orfeão Universitário de Aveiro
-Tom: Dm (Ré menor)
-Tempo: Moderado
 
 [INTRO] Dm  C  Bb  A  Dm  C  Bb  A
 

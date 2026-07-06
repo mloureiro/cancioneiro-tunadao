@@ -4,8 +4,6 @@ artista: TAIPCA
 tom: G
 ---
 
-A Pilinha
-
 Quando eu era pequenino / Minha mãe disse vai, vai
 Vai depressa assar sardinhas
 Para o jantar do teu pai (x2)

@@ -2,11 +2,8 @@
 titulo: Hino do Caloiro
 artista: RaussTuna
 tom: G
+creditos: Letra: João Escobar, Filipe Morais, David Pinheiro; Música: Bruno Gonçalves
 ---
-
-
-Letra: João Escobar, Filipe Morais, David Pinheiro
-Música: Bruno Gonçalves
 
 [INTRO] 2x Solo do refrão.
 

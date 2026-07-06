@@ -2,9 +2,9 @@
 titulo: Cá Sei
 artista: Tradicional Açoriana
 tom: G
+creditos: Música tradicional Açoriana
 ---
 
-(Música tradicional Açoriana)
                 G           D        G         D
 [INTRO] A luz do teu olhar, bela aurora do mar
   G            C          G         D   Dm

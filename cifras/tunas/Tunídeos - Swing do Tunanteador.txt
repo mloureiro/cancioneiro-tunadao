@@ -2,9 +2,8 @@
 titulo: Swing do Tunanteador
 artista: Tunídeos
 tom: G
+creditos: Letra: Lázaro Música: João Mafarrico
 ---
-
-Letra: Lázaro Música: João Mafarrico
 
 G                G#dim
 Eu tenho um problema

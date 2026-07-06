@@ -2,11 +2,9 @@
 titulo: Tango Baleia
 artista: Tunídeos
 tom: Dm
+creditos: Letra e Música: António Sousa, João Gregório, Pedro Alvim, Rui Amen, Sérgio Ávila
 ---
 
-Letra e Música: António Sousa,
-João Gregório, Pedro Alvim, Rui Amen,
-Sérgio Ávila
 [INTRO] Refrão: (2x)
 Dm Am       E Am        (A7)
 Dm Am       (E Am

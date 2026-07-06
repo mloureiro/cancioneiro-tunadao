@@ -2,14 +2,8 @@
 titulo: Cheira a Lisboa
 artista: Tuna Económicas
 tom: A
+creditos: Original: Música Popular Portuguesa (Amália Rodrigues)
 ---
-
-
-Música Popular Portuguesa (Amália Rodrigues)
-Fonte: Cifra Club
-
-Tonalidade: Am/A
-Tempo: Médio
 
 [INTRO] Am
 

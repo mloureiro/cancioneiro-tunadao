@@ -4,49 +4,72 @@ artista: Música Popular Brasileira
 tom: Dm
 ---
 
-[INTRO]
-Gm, Dm, A#, A, Dm, D7
-(x2)   (Na segunda vez para-se no Dm)
+[INTRO] de bandolim:
+Gm   Dm  A#  A  Dm  D7
+Gm   Dm  A#  A  Dm
 
-   Dm                 Gm
+Dm                     Gm
 Chorar, como eu chorava
-   A         Dm
+   A              Dm
 Ninguém pode chorar
-  D7          Gm
-E amar, como eu amava
-   A      Dm        D7
-Ninguém deve amar
-
-                    Gm   C
+D7                 Gm
+Amar, como eu amava
+   A              Dm      D7
+Ninguém pode amar
+                       Gm       C
 Chorava que dava pena
-                   F
-Por amor à Madalena
-   Dm               Gm
+                  F
+Por amor a madalena
+      Dm            Gm
 Mas ela me abandonou
-                                         Dm
-E assim murchou, em meu jardim,
-   A# , A , Dm , D7
+                                A
+E assim murchou em meu jardim,
+        A#  A  Dm  D7
 Essa linda flor
 
-[REFRÃO]
-Gm
-La, la la, la la la
-Dm
-La, la la, la la la                (x2)
-A#                          A            Dm , D7
-La, la la, la la la, la la, la la la, la
+Gm   Dm  A#  A  Dm  D7
+Gm   Dm  A#  A  Dm
+Laaa laaa laaa laaa…
 
- Gm   C
-E Madalena foi
-          F
-Como um anjo salvador
-   A           Dm , D7
-Que eu adorava com fé.
-   Gm           C
+Dm                     Gm
+Chorar, como eu chorava
+   A              Dm
+Ninguém pode chorar
+D7                 Gm
+Amar, como eu amava
+   A              Dm      D7
+Ninguém pode amar
+                       Gm      C
+Chorava que dava pena
+                   F
+Por amor a madalena
+      Dm                 Gm
+Mas ela me abandonou
+                                                A
+E assim murchou em meu jardim,
+        A#  A  Dm  D7
+Essa linda flor
+
+Gm   Dm  A#  A  Dm  D7
+Gm   Dm  A#  A  Dm
+Laaa laaa laaa laaa…
+
+        Gm          C                F
+E Madalena foi como um anjo
+salvador
+       A                  Dm  D7
+Que eu adorava com fé
+     Gm            C
 Um barco sem timão
-             F
+                            F
 Perdido em alto mar
-         A            Dm , D7
-Sou, Madalena, sem ti, amor!
+                         A                Dm  D7
+Sem Madalena, sem ti amor
 
-[REFRÃO]
+Gm   Dm  A#  A  Dm  D7
+Gm   Dm  A#  A
+A#  A  (2x)
+Dm (A Dm)
+Laaa laaa laaa laaa…
+
+Letra e Música: Música Popular Brasileira

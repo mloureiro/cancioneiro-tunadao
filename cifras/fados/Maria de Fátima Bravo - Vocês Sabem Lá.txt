@@ -2,10 +2,8 @@
 titulo: Vocês Sabem Lá
 artista: Maria de Fátima Bravo
 tom: D
+creditos: Compositor: Jerónimo Bragança
 ---
-
-Compositor: Jerónimo Bragança
-Tom: D
 
 [INTRO]
 D7M  Bm7  Em7  A7

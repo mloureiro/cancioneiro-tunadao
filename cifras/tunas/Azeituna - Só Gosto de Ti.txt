@@ -2,11 +2,8 @@
 titulo: Só Gosto de Ti
 artista: Azeituna
 tom: F#m
+creditos: Original: Azeituna (versão da música dos Heróis do Mar - 2009)
 ---
-
-
-Azeituna (versão da música dos Heróis do Mar - 2009)
-Tom: E
 
 [INTRO] D9  E/G#  D9  E/G#
        E  A   C#m  B9  D  A9  F#m  B

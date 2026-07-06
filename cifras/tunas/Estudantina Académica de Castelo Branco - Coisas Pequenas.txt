@@ -2,14 +2,8 @@
 titulo: Coisas Pequenas
 artista: Estudantina Académica de Castelo Branco
 tom: Am
+creditos: Original: Madredeus (Pedro Ayres Magalhães)
 ---
-
-Madredeus (Pedro Ayres Magalhães)
-Fonte: Cifra Club
-
-Tonalidade: Am
-Tempo: Lento
-Acordes utilizados: Am, Dm, G, C, E7
 
 Am                       Dm
 Coisas pequenas são

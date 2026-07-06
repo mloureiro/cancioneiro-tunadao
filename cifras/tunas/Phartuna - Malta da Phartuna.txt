@@ -4,8 +4,6 @@ artista: Phartuna
 tom: Am
 ---
 
-Phartuna - Tuna de Farmácia de Coimbra
-
 [INTRO] C
 
 C                            F

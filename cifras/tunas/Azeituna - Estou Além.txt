@@ -2,12 +2,8 @@
 titulo: Estou Além
 artista: Azeituna
 tom: F#
+creditos: Compositor Original: António Variações
 ---
-
-
-Azeituna - Tuna de Ciências da Universidade do Minho
-Compositor Original: António Variações
-Tom: F#
 
 [Com base na estrutura harmónica encontrada]
 

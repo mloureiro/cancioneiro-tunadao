@@ -4,10 +4,6 @@ artista: TUM
 tom: D
 ---
 
-
-TUM - Tuna Universitária do Minho
-Tom: G
-
 [INTRO] Bb  Gm  D  B7  Em  A  D
 
    Dm                    A

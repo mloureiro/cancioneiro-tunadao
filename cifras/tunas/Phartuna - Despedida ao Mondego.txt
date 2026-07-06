@@ -4,9 +4,6 @@ artista: Phartuna
 tom: Bm
 ---
 
-
-Phartuna - Tuna de Farmácia de Coimbra
-
 [INSTR.]
 Bm  Em  A  Bm
                                 2x

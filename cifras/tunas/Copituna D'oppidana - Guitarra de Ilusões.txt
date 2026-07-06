@@ -4,10 +4,6 @@ artista: Copituna D'oppidana
 tom: G
 ---
 
-
-Copituna D'oppidana - Tuna Académica da Guarda
-Tom: G
-
 [INTRO] G Am D G Am G A Am D G Em A Am D G Em Am D G A
 
 [Verso 1]

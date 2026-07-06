@@ -4,9 +4,6 @@ artista: Versão Popeye
 tom: G
 ---
 
-A AFONSINA É QUEM MANDA AQUI!
-VERSÃO "POPEYE – THE SAYLOR MAN", ARRANJO: NINO PEREIRA
-
 [Acordes]
      1ª Parte:             D, G, D, G, D, A, D
      2ª Parte:             D, G, A, D, Bm, G, Em, A, D

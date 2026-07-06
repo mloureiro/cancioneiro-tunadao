@@ -2,9 +2,8 @@
 titulo: Baile da Prima
 artista: Tunídeos
 tom: Am
+creditos: Letra e Música: João Gregório
 ---
-
-Letra e Música: João Gregório
 
 [INTRO]
 Dm Am Dm           Am

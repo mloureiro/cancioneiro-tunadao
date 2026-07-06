@@ -2,9 +2,10 @@
 titulo: Hino dos Caloiros
 artista: Tunídeos
 tom: Am
+creditos: Letra e Música: Caloiros
 ---
 
-Letra e Música: Caloiros          Instrumental: (Am, Dm, G, C, F, Dm, E,
+Instrumental: (Am, Dm, G, C, F, Dm, E,
                                   E7) (2x)
      Am
 A vitória é daquele               Refrão (2x)

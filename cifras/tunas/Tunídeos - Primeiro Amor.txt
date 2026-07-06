@@ -2,9 +2,8 @@
 titulo: Primeiro Amor
 artista: Tunídeos
 tom: Dm
+creditos: Letra e Música: João Gregório
 ---
-
-Letra e Música: João Gregório
 
 Entrada:
 Gm C       Am Dm

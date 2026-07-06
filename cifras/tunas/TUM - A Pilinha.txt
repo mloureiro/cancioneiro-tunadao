@@ -4,12 +4,6 @@ artista: TUM
 tom: D
 ---
 
-A Pilinha
-TUM - Tuna Universitária do Minho
-Fonte: Cifras.com.br
-
-Tom: D
-
 [INTRO] D  A7  D  A7  D
 
                        G A7

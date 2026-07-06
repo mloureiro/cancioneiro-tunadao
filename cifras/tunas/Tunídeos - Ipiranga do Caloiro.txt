@@ -2,9 +2,9 @@
 titulo: Ipiranga do Caloiro
 artista: Tunídeos
 tom: C
+creditos: Letra e Música: João Nuno Gonçalo
 ---
 
-Letra e Música: João Nuno Gonçalo
 [INSTR.] Am Dm G C (2x)
 
    Am                 Dm

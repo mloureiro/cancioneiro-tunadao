@@ -2,17 +2,16 @@
 titulo: Ondas do Douro
 artista: Tuna Universitária do Minho
 tom: C
+creditos: Original: (Tuna Universitária do Porto)
 ---
 
-
-(Tuna Universitária do Porto)
 Instrumental(Refrão)
 [REFRÃO]
              C                                 G
 Linda donzela vem à janela que a tuna passa
                                         G7                C
 Ouve este canto que o teu encanto enche de graça
-Sol7         Dó              Dó7           Fá         «Fám»
+G7           C               C7            F          Fm   
 Olha p’ra lua que noite é tua e o trovador
         C             G7                       C         E7
 Enamorado canta enlevado trovas de amor.
@@ -30,7 +29,7 @@ Levo a saudade deixo esta trova ao teu amor
 Põe um sorriso, não te entristeças se a tuna parte
 Que o estudante eterno amante virá cantar-te.
 [REFRÃO]
-«Fám»
+Fm   
         C              G7                       C
 Enamorado, canta enlevado trovas de amor.
 40                                                 Volume I - Tuna de Ciências da Univ. do Minho

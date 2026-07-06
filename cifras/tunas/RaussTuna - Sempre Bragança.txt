@@ -2,11 +2,8 @@
 titulo: Sempre Bragança
 artista: RaussTuna
 tom: G
+creditos: Letra: Ricardo Amorim; Música: João Escobar
 ---
-
-
-Letra: Ricardo Amorim
-Música: João Escobar
 
 [INTRO] G, Bm, Em, C (com quebras), G D 2x
 

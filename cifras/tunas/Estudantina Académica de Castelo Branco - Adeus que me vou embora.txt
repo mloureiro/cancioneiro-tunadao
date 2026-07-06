@@ -2,15 +2,8 @@
 titulo: Adeus que me vou embora
 artista: Estudantina Académica de Castelo Branco
 tom: E
+creditos: Original: Música Popular Portuguesa (António Variações)
 ---
-
-Música Popular Portuguesa (António Variações)
-Fonte: Ultimate Guitar
-
-Tonalidade: E
-Tempo: Médio
-
-Acordes utilizados: E e A (os mesmos ao longo da música)
 
 E
 Adeus que me vou embora

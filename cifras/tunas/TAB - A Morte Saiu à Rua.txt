@@ -2,11 +2,8 @@
 titulo: A Morte Saiu à Rua
 artista: TAB
 tom: G#m
+creditos: Original: Zeca Afonso (José Afonso)
 ---
-
-
-Zeca Afonso (José Afonso)
-Tom: G#m
 
 G#m           B        F#    G#m
 A morte saiu à rua num dia assim

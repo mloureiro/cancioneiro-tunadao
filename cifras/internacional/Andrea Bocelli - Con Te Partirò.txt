@@ -2,11 +2,8 @@
 titulo: Con Te Partirò
 artista: Andrea Bocelli
 tom: G
+creditos: Original: Andrea Bocelli
 ---
-
-
-Andrea Bocelli (Original)
-Tom: G
 
 [INTRO] G  D  Em7  C
         G  D  Em7  C

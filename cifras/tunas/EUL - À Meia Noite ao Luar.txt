@@ -4,8 +4,6 @@ artista: EUL
 tom: D
 ---
 
-Fonte: Vitamina C (vitaminac.pt)
-
 ||: D
 À meia-noite ao lu
 A

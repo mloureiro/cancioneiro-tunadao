@@ -2,10 +2,8 @@
 titulo: Verde Vinho
 artista: TCP
 tom: Am
+creditos: Original: Paulo Alexandre
 ---
-
-Paulo Alexandre (Original)
-Tom: Am
 
 Am
 Ninguém na rua na noite fria,

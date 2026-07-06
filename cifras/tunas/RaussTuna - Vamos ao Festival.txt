@@ -2,11 +2,8 @@
 titulo: Vamos ao Festival
 artista: RaussTuna
 tom: Am
+creditos: Letra: João Escobar, Filipe Morais; Música: João Escobar
 ---
-
-
-Letra: João Escobar, Filipe Morais
-Música: João Escobar
 
 [INSTR.] C , F , C , G
 

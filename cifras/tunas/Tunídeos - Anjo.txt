@@ -2,10 +2,8 @@
 titulo: Anjo
 artista: Tunídeos
 tom: Gm
+creditos: Música: Carlos Cabral; Letra: Miguel Mota, Lázaro Raposo, Hugo Almeida
 ---
-
-Música: Carlos Cabral
-Letra: Miguel Mota, Lázaro Raposo, Hugo Almeida
 
 [INTRO] D F#m Bm A#
 

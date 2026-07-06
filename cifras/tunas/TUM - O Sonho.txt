@@ -4,9 +4,6 @@ artista: TUM
 tom: G
 ---
 
-Tuna Universitária do Minho
-Tom: G
-
 [INTRO] Em  D  Em  B7
         Em  D  Em  Bm  Em
 

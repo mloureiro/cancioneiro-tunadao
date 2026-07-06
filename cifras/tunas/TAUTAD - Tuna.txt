@@ -5,9 +5,9 @@ tom: Em
 ---
 
 
-Do* Mim7           Lam7
+C*  Em7            Am7 
   Se um dia tudo acabar
-  Do*        Mim        Lam
+  C*         Em         Am 
 Tunos, guardem o meu lugar
      F      Fm          C
   Una, e sempre sem fim
@@ -15,7 +15,7 @@ Tunos, guardem o meu lugar
      P'ra mim. p'ra nós,
              G7
           A tua voz
-             Dó*
+             C* 
             Tuna...
 
 

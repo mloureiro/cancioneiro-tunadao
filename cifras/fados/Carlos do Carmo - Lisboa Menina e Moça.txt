@@ -2,12 +2,9 @@
 titulo: Lisboa Menina e Moça
 artista: Carlos do Carmo
 tom: Fm
+creditos: Composição: Ary dos Santos / Paulo de Carvalho
+versao: EUL - Estudantina Universitária de Lisboa
 ---
-
-
-EUL - Estudantina Universitária de Lisboa
-Composição: Ary dos Santos / Paulo de Carvalho
-Tom: Fm
 
 [INTRO] Fm  Bbm
         Fm  Bbm

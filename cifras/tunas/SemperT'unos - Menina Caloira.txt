@@ -2,37 +2,47 @@
 titulo: Menina Caloira
 artista: SemperT'unos
 tom: G
+creditos: Original de Copituna
 ---
 
+[INTRO] G Am D
 
-G  , Am , D
-SolMenina Caloira
-Tu foges de mimLá-
-Que fiz eu ao mundoRé
-Para merecer algo assimSol
+G
+Menina Caloira
+                Am
+Tu foges de mim
+                    D
+Que fiz eu ao mundo
+                        G
+Para merecer algo assim
 Teus olhos azuis
-Teus olhos clarinhosLá-
-São flores do céuRé
-São dois danoninhosSol
+                     Am
+Teus olhos clarinhos
+                  D
+São flores do céu
+                    G
 São dois danoninhos
-Prontos a comerLá-
-Sem esses doisRé
-Eu não posso vive Sol
+São dois danoninhos
+                Am
+Prontos a comer
+               D
+Sem esses dois
+                   G
+Eu não posso viver
 Porque não me olhas
-Porque não me vêsLá-
-Menina CaloiraRé
-São muitos porquêsSol
+                  Am
+Porque não me vês
+               D
+Menina Caloira
+                   G
+São muitos porquês
+
 [REFRÃO]
-Ooooooh! Menina!
-Se pudesse dar-te-ia a lua
-E pela vida que me resta
-Gritaria o teu nome pela rua
-Menina Caloira
-Abre o coração
-Menina Caloira
-Ouve esta canção (2X)
-Original de Copituna
-41 de 55
-SemperT’unos – Tuna Mista da Escola Superior de Saúde do
-Instituto Politécnico de Setúbal
-Cancioneiro
+**Ooooooh! Menina!**
+**Se pudesse dar-te-ia a lua**
+**E pela vida que me resta**
+**Gritaria o teu nome pela rua**
+**Menina Caloira**
+**Abre o coração**
+**Menina Caloira**
+**Ouve esta canção (2X)**

@@ -2,11 +2,8 @@
 titulo: Canção do Engate
 artista: António Variações
 tom: F#m
+creditos: Música: António Variações; Letra: António Variações
 ---
-
-
-Música: António Variações
-Letra: António Variações
 
 F#m  E  C#m  D
 

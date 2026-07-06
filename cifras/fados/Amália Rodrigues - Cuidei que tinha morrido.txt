@@ -2,10 +2,8 @@
 titulo: Cuidei que tinha morrido
 artista: Amália Rodrigues
 tom: Am
+creditos: Música de Amália Rodrigues
 ---
-
-
-(Música de Amália Rodrigues)
 
 [INSTR.] Dm  Bb   Gm   A   Dm  Bb   Gm   A   Dm
 

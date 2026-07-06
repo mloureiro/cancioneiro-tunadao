@@ -2,11 +2,8 @@
 titulo: Fado da Sina
 artista: TUIST
 tom: A
+creditos: Original: Camané
 ---
-
-
-Camané (Original)
-Tom: A
 
 [INTRO] D  A7  F  E7  A
 

@@ -2,10 +2,9 @@
 titulo: A caminho de Viseu
 artista: Música Popular Portuguesa
 tom: A
+creditos: Letra e música: popular; (canção infantil, canção de roda
 ---
 
-A caminho de Viseu
-Letra e música: popular; (canção infantil, canção de roda)
 A              E7
 Indo eu, indo eu,
 A

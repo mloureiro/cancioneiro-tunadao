@@ -2,15 +2,8 @@
 titulo: Adeus Tristeza
 artista: Estudantina Académica de Castelo Branco
 tom: Cm
+creditos: Original: Fernando Tordo (1973)
 ---
-
-
-Fernando Tordo (1973)
-Fonte: ChordU
-
-Tonalidade: Cm
-Tempo: 90 BPM
-Acordes utilizados: Cm, G, Fm, Ab, Bb, Eb, F, C, D, Am, Gb, Gm
 
 [INTRO] Cm G Cm F Ab Cm G Cm
 

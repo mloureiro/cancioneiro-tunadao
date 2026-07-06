@@ -2,10 +2,8 @@
 titulo: Moda das Tranças Pretas
 artista: Tuna Santa Maria
 tom: C
+creditos: Original: Vicente da Câmara
 ---
-
-Vicente da Câmara
-Tom: C
 
 C                         G7
 Como era linda com seu ar namoradeiro  

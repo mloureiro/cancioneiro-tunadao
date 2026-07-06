@@ -2,10 +2,9 @@
 titulo: Litterae Sapienta Est
 artista: Sofia Pombo
 tom: Ab
+creditos: Letra: Sofia Pombo "La Paloma Vitaminas"; Música: Laudate Dominus (cântico religioso Taizé
+ano: 1991
 ---
-
-1991
-
 
 Tuna Femina Litterae hic est
 In nomine solenissima praxis
@@ -21,5 +20,3 @@ Facultatis Litterae
 In nomine solenissima praxis.
 
 
-Letra: Sofia Pombo "La Paloma Vitaminas"
-Música: Laudate Dominus (cântico religioso Taizé)

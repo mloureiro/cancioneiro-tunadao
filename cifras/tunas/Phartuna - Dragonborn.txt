@@ -4,8 +4,6 @@ artista: Phartuna
 tom: A
 ---
 
-Phartuna - Tuna de Farmácia de Coimbra
-
 [REFRÃO]
 Bm    G
 Estou aqui, estou aqui

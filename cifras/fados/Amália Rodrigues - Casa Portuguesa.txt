@@ -2,11 +2,9 @@
 titulo: Casa Portuguesa
 artista: Amália Rodrigues
 tom: A
+creditos: Composição: Artur Vaz da Fonseca / Reinaldo Ferreira / Vasco Sequeira
+versao: EUL - Estudantina Universitária de Lisboa
 ---
-
-EUL - Estudantina Universitária de Lisboa
-Composição: Artur Vaz da Fonseca / Reinaldo Ferreira / Vasco Sequeira
-Tom: A
 
 VERSO:
 A              E7         

@@ -2,9 +2,9 @@
 titulo: Foi Deus
 artista: Amália Rodrigues
 tom: E
+ano: 2006
 ---
 
-2006
 [INSTR.]
 
 Não sei, não sabe ninguém,

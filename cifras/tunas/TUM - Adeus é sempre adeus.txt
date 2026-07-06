@@ -4,9 +4,6 @@ artista: TUM
 tom: Am
 ---
 
-Tuna Universitária do Minho
-Tom: Am
-
 [INTRO] E  A  Am
 
                        E

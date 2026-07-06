@@ -4,12 +4,6 @@ artista: Imperialis Serenatum Tunix
 tom: C
 ---
 
-
-Álbum: Vol. 1 (2005)
-Fonte: Cifra Club
-
-Acordes principais: F, Fm, C, E, Am, Dm, G
-
 [INTRO] F  Fm  C  E  Am
         F  C  G  C
 

@@ -2,10 +2,8 @@
 titulo: Todas as Ruas do Amor
 artista: Flor de Lis
 tom: C
+creditos: Música: Flor de Lis
 ---
-
-
-Música: Flor de Lis
 
 [Estrutura de acordes preservada do cancioneiro]
 
