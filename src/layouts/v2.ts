@@ -329,11 +329,16 @@ function renderPart(part: SongPart, isFirst: boolean, seen: Set<string>): string
   return out;
 }
 
+// Separar o qualificador entre parêntesis no fim do título
+function splitTitle(titulo: string): { main: string; sub: string } {
+  const m = titulo.match(/^(.*\S)\s*(\([^()]+\))$/);
+  return m ? { main: m[1], sub: m[2] } : { main: titulo, sub: "" };
+}
+
 function renderSong(song: Song, labelId: string, autor: string): string {
   let out = "";
   // Qualificador entre parêntesis no fim do título → texto mais pequeno
-  const m = song.metadata.titulo.match(/^(.*\S)\s*(\([^()]+\))$/);
-  const [main, sub] = m ? [m[1], m[2]] : [song.metadata.titulo, ""];
+  const { main, sub } = splitTitle(song.metadata.titulo);
   out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
   out += `#song-title("${escLiteral(main)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}", sub: "${escLiteral(sub)}")\n`;
 
@@ -563,7 +568,9 @@ function generate(input: LayoutInput): string {
   // secção quando o livro tem secções nomeadas.
   const indexEntry = (song: Song): string => {
     const labelId = labelOf.get(song)!;
-    const title = escTypst(song.metadata.titulo);
+    const { main, sub } = splitTitle(song.metadata.titulo);
+    const title = escTypst(main) +
+      (sub ? ` #text(size: 0.72em, fill: grey)[${escTypst(sub)}]` : "");
     return `  #context {
     let loc = locate(label("song-${labelId}"))
     let pg = counter(page).at(loc).first()
@@ -669,14 +676,6 @@ function generate(input: LayoutInput): string {
   }
 })
 
-// Chip do tom: contorno azul (junto ao título e às partes de medley)
-#let tom-chip(tom) = box(
-  stroke: 0.8pt + blue,
-  radius: 2pt,
-  inset: (x: 4pt, y: 2.6pt),
-  cond-text([TOM #tom], size: 0.78em, fill: blue, tracking: 0.04em),
-)
-
 // Separador entre partes de um medley
 #let part-divider = {
   v(0.8em)
@@ -702,12 +701,13 @@ function generate(input: LayoutInput): string {
 // Cabeça de música (estilo editorial, sem número): título condensed,
 // filete fino a preencher até ao chip do tom — "TÍTULO ———— [TOM X]".
 // sub: qualificador entre parêntesis no fim do título (ex: "(5º Ano
-// Jurídico 88/89)", "(versão de X)") — bastante mais pequeno que o título
+// Jurídico 88/89)", "(versão de X)") — bastante mais pequeno que o título.
+// O tom não é mostrado (fica na metadata para transposição futura).
 #let song-title(titulo, tom, autor: "", sub: "") = block(breakable: false, sticky: true, below: 0.9em, {
   grid(
-    columns: (auto, 1fr, auto),
+    columns: (auto, 1fr),
     column-gutter: 6pt,
-    align: (horizon + left, horizon, horizon + right),
+    align: (horizon + left, horizon),
     {
       cond-text(upper(titulo), size: ${titleSize})
       if sub != "" {
@@ -716,7 +716,6 @@ function generate(input: LayoutInput): string {
       }
     },
     line(length: 100%, stroke: 0.5pt + hairline-color),
-    tom-chip(tom),
   )
   if autor != "" {
     v(2.5pt)
