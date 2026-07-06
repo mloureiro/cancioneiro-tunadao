@@ -1,7 +1,8 @@
 ---
 titulo: Queda do Império
-artista: Hinoportuna
+artista: Vitorino
 tom: C
+versao: Hinoportuna
 ---
 
 C              Am

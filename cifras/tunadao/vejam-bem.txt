@@ -1,6 +1,7 @@
 ---
 titulo: Vejam Bem
 tom: Dm
+artista: Zeca Afonso
 ---
 
 [INTRO]   Dm C Dm C  }
