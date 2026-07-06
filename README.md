@@ -20,7 +20,7 @@ npm test
 npm run build
 ```
 
-O build itera cada subdirectório de `cifras/` e gera 2 PDFs por cancioneiro (A5 e A4):
+O build itera cada subdirectório de `cifras/` e, para cada layout em `src/layouts/`, gera 2 PDFs por cancioneiro (A5 e A4):
 
 ```
 output/
@@ -29,6 +29,10 @@ output/
 ├── cancioneiro-portugues-a5.pdf
 └── cancioneiro-portugues-a4.pdf
 ```
+
+Com vários layouts em `src/layouts/`, os nomes incluem o layout
+(`cancioneiro-tunadao-<layout>-a5.pdf`) e é possível filtrar com
+`LAYOUT=<nome> npm run build` (lista separada por vírgulas).
 
 ## Como adicionar uma cifra
 
@@ -77,10 +81,12 @@ Adicionar cifras `.txt` nesse directório. No próximo `npm run build`, serão g
 │   ├── types.ts           ← Tipos: Song, SongPart, Section, SongLine
 │   ├── parser.ts          ← Parser de cifras (YAML + texto → AST)
 │   ├── parser.test.ts     ← Testes vitest
-│   ├── render-typst.ts    ← Gerador Typst, compila PDFs
+│   ├── render-typst.ts    ← Orquestrador do build (layouts × cancioneiros × tamanhos)
+│   ├── typst-helpers.ts   ← Helpers de escaping/labels para Typst
+│   ├── layouts/           ← Layouts (cada módulo = uma identidade visual)
 │   └── index.ts           ← Re-exports
 ├── typst/
-│   └── fonts/             ← Comic Neue, Faculty Glyphic, Madimi One
+│   └── fonts/             ← Atkinson Hyperlegible, Barlow, Barlow Condensed
 ├── docs/
 │   └── formato-cifras.md  ← Documentação do formato de cifras
 ├── output/                ← (gitignored) PDFs gerados
@@ -91,6 +97,8 @@ Adicionar cifras `.txt` nesse directório. No próximo `npm run build`, serão g
 ## Design
 
 - **Parser TypeScript** converte ficheiros `.txt` numa AST (Song → Parts → Sections → Lines)
-- **Renderer Typst** converte a AST em código Typst e compila PDFs
-- Layout em **duas colunas**, formato A5 (para encadernação wire-o) e A4
-- Fonts: Faculty Glyphic (títulos), Madimi One (acordes), Comic Neue (letras)
+- **Layouts** (`src/layouts/`) convertem a AST em código Typst; o build compila PDFs para cada layout
+- Formatos A5 e A4, pensados para impressão frente/verso (margens espelhadas, headers pares/ímpares, fundo sempre branco)
+- Cada música pode forçar coluna única com `colunas: 1` no header (default: duas colunas)
+- Fonts: Barlow Condensed (títulos), Barlow (acordes), Atkinson Hyperlegible (letras)
+- Paleta: tinta `#10141B`, azul eléctrico `#2B4BFF` (acordes), coral `#FF5148` (refrão)

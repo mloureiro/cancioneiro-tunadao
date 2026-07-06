@@ -2,32 +2,18 @@ import * as fs from "fs";
 import * as path from "path";
 import { execSync } from "child_process";
 import { parseSong } from "./parser";
-import { Song, SongPart, Section, SongLine, ChordPosition } from "./types";
+import { Song } from "./types";
+import { Layout } from "./layouts/layout";
 
 // --- Configuração ---
 const CIFRAS_BASE = path.resolve(__dirname, "../cifras");
 const OUTPUT_DIR = path.resolve(__dirname, "../output");
 const TYPST_DIR = path.resolve(__dirname, "../typst");
 const FONTS_DIR = path.resolve(TYPST_DIR, "fonts");
+const LAYOUTS_DIR = path.resolve(__dirname, "layouts");
 const PROJECT_ROOT = path.resolve(__dirname, "..");
 
-// Cores do design system
-const COLORS = {
-  title: "#2B4162",      // Indigo Dye
-  subtitle: "#385F71",   // Lapis Lazuli
-  chord: "#6386BB",      // Glaucous
-  text: "#152328",       // Gunmetal
-  introFill: "#F2DDA4",  // Flax (pill background)
-  refraoFill: "#385F71", // Lapis Lazuli (pill background)
-  pillText: "#FFFFFF",
-};
-
-// Fonts
-const FONTS = {
-  title: "Faculty Glyphic",
-  chord: "Madimi One",
-  lyrics: "Comic Neue",
-};
+const PAGE_SIZES = ["a5", "a4"] as const;
 
 // Metadata por cancioneiro (chave = nome do subdirectório em cifras/)
 const CANCIONEIRO_META: Record<string, { displayName: string; headerTitle: string; logoFile: string }> = {
@@ -44,382 +30,39 @@ function getCancioneiroMeta(subdir: string) {
   };
 }
 
-// Configuração passada a generateTypFile
-interface CancioneiroConfig {
-  songs: Song[];
-  pageSize: "a5" | "a4";
-  subdir: string;
-  displayName: string;
-  headerTitle: string;
-  logoPath: string;
-  version: string;
-}
+// Descobrir layouts em src/layouts/ (cada módulo exporta default um Layout).
+// Filtrável via env LAYOUT (lista separada por vírgulas), ex: LAYOUT=v2
+function loadLayouts(): Layout[] {
+  const filter = process.env.LAYOUT
+    ? process.env.LAYOUT.split(",").map(s => s.trim()).filter(Boolean)
+    : null;
 
-// Escapar caracteres especiais para Typst content mode
-function escTypst(s: string): string {
-  return s
-    .replace(/\\/g, "\\\\")
-    .replace(/#/g, "\\#")
-    .replace(/\$/g, "\\$")
-    .replace(/@/g, "\\@")
-    .replace(/</g, "\\<")
-    .replace(/>/g, "\\>")
-    .replace(/\*/g, "\\*")
-    .replace(/_/g, "\\_")
-    .replace(/~/g, "\\~")
-    .replace(/`/g, "\\`")
-    .replace(/\{/g, "\\{")
-    .replace(/\}/g, "\\}");
-}
+  const layouts = fs.readdirSync(LAYOUTS_DIR)
+    .filter(f => /\.ts$/.test(f) && f !== "layout.ts" && !f.endsWith(".test.ts"))
+    .map(f => {
+      const mod = require(path.join(LAYOUTS_DIR, f));
+      const layout: Layout = mod.default ?? mod;
+      if (!layout || typeof layout.generate !== "function" || !layout.name) {
+        throw new Error(`Módulo de layout inválido: ${f} (esperado default export com { name, generate })`);
+      }
+      return layout;
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
 
-// Escapar string literal para Typst (entre aspas)
-function escLiteral(s: string): string {
-  return s
-    .replace(/\\/g, "\\\\")
-    .replace(/"/g, '\\"');
-}
-
-// Gerar inline Typst code para uma linha com acordes sobre letras.
-// Abordagem: pré-computar as prefix strings em JS (que lida bem com Unicode)
-// e gerar code Typst que usa measure() em cada prefix para posicionar o acorde.
-function renderChordLyricsLine(line: SongLine): string {
-  const lyrics = line.lyrics || "";
-  const chords = line.chords || [];
-
-  if (chords.length === 0 && lyrics) {
-    if (line.isBold) {
-      return `#text(weight: "bold", [${escTypst(lyrics)}])\n`;
-    }
-    return `${escTypst(lyrics)}\n`;
+  const selected = filter ? layouts.filter(l => filter.includes(l.name)) : layouts;
+  if (selected.length === 0) {
+    console.error(filter
+      ? `Nenhum layout corresponde a LAYOUT=${process.env.LAYOUT} (disponíveis: ${layouts.map(l => l.name).join(", ")})`
+      : "Nenhum layout encontrado em src/layouts/");
+    process.exit(1);
   }
-
-  if (chords.length > 0 && !lyrics) {
-    const chordsStr = chords.map(c => c.chord).join("  ");
-    return `#text(font: chord-font, fill: chord-color, size: chord-size, [${escTypst(chordsStr)}])\n`;
-  }
-
-  // Linha com acordes sobre letras.
-  // Abordagem: grid com 2 linhas — acordes em cima, letras em baixo.
-  // A linha de acordes é um box com place() para cada acorde.
-  const weight = line.isBold ? `"bold"` : `"regular"`;
-
-  const placeCalls = chords.map(c => {
-    const pos = Math.min(c.position, lyrics.length);
-    const prefix = lyrics.substring(0, pos);
-    return `      place(dx: measure(text(font: lyrics-font, size: lyrics-size, weight: ${weight}, "${escLiteral(prefix)}")).width, text(font: chord-font, fill: chord-color, size: chord-size, "${escLiteral(c.chord)}"))`;
-  }).join("\n");
-
-  const lyricsContent = line.isBold
-    ? `text(weight: "bold", [${escTypst(lyrics)}])`
-    : `[${escTypst(lyrics)}]`;
-
-  return `#v(0.15em)
-#context grid(columns: (100%,), row-gutter: 0pt,
-    box(height: chord-size, {
-${placeCalls}
-    }),
-    ${lyricsContent},
-  )
-`;
+  return selected;
 }
 
-// Gerar uma secção
-function renderSection(section: Section): string {
-  let out = "";
-
-  // Pill de secção
-  if (section.type) {
-    const sectionUpper = section.type.toUpperCase();
-    if (sectionUpper === "INTRO") {
-      out += `#section-pill("INTRO", intro-fill)\n`;
-    } else if (sectionUpper === "REFRÃO" || sectionUpper === "REFRAO") {
-      out += `#section-pill("REFRÃO", refrao-fill)\n`;
-    } else if (sectionUpper === "PASSAGEM") {
-      out += `#section-pill("PASSAGEM", subtitle-color)\n`;
-    } else if (sectionUpper === "SOLO") {
-      out += `#section-pill("SOLO", subtitle-color)\n`;
-    } else if (sectionUpper === "INSTR.") {
-      out += `#section-pill("INSTR.", subtitle-color)\n`;
-    } else if (sectionUpper === "SAÍDA" || sectionUpper === "SAIDA") {
-      out += `#section-pill("SAÍDA", subtitle-color)\n`;
-    } else if (sectionUpper === "SOLISTA") {
-      out += `#section-pill("SOLISTA", subtitle-color)\n`;
-    } else if (section.type.trim()) {
-      out += `#section-label("${escLiteral(section.type)}")\n`;
-    }
-  }
-
-  // Linhas da secção
-  for (const line of section.lines) {
-    switch (line.type) {
-      case "empty":
-        out += `#v(0.3em)\n`;
-        break;
-      case "instruction":
-        out += `#text(fill: subtitle-color, style: "italic", size: 0.85em, [${escTypst(line.instruction || "")}])\n`;
-        out += `#linebreak()\n`;
-        break;
-      case "chords-only":
-        if (line.lyrics) {
-          out += `#text(font: chord-font, fill: chord-color, size: chord-size, [${escTypst(line.lyrics)}])\n`;
-          out += `#linebreak()\n`;
-        } else if (line.chords && line.chords.length > 0) {
-          const chordsStr = line.chords.map(c => c.chord).join("  ");
-          out += `#text(font: chord-font, fill: chord-color, size: chord-size, [${escTypst(chordsStr)}])\n`;
-          out += `#linebreak()\n`;
-        }
-        break;
-      case "lyrics":
-        out += renderChordLyricsLine(line);
-        break;
-    }
-  }
-
-  return out;
-}
-
-// Gerar uma parte (SongPart)
-function renderPart(part: SongPart, isFirst: boolean): string {
-  let out = "";
-
-  if (part.metadata) {
-    if (!isFirst) {
-      out += `#v(0.6em)\n`;
-      out += `#line(length: 100%, stroke: 0.5pt + luma(180))\n`;
-      out += `#v(0.3em)\n`;
-    }
-    if (part.metadata.parte) {
-      out += `#text(font: title-font, fill: title-color, size: 1em, weight: "bold", [${escTypst(part.metadata.parte)}])\n`;
-    }
-    if (part.metadata.tom) {
-      out += `#h(0.5em)\n`;
-      out += `#text(fill: subtitle-color, style: "italic", size: 0.85em, [Tom: ${escTypst(part.metadata.tom)}])\n`;
-    }
-    out += `#linebreak()\n`;
-    out += `#v(0.2em)\n`;
-  }
-
-  for (const section of part.sections) {
-    out += renderSection(section);
-  }
-
-  return out;
-}
-
-// Gerar label ID sanitizado para Typst (letras ASCII, dígitos, hífens)
-function songLabelId(title: string): string {
-  return title
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")  // remove diacríticos
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-// Gerar uma música completa
-function renderSong(song: Song): string {
-  let out = "";
-  const labelId = songLabelId(song.metadata.titulo);
-  out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
-  out += `#song-title("${escLiteral(song.metadata.titulo)}", "${escLiteral(song.metadata.tom)}")\n`;
-
-  for (let i = 0; i < song.parts.length; i++) {
-    out += renderPart(song.parts[i], i === 0);
-  }
-
-  return out;
-}
-
-// Gerar o ficheiro .typ completo
-function generateTypFile(config: CancioneiroConfig): string {
-  const { songs, pageSize, subdir, displayName, headerTitle, logoPath, version } = config;
-  const isA5 = pageSize === "a5";
-  const pageWidth = isA5 ? "148mm" : "210mm";
-  const pageHeight = isA5 ? "210mm" : "297mm";
-  const marginInner = isA5 ? "13mm" : "20mm";
-  const marginOuter = isA5 ? "5mm" : "15mm";
-  const marginTop = isA5 ? "10mm" : "15mm";
-  const marginBottom = isA5 ? "8mm" : "12mm";
-  const titleSize = isA5 ? "13pt" : "16pt";
-  const lyricsSize = isA5 ? "7.5pt" : "10pt";
-  const chordSize = isA5 ? "7pt" : "9pt";
-  const columnGutter = isA5 ? "8mm" : "12mm";
-  const coverTitleSize = isA5 ? "36pt" : "48pt";
-  const coverSubtitleSize = isA5 ? "16pt" : "20pt";
-  const coverVersionSize = isA5 ? "8pt" : "10pt";
-  const coverLogoWidth = isA5 ? "40%" : "35%";
-  const coverMargin = isA5 ? "15mm" : "25mm";
-  const indexTitleSize = isA5 ? "20pt" : "26pt";
-  const indexEntrySize = isA5 ? "9pt" : "11pt";
-  const headerSize = isA5 ? "7pt" : "9pt";
-  const headerLogoHeight = "14pt";
-  const footerSize = isA5 ? "7pt" : "9pt";
-
-  // Cover subtitle: strip "Cancioneiro " prefix from displayName
-  const coverSubtitle = displayName.replace(/^Cancioneiro\s*/, "");
-
-  // Logo path relative to .typ file (which lives in typst/)
-  const logoRelPath = path.relative(TYPST_DIR, logoPath).replace(/\\/g, "/");
-
-  let typ = `// Cancioneiro: ${displayName} — gerado automaticamente
-// Formato: ${pageSize.toUpperCase()} (${pageWidth} × ${pageHeight})
-
-// ─── Cores ───
-#let title-color = rgb("${COLORS.title}")
-#let subtitle-color = rgb("${COLORS.subtitle}")
-#let chord-color = rgb("${COLORS.chord}")
-#let text-color = rgb("${COLORS.text}")
-#let intro-fill = rgb("${COLORS.introFill}")
-#let refrao-fill = rgb("${COLORS.refraoFill}")
-#let pill-text = rgb("${COLORS.pillText}")
-
-// ─── Fonts ───
-#let title-font = "${FONTS.title}"
-#let chord-font = "${FONTS.chord}"
-#let lyrics-font = "${FONTS.lyrics}"
-#let chord-size = ${chordSize}
-#let lyrics-size = ${lyricsSize}
-
-// ─── Página ───
-#set page(
-  width: ${pageWidth},
-  height: ${pageHeight},
-  margin: (
-    inside: ${marginInner},
-    outside: ${marginOuter},
-    top: ${marginTop},
-    bottom: ${marginBottom},
-  ),
-)
-
-#set text(
-  font: lyrics-font,
-  size: lyrics-size,
-  fill: text-color,
-  lang: "pt",
-)
-
-#set par(leading: 0.5em, spacing: 0.4em)
-
-// ─── Funções auxiliares ───
-
-// Pill de secção (INTRO, REFRÃO, etc.)
-#let section-pill(label, bg-color) = {
-  v(0.4em)
-  box(
-    fill: bg-color,
-    radius: 3pt,
-    inset: (x: 5pt, y: 2pt),
-    text(fill: pill-text, size: 0.75em, weight: "bold", font: title-font, label),
-  )
-  linebreak()
-  v(0.15em)
-}
-
-// Label de secção custom (sub-músicas etc.)
-#let section-label(label) = {
-  v(0.4em)
-  text(font: title-font, fill: title-color, size: 0.9em, weight: "bold", label)
-  linebreak()
-  v(0.15em)
-}
-
-// Título da música com tom
-#let song-title(titulo, tom) = {
-  text(font: title-font, fill: title-color, size: ${titleSize}, weight: "bold", titulo)
-  linebreak()
-  text(fill: subtitle-color, style: "italic", size: 0.8em, [Tom: #tom])
-  linebreak()
-  v(0.4em)
-}
-
-// ─── Capa (página dedicada, coluna única) ───
-#page(margin: ${coverMargin}, header: none, footer: none)[
-  #align(center)[
-    #v(0.5fr)
-    #image("${escLiteral(logoRelPath)}", width: ${coverLogoWidth})
-    #v(2fr)
-    #text(font: title-font, fill: title-color, size: ${coverTitleSize}, weight: "bold")[CANCIONEIRO]
-    #v(1em)
-    #text(font: title-font, fill: subtitle-color, size: ${coverSubtitleSize})[${escTypst(coverSubtitle)}]
-    #v(1fr)
-    #text(fill: subtitle-color, size: ${coverVersionSize})[v${escTypst(version)}]
-    #v(0.2fr)
-  ]
-]
-
-// ─── Página em branco (verso da capa) ───
-#page(header: none, footer: none)[]
-
-// ─── Índice (página dedicada, coluna única) ───
-#page(header: none, footer: none)[
-  #align(center)[
-    #text(font: title-font, fill: title-color, size: ${indexTitleSize}, weight: "bold")[Índice]
-    #v(1em)
-  ]
-  #set text(size: ${indexEntrySize})
-${songs
-  .slice()
-  .sort((a, b) => a.metadata.titulo.localeCompare(b.metadata.titulo, "pt"))
-  .map(song => {
-    const labelId = songLabelId(song.metadata.titulo);
-    const title = escTypst(song.metadata.titulo);
-    return `  #context {
-    let loc = locate(label("song-${labelId}"))
-    let pg = counter(page).at(loc).first()
-    [${title} #box(width: 1fr, repeat[.#h(2pt)]) #pg \\ ]
-  }`;
-  })
-  .join("\n")}
-]
-
-#counter(page).update(1)
-#pagebreak(to: "even")
-
-// ─── Páginas de músicas (duas colunas, com headers/footers) ───
-#set columns(gutter: ${columnGutter})
-#set page(
-  columns: 2,
-  header: block(below: 8pt, context {
-    let pg = counter(page).get().first()
-    set text(font: title-font, fill: subtitle-color, size: ${headerSize})
-    if calc.even(pg) {
-      align(right, pad(right: 8pt, [${escTypst(headerTitle)}]))
-    } else {
-      v(${headerSize})
-    }
-    v(-1pt)
-    line(length: 100%, stroke: 0.4pt + subtitle-color)
-    if calc.odd(pg) {
-      place(top + left, dx: 8pt, dy: -9pt, image("${logoRelPath}", height: ${headerLogoHeight}))
-    }
-  }),
-  footer: context {
-    let pg = counter(page).get().first()
-    set text(fill: subtitle-color, size: ${footerSize})
-    line(length: 100%, stroke: 0.4pt + subtitle-color)
-    v(-1pt)
-    if calc.even(pg) {
-      align(right, pad(right: 8pt, counter(page).display()))
-    } else {
-      align(left, pad(left: 8pt, counter(page).display()))
-    }
-    v(4pt)
-  },
-)
-
-// ─── Conteúdo ───
-
-`;
-
-  for (let i = 0; i < songs.length; i++) {
-    if (i > 0) {
-      typ += `#colbreak()\n\n`;
-    }
-    typ += renderSong(songs[i]);
-    typ += `\n`;
-  }
-
-  return typ;
+function compileTypst(typPath: string, pdfPath: string) {
+  execSync(`typst compile --root "${PROJECT_ROOT}" --font-path "${FONTS_DIR}" "${typPath}" "${pdfPath}"`, {
+    stdio: "inherit",
+  });
 }
 
 // --- Main ---
@@ -427,6 +70,9 @@ function main() {
   const runNumber = process.env.CANCIONEIRO_VERSION;
   const version = runNumber ? `${new Date().getFullYear()}.${runNumber}` : "dev";
   console.log(`Versão: ${version}`);
+
+  const layouts = loadLayouts();
+  console.log(`Layouts: ${layouts.map(l => l.name).join(", ")}`);
 
   // Iterar subdirectórios de cifras/ como cancioneiros separados
   const subdirs = fs.readdirSync(CIFRAS_BASE).filter(d => {
@@ -458,49 +104,42 @@ function main() {
 
     const meta = getCancioneiroMeta(subdir);
     const logoPath = path.resolve(__dirname, "../assets", meta.logoFile);
+    const logoRelPath = path.relative(TYPST_DIR, logoPath).replace(/\\/g, "/");
 
     const songs: Song[] = files.map(f => {
       const filePath = path.join(cifrasDir, f);
-      console.log(`  Parsing: ${f}`);
       return parseSong(filePath);
     });
 
-    // Gerar e compilar A5
-    const typA5 = generateTypFile({ songs, pageSize: "a5", subdir, displayName: meta.displayName, headerTitle: meta.headerTitle, logoPath, version });
-    const typA5Path = path.join(TYPST_DIR, `cancioneiro-${subdir}-a5.typ`);
-    fs.writeFileSync(typA5Path, typA5, "utf-8");
-    console.log(`Gerado: ${typA5Path}`);
+    for (const layout of layouts) {
+      for (const pageSize of PAGE_SIZES) {
+        const typ = layout.generate({
+          songs,
+          pageSize,
+          displayName: meta.displayName,
+          headerTitle: meta.headerTitle,
+          logoRelPath,
+          version,
+        });
 
-    // Gerar e compilar A4
-    const typA4 = generateTypFile({ songs, pageSize: "a4", subdir, displayName: meta.displayName, headerTitle: meta.headerTitle, logoPath, version });
-    const typA4Path = path.join(TYPST_DIR, `cancioneiro-${subdir}-a4.typ`);
-    fs.writeFileSync(typA4Path, typA4, "utf-8");
-    console.log(`Gerado: ${typA4Path}`);
+        // Com um único layout, nomes limpos (sem o segmento do layout)
+        const baseName = layouts.length === 1
+          ? `cancioneiro-${subdir}-${pageSize}`
+          : `cancioneiro-${subdir}-${layout.name}-${pageSize}`;
+        const typPath = path.join(TYPST_DIR, `${baseName}.typ`);
+        const pdfPath = path.join(OUTPUT_DIR, `${baseName}.pdf`);
 
-    // Compilar com Typst
-    const outputA5 = path.join(OUTPUT_DIR, `cancioneiro-${subdir}-a5.pdf`);
-    const outputA4 = path.join(OUTPUT_DIR, `cancioneiro-${subdir}-a4.pdf`);
+        fs.writeFileSync(typPath, typ, "utf-8");
 
-    console.log(`Compilando ${subdir} A5...`);
-    try {
-      execSync(`typst compile --root "${PROJECT_ROOT}" --font-path "${FONTS_DIR}" "${typA5Path}" "${outputA5}"`, {
-        stdio: "inherit",
-      });
-      console.log(`PDF A5 gerado: ${outputA5}`);
-    } catch (e) {
-      console.error(`Erro a compilar ${subdir} A5:`, (e as Error).message);
-      process.exit(1);
-    }
-
-    console.log(`Compilando ${subdir} A4...`);
-    try {
-      execSync(`typst compile --root "${PROJECT_ROOT}" --font-path "${FONTS_DIR}" "${typA4Path}" "${outputA4}"`, {
-        stdio: "inherit",
-      });
-      console.log(`PDF A4 gerado: ${outputA4}`);
-    } catch (e) {
-      console.error(`Erro a compilar ${subdir} A4:`, (e as Error).message);
-      process.exit(1);
+        console.log(`A compilar ${baseName}...`);
+        try {
+          compileTypst(typPath, pdfPath);
+          console.log(`PDF gerado: ${pdfPath}`);
+        } catch (e) {
+          console.error(`Erro a compilar ${baseName}:`, (e as Error).message);
+          process.exit(1);
+        }
+      }
     }
   }
 
