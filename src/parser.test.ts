@@ -297,11 +297,11 @@ describe("parseSong — És Tu (passagem com modulação)", () => {
   });
 });
 
-describe("parseSong — todos os 14 ficheiros sem erros", () => {
+describe("parseSong — todos os ficheiros sem erros", () => {
   const files = fs.readdirSync(CIFRAS_DIR).filter((f) => f.endsWith(".txt"));
 
-  it("existem 14 ficheiros de cifra", () => {
-    expect(files).toHaveLength(14);
+  it("existem 20 ficheiros de cifra", () => {
+    expect(files).toHaveLength(20);
   });
 
   for (const file of files) {
