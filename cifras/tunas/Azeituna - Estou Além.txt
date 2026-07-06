@@ -36,19 +36,3 @@ Do que quero e do que venho
 Entre o que sou e o que convém
     C#              E
 Sempre além, sempre aquém
-
-ESTRUTURA:
-Intro - Verso - Refrão - Verso - Refrão - Final
-
-PROGRESSÃO HARMÓNICA:
-I - IV - V - VII (em F# maior)
-
-CRÉDITOS:
-© António Variações (1982)
-Arranjo: Azeituna - Universidade do Minho
-Adaptação: Álbum/EP 2020
-
-FONTES E REFERÊNCIAS:
-- Cifra Club: https://www.cifraclub.com.br/humanos/estou-alem/
-- António Variações - "Estou Além" (1982)
-- Estrutura harmónica: F#, B, C#, E

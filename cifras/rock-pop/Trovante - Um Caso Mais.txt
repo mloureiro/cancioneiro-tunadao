@@ -4,8 +4,6 @@ artista: Trovante
 tom: D
 ---
 
-
-
 [INTRO]                D , G   (x12)
                             Em , G   (x4)
                             D , G  , D , G   (x2)
@@ -52,5 +50,3 @@ Se o Inverno for, depois, duro demais.
 [REFRÃO]
 
 [INSTR.]
-
-©Afonsina 2019 - 5/7min, Bananalidades

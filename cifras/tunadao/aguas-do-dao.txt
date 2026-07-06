@@ -1,6 +1,5 @@
 ---
 titulo: Águas do Dão
-artista: Música Popular Portuguesa
 tom: Bm
 ---
 

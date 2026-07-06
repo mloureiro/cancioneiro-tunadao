@@ -4,92 +4,178 @@ artista: SemperT'unos
 tom: B
 ---
 
+[parte: Tudo Isto é Fado]
+[tom: Bm]
 
-1º música- Tudo Isto é Fado
-3º Música- Oiça lá ó Senhor Vinho
-Bm
-Perguntaste-me outro F#dia               B
-Oiça lá, ó senhor F#Vinho
-Se eu sabia o que era o Bmfado           Vai responder-me, mas com
-Eu diBsse que Emnão sabia                       fraBnqueza
-Tu fiF#caste Bmadmirado           Porque é que tira toda a F#firmeza
-A quem encontra no seu
-Sem saber o que diF#zia                        B
-caminho?
-Eu menti B7naquela Bmhora             B
-A por beber um F#copinho
-E Bdisse que Bmnão sa Embia          A mais, até pessoas Bpacatas,
-Mas F#7vou Bmte dizF#er aB gora      Amigo vinho, em de F#salinho
-Vossa mercê faz andar deB gatas!
-2º Música- Seja Agora
-B7
-B                                                  É mau o procedEimento
-Nós havemos de nos Ever os dois
-E a inteF#nção daquilo queB faz
-Ver no que isto Bdá
-Entra-se em desiquF#ilibrio
-Ficar um F#pouco mais a
-Não há equilíbrio que seja Bcapaz
-converBsar                          B7
-As leis da física falhamE
-Ter a eternidade Epara nós
-E a verticalF# de qualquer Blugar
-Quem sabe Bum jantar
-Oscila sem se deter F#
-Se qui F#seres pode ser hoje
-E deixa de ser perpendBicular
-B
-Tem de acontecer, Eporque tem
-de Bser                               4º Música- Já estás com os copos
-E o que tem de F#ser tem muita               Há aqueles que falam altoD
-B
-força                          Outros vêm a dobrarGm
-E
-E sei que vai ser, porque tem de              Uns esbardalha-se no asfaltoD
-B
-ser                         Com garrafas de Planalto
-Se é pra aconteF#cer,                 Outros não param de chorarGm
-pois, que seja aBgora                Uns esbardalha-se no asfaltoD
-Que seja agora, Eque seja agora             Outros não param de chorarGm
-B
-Se é pra acontecer, F#pois, que
-seja agora
-28 de 55
-SemperT’unos – Tuna Mista da Escola Superior de Saúde do
-Instituto Politécnico de Setúbal
-Cancioneiro
-Acabam sempre com menos                       5º Música- Refrão Tudo Isto é Fado
-roupaD                                 C
+Bm                F#
+Perguntaste-me outro dia
+                        Bm
+Se eu sabia o que era o fado
+     B            Em
+Eu disse que não sabia
+      F#       Bm
+Tu ficaste admirado
+                  F#
+Sem saber o que dizia
+
+           B7        Bm
+Eu menti naquela hora
+    B         Bm     Em
+E disse que não sabia
+     F#7 Bm    F#  B
+Mas vou te dizer agora
+
+===
+
+[parte: Seja Agora]
+[tom: B]
+
+B                        E
+Nós havemos de nos ver os dois
+              B
+Ver no que isto dá
+         F#                 B
+Ficar um pouco mais a conversar
+                  E
+Ter a eternidade para nós
+           B
+Quem sabe um jantar
+      F#
+Se quiseres pode ser hoje
+
+B                     E        B
+Tem de acontecer, porque tem de ser
+                 F#            B
+E o que tem de ser tem muita força
+                               B
+E sei que vai ser, porque tem de ser
+                F#
+Se é pra acontecer,
+              B
+pois, que seja agora
+                E
+Que seja agora, que seja agora
+                    F#
+Se é pra acontecer, pois, que seja agora
+
+===
+
+[parte: Oiça lá ó Senhor Vinho]
+[tom: B]
+
+              F#
+Oiça lá, ó senhor Vinho
+                        B
+Vai responder-me, mas com franqueza
+                          F#
+Porque é que tira toda a firmeza
+                        B
+A quem encontra no seu caminho?
+
+                  F#
+Lá por beber um copinho
+                        B
+A mais, até pessoas pacatas,
+                     F#
+Amigo vinho, em desalinho
+                          B
+Vossa mercê faz andar de gatas!
+
+B7                E
+É mau o procedimento
+       F#                 B
+E a intenção daquilo que faz
+                F#
+Entra-se em desiquilíbrio
+                          B
+Não há equilíbrio que seja capaz
+
+B7                  E
+As leis da física falham
+        F#                B
+E a vertical de qualquer lugar
+                    F#
+Oscila sem se deter
+                          B
+E deixa de ser perpendicular
+
+===
+
+[parte: Já Estás com os Copos]
+[tom: D]
+
+                          D
+Há aqueles que falam alto
+                  Gm
+Outros vêm a dobrar
+                          D
+Uns esbardalha-se no asfalto
+Com garrafas de Planalto
+                        Gm
+Outros não param de chorar
+                          D
+Uns esbardalha-se no asfalto
+                        Gm
+Outros não param de chorar
+
+                            D
+Acabam sempre com menos roupa
+                    Gm
+No final já tudo fuma
+                          D
+Há gritos, tripe e miséria
+Qual peça do La Féria
+                      Gm
+Mas a verdade é só uma
+                          D
+Há gritos, stip e miséria
+                      Gm
+Mas a verdade é só uma
+
+                                D
+Já estás com os copos, já estás com os copos, já
+                                Gm
+Já estás com os copos, já estás, já estás
+                                D
+Já estás com os copos, já estás com os copos, já
+                                Gm
+Já estás com os copos, já estás, já estás
+
+===
+
+[parte: Refrão Tudo Isto é Fado]
+[tom: C]
+
+C
 Almas vencidas,
-No final já tudo fumaGm
-noites perdiAdas,
-Há gritos, tripe e misériaD
-sombras bizaDmrras.
-Qual peça do La Féria                            G
-Na Moura---ria
-Mas a verdade é só umaGm
-canta um ruGfia,
-Há gritos, stip e misériaD
-choram guiCtarras.
-Mas a verdade é só umaGm
-Amor de ciAúme
-cinzas e Alume,
-Já estás com os copos, já estás
-dor e peD-cado.
-com os Dcopos, já
-Tudo isto Cexiste,
-Já estás com os copos, Já estás, Já
-tudo isto é Gtriste,
-estásGm
-tudo isto é Cfado.
-Já estás com os copos, Já estás
-Tudo isto Cexiste,
-com os Dcopos, Já,
-tudo isto é Gtriste,
-Já estás com os copos, Já estás, Já
-tudo isto é Cfado.Gdo
-estásGm
-29 de 55
-SemperT’unos – Tuna Mista da Escola Superior de Saúde do
-Instituto Politécnico de Setúbal
-Cancioneiro
+        A
+noites perdidas,
+        Dm
+sombras bizarras.
+        G
+Na Mouraria
+        G
+canta um rufia,
+        C
+choram guitarras.
+
+        A
+Amor de ciúme
+        A
+cinzas e lume,
+      D
+dor e pecado.
+
+      C
+Tudo isto existe,
+            G
+tudo isto é triste,
+            C
+tudo isto é fado.
+
+      C
+Tudo isto existe,
+            G
+tudo isto é triste,
+            C
+tudo isto é fado.

@@ -4,8 +4,6 @@ artista: Francisco Ribeiro
 tom: d
 ---
 
-
-
 [INTRO]                Am , Fmaj7, Dm , G  , G#dim   (x3)
 
 Am
@@ -52,5 +50,3 @@ Perdoei ao som do "Ai"
 Perdoei ao que sentia
 Perdoei a minha mãe              Instrumentos e vozes param
 Perdoei             G  , G#dim   (x4)        Am
-
-©Afonsina 2019 - 5/7min, Bananalidades

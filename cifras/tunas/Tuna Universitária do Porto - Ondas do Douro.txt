@@ -4,7 +4,6 @@ artista: Tuna Universitária do Porto
 tom: C
 ---
 
-
 [INTRO] (acordes do refrão)
 
 [REFRÃO]
@@ -37,5 +36,3 @@ Que o estudante eterno amante virá cantar-te.
 
       C               G               C
 Enamorado, canta enlevado trovas de amor.
-
-©Afonsina 2019 - 5/7min, Bananalidades

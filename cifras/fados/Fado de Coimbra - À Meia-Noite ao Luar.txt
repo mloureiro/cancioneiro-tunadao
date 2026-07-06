@@ -4,7 +4,6 @@ artista: Fado de Coimbra
 tom: E
 ---
 
-
 [INSTR.] E , B7        (x2)
                             A , B7 , E
 
@@ -44,5 +43,3 @@ Para ouvir a serenata.
 [REFRÃO]
 
 [INSTR.]
-
-©Afonsina 2019 - 5/7min, Bananalidades

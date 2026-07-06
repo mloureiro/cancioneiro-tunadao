@@ -4,8 +4,6 @@ artista: Rubén Fuentes
 tom: G
 ---
 
-
-
 [INTRO]                G  , B7 , Em , G7  , C , B7 , Em , A7 , D7
 
          G                    B7
@@ -52,5 +50,3 @@ Dicen que pasa la vida soñando con él.
 
 [REFRÃO]
 [Quadra a partir de (*), com o úlitmo verso repetido x3]
-
-©Afonsina 2019 - 5/7min, Bananalidades

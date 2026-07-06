@@ -4,8 +4,6 @@ artista: Sérgio Godinho
 tom: Dm
 ---
 
-
-
 [INTRO]                Dm , C , Dm , C , Dm , C , A  (x2)
                             A# , A  (x2)
 
@@ -39,7 +37,6 @@ O que eu quis ver afinal.
                  C                               A
       É bom pra mim e é bom pra quem tão bem me quer.
 
-
 Vale a pena ver, o mundo aqui do alto,
 Vale a pena dar o salto.
 
@@ -51,5 +48,3 @@ Convém dar a curva sem se derrapar,
 Na avenida do luar.
 
 [Refrão, x3, acelerando sempre o ritmo]
-
-©Afonsina 2019 - 5/7min, Bananalidades

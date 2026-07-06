@@ -4,7 +4,6 @@ artista: Tuna Universitária do Minho
 tom: G
 ---
 
-
 C
 Ai Ai, Ai Ai meu Deus
                   G
@@ -43,5 +42,3 @@ G                   C , G  , C
 Nanananananananana
 
 [Repete a música toda 3 vezes, o tempo aumenta de cada vez]
-
-©Afonsina 2019 - 5/7min, Bananalidades
