@@ -792,7 +792,7 @@ function generate(input: LayoutInput): string {
     stroke: 0.7pt + hairline-color,
     radius: 2pt,
     inset: (x: 6pt, y: 3.5pt),
-    cond-text([VERSÃO ${escTypst(version)}], size: ${coverVersionSize}, fill: grey, weight: 600, tracking: 0.12em),
+    cond-text([${escTypst(version === "dev" ? "dev" : `v${version}`)}], size: ${coverVersionSize}, fill: grey, weight: 600, tracking: 0.12em),
   )
   #v(0.12fr)
 ]
