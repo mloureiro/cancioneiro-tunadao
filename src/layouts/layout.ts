@@ -1,8 +1,20 @@
 import { Song } from "../types";
 
+// Uma secção nomeada dentro de um cancioneiro (ex: "Fados", "Tunas").
+export interface BookSection {
+  name: string;
+  songs: Song[];
+}
+
 // Input passado a cada layout para gerar um ficheiro .typ.
 export interface LayoutInput {
+  /** Todas as músicas do livro, por ordem (concatenação das secções). */
   songs: Song[];
+  /**
+   * Secções nomeadas do livro. Se ausente/vazio, o livro é uma lista simples
+   * (sem divisórias nem índice agrupado).
+   */
+  sections?: BookSection[];
   pageSize: "a5" | "a4";
   /** Nome completo do cancioneiro, ex: "Cancioneiro Tunadão 1998" */
   displayName: string;
@@ -23,6 +35,8 @@ export interface LayoutInput {
 //   headers/footers diferenciados para páginas pares/ímpares.
 // - Respeitar `song.metadata.colunas` (1 = coluna única, default 2).
 //   Mudar de modo de colunas deve quebrar página.
+// - Se `sections` for fornecido (secções nomeadas), mostrar uma divisória por
+//   secção e agrupar o índice por secção. Caso contrário, lista simples.
 // - Fonts custom vão em typst/fonts/ (o build passa --font-path).
 export interface Layout {
   /** Identificador usado nos nomes de ficheiros (kebab-case). */

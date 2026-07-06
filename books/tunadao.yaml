@@ -1,0 +1,11 @@
+# Um cancioneiro (livro). O nome do ficheiro define os PDFs:
+# cancioneiro-tunadao-a5.pdf / cancioneiro-tunadao-a4.pdf
+title: Cancioneiro Tunadão 1998   # capa + índice
+header: Tunadão 1998              # cabeçalho corrente das páginas
+logo: tunadao-logo.png           # ficheiro em assets/
+formats: [a5, a4]                # que PDFs gerar
+
+# Lista simples (sem secções). Cada linha é um caminho .txt (relativo à raiz)
+# ou um glob simples (cifras/pasta/*.txt), por ordem.
+songs:
+  - cifras/tunadao/*.txt
