@@ -1,0 +1,70 @@
+---
+titulo: Declaração
+artista: João Fernandes
+tom: Em
+---
+
+[INTRO] F#m            B7          E       A
+[INSTR.] D Gm C B7 Em Gm A7
+D Gm C B7 Em C Am A7 D B7
+[INSTR.] D Gm C B7 Em Gm A7
+E                             G#m
+Há muitas noites em que sorrio ao pensar
+F#m           Am              B7
+Que tendo alguém como tu, é tão bom amar
+A Am              E
+São noites em que o brilho mais ténue
+F#m                                      B7
+Da mais ténue das estrelas, cega por tanto brilhar
+
+E                               G#m
+Tais noites trazem memórias de amor
+F#m              Am                  B7
+De outras noites passadas elevando-te a cantar
+A          Am                 E
+São noites de luz, noites de alegria
+C#7                 F#m
+Em que ao fixar, o teu olhar
+C                    B7      C         B7
+   E     B7
+Lembro a primeira vez, a quem amo confessei
+amar
+
+E           Am       D7          C#7
+Guardo na idéia o lugar, o momento
+F#m                      A B7
+O nosso primeiro olhar e o sentimento
+E         Am          D7              C#7
+Que dentro de mim descobri, p'ra meu espanto
+
+E hoje ao recordar, ao ver a Lua raiar
+
+Lembro essa noite de encanto
+
+D Gm C B7 Em C Am A7 D B7
+
+E                                  G#m
+É nessas noites, ao ver os teus olhos luzir
+F#m            Am                        B7
+Que a minha alma se eleva, e eu não paro de
+sorrir
+A             Am                 E
+E canto teu encanto, com redobrado rigor
+C#7                         F#m
+As notas são emoções, e os versos confissões
+B7                       E      B7
+E as melodias declarações de amor
+
+Instrumental: D Gm C B7 Em Gm A7
+D Gm C B7 Em C Am A7 D B7
+
+E            Am       D7         C#7
+Guardo na idéia o lugar, o momento
+F#m                      A B7
+O nosso primeiro olhar e o sentimento
+E          Am          D7              C#7
+Que dentro de mim descobri, p'ra meu espanto
+F#m                     D
+E hoje ao recordar, ao ver a Lua raiar
+F#m            B7           E      A
+Lembro essa noite de encanto.

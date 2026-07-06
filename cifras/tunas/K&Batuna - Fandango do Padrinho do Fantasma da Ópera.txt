@@ -1,0 +1,51 @@
+---
+titulo: Fandango do Padrinho do Fantasma da Ópera
+artista: K&Batuna
+tom: Am
+---
+
+
+Início: Bandolins (2x)
+
+Am  (2), Dm  (1), E7  (1), Am  (1) – 2x
+
+Am , E7 , Am , E7 , Am
+
+G  , C , E7 , Am , G  , C , E7 , Am
+
+(Mais rápido)
+
+Am , Dm , E7 , Am  – 2x
+
+Am , E7 , Am , E7 , Am
+
+G  , C , E7 , Am , G  , C , E7 , Am
+
+(Mais lento)
+
+Am , Dm , Am
+
+Am , Dm
+
+E7 , Am , Dm , E7 , Am
+
+G, C, E7, Am
+
+G  , C , Dm
+
+E7 , Am , Dm , Am ,
+
+Am , Dm , E7
+
+Am , Dm , E7 , Am
+
+Bombo
+
+Am , F , Am , F , Am
+Dm , G  , Am  – 2x
+
+Dm , G  , Am
+
+Am , F , Am , F , Am , F , Am
+
+[SAÍDA] E7 / A

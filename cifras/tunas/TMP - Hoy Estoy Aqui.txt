@@ -1,0 +1,44 @@
+---
+titulo: Hoy Estoy Aqui
+artista: TMP
+tom: Am
+---
+
+[INTRO] F C F C
+[G7 C G7 C G7 C E Am] x2
+[E Am] x2
+F C E Am C E Am [E Am] x2
+
+ F                        C
+Hoy estoy aquí, mañana me voy,
+F              C           E       Am
+pasado mañana dónde me encontraré.
+ F                        C
+Hoy estoy aquí, mañana me voy,
+F              C           E       Am [E Am] x2
+pasado mañana dónde me encontraré.
+
+[REFRÃO]
+         G                      C
+Cartitas recibirás, retratos te mandaré,
+F            C        E         Am
+pero a mi persona nunca la tendrás,
+F            C        E         Am [E Am] x2
+pero a mi persona nunca la tendrás.
+
+                              F            C
+Mañana me voy a la guarnición,
+                F                C      E        Am
+soldado seré, dame tu bendición.
+                              F            C
+Mañana me voy a la guarnición,
+                F                C      E        Am [E Am] x2
+soldado seré, dame tu bendición.
+
+[REFRÃO]
+         G                      C
+Cartitas recibirás, retratos te mandaré,
+F            C        E         Am
+pero a mi persona nunca la tendrás,
+F            C        E         Am [E Am] x2
+pero a mi persona nunca la tendrás.

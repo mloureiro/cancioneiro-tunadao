@@ -1,0 +1,89 @@
+---
+titulo: Fado Português
+artista: EUL
+tom: Dm
+---
+
+[INTRO]
+Dm  Gm  G#º  A7  Dm
+
+[Primeira Parte]
+Dm               Gm
+O Fado nasceu um dia
+           G#º       A7  
+Quando o vento mal bulia
+                    Dm
+E o céu o mar prolongava
+                 C7
+Na amurada dum veleiro
+                  Bb7
+No peito dum marinheiro
+Gm           G#º        A7
+Que, estando triste, cantava
+                        D
+Que, estando triste, cantava
+
+[Segunda Parte]
+                  F#m
+Ai, que lindeza tamanha
+                         B7
+Meu chão, meu monte, meu vale
+                           Em
+De folhas, flores, frutas de oiro
+      A7              D
+Vê se vês terras de Espanha
+B7             Em
+Areias de Portugal
+A7                 D
+Olhar ceguinho de choro
+
+[Terceira Parte]
+Dm                Gm
+Na boca dum marinheiro
+   G#º            A7 
+Do frágil barco veleiro
+                   Dm
+Morrendo a canção magoada
+                C7
+Diz o pungir dos desejos
+                 Bb7
+Do lábio a queimar de beijos
+Gm           G#º        A7
+Que beija o ar, e mais nada
+                      D
+Que beija o ar, e mais nada
+
+[Segunda Parte]
+                    F#m
+Mãe, adeus. Adeus, Maria
+                     B7
+Guarda bem no teu sentido
+                      Em
+Que aqui te faço uma jura
+        A7              D
+Que ou te levo à sacristia
+        B7             Em
+Ou foi Deus que foi servido
+  A7                 D
+Dar-me no mar sepultura
+
+[Quarta Parte]
+  Dm                Gm
+Ora eis que embora outro dia
+   G#º            A7 
+Quando o vento nem bulia
+                 Dm
+E o céu o mar prolongava
+                 C7
+À proa de outro veleiro
+             Bb7
+Velava outro marinheiro
+Gm           G#º        A7
+Que, estando triste, cantava
+                        D
+Que, estando triste, cantava
+
+Acordes principais: Dm, Gm, G#º, A7, C7, Bb7, D, F#m, B7, Em
+Composição: José Régio (letra) / Alain Oulman (música)
+Famosa interpretação: Amália Rodrigues
+Fonte: Cifra Club

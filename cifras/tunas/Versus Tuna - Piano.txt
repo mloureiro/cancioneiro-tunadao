@@ -1,0 +1,22 @@
+---
+titulo: Piano
+artista: Versus Tuna
+tom: d
+---
+
+[INTRO] (só guitarra)
+Am
+Parte A (entram os outros instrumentos)
+Am, D7, Am, D7
+Parte B
+Am, F, G   (X2)
+Am, E
+Parte C
+C, G, Am, E, F, G
+C, Dm, Am
+C, G, Am, E
+C, G, Am, E, Am, D, Am
+Parte D (lenta – uma guitarra faz dedilhado enquanto as outras dão os acordes)
+Am (X7), D7
+Sequência: Introdução, Parte A, Parte B, Parte A, Parte C, Parte D, Parte B, Parte A, Parte C,
+Parte A

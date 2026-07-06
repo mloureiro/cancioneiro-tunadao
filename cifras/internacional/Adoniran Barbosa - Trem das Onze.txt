@@ -1,0 +1,40 @@
+---
+titulo: Trem das Onze
+artista: Adoniran Barbosa
+tom: Am
+---
+
+[INTRO] Dm Bm7(5-) Am/E Am Am/G F#dim F7 E7 E7/B Am A7
+
+Am
+Não posso ficar
+                    Am/C  Am
+Nem mais um minuto com você
+Sinto muito amor
+          E7   A7
+Mas não pode ser
+Dm  Bm7(5-)   Am
+Moro em Jaçanã
+               F7
+Se eu perder esse trem
+       E7          E7/D
+Que sai agora às onze horas
+E7/G#        Am
+Só amanhã de manhã
+
+A/C#       A7
+Além disso mulher
+       Dm
+Tem outra coisa
+    D#dim
+Minha mãe não dorme
+   Adim         E7
+Enquanto eu não chegar
+
+[REFRÃO]
+Dm       Bm7(5-)  Am/E
+Sou filho único
+   F#dim  F7   E7  E7/B  Am
+Tenho minha casa pra olhar
+
+[SAÍDA] Dm Bm7(5-) Am/E Am Am/G F#dim F7 E7 E7/B Am E7

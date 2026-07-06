@@ -1,0 +1,17 @@
+---
+titulo: Os Animais Têm Orelhas
+artista: Ukurralle
+tom: E
+---
+
+Vou puxar as orelhas ao meu (pessoa "X") x4
+Os animais têm orelhas!
+É para serem felizes!
+
+/* agora com toda a pujança: */
+Os animais têm orelhas!
+É para serem felizes!
+Os animais têm orelhas!
+É para serem puxadas!
+
+Letra & Música: Ukurralle

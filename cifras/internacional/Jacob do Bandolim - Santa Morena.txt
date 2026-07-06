@@ -1,0 +1,25 @@
+---
+titulo: Santa Morena
+artista: Jacob do Bandolim
+tom: A
+---
+
+(Instrumental)
+
+[INTRO] (A Bb) 3x A (Bb A) 6x (Bb A) 2x
+
+A7 Dm C C7 F D7 Gm Dm E7 A7
+A7 Dm C C7 F D7 Gm Dm Bb7 A7 Dm
+C C7 F A7 Dm D7 Gm Dm C7 Bb7 A7
+C C7 F A7 Dm D7 Gm Dm Bb7 A7 Dm
+
+A7 Dm C C7 F D7 Gm Dm E7 A7
+A7 Dm C C7 F D7 Gm Dm Bb7 A7 Dm
+C C7 F A7 Dm D7 Gm Dm C7 Bb7 A7
+C C7 F A7 Dm D7 Gm Dm Bb7 A7 Dm
+
+A7 Dm C C7 F D7 Gm Dm E7 A7
+A7 Dm C C7 F D7 Gm Dm Bb7 A7
+
+Final: Dm Edim F Gm
+Dm C7 Bb7 A7 Dm A7 Dm

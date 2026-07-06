@@ -1,0 +1,39 @@
+---
+titulo: Meu Alentejo
+artista: Popular
+tom: C
+---
+
+
+[INTRO] C
+[INSTR.] (C G F G C) 2x
+(Am Dm G C) 2x
+
+C                  G
+Eu não sei que tenho em Évora
+F    G               C
+Que de Évora me estou lembrando
+Am         Dm
+Ao passar o rio Tejo
+G               C
+As ondas me vão levando
+
+C                 G
+Ceifeira que andas à calma
+F     G              C
+À calma, ceifando o trigo
+Am            Dm
+Ceifa as penas da minh'alma
+G             C
+Ceif'as e lev'as contigo
+
+C               F
+Abalei do Alentejo
+G                 C
+Olhei para trás chorando
+Am        Dm
+Alentejo da minh'alma
+G             C
+Tão longe me vais ficando.
+
+C Fm C G C

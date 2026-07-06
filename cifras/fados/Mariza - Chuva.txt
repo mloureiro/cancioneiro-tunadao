@@ -1,0 +1,130 @@
+---
+titulo: Chuva
+artista: Mariza
+tom: F#
+---
+
+[INTRO] F#  B9  F#  B9
+   
+   F#                 B9
+E|-----------4p2--------------2---2---------|
+B|---------2-----2----------2---2-----------|
+G|-------3---------3------4-----------------|
+D|-----4----------------4-------------------|
+A|---4----------------2---------------------|
+E|-2----------------------------------------|
+
+   F#                 B9
+E|-----------4p2--------------2-------------|
+B|---------2-----2----------2------2--------|
+G|-------3---------3------4-----2--4--------|
+D|-----4----------------4----------4--------|
+A|---4----------------2------------2--------|
+E|-2----------------------------------------|
+
+[Primeira Parte]
+
+    F#
+As coisas vulgares que há na vida
+B9
+   Não deixam saudades
+C#9                       B9
+    Só as lembranças que doem
+    F#          C#4  C#
+Ou fazem sorrir
+
+F#
+   Há gente que fica na história
+B9
+   Da história da gente
+C#9                         B9
+    E outras de quem nem o nome
+          F#     G#m  C#9
+Lembramos ouvir
+
+F#
+   São emoções que dão vida
+B9
+   A saudade que trago
+C#9                     B9
+   Aquelas que tive contigo
+      F#            C#4  C#
+E acabei por perder
+
+    F#
+Há dias que marcam a alma
+B9
+   E a vida da gente
+C#9                           B9
+    E aquele em que tu me deixaste
+              F#
+Não posso esquecer
+
+[REFRÃO]
+
+    B                 C#
+A chuva molhava-me o rosto
+          F#
+Gelado e cansado
+    B                 C#
+As ruas que a cidade tinha
+      F#
+Já eu    percorrera
+            C#                  
+Ai... meu choro de moça perdida
+B9              F#
+   Gritava à cidade
+       G#                 
+Que o fogo do amor sob a chuva
+            C#4     C#
+Há instantes    morrera
+
+[Segunda Parte]
+
+F#
+   A chuva ouviu e calou
+B9
+   Meu segredo à cidade
+  C#9                  B9
+E eis que ela bate no vidro
+         F#        C#4  C#
+Trazendo a saudade
+
+( F#  D#m  A#m )
+( B9  C#9  F# )
+
+[REFRÃO]
+
+    B                 C#
+A chuva molhava-me o rosto
+          F#
+Gelado e cansado
+    B                 C#
+As ruas que a cidade tinha
+      F#
+Já eu    percorrera
+            C#                  
+Ai... meu choro de moça perdida
+B9              F#
+   Gritava à cidade
+       G#                
+Que o fogo do amor sob a chuva
+            C#4     
+Há instantes    
+                 C#
+Há instantes morrera
+
+[Segunda Parte]
+
+F#
+   A chuva ouviu e calou
+B9
+   Meu segredo à cidade
+  C#9                  B9
+E eis que ela bate no vidro
+         F#        
+Trazendo a saudade
+  C#4                  C#
+E eis que ela bate no vidro
+               F#        
+Trazendo a saudade

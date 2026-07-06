@@ -1,0 +1,37 @@
+---
+titulo: Meia Noite ao Luar
+artista: Estudantina Universitária de Coimbra
+tom: D
+---
+
+
+(Estudantina de Coimbra - Binário)
+[INSTR.]
+D                      A
+Á meia-noite ao luar
+Vai pelas ruas a cantar                          (Bis)
+                        D
+Um boémio sonhador.
+     G                 D
+E a recatada donzela
+                                 A
+De mansinho abre a janela
+                            D
+À doce canção de amor.
+[REFRÃO]
+            D                         A
+Ai como é belo à luz da lua
+                 G               D  A  D
+Ouvir-se um fado em plena rua
+           D                 A
+E o cantador apaixonado
+                G                     D  A  D
+Trinando as cordas a cantar o fado.
+Dão as doze badaladas
+E ao ouvir as guitarradas                        (Bis)
+Surge o luar que é de prata.
+E a recatada donzela
+De mansinho abre a janela
+Vem ouvir a serenata.
+[REFRÃO]
+[INSTR.]

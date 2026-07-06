@@ -1,0 +1,82 @@
+---
+titulo: Alosque
+tom: F#m
+---
+
+[INTRO] A C#m7 F#m D9 E9
+
+A                    C#
+Nadie te habrá contado
+   F#m
+Que a veces vivo inundado
+    D                 E
+En decisiones tan vivas
+A
+Que beben del ver venir
+
+A                    C#
+Si a veces me disconformo
+   F#m
+Y parezco vuestro invitado
+    D                 E
+Nadie os habrá contado
+A
+Nada bueno de mi
+
+[PASSAGEM]
+D        F#m       D          E
+A los que se juegan la vida
+
+[REFRÃO]
+A          C#            F#m
+A los que luchan sin gritar
+       D            A
+A los que se juegan la vida
+      C#             F#m
+A los que creen que naufragar
+       D
+Es cosa de cuatro días
+      C#            F#m
+A los que beben para olvidar
+       D             A
+A los que buscan compañía
+      C#            F#m
+A los que saben sin pensar
+       D
+A los que se van a dormir
+
+Sin pedir perdón
+
+[INSTR.] A C# F#m D  (2x)
+
+A                 C#
+Ya ves qué llaves llevo
+      F#m
+Para abrir sólo una puerta
+A                 C#
+Ya ves qué llaves llevo
+      F#m
+Estoy otra vez en tu cabeza
+A                 C#
+Ya ves qué llaves llevo
+      F#m
+Para curar todas las miserias
+D          E
+Todas las miserias
+
+[REFRÃO]
+
+A                  C#
+Vengo con la intención
+    F#m
+De robarte la atención
+    D                E
+De provocarte un sentimiento
+A                 C#
+Vengo con chispa para dos
+    F#m
+Imagínate si yo
+    D              E
+No creyera en este invento
+
+[REFRÃO]
