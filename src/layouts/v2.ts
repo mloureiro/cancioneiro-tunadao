@@ -196,8 +196,11 @@ function renderPart(part: SongPart, isFirst: boolean): string {
 
 function renderSong(song: Song, labelId: string, autor: string): string {
   let out = "";
+  // Qualificador entre parêntesis no fim do título → texto mais pequeno
+  const m = song.metadata.titulo.match(/^(.*\S)\s*(\([^()]+\))$/);
+  const [main, sub] = m ? [m[1], m[2]] : [song.metadata.titulo, ""];
   out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
-  out += `#song-title("${escLiteral(song.metadata.titulo)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}")\n`;
+  out += `#song-title("${escLiteral(main)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}", sub: "${escLiteral(sub)}")\n`;
 
   for (let i = 0; i < song.parts.length; i++) {
     out += renderPart(song.parts[i], i === 0);
@@ -399,6 +402,7 @@ function generate(input: LayoutInput): string {
   const columnGutter = isA5 ? "7mm" : "11mm";
 
   const lyricsSize = isA5 ? "7.4pt" : "9.8pt";
+  const subTitleSize = isA5 ? "7pt" : "9pt";
   const chordSize = isA5 ? "8pt" : "10.5pt";
   const titleSize = isA5 ? "13pt" : "17pt";
   const headerSize = isA5 ? "6.5pt" : "8pt";
@@ -553,12 +557,20 @@ function generate(input: LayoutInput): string {
 
 // Cabeça de música (estilo editorial, sem número): título condensed,
 // filete fino a preencher até ao chip do tom — "TÍTULO ———— [TOM X]".
-#let song-title(titulo, tom, autor: "") = block(breakable: false, sticky: true, below: 0.9em, {
+// sub: qualificador entre parêntesis no fim do título (ex: "(5º Ano
+// Jurídico 88/89)", "(versão de X)") — bastante mais pequeno que o título
+#let song-title(titulo, tom, autor: "", sub: "") = block(breakable: false, sticky: true, below: 0.9em, {
   grid(
     columns: (auto, 1fr, auto),
     column-gutter: 6pt,
     align: (horizon + left, horizon, horizon + right),
-    cond-text(upper(titulo), size: ${titleSize}),
+    {
+      cond-text(upper(titulo), size: ${titleSize})
+      if sub != "" {
+        h(5pt)
+        cond-text(upper(sub), size: ${subTitleSize}, weight: 600, tracking: 0.03em)
+      }
+    },
     line(length: 100%, stroke: 0.5pt + hairline-color),
     tom-chip(tom),
   )
