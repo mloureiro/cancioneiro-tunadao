@@ -1,6 +1,7 @@
 ---
 titulo: Menina das Tranças Pretas
 tom: A
+artista: Vicente da Câmara
 ---
 
 [INTRO]   A E A

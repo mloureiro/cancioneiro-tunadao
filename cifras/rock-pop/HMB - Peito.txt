@@ -8,31 +8,31 @@ tom: G
 
 [PRIMEIRA PARTE]
 
- Gmaj7             Bm7     C6(9)
+ Gmaj7             Bm7     C69
 Não há nada mais a declarar
       C9             Gmaj7     A9
 Se te esforças para não acreditar
  Gmaj7
 Não trago nada não
-       Bm2  Bm  C6(9)
+       Bmadd9  Bm  C69
 Em segredo
          C9
 E se me falta a convicção
 Gmaj7     A9
 É só por medo
 
- Gmaj7        Bm2
+ Gmaj7        Bmadd9
 Podes duvidar
              Bm
 Mas tens de te entregar
- C6(9)         C9
+ C69         C9
 Porque eu não volto a dar razão
 Gmaj7  A9
 Ao meu erro
 
- Gmaj7        Bm2
+ Gmaj7        Bmadd9
 Podes confiar
-        Bm             C6(9)
+        Bm             C69
 Também vou me entregar
            C9
 E se quiseres confirmação
@@ -65,22 +65,22 @@ Quando estás por perto
 
 Gmaj7
 O amor é gracioso
-   Bm7      C6(9)
+   Bm7      C69
 É compaixão
             C9
 E amar nem sempre é fácil
    Gmaj7   A9
 É como perdão
-Gmaj7                  Bm7     C6(9)
+Gmaj7                  Bm7     C69
 E com certeza não toca a todos
                 C9
 Mas sei que ele é para mim
 Gmaj7     A9
 E para ti
 
- Gmaj7        Bm2
+ Gmaj7        Bmadd9
 Podes confiar
-        Bm             C6(9)
+        Bm             C69
 Também vou me entregar
            C9
 E se quiseres confirmação

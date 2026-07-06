@@ -1,6 +1,8 @@
 ---
 titulo: Rapariga
 tom: C
+artista: Estudantina Universitária de Coimbra
+creditos: Original: Assim Mesmo É Que É (EUC)
 ---
 
 [INTRO]   F Fm C Am Dm G C (2x)
