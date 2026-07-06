@@ -4,7 +4,6 @@ artista: Afonsina
 tom: E
 ---
 
-
 [INSTR.] E , Am , E  (x2), F#m , Am , E  (x2)
 [INSTR.] C#7 , F#m , B7 , E  (x3)
 
@@ -50,5 +49,3 @@ Que só tu sabes dar.
 [Último verso diferente]:
         B7       E , F , Dm , Amaj7
 Que só tu sabes dar.                                                 Amaj7
-
-©Afonsina 2019 - 5/7min, Bananalidades

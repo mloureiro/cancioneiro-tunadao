@@ -4,8 +4,6 @@ artista: Tony Moreira & TUM
 tom: D
 ---
 
-
-
 [INTRO]                D  (x2)
                             A , D , A , D
 
@@ -50,5 +48,3 @@ Se queres ver um "skinhead"
 Olha para a minha pilinha.                   (x2)
 
 [Refrão, x2]
-
-©Afonsina 2019 - 5/7min, Bananalidades

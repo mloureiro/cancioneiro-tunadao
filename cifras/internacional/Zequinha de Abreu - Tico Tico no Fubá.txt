@@ -44,24 +44,3 @@ G|--------------------------------9------------|
 D|---------------------------------------------|
 A|-----------------10-9--8---7-----------------|
 E|--------------------------------0------------|
-
-[Acordes Principais]
-Em - Mi menor
-B7 - Si com sétima
-Am - Lá menor
-F#7 - Fá sustenido com sétima
-G - Sol maior
-D7 - Ré com sétima
-C - Dó maior
-C#° - Dó sustenido diminuto
-E7 - Mi com sétima
-
-[Notas]
-- Música tradicional brasileira de choro
-- Composta por Zequinha de Abreu
-- Tom original: Em (Mi menor)
-- Andamento: Allegro (rápido)
-- Estilo: Choro brasileiro
-
-Fonte: Cifra Club
-Processado em: 2025-07-13

@@ -4,14 +4,12 @@ artista: Fado de Lisboa
 tom: E
 ---
 
-
 [REFRÃO]
       E
       Teus olhos castanhos,
       De encantos tamanhos,
       Fm
       São pecados meus.
-
 
          São estrelas fulgentes,
          B7
@@ -51,5 +49,3 @@ B7  Em
 Castanhos leais.
 
 [Refrão]          [Instrumental]         [Refrão]
-
-©Afonsina 2019 - 5/7min, Bananalidades

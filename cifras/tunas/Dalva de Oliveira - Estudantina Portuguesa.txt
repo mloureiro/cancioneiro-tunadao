@@ -4,7 +4,6 @@ artista: Dalva de Oliveira
 tom: d
 ---
 
-
 [INTRO]                A, E (x2) (Igual ao instrumental do refrão.)
 
 A         Am                        E
@@ -43,5 +42,3 @@ As duas cores da bandeira nacional.
 [INSTR.] da 1ª quadra]
 
 [Vozes voltam em (*)]
-
-©Afonsina 2019 - 5/7min, Bananalidades

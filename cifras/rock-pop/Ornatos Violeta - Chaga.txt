@@ -4,15 +4,14 @@ artista: Ornatos Violeta
 tom: Em
 ---
 
-
 [INSTR.] Em(E), Em(D#), Em(D), Em(C#), Em(C), Em(B) (x3)
-        (...sendo a nota entre parêntesis o baixo do acorde, que vai descendo sempre meio tom.)
+> a nota entre parêntesis é o baixo do acorde, que desce sempre meio tom
 
 Em
 Foi como entrar, foi como arder
 Para ti nem foi viver
 Foi mudar o mundo sem pensar em mim
-                                                  (*)
+
 Mas o tempo até passou
 E és o que ele me ensinou
 Uma chaga p'ra lembrar que há um fim
@@ -35,9 +34,5 @@ Não achar que o mundo é feito para nós
 
 Em(E), Em(D#), Em(D), Em(C#), Em(C), Em(B) (x4)
 
-(*)
-
 Foi como entrar, foi como arder
 Uma chaga p'ra lembrar que há um fim.
-
-©Afonsina 2019 - 5/7min, Bananalidades

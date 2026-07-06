@@ -4,7 +4,6 @@ artista: Antunia
 tom: E
 ---
 
-
 [INSTR.] B7 , E , F#m , B7 , E  (x2)
 
 E                        C#7              F#m
@@ -45,5 +44,3 @@ E , B7 , E
 [REFRÃO]
 
 [INSTR.]
-
-©Afonsina 2019 - 5/7min, Bananalidades

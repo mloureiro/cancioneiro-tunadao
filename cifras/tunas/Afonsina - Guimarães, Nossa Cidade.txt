@@ -4,7 +4,6 @@ artista: Afonsina
 tom: D
 ---
 
-
 [Refrão, só com vozes]
 [INSTR.] Em, B7(x2), Em, E, Am, C, B7
 
@@ -52,5 +51,3 @@ A Afonsina fica assim
 Grata para a eternidade
 
 [REFRÃO]
-
-©Afonsina 2019 - 5/7min, Bananalidades

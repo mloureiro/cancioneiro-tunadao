@@ -1,9 +1,9 @@
 ---
 titulo: Serenata ao Luar
 artista: Tusófuna
+creditos: Letra & Música: Tusófuna, Real Tuna Lusófuna
 tom: C#m
 ---
-
 
 D , C#m
 
@@ -32,6 +32,7 @@ A reflectir no meu Bm
 E com o perdão de Deus Am
 Revi nos olhos teus D
 A luz que vem dos céus (G C#m G)
+
 E o bom Deus perdoou
 A visão que inspirou
 O meu pobre cantar          (G C#m G)
@@ -52,5 +53,3 @@ Ouvirás junto a Deus
 O trovador cantar
 
 [REFRÃO]
-
-Letra & Música: Tusófuna, Real Tuna Lusófuna

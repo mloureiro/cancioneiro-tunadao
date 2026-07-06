@@ -4,8 +4,6 @@ artista: Los Sabandeños
 tom: d
 ---
 
-
-
 [INTRO]                Dm , Am , E , Am  (x2)
 
    Am                            E
@@ -45,5 +43,3 @@ Que a ti te corresponde ser el mar
 [Último verso diferente]:
        Dm        E  Am                    Am , F , Am
 Que a ti te corresponde ser el mar.
-
-©Afonsina 2019 - 5/7min, Bananalidades

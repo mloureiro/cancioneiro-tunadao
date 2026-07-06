@@ -1,11 +1,13 @@
 ---
 titulo: Roger a Jacto
 artista: Versus Tuna
+creditos: Letra: Pedro Lopes; Música: João Grilo
 tom: F
 ---
 
-[INTRO] (INSTRUMENTAL): 1ª parte – F, A#, C, F
+[INTRO] 1ª parte – F, A#, C, F
 2ª parte – A#, F, A#, C, C7, F – 1ª parte
+
 F                 A#
 Era um menino calmo
 F
@@ -14,12 +16,15 @@ F          A#
 Lia livros a palmo
 A#               B, C, C7
 Estudante como não há
-(INSTRUMENTAL – 1ª parte)
+
+> instrumental – 1ª parte
+
 Mamã vou pró Algarve
 Aprender o inglês
 Tornou-se num alarve
 Ficou sem os três
 Já dizem que eu sou a jacto
+
 [REFRÃO]
 F
 Elas vão acabar
@@ -34,14 +39,14 @@ Oh! Oh! Roger
 Porta-te bem
 Se não ficas sem ninguém
 Oh! Oh! Roger
-(INSTRUMENTAL – 1ª parte)
+
+> instrumental – 1ª parte
+
 Se não ficas sem ninguém
 Oh! Amigo tem calma
 Que o curso são quatro anos
 Á média de três por dia
 Ainda te lixas com os manos
-Letra: Pedro Lopes
-Música: João Grilo
 
 Mas elas são tantas
 E eu sou tão leal
@@ -53,8 +58,7 @@ Abrandar é fatal
 Sei tão bem funcionar
 Com a vista e o tacto
 Que por caírem tão rápido
-
-Por dar cabo de mm
+Por dar cabo de mim
 
 Oh! Oh! Roger
 Porta-te bem

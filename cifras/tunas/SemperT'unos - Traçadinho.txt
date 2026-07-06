@@ -1,34 +1,47 @@
 ---
 titulo: Traçadinho
 artista: SemperT'unos
+creditos: Original de Estudantina Universitária de Coimbra
 tom: G
 ---
 
 [INSTR.] (G, Am, E, Am, C, D, G)
-G Vejo a lua duas vezes
-E o céu está a D abanar
-Que diaboAm aconteceu
-Como é que D aqui vim G parar
-As pernas estão-me a Am tremer
-Isto E agora vai ser bomAm
-Que C ria cantar um D fadinho
-Mas não acerto com o G tom
+
+G
+Vejo a lua duas vezes
+                  D
+E o céu está a abanar
+          Am
+Que diabo aconteceu
+           D         G
+Como é que aqui vim parar
+                      Am
+As pernas estão-me a tremer
+     E                 Am
+Isto agora vai ser bom
+   C              D
+Queria cantar um fadinho
+                     G
+Mas não acerto com o tom
+
 [REFRÃO]
-CDesta vez estou mesmo à D rasca
-Vou-meBm pirar de Em mansinho
-C Não volto àquela G tasca
-D Não bebo mais G traçadinho (bis)
+C                       D
+Desta vez estou mesmo à rasca
+       Bm        Em
+Vou-me pirar de mansinho
+C                G
+Não volto àquela tasca
+D             G
+Não bebo mais traçadinho (bis)
+
 Tenho a guitarra partida
 Esta noite é para a desgraça
 Não conheço esta avenida
 Afinal o que se passa
+
 Esta vida é de loucos
 Esta vida é de ir e vir
 Porque um homem bebe uns copos
 Começa logo a cair
-(Refrão)
-Original de Estudantina Universitária de Coimbra
-22 de 55
-SemperT’unos – Tuna Mista da Escola Superior de Saúde do
-Instituto Politécnico de Setúbal
-Cancioneiro
+
+[Repete Refrão]

@@ -4,8 +4,6 @@ artista: E. Damas & F. Carvalho
 tom: d
 ---
 
-
-
 [INTRO]                F#m , B , E , A , B7 , E , Em
 
      Am          Em
@@ -53,5 +51,3 @@ Assim bela e tão pura faz bater o coração.
 
    E
 Saudade, saudade...
-
-©Afonsina 2019 - 5/7min, Bananalidades

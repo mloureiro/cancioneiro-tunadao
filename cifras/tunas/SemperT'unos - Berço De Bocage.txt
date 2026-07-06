@@ -1,34 +1,51 @@
 ---
-titulo: Berço De Bocage
+titulo: Berço de Bocage
 artista: SemperT'unos
 tom: G
 ---
 
 [INSTR.] (Cm, Fm, G, Cm, Bb, D#, G)
-Cm Aqui nesta ci Fmdade
-Lem G bramos a olhar o Cm rio
-Bb O Sado traz na D# idade
-O G estudante Cm vadio
-Bridge (D# Cm D# Cm)
-FmE por ti G Sado can Cm tamos
-G# Trovas G cantigas sem Cm fimFm
-Tu que G banhas Cm Setúbal G#
-Te celebramos G assim
+
+Cm            Fm
+Aqui nesta cidade
+   G                Cm
+Lembramos a olhar o rio
+Bb              D#
+O Sado traz na idade
+  G          Cm
+O estudante vadio
+
+[Bridge] D# Cm D# Cm
+
+Fm       G        Cm
+E por ti Sado cantamos
+G#     G              Cm Fm
+Trovas cantigas sem fim
+       G       Cm     G#
+Tu que banhas Setúbal
+              G
+Te celebramos assim
+
 [REFRÃO]
-Cm Setúbal, cidade FmhistóricaG
-Berço de bo Cm cage
-Autor de versos e ri Fmmas
-Cm Poeta bo G émio de Cm traje
+Cm                Fm       G
+Setúbal, cidade histórica
+            Cm
+Berço de Bocage
+                     Fm
+Autor de versos e rimas
+Cm        G         Cm
+Poeta boémio de traje
+
 Rio grande e gracioso
 Do rio avista-se a serra
 Corres depressa em pimpão
 Já és parque natural
+
 Albergas peixes, sereias
 Dás prestígio à terra
 Que embalam nosso coração
 Arrábida setentrional
-Bridge (D# Cm D# Cm)                                     (Refrão)
-6 de 55
-SemperT’unos – Tuna Mista da Escola Superior de Saúde do
-Instituto Politécnico de Setúbal
-Cancioneiro
+
+[Bridge] D# Cm D# Cm
+
+[REFRÃO]

@@ -1,23 +1,26 @@
 ---
 titulo: Boémia
 artista: Versus Tuna
+creditos: Letra: Fernando Saiote e Rogério Leal; Música: Rogério Leal
 tom: G
 ---
 
-Gm                    Dm  
+Gm                    Dm
 Foi a ti que eu amei
-C      C  7
+C      C7
 Era a ti que eu queria
+
 Triste minha amada
 Quando fores embora
 Tocando a balada
+
 Teus olhos que brilham
 Sorriso singelo
 Caminhos que trilham
+
 Os livros desfolhados
 São ora um desejo
 Todos eles lembrados
 Como o primeiro beijo
-(INSTRUMENTAL)
-Letra: Fernando Saiote e Rogério Leal
-Música: Rogério Leal
+
+> instrumental

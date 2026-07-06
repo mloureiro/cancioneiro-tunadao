@@ -1,34 +1,64 @@
 ---
-titulo: Saúde Em Setúbal
+titulo: Saúde em Setúbal
 artista: SemperT'unos
-tom: Em
+creditos: Original de Rúben Cardoso, 2012
+tom: E
 ---
 
 [INSTR.] (E, C#m, A, E, B, C#m, A, B, E)
-E P’ra quem mora na A cidade
-Nesse Bstress e agitaçãoE
-A maltaA na faculdadeE
-Estuda a B sua vocaçãoE
-E Mesmo em locais mais A remotos
-A saúdeB é essencialE
-Aqui fazem-seA amizadesE
-Por todoB esse PortugalE
+
+E                    A
+P'ra quem mora na cidade
+       B               E
+Nesse stress e agitação
+        A            E
+A malta na faculdade
+          B            E
+Estuda a sua vocação
+
+E                        A
+Mesmo em locais mais remotos
+         B             E
+A saúde é essencial
+              A         E
+Aqui fazem-se amizades
+         B             E
+Por todo esse Portugal
+
 [REFRÃO]
-E Enfermagem é a arte de A cuidar
-B Fisio, essa é a terapia E
-A TF p’ra quem fala da cidade E
-Desta vida B com alegria E
-E Fisio já lá está p’ra A mobilizar
-TF B não é terapia banal E
-Os enfas A prontos para vacinar E
-É saúde B em Setúbal E
-E Quando a cabeça A pesa                    E A malta de Enferma A gem
-De toda B essa anatomia E                    Trata bem B, com coração E
-Pede-se A uma massagem E                        E em Terapia A da Fala E
-Aos de B Fisioterapia E                      Reina a B comunicação. E
-Refrão x3
-Original de Rúben Cardoso, 2012
-13 de 55
-SemperT’unos – Tuna Mista da Escola Superior de Saúde do
-Instituto Politécnico de Setúbal
-Cancioneiro
+E                          A
+Enfermagem é a arte de cuidar
+B                        E
+Fisio, essa é a terapia
+A                            E
+TF p'ra quem fala da cidade
+           B             E
+Desta vida com alegria
+E                            A
+Fisio já lá está p'ra mobilizar
+   B                        E
+TF não é terapia banal
+         A                       E
+Os enfas prontos para vacinar
+         B            E
+É saúde em Setúbal
+
+E                 A
+Quando a cabeça pesa
+        B                E
+De toda essa anatomia
+         A            E
+Pede-se uma massagem
+       B              E
+Aos de Fisioterapia
+
+E                    A
+A malta de Enfermagem
+          B              E
+Trata bem, com coração
+             A          E
+E em Terapia da Fala
+        B               E
+Reina a comunicação.
+
+[Repete Refrão 3x]

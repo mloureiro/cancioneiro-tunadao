@@ -1,6 +1,7 @@
 ---
-titulo: Águas Do Dão
+titulo: Águas do Dão
 artista: SemperT'unos
+creditos: Original de Infantuna de Viseu
 tom: Em
 ---
 
@@ -42,6 +43,4 @@ Quando tudo corre mal
 Uma noitada nas águas
 Levanta logo a moral (bis)
 
-(Refrão)
-
-Original de Infatuna de Viseu
+[REFRÃO]
