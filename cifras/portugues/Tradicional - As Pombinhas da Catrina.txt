@@ -1,0 +1,26 @@
+---
+titulo: As Pombinhas da Catrina
+artista: Tradicional
+tom: C
+---
+
+[INTRO] C F G
+
+C                    F    G
+As pombinhas da Catrina,
+F      G     F  G    C
+andam já de mão em mão,
+                        G
+foram ter à quinta nova,
+G       C         G   C
+ao pombal de S. João.
+
+C                    F    G
+Ao pombal de S. João,
+F      G      F  G   C
+ao quintal da Rosalina.
+                        G
+Minha mãe mandou-me à fonte,
+G       C           G    C
+eu parti a cantarinha.
+---

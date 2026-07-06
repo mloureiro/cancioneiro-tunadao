@@ -1,0 +1,46 @@
+---
+titulo: Bem Bom
+artista: Doce
+tom: A
+---
+
+[INTRO]
+Em   A    F#m  B
+Hei! Hei! Hei! Hei!
+Em Gm A D F#m Em A
+
+D                            F#m
+Uma da manhã - um toque, um brilho no olhar
+Em                              A
+Duas da manhã - dois dedos de magia
+D                                     F#m
+Às duas por três quem sabe onde isto irá parar?
+Em                      Gm
+Quatro da manhã caindo, um luar de lua lindo
+E                             A
+Uma gota a mais e o chão ia fugindo
+
+[REFRÃO]
+Em                           A
+Uma da manhã, hei! - bem bom, duas da manhã - bem bom
+F#m                             B
+Já três da manhã, hei! bem bom, quatro da manhã - bem bom
+Em                             A
+Cinco da manhã, hei! - bem bom, já seis da manhã - bem bom
+F#m                             B
+Sete da manhã - hei! - bem bom, oito da manhã - bem bom
+Em                            Gm
+Café da manhã p'ra dois sem saber o que virá depois
+A   D    F#m Em A
+Bem bom
+
+D                            F#m
+Cinco da manhã - ai, sim, coração sigo
+Em                              A
+O bater das seis e meia de loucura
+D                            F#m
+Sete da manhã - ouvindo um disco antigo
+Em                      Gm
+"Hoje é o primeiro dia do resto da tua vida"
+E                             A
+São horas a mais e já não há saída

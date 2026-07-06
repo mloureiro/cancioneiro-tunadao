@@ -1,0 +1,52 @@
+---
+titulo: Encosta-te a Mim
+artista: Jorge Palma
+tom: D
+---
+
+[INTRO]
+D  G  A  G
+D  G  A  G
+
+[VERSO]
+D
+Encosta-te a mim
+    G              A
+Nós já vivemos cem mil anos
+       D
+Encosta-te a mim
+      G          A
+Talvez eu esteja a exagerar
+       Bm
+Encosta-te a mim
+ C
+Dá cabo dos teus desenganos
+     G
+Não queiras ver quem eu não sou
+        A
+Deixa-me chegar
+
+[PASSAGEM]
+     D            G         A
+Chegado da guerra, fiz tudo p´ra sobreviver
+     D            G        A
+Em nome da terra, no fundo p´ra te merecer
+      Bm       C
+Recebe-me bem, não desencantes os meus passos
+     G                     A
+Faz de mim o teu herói, não quero adormecer
+
+[REFRÃO]
+        G
+Tudo o que eu vi
+              F#m
+Estou a partilhar contigo
+       G                  D
+O que não vivi, hei-de inventar contigo
+       G                F#m
+Sei que não sei, às vezes entender o teu olhar
+       Em    A       D
+Mas quero-te bem, encosta-te a mim
+
+[SAÍDA]
+D  G  A  G

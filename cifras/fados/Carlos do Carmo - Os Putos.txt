@@ -1,0 +1,62 @@
+---
+titulo: Os Putos
+artista: Carlos do Carmo
+tom: E
+---
+
+[INTRO] F#m  G#  C#m  D#m  G#  C#m
+
+[VERSO]
+            F#m  G#    C#m
+Uma bola de pano    num charco
+              F#m   B   E
+Um sorriso traquina, um chuto
+               F#m   G#   C#m
+Na ladeira a correr,   um arco
+            D#m7b5 G#      C#m
+E o céu no olhar,     de um puto
+
+                F#m  G#     C#m
+Uma fisga que atira    a esperança
+                F#m  B   E
+Um pardal de calções   astuto
+             F#m  G#   C#m
+E a força de ser    criança
+                     D#m7b5 G#     C#
+Contra a força de um "chui"   que é bruto
+
+[REFRÃO]
+        C#           A#m    D#m
+Parecem bandos de pardais à solta
+   G#        C#
+Os putos, os putos
+         C#          A#m     D#m
+São como índios, capitães da malta
+   G#        C#
+Os putos, os putos
+    F#m            B
+Mas quando a tarde cai
+           C#
+Vai-se a revolta
+A#                   D#m
+Sentam-se ao colo do pai
+G#                C#
+  É a ternura que volta
+  F#m        B            C#
+E ouvem-no falar do homem novo
+A#                 D#m
+São os putos deste povo
+G#                   C#m
+  A aprenderem a ser homens.
+
+[VERSO]
+As caricas brilhando na mão
+A vontade que salta ao eixo
+E um puto que diz que não
+Se a "porrada" vier não deixo
+
+Um berlinde abafado na escola
+Um pião na algibeira sem cor
+E um puto que pede esmola
+Porque a fome lhe abafa a dor
+---

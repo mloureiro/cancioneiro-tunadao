@@ -1,0 +1,55 @@
+---
+titulo: A Bia da Mouraria
+artista: Carminho
+tom: F#m
+---
+
+[VERSO]
+F#m                                 E
+Lá vai a Bia que arranjou um par jeitoso
+                D    Bm        Bm/C   C#7
+É vendedor como ela ali para o Bem Formoso
+          Bm                       F#m
+São dois amores, duas vidas tão singelas
+                     G#        C#7            F#
+Enquanto ela vende flores, o Chico vende cautelas
+
+[REFRÃO]
+  Gdim7   G#m   C#7         F#
+Na Mouraria só falam do namorico
+                  C#7                      F#
+A Bia namora o Chico e as conversas são iguais
+  Gdim7     G#m       C#7                F#
+Ai qualquer dia, Deus queira que isto não mude
+                G#7    C#7           Fm
+A Senhora da Saúde vai ser pequena demais
+
+[VERSO]
+C#7   F#m                    E
+O casamento já tem a data marcada
+                       D         Bm    Bm/C     C#
+Embora qualquer dos noivos tenha pouco mais que nada
+           Bm                      F#m
+Vai ter a Bia, a festa que ela deseja
+               G#7           C#7        F#
+Irá toda a Mouraria ver o casório na igreja
+
+[REFRÃO]
+ Gdim7   G#m   C#7         F#
+Na Mouraria só falam do namorico
+                  C#7                      F#
+A Bia namora o Chico e as conversas são iguais
+  Gdim7     G#m       C#7                F#
+Ai qualquer dia, Deus queira que isto não mude
+                G#7    C#7           F
+A Senhora da Saúde vai ser pequena demais
+
+[SAÍDA]
+Gdim7   G#m   C#7         F#
+Na Mouraria só falam do namorico
+                  C#7                      F#
+A Bia namora o Chico e as conversas são iguais
+             G#m          C#7              F#
+Ai qualquer dia, Deus queira que isto não mude
+     F#   G     G#      C#7         F#      C#7,F#
+A Senhora da Saúde vai ser pequena demais

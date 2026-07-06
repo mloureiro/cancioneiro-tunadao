@@ -1,0 +1,62 @@
+---
+titulo: Balada do Sino
+artista: Tradicional
+tom: Em
+---
+
+[INTRO]
+E|--12----12----12-------10---10---10----8---8-----0-----
+B|-----10----10----10-------8----8----8----6---0---0-----
+G|-------------------------------------------------0-----
+D|-------------------------------------------------2-----
+A|-------------------------------------------------2-----
+E|--0--------------------0---------------0---------0-----
+
+[VERSO]
+Em
+Uma barquinha
+Lá vem lá vem
+Am   Em
+Dim Dem
+B7                Em
+Na barquinha de Belém
+
+Em
+Senhor Barqueiro
+Quem leva aí
+Am   Em
+Dão Dim
+B7                Em
+Na barquinha d'Aladim
+
+Em
+Levo a cativa
+Duma só vez
+Am     Em
+Dois, três
+B7                Em
+Na barquinha do Marquês
+
+Em
+Ao romper d'alva
+Casada vem
+Am   Em
+Dim Dem
+B7                Em
+Na barquinha é que vai bem
+
+Em
+Se a tem guardada
+Deixe-a fugir
+Am   Em
+Dão Dim
+B7                Em
+Na barquinha do Vizir
+
+Em
+Lá vai roubada
+Lá vai na mão
+Am   Em
+Dim Dão
+B7                Em
+Na barquinha do ladrão

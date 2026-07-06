@@ -1,0 +1,53 @@
+---
+titulo: Amar Pelos Dois
+artista: Salvador Sobral
+tom: F
+---
+
+[INTRO] F7M  E°  Dm7  G7  Gm7  C7(9)
+
+[PRIMEIRA PARTE]
+
+      F7M    Bb9/F      Dm7     G7
+Se um dia alguém, perguntar por mim
+ Gm7      Bb7M/C      F7M  C7(9)
+Diz que vivi para te amar
+F9       E°  Dm7    G7
+Antes de ti, só existi
+   Gm7      Bb7M/C C7(9) F7M
+Cansado e sem nada para dar
+
+[SEGUNDA PARTE]
+
+Bb9  Bbm(5-)/A  Dm7            G7
+Meu   bem,     ouve as minhas preces
+ Gm7                        Bb7M/C      C7(9)
+Peço que regresses, que me voltes a querer
+Bb9  Bbm(5-)/A  Dm7         G7
+Eu   sei,  que não se ama sozinho
+   Gm7                     C7(9)         F7M
+Talvez devagarinho, possas voltar a aprender
+
+[PASSAGEM] E°  Dm7  G7  Gm7  C7(9)  F7M  F7
+
+[SEGUNDA PARTE]
+
+Bb9  Bbm(5-)/A Dm7            G7
+Meu   bem,    ouve as minhas preces
+ Gm7                        C7(9)
+Peço que regresses, que me voltes a querer
+Bb7M  A7       Dm7          G7
+Eu   sei, que não se ama sozinho
+    Gm7                     C7(9)         F7M  C7(9)
+Talvez devagarinho, possas voltar a aprender
+
+[TERCEIRA PARTE]
+
+     F7M/A     Bb9       F    G7
+Se o teu coração não quiser ceder
+     Gm7      Bb7M/C      Am7    D7(5+)
+Não sentir paixão, não quiser sofrer
+Bb9       B°        F7M  Am7  D7(9)
+Sem fazer planos do que virá depois
+   Gm7     C7(9)      F/C   C7  F7M
+O meu coração, pode amar pelos dois

@@ -1,0 +1,70 @@
+---
+titulo: O Anzol
+artista: Rádio Macau
+tom: D
+---
+
+[INTRO] D A Em G
+
+D             A
+Ai eu já pensei
+    Em            G               D
+Mandar pintar o céu em tons de azul
+A              Em G
+Pra ser original
+
+D                 A
+Mas só depois notei
+Em               G             D
+Que azul já ele era houve alguém
+A               Em G
+Que teve ideia igual
+
+[REFRÃO]
+A                  Em
+Eu não sei se hei-de fugir
+A                Em
+Ou morder no anzol
+A            Em            A
+Já não há nada de novo aqui
+G
+Debaixo do sol
+
+[PASSAGEM] ( D A Em G )
+
+[SOLO]
+E|----5--------------------------------|
+B|-5----5--3--2------------------------|
+G|-------------------------------------|
+D|-------------------------------------|
+A|-------------------------------------|
+E|-------------------------------------|
+
+E|-------------------------------------|
+B|--0-0--3-2---------------------------|
+G|-----------2-------------------------|
+D|-------------------------------------|
+A|-------------------------------------|
+E|-------------------------------------|
+
+[VERSO]
+D            A    Em          G
+Já me persegui por becos e ruelas
+D            A           Em    G
+De horror, caminhos sem saída
+
+D            A    Em          G
+Até que me perdi sozinha sem saber
+D            A            Em     G
+De que cor pintar a minha vida
+
+[REFRÃO]
+A                  Em
+Eu não sei se hei-de fugir
+A                Em
+Ou morder no anzol
+A            Em            A
+Já não há nada de novo aqui
+G
+Debaixo do sol
+---
