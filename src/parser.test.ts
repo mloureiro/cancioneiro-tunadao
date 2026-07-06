@@ -300,8 +300,9 @@ describe("parseSong — És Tu (passagem com modulação)", () => {
 describe("parseSong — todos os ficheiros sem erros", () => {
   const files = fs.readdirSync(CIFRAS_DIR).filter((f) => f.endsWith(".txt"));
 
-  it("existem 20 ficheiros de cifra", () => {
-    expect(files).toHaveLength(20);
+  it("existem ficheiros de cifra", () => {
+    // Contagem não fixa: o acervo muda (novas cifras, deduplicação)
+    expect(files.length).toBeGreaterThan(0);
   });
 
   for (const file of files) {
