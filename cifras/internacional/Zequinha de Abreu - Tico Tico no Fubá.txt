@@ -1,0 +1,67 @@
+---
+titulo: Tico Tico no Fubá
+artista: Zequinha de Abreu
+tom: Em
+---
+
+[INTRO]
+Em    B7    Em    Am    Em    F#7   B7    Em
+
+[Primeira Parte]
+       Em        B7
+O tico tico tá, tá outra vez aqui
+       Em
+O tico tico tá comendo meu fubá
+       Am                Em
+Se o tico tico pensa em se alimentar
+       F#7                B7
+Que vá comer umas minhocas no pomar
+
+[Segunda Parte]
+        B7           Em              G         D7
+Mas por favor tira esse bicho do celeiro
+        G
+Porque ele acaba comendo o fubá inteiro
+        D7
+Tire esse tipo de cá de cima do meu fubá
+        G
+Tem tanta coisa que ele pode pinicar
+
+[REFRÃO]
+       C              C#°             G
+Fico com raiva do tal tico no fubá
+       E7                    Am
+É um bicho amarelo que não está nem aí
+       D7                    G
+Eu já fiz tudo para ver se conseguia
+       Am            D7               G
+Botei alpiste para ver se ele comia
+
+[Tablatura Incluída - Simplificada]
+E|-12-10-8-7----------8-10--12---12------------|
+B|-----------10--9-12-------------9----5-4-5---|
+G|--------------------------------9------------|
+D|---------------------------------------------|
+A|-----------------10-9--8---7-----------------|
+E|--------------------------------0------------|
+
+[Acordes Principais]
+Em - Mi menor
+B7 - Si com sétima
+Am - Lá menor
+F#7 - Fá sustenido com sétima
+G - Sol maior
+D7 - Ré com sétima
+C - Dó maior
+C#° - Dó sustenido diminuto
+E7 - Mi com sétima
+
+[Notas]
+- Música tradicional brasileira de choro
+- Composta por Zequinha de Abreu
+- Tom original: Em (Mi menor)
+- Andamento: Allegro (rápido)
+- Estilo: Choro brasileiro
+
+Fonte: Cifra Club
+Processado em: 2025-07-13

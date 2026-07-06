@@ -1,0 +1,31 @@
+---
+titulo: Canção do Mar
+artista: Dulce Pontes
+tom: Em
+---
+
+Acordes: Em, D/F#, C, Am, B, D#º, D4, D, G, F#, A#º, B4
+
+[INTRO] Em D/F# C Am B D#º
+
+C      B   Am     Em
+fui bailar no meu batel
+Am       B       Em
+além do mar cruel e o mar bramindo
+        C       B
+diz que eu fui roubar
+ Am   B   Em      Am   B        Em
+a luz sem par do teu olhar tão lindo
+D4    D                    G
+vem saber se o mar terá razão
+F#            A#º       B4  B
+vem cá ver bailar meu coração
+
+C         B   Am  B   Em
+se eu bailar no meu batel
+    Am      B    Em
+não vou ao mar cruel e nem lhe digo
+      C       B
+aonde eu fui cantar
+   Am   B   Em    Am      B      Em
+sorrir, bailar, viver, sonhar contigo

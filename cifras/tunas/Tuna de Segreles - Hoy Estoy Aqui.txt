@@ -1,0 +1,43 @@
+---
+titulo: Hoy Estoy Aqui
+artista: Tuna de Segreles
+tom: Am
+---
+
+
+Música: Tuna de Segreles
+
+[INTRO] C, F, G, C, G; C, G, C, G, C, E7, Am, E, Am, E, Am
+
+[REFRÃO]
+F                               C
+Hoy estoy aquí, mañana me voy,
+F        C        E7               Am
+pasado mañana ¿dónde me encontraré?
+F                               C
+Hoy estoy aquí, mañana me voy,
+F        C        E7               Am
+pasado mañana ¿dónde me encontraré?
+
+G                 C
+Cartitas recibirás, retratos te mandaré,
+F        C      E7      Am
+pero a mi persona nunca la tendrás
+F        C      E7      Am  E  - Am  - E  - Am
+pero a mi persona nunca la tendrás
+
+F                         C
+Mañana me voy a la guarnición,
+F        C  E7            Am
+soldado seré, dame tu bendición.
+F                         C
+Mañana me voy a la guarnición,
+F        C  E7            Am
+soldado seré, dame tu bendición
+
+G                 C
+Cartitas recibirás, retratos te mandaré,
+F        C      E7      Am
+pero a mi persona nunca la tendrás
+F        C      E7      Am  E  - Am  - E  - Am
+pero a mi persona nunca la tendrás.

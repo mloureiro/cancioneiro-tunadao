@@ -1,0 +1,45 @@
+---
+titulo: Santo
+artista: SemperT'unos
+tom: E
+---
+
+[INSTR.] (Am, E, Am)
+
+Am  Dm G   C  Am               Dm      E
+Santo, Santo, Santo é o Senhor Deus do Universo.
+
+Am     Dm    G         C        Am     Dm      E
+Cheios estão os céus e a terra, da Tua glória, Hossana.
+
+Am    Dm G     C
+Hossana, Hossana,
+
+Am       Dm      E
+Hossana, nos céus
+
+Am    Dm G     C
+Hossana, Hossana,
+
+Am       Dm      E
+Hossana, nos céus
+
+Am            Dm     G       C
+Bendito o que vem em nome do Senhor,
+
+Am      Dm        E
+Hossana nos céus, Hossana.
+
+Am    Dm G     C
+Hossana, Hossana,
+
+Am       Dm      E
+Hossana, nos céus
+
+Am    Dm G     C
+Hossana, Hossana,
+
+Am       Dm      E
+Hossana, nos céus
+
+Final (Am, E, Am)

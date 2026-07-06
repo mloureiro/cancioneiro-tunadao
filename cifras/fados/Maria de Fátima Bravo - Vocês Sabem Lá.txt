@@ -1,0 +1,72 @@
+---
+titulo: Vocês Sabem Lá
+artista: Maria de Fátima Bravo
+tom: D
+---
+
+Compositor: Jerónimo Bragança
+Tom: D
+
+[INTRO]
+D7M  Bm7  Em7  A7
+
+[Primeira Parte]
+    D7M        Bm7
+Vocês sabem lá 
+         Em7                                A7
+A saudade de alguém que está perto 
+    D7M     Bm7
+É mais, é pior 
+
+               Em7                     A7
+Do que a sede que dá no deserto 
+    C/D            D7/9               G7M
+É chama que a vida ateia sem dó 
+    Gm6                         F#m   Fdim
+Na alma da gente, ao sentir 
+              Em7  A7
+Que vive só 
+
+[Segunda Parte]
+    D7M        Bm7
+Vocês sabem lá 
+         Em7                                A7
+Que tormento é viver sem esperança 
+    D7M     Bm7
+E ter coração  
+
+     C#m7/5-       F#                Bm7 A#m7 Am7 D7
+Coração que não dorme nem cansa 
+     G7M        G#dim                          A
+Não há maior dor nem viver mais cruel 
+          C          B7          Em7
+Que sentir o amargo do fel 
+                  A7
+Em vez de mel, 
+                   D7M
+Vocês sabem lá
+
+[Acordes Principais]
+D7M - Ré maior com sétima maior
+Bm7 - Si menor com sétima
+Em7 - Mi menor com sétima
+A7 - Lá com sétima
+C/D - Dó com baixo em Ré
+G7M - Sol maior com sétima maior
+Gm6 - Sol menor com sexta
+F#m - Fá sustenido menor
+Fdim - Fá diminuto
+C#m7/5- - Dó sustenido meio diminuto
+F# - Fá sustenido maior
+G#dim - Sol sustenido diminuto
+C - Dó maior
+B7 - Si com sétima
+
+[Notas]
+- Canção portuguesa clássica
+- Letra de grande emotividade sobre saudade
+- Harmonias jazzísticas características
+- Tom melancólico em Ré maior
+
+Fonte: Cifra Club
+Processado em: 2025-07-13

@@ -1,0 +1,58 @@
+---
+titulo: Estou Além
+artista: Azeituna
+tom: F#
+---
+
+
+Azeituna - Tuna de Ciências da Universidade do Minho
+Compositor Original: António Variações
+Tom: F#
+
+[Com base na estrutura harmónica encontrada]
+
+[INTRO] F# - B - C# - E
+
+    F#              B
+Não consigo dominar
+    C#              E
+Este estado de ansiedade
+    F#              B
+A pressa de chegar
+    C#              E
+P'ra não chegar tarde
+
+    F#              B
+Não sei de que é que eu fujo
+    C#              E
+Será desta solidão
+    F#              B
+Mas porque é que eu recuso
+    C#              E
+Quem me estende a mão
+
+[REFRÃO]
+    F#              B
+Estou além, estou aquém
+    C#              E
+Do que quero e do que venho
+    F#              B
+Entre o que sou e o que convém
+    C#              E
+Sempre além, sempre aquém
+
+ESTRUTURA:
+Intro - Verso - Refrão - Verso - Refrão - Final
+
+PROGRESSÃO HARMÓNICA:
+I - IV - V - VII (em F# maior)
+
+CRÉDITOS:
+© António Variações (1982)
+Arranjo: Azeituna - Universidade do Minho
+Adaptação: Álbum/EP 2020
+
+FONTES E REFERÊNCIAS:
+- Cifra Club: https://www.cifraclub.com.br/humanos/estou-alem/
+- António Variações - "Estou Além" (1982)
+- Estrutura harmónica: F#, B, C#, E

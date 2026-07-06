@@ -1,0 +1,22 @@
+---
+titulo: Rapsódia Sul-Americana
+artista: Popular dos Andes
+tom: Dm
+---
+
+(Instrumental)
+
+(Dm Gm Dm Gm Dm A# A7 Dm) 3x
+(F A# F C F A7 Dm A7 Dm) 2x
+(A# C F A# F) 2x
+(A7 Dm) 2x
+(Dm A# C F) 2x
+(Dm C Dm C A# C Dm) 2x
+(Dm A# C F) 2x
+(Dm C Dm C A# C Dm) 2x
+(Dm F C A7 Dm) 4x
+(A# F C A7 Dm) 2x
+(F C A7 Dm) 2x
+(C A7 Dm) 2x
+(F C A7 Dm) 8x
+(C A7 Dm) 2x

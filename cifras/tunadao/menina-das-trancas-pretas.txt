@@ -4,7 +4,7 @@ tom: A
 ---
 
 [INTRO]   A E A
-          F#m B#m E A (2x)
+          F#m Bm  E A (2x)
 
           A
 Como era linda
@@ -15,11 +15,11 @@ Até lhe chamavam
                      A
 Menina das tranças pretas
 
-        F#m                   B#m
+        F#m                   Bm 
 Pelo chiado caminhava o dia inteiro
       E                    A
 Apregoando raminhos de violetas
-        F#m                   B#m
+        F#m                   Bm 
 Pelo chiado caminhava o dia inteiro
       E                    A
 Apregoando raminhos de violetas
@@ -32,7 +32,7 @@ De alta roda que passavam
 Ficavam tristes ao olhar o seu cabelo
              F#m
 Quando ela olhava
-                      B#m
+                      Bm 
 Com vergonha o disfarçavam
            E
 E pouco a pouco
@@ -40,7 +40,7 @@ E pouco a pouco
 Todas deixaram crescê-lo
              F#m
 Quando ela olhava
-                      B#m
+                      Bm 
 Com vergonha o disfarçavam
            E
 E pouco a pouco
@@ -53,13 +53,13 @@ Passaram dias e as meninas do chiado
 Usavam tranças
                    A
 Enfeitadas com violetas
-         F#m                  B#m
+         F#m                  Bm 
 Todas gostavam do seu novo penteado
              E
 E assim nasceu
                      A
 A moda das tranças pretas
-         F#m                  B#m
+         F#m                  Bm 
 Todas gostavam do seu novo penteado
              E
 E assim nasceu
@@ -78,7 +78,7 @@ Deixou saudades foi-se embora
 E à tardinha
           F#m
 Está o chiado carregado
-        B#m
+        Bm 
 De mil tranças
                E
 Mas tranças pretas
@@ -86,7 +86,7 @@ Mas tranças pretas
 Ninguém tem como ela as tinha
           F#m
 Está o chiado carregado
-        B#m
+        Bm 
 De mil tranças
                E
 Mas tranças pretas

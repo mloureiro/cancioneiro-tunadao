@@ -3,6 +3,7 @@ titulo: Podes Partir
 tom: Em
 ---
 
+
 [SOLISTA]
 Sinto a falta
 Do teu corpo ao adormecer (Em)
@@ -33,7 +34,7 @@ Fico sozinho amargurado
 
               D
 **Podes partir**
-                             Sol
+                             G
 **Hei de arranjar uma outra mulher**
               F
 **Fazer com ela**
@@ -71,7 +72,7 @@ Para sempre na loucura
 
               D
 **Podes partir**
-                             Sol
+                             G
 **Hei de arranjar uma outra mulher**
               F
 **Fazer com ela**

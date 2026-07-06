@@ -1,0 +1,48 @@
+---
+titulo: Fogo na Escuridão
+artista: RaussTuna
+tom: Am
+---
+
+
+Sequência de Acordes:
+
+Am , E , Am  (2x)
+
+G  , C , Dm , E , Am
+
+F , C , Dm , E , Am
+
+Am , G#   (3x)
+
+F , Dm
+
+Am , G#   (2x)
+
+F , Dm
+
+Am , G#  , C , E
+
+Am , G
+
+G  , Am
+
+Am , G
+
+G  , Am
+
+Am , G   (4x)
+
+Am , G#  , C , E  (2x)
+
+Am, G#(2x)
+
+F , Dm
+
+Am, G#(2x)
+
+F , Dm
+
+Am, G#(2x)
+
+F , Dm , A

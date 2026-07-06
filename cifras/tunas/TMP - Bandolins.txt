@@ -1,0 +1,80 @@
+---
+titulo: Bandolins
+artista: TMP
+tom: Em
+---
+
+[INTRO] Em  Em/D  C#m7(5-)  Cm7(5-)
+
+[Primeira Parte]
+
+ Em            Em/D
+Como fosse um par que
+              C#m7(5-)
+Nessa valsa triste
+            C6(11+) 
+Se desenvolvesse
+                 Em
+Ao som dos bandolins
+        Em/D
+E como não
+                Am
+E porque não dizer
+                       D7
+Que o mundo respirava mais
+                   G
+Se ela apertava assim?
+             Bm7
+Seu colo como
+           B7    C7M
+Se não fosse um tempo
+                    B7 
+Em que já fosse impróprio
+            Em
+Se dançar assim
+        Em/D              C#m7(5-)
+Ela teimou e enfrentou o mundo
+         C6(11+)                Em    
+Se rodopiando ao som dos bandolins
+
+( Em/D  C#m7(5-) C6(11+) )
+
+[Segunda Parte]
+
+ Em                Em/D
+Como se fosse um lar
+                    C#m7(5-)
+Seu corpo à valsa triste
+               C6(11+) 
+Iluminava e a noite
+             Em
+Caminhava assim
+           Em/D
+E como um par
+                 Am
+O vento e a madrugada
+              D7
+Iluminavam a fada
+            G
+Do meu botequim
+               Bm
+Valsando como valsa
+  B7   C7M                B7
+Uma criança que entra na roda
+             Em
+A noite tá no  fim
+        Em/D
+Ela valsando
+          C#m7(5-)
+Só na madrugada
+              C6(11+)
+Se julgando amada
+            Em       
+Ao som dos bandolins
+
+( Em/D  C#m7(5-) C6(11+) )
+
+[Final] Em  Em/D  C#m7(5-) C6(11+)   Em
+
+Acordes principais: Em, Em/D, C#m7(5-), C6(11+), Am, D7, G, Bm7, B7, C7M
+Fonte: Cifra Club (versão Oswaldo Montenegro)

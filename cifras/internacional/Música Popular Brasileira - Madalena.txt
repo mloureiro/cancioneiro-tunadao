@@ -1,0 +1,52 @@
+---
+titulo: Madalena
+artista: Música Popular Brasileira
+tom: Dm
+---
+
+[INTRO]
+Gm, Dm, A#, A, Dm, D7
+(x2)   (Na segunda vez para-se no Dm)
+
+   Dm                 Gm
+Chorar, como eu chorava
+   A         Dm
+Ninguém pode chorar
+  D7          Gm
+E amar, como eu amava
+   A      Dm        D7
+Ninguém deve amar
+
+                    Gm   C
+Chorava que dava pena
+                   F
+Por amor à Madalena
+   Dm               Gm
+Mas ela me abandonou
+                                         Dm
+E assim murchou, em meu jardim,
+   A# , A , Dm , D7
+Essa linda flor
+
+[REFRÃO]
+Gm
+La, la la, la la la
+Dm
+La, la la, la la la                (x2)
+A#                          A            Dm , D7
+La, la la, la la la, la la, la la la, la
+
+ Gm   C
+E Madalena foi
+          F
+Como um anjo salvador
+   A           Dm , D7
+Que eu adorava com fé.
+   Gm           C
+Um barco sem timão
+             F
+Perdido em alto mar
+         A            Dm , D7
+Sou, Madalena, sem ti, amor!
+
+[REFRÃO]
