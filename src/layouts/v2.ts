@@ -113,67 +113,180 @@ function renderLine(line: SongLine, forceBold: boolean): string {
   }
 }
 
-// Pill de secção: sempre com contorno (hollow); a cor distingue o tipo —
-// REFRÃO coral, INTRO azul, restantes tinta.
+// Classificação de secções por família. O qualificador (o que sobra do nome
+// depois da palavra-chave, ex: "x2", "só vozes", "- Pantera Cor-de-Rosa")
+// é mostrado em texto pequeno a seguir à pill.
+const REFRAO_FAMILY = /^(\d+º\s*)?refr[ãa]o\s*[,–—-]?\s*(.*)$/i;
+const INST_FAMILY = /^(?:instr\.?|instrumental|passagem|solo)\s*[,–—-]?\s*(.*)$/i;
+
+type TagFamily =
+  | { kind: "pill"; label: string; color: string; qualifier: string }
+  | { kind: "label"; label: string }
+  | null;
+
+function classifyTag(type: string): TagFamily {
+  const t = type.trim();
+  if (!t) return null;
+  const upper = t.toUpperCase();
+  let m;
+  if (!upper.startsWith("PRÉ") && (m = t.match(REFRAO_FAMILY))) {
+    const qualifier = [m[1]?.trim(), m[2]?.trim()].filter(Boolean).join(" ");
+    return { kind: "pill", label: "REFRÃO", color: "coral", qualifier };
+  }
+  if ((m = t.match(/^intro\s*[,–—-]?\s*(.*)$/i))) {
+    return { kind: "pill", label: "INTRO", color: "blue", qualifier: m[1]?.trim() ?? "" };
+  }
+  if ((m = t.match(INST_FAMILY))) {
+    return { kind: "pill", label: "INST", color: "blue", qualifier: m[1]?.trim() ?? "" };
+  }
+  if (upper === "SAÍDA" || upper === "SAIDA") {
+    return { kind: "pill", label: "SAÍDA", color: "ink", qualifier: "" };
+  }
+  if (upper === "SOLISTA") {
+    return { kind: "pill", label: "SOLISTA", color: "ink", qualifier: "" };
+  }
+  return { kind: "label", label: t.toUpperCase() };
+}
+
 // Secções SEM conteúdo (ex: [SOLO] no fim da cifra) não são sticky: uma pill
 // sticky sem linhas a seguir era arrastada sozinha para a coluna seguinte,
 // deixando colunas fantasma quase vazias.
-function renderSectionTag(type: string, hasContent: boolean): string {
+function renderSectionTag(type: string, hasContent: boolean, extraNote: string): string {
+  const fam = classifyTag(type);
+  if (!fam) return "";
   const sticky = hasContent ? "" : ", sticky: false";
-  const upper = type.toUpperCase();
-  if (upper === "REFRÃO" || upper === "REFRAO") {
-    return `#sec-pill("REFRÃO", coral${sticky})\n`;
+  const noteParts = fam.kind === "pill"
+    ? [fam.qualifier, extraNote].filter(Boolean)
+    : [extraNote].filter(Boolean);
+  const note = noteParts.length
+    ? `, note: "${escLiteral(noteParts.map((n) => `(${n})`).join(" "))}"`
+    : "";
+  if (fam.kind === "pill") {
+    return `#sec-pill("${escLiteral(fam.label)}", ${fam.color}${sticky}${note})\n`;
   }
-  if (upper === "INTRO") {
-    return `#sec-pill("INTRO", blue${sticky})\n`;
-  }
-  // Nomes normalizados: variantes instrumentais/passagens → INST
-  const known: Record<string, string> = {
-    "PASSAGEM": "INST",
-    "SOLO": "SOLO",
-    "INSTR.": "INST",
-    "INSTRUMENTAL": "INST",
-    "SAÍDA": "SAÍDA",
-    "SAIDA": "SAÍDA",
-    "SOLISTA": "SOLISTA",
-  };
-  if (known[upper]) {
-    return `#sec-pill("${known[upper]}", ink${sticky})\n`;
-  }
-  if (type.trim()) {
-    // Secção custom (sub-músicas, etc.): marca azul + label
-    return `#section-label("${escLiteral(type.toUpperCase())}"${sticky})\n`;
-  }
-  return "";
+  return `#section-label("${escLiteral(fam.label)}"${sticky}${note})\n`;
 }
 
-function renderSection(section: Section): string {
+function renderSection(
+  section: Section,
+  lines: SongLine[],
+  extraNote: string,
+  pillOnly: boolean,
+  seenChorus: Set<string>
+): string {
   let out = "";
+  const hasContent = !pillOnly && lines.some((l) => l.type !== "empty");
   if (section.type) {
-    const hasContent = section.lines.some((l) => l.type !== "empty");
-    out += renderSectionTag(section.type, hasContent);
+    out += renderSectionTag(section.type, hasContent, extraNote);
   }
-  // Refrão consistente nos dois sentidos:
-  // - secção [REFRÃO] → letras sempre a bold;
-  // - bloco a **bold** sem secção → ganha a pill REFRÃO no início do bloco.
-  let prevBold: boolean | null = null;
-  for (const line of section.lines) {
+  if (pillOnly) return out;
+  const fam = classifyTag(section.type);
+  const isChorusLike = section.isChorus || (fam?.kind === "pill" && fam.label === "REFRÃO");
+
+  if (isChorusLike) {
+    // secção-refrão: conteúdo todo a bold (a pill já saiu na tag)
+    for (const line of lines) out += renderLine(line, true);
+    return out;
+  }
+
+  // Dividir em "runs" pela boldness das linhas de letra: um run a bold é um
+  // refrão embutido — ganha pill, colapsa repetições internas (bloco × k →
+  // bloco + (xk)) e, se repetir um refrão já mostrado na música, sai só a
+  // pill (repetições consecutivas fundem-se numa pill com (xN)).
+  interface Run { bold: boolean | null; lines: SongLine[] }
+  const runs: Run[] = [];
+  let cur: Run = { bold: null, lines: [] };
+  for (const line of lines) {
     if (line.type === "lyrics" && line.lyrics) {
-      const isBold = !!line.isBold;
-      if (!section.isChorus && isBold && prevBold !== true) {
-        out += `#sec-pill("REFRÃO", coral)\n`;
-      } else if (prevBold === true && !isBold) {
-        out += `#v(0.6em)\n`;
+      const b = !!line.isBold;
+      if (cur.bold === null) cur.bold = b;
+      else if (b !== cur.bold) {
+        runs.push(cur);
+        cur = { bold: b, lines: [] };
       }
-      prevBold = isBold;
     }
-    out += renderLine(line, section.isChorus);
+    cur.lines.push(line);
   }
+  runs.push(cur);
+
+  let pendingPill: { times: number } | null = null;
+  const flushPill = () => {
+    if (!pendingPill) return;
+    const note = pendingPill.times > 1 ? `, note: "(x${pendingPill.times})"` : "";
+    out += `#sec-pill("REFRÃO", coral, sticky: false${note})\n`;
+    pendingPill = null;
+  };
+
+  let emitted = false;
+  for (const run of runs) {
+    // Só é bloco-refrão com ≥2 linhas de letra a bold — linhas bold isoladas
+    // (ex: cânticos alternados) ficam como estão, sem pill.
+    const boldLyricCount = run.bold
+      ? run.lines.filter((l) => l.type === "lyrics" && l.lyrics).length
+      : 0;
+    if (!run.bold || boldLyricCount < 2) {
+      flushPill();
+      if (emitted && run.lines.some((l) => l.type === "lyrics")) out += `#v(0.6em)\n`;
+      for (const line of run.lines) out += renderLine(line, false);
+      if (run.lines.some((l) => l.type !== "empty")) emitted = true;
+      continue;
+    }
+    const { lines: blockLines, times } = collapseRepeats(run.lines);
+    const sig = "REFRÃO||" + contentKeys(blockLines).join("¶");
+    if (seenChorus.has(sig)) {
+      // refrão repetido → só a pill; acumular repetições consecutivas
+      if (pendingPill) pendingPill.times += Math.max(times, 1);
+      else pendingPill = { times: Math.max(times, 1) };
+      continue;
+    }
+    seenChorus.add(sig);
+    flushPill();
+    const note = times > 1 ? `, note: "(x${times})"` : "";
+    out += `#sec-pill("REFRÃO", coral${note})\n`;
+    for (const line of blockLines) out += renderLine(line, false);
+    emitted = true;
+  }
+  flushPill();
   return out;
 }
 
-// Uma parte (medley: [parte: X] / [tom: Y])
-function renderPart(part: SongPart, isFirst: boolean): string {
+// Assinatura do conteúdo de uma secção (para detectar repetições)
+function contentKeys(lines: SongLine[]): string[] {
+  return lines
+    .filter((l) => l.type !== "empty")
+    .map((l) => {
+      const chords = (l.chords ?? []).map((c) => c.chord).join(" ");
+      const text = (l.lyrics ?? l.instruction ?? "").trim().toLowerCase();
+      return `${l.type}|${chords}|${text}`;
+    });
+}
+
+// Conteúdo = bloco repetido k vezes? → colapsar para o bloco + k
+function collapseRepeats(lines: SongLine[]): { lines: SongLine[]; times: number } {
+  const keys = contentKeys(lines);
+  const n = keys.length;
+  for (let k = Math.min(8, n); k >= 2; k--) {
+    if (n % k !== 0) continue;
+    const m = n / k;
+    let ok = true;
+    for (let i = m; i < n && ok; i++) if (keys[i] !== keys[i % m]) ok = false;
+    if (!ok) continue;
+    // cortar no fim da m-ésima linha de conteúdo (mantém empties pelo meio)
+    let count = 0;
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].type !== "empty") count++;
+      if (count === m) return { lines: lines.slice(0, i + 1), times: k };
+    }
+  }
+  return { lines, times: 1 };
+}
+
+// Uma parte (medley: [parte: X] / [tom: Y]).
+// `seen` acumula assinaturas de secções já mostradas na música: uma secção
+// com tag cujo conteúdo repete uma anterior sai só com a pill; repetições
+// consecutivas fundem-se numa pill com nota (xN). O mesmo para conteúdo
+// duplicado DENTRO de uma secção (bloco × k → bloco + (xk)).
+function renderPart(part: SongPart, isFirst: boolean, seen: Set<string>): string {
   let out = "";
 
   if (part.metadata) {
@@ -187,8 +300,30 @@ function renderPart(part: SongPart, isFirst: boolean): string {
     }
   }
 
+  interface Unit { section: Section; lines: SongLine[]; times: number; pillOnly: boolean; sig: string }
+  const units: Unit[] = [];
   for (const section of part.sections) {
-    out += renderSection(section);
+    const tagged = !!section.type.trim();
+    const { lines, times } = tagged ? collapseRepeats(section.lines) : { lines: section.lines, times: 1 };
+    const keys = contentKeys(lines);
+    // Assinatura por família (um [REFRÃO] e um bloco bold com o mesmo
+    // conteúdo contam como o mesmo refrão)
+    const fam = classifyTag(section.type);
+    const sigType = fam?.kind === "pill" ? fam.label : section.type.toUpperCase();
+    const sig = sigType + "||" + keys.join("¶");
+    const pillOnly = tagged && keys.length > 0 && seen.has(sig);
+    if (tagged && keys.length > 0 && !pillOnly) seen.add(sig);
+    const prev = units[units.length - 1];
+    if (pillOnly && prev?.pillOnly && prev.sig === sig) {
+      prev.times += Math.max(times, 1);
+      continue;
+    }
+    units.push({ section, lines, times, pillOnly, sig });
+  }
+
+  for (const u of units) {
+    const extraNote = u.times > 1 ? `x${u.times}` : "";
+    out += renderSection(u.section, u.lines, extraNote, u.pillOnly, seen);
   }
 
   return out;
@@ -202,8 +337,9 @@ function renderSong(song: Song, labelId: string, autor: string): string {
   out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
   out += `#song-title("${escLiteral(main)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}", sub: "${escLiteral(sub)}")\n`;
 
+  const seen = new Set<string>();
   for (let i = 0; i < song.parts.length; i++) {
-    out += renderPart(song.parts[i], i === 0);
+    out += renderPart(song.parts[i], i === 0, seen);
   }
 
   return out;
@@ -509,20 +645,28 @@ function generate(input: LayoutInput): string {
 // Pill de secção com contorno (hollow) — cor distingue o tipo.
 // sticky: nunca fica órfã no fundo de uma coluna.
 // "above" generoso: espaço claro entre secções.
-#let sec-pill(label, color, sticky: true) = block(sticky: sticky, above: 1.3em, below: 0.45em,
+#let sec-pill(label, color, sticky: true, note: "") = block(sticky: sticky, above: 1.3em, below: 0.45em, {
   box(
     stroke: 0.8pt + color,
     radius: 2pt,
     inset: (x: 5pt, y: 2.6pt),
     cond-text(label, size: 0.78em, fill: color, tracking: 0.07em),
-  ),
-)
+  )
+  if note != "" {
+    h(4pt)
+    text(fill: grey, style: "italic", size: 0.78em, note)
+  }
+})
 
 // Label de secção custom (sub-músicas etc.): quadrado azul + texto
-#let section-label(label, sticky: true) = block(sticky: sticky, above: 1.3em, below: 0.45em, {
+#let section-label(label, sticky: true, note: "") = block(sticky: sticky, above: 1.3em, below: 0.45em, {
   box(baseline: -0.08em, square(size: 0.5em, fill: blue))
   h(0.45em)
   cond-text(label, size: 0.85em, tracking: 0.04em)
+  if note != "" {
+    h(4pt)
+    text(fill: grey, style: "italic", size: 0.78em, note)
+  }
 })
 
 // Chip do tom: contorno azul (junto ao título e às partes de medley)
