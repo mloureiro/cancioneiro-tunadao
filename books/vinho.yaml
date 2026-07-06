@@ -19,9 +19,12 @@ sections:
   - name: Fados
     songs:
       - cifras/fados/*.txt
-  - name: Portuguesas
+  - name: Tradicional
     songs:
-      - cifras/portugues/*.txt
+      - cifras/tradicional/*.txt
+  - name: Rock / Pop
+    songs:
+      - cifras/rock-pop/*.txt
   - name: Internacional
     songs:
       - cifras/internacional/*.txt
