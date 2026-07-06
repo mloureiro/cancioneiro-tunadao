@@ -52,16 +52,18 @@ function chordRunContent(s: string): string {
 // Mecânica: prefixos pré-computados em JS (Unicode-safe) + measure() no
 // Typst; um cursor `x` impede que acordes vizinhos se sobreponham.
 function renderChordLyricsLine(line: SongLine): string {
-  const lyrics = line.lyrics || "";
+  const { text: lyrics, times: repTimes } = extractRepeat(line.lyrics || "", false);
   const chords = line.chords || [];
+
+  const bubbleExpr = repTimes > 1 ? ` + h(4pt) + rep-bubble("x${repTimes}")` : "";
 
   if (chords.length === 0 && lyrics) {
     // Bloco próprio para que linhas consecutivas sem acordes não se fundam
     // num único parágrafo com wrapping.
     if (line.isBold) {
-      return `#lyr(text(weight: "bold", [${escTypst(lyrics)}]))\n`;
+      return `#lyr(text(weight: "bold", [${escTypst(lyrics)}])${bubbleExpr})\n`;
     }
-    return `#lyr[${escTypst(lyrics)}]\n`;
+    return `#lyr[${escTypst(lyrics)}${bubble(repTimes)}]\n`;
   }
 
   if (chords.length > 0 && !lyrics) {
@@ -79,9 +81,9 @@ function renderChordLyricsLine(line: SongLine): string {
       x = x + measure(chord-text("${escLiteral(c.chord)}")).width + chord-size * 0.3`;
   }).join("\n");
 
-  const lyricsContent = line.isBold
+  const lyricsContent = (line.isBold
     ? `text(weight: "bold", [${escTypst(lyrics)}])`
-    : `[${escTypst(lyrics)}]`;
+    : `[${escTypst(lyrics)}]`) + bubbleExpr;
 
   return `#v(0.15em)
 #context grid(columns: (100%,), row-gutter: 0pt,
@@ -102,7 +104,8 @@ function renderLine(line: SongLine, forceBold: boolean): string {
       return `#instruction-text([${escTypst(line.instruction || "")}])\n#linebreak()\n`;
     case "chords-only":
       if (line.lyrics) {
-        return `#chord-text[${chordRunContent(line.lyrics)}]\n#linebreak()\n`;
+        const { text, times } = extractRepeat(line.lyrics, true);
+        return `#chord-text[${chordRunContent(text)}]${bubble(times)}\n#linebreak()\n`;
       } else if (line.chords && line.chords.length > 0) {
         const chordsStr = line.chords.map(c => c.chord).join("  ");
         return `#chord-text("${escLiteral(chordsStr)}")\n#linebreak()\n`;
@@ -151,33 +154,40 @@ function classifyTag(type: string): TagFamily {
 // Secções SEM conteúdo (ex: [SOLO] no fim da cifra) não são sticky: uma pill
 // sticky sem linhas a seguir era arrastada sozinha para a coluna seguinte,
 // deixando colunas fantasma quase vazias.
-function renderSectionTag(type: string, hasContent: boolean, extraNote: string): string {
+function renderSectionTag(type: string, hasContent: boolean, times: number): string {
   const fam = classifyTag(type);
   if (!fam) return "";
   const sticky = hasContent ? "" : ", sticky: false";
-  const noteParts = fam.kind === "pill"
-    ? [fam.qualifier, extraNote].filter(Boolean)
-    : [extraNote].filter(Boolean);
-  const note = noteParts.length
-    ? `, note: "${escLiteral(noteParts.map((n) => `(${n})`).join(" "))}"`
-    : "";
-  if (fam.kind === "pill") {
-    return `#sec-pill("${escLiteral(fam.label)}", ${fam.color}${sticky}${note})\n`;
+  const timesArg = times > 1 ? `, times: ${times}` : "";
+  // qualificador do nome pode já ser um marcador de repetição ("x2") — nesse
+  // caso vai para a bolha em vez de nota em texto
+  let qual = fam.kind === "pill" ? fam.qualifier : "";
+  let bubbleTimes = times;
+  const qm = qual.match(/^\(?\s*(?:x\s*(\d+)|(\d+)\s*x|bis)\s*\)?$/i);
+  if (qm) {
+    const n = qm[1] ? +qm[1] : qm[2] ? +qm[2] : 2;
+    bubbleTimes = Math.max(bubbleTimes, n);
+    qual = "";
   }
-  return `#section-label("${escLiteral(fam.label)}"${sticky}${note})\n`;
+  const bubbleArg = bubbleTimes > 1 ? `, times: ${bubbleTimes}` : "";
+  const note = qual ? `, note: "${escLiteral(`(${qual})`)}"` : "";
+  if (fam.kind === "pill") {
+    return `#sec-pill("${escLiteral(fam.label)}", ${fam.color}${sticky}${bubbleArg}${note})\n`;
+  }
+  return `#section-label("${escLiteral(fam.label)}"${sticky}${bubbleArg}${note})\n`;
 }
 
 function renderSection(
   section: Section,
   lines: SongLine[],
-  extraNote: string,
+  times: number,
   pillOnly: boolean,
   seenChorus: Set<string>
 ): string {
   let out = "";
   const hasContent = !pillOnly && lines.some((l) => l.type !== "empty");
   if (section.type) {
-    out += renderSectionTag(section.type, hasContent, extraNote);
+    out += renderSectionTag(section.type, hasContent, times);
   }
   if (pillOnly) return out;
   const fam = classifyTag(section.type);
@@ -212,8 +222,8 @@ function renderSection(
   let pendingPill: { times: number } | null = null;
   const flushPill = () => {
     if (!pendingPill) return;
-    const note = pendingPill.times > 1 ? `, note: "(x${pendingPill.times})"` : "";
-    out += `#sec-pill("REFRÃO", coral, sticky: false${note})\n`;
+    const t = pendingPill.times > 1 ? `, times: ${pendingPill.times}` : "";
+    out += `#sec-pill("REFRÃO", coral, sticky: false${t})\n`;
     pendingPill = null;
   };
 
@@ -231,18 +241,18 @@ function renderSection(
       if (run.lines.some((l) => l.type !== "empty")) emitted = true;
       continue;
     }
-    const { lines: blockLines, times } = collapseRepeats(run.lines);
+    const { lines: blockLines, times: blockTimes } = collapseRepeats(run.lines);
     const sig = "REFRÃO||" + contentKeys(blockLines).join("¶");
     if (seenChorus.has(sig)) {
       // refrão repetido → só a pill; acumular repetições consecutivas
-      if (pendingPill) pendingPill.times += Math.max(times, 1);
-      else pendingPill = { times: Math.max(times, 1) };
+      if (pendingPill) pendingPill.times += Math.max(blockTimes, 1);
+      else pendingPill = { times: Math.max(blockTimes, 1) };
       continue;
     }
     seenChorus.add(sig);
     flushPill();
-    const note = times > 1 ? `, note: "(x${times})"` : "";
-    out += `#sec-pill("REFRÃO", coral${note})\n`;
+    const t = blockTimes > 1 ? `, times: ${blockTimes}` : "";
+    out += `#sec-pill("REFRÃO", coral${t})\n`;
     for (const line of blockLines) out += renderLine(line, false);
     emitted = true;
   }
@@ -322,12 +332,24 @@ function renderPart(part: SongPart, isFirst: boolean, seen: Set<string>): string
   }
 
   for (const u of units) {
-    const extraNote = u.times > 1 ? `x${u.times}` : "";
-    out += renderSection(u.section, u.lines, extraNote, u.pillOnly, seen);
+    out += renderSection(u.section, u.lines, u.times, u.pillOnly, seen);
   }
 
   return out;
 }
+
+// Marcador de repetição no fim de uma linha: "(2x)", "(x2)", "(Bis)", "2x".
+// bare=true aceita sem parêntesis (linhas de acordes); nas letras exige-os.
+const REP_PAREN_RE = /\s*[\(\[]\s*(?:x\s*(\d+)|(\d+)\s*[xX]|bis)\s*[\)\]]\s*$/i;
+const REP_BARE_RE = /\s+(?:x\s*(\d+)|(\d+)\s*[xX])\s*$/i;
+function extractRepeat(text: string, bare: boolean): { text: string; times: number } {
+  let m = text.match(REP_PAREN_RE);
+  if (!m && bare) m = text.match(REP_BARE_RE);
+  if (!m) return { text, times: 0 };
+  const times = m[1] ? +m[1] : m[2] ? +m[2] : 2;
+  return { text: text.slice(0, m.index).replace(/\s+$/, ""), times };
+}
+const bubble = (times: number) => (times > 1 ? ` #rep-bubble("x${times}")` : "");
 
 // Separar o qualificador entre parêntesis no fim do título
 function splitTitle(titulo: string): { main: string; sub: string } {
@@ -652,13 +674,25 @@ function generate(input: LayoutInput): string {
 // Pill de secção com contorno (hollow) — cor distingue o tipo.
 // sticky: nunca fica órfã no fundo de uma coluna.
 // "above" generoso: espaço claro entre secções.
-#let sec-pill(label, color, sticky: true, note: "") = block(sticky: sticky, above: 1.3em, below: 0.45em, {
+// Bolha de repetição: "x2", "x3", ... (marcadores (2x)/(Bis) das cifras)
+#let rep-bubble(label) = box(
+  fill: hairline-color.lighten(40%),
+  radius: 5pt,
+  inset: (x: 4pt, y: 1.6pt),
+  cond-text(label, size: 0.72em, fill: ink, weight: 700, tracking: 0.03em),
+)
+
+#let sec-pill(label, color, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.3em, below: 0.45em, {
   box(
     stroke: 0.8pt + color,
     radius: 2pt,
     inset: (x: 5pt, y: 2.6pt),
     cond-text(label, size: 0.78em, fill: color, tracking: 0.07em),
   )
+  if times > 1 {
+    h(4pt)
+    rep-bubble("x" + str(times))
+  }
   if note != "" {
     h(4pt)
     text(fill: grey, style: "italic", size: 0.78em, note)
@@ -666,10 +700,14 @@ function generate(input: LayoutInput): string {
 })
 
 // Label de secção custom (sub-músicas etc.): quadrado azul + texto
-#let section-label(label, sticky: true, note: "") = block(sticky: sticky, above: 1.3em, below: 0.45em, {
+#let section-label(label, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.3em, below: 0.45em, {
   box(baseline: -0.08em, square(size: 0.5em, fill: blue))
   h(0.45em)
   cond-text(label, size: 0.85em, tracking: 0.04em)
+  if times > 1 {
+    h(4pt)
+    rep-bubble("x" + str(times))
+  }
   if note != "" {
     h(4pt)
     text(fill: grey, style: "italic", size: 0.78em, note)
