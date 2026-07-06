@@ -317,3 +317,38 @@ describe("parseSong — todos os 14 ficheiros sem erros", () => {
     });
   }
 });
+
+describe("parseSongContent — metadata colunas", () => {
+  it("default é undefined (layout usa 2 colunas)", () => {
+    const song = parseSongContent("---\ntitulo: Teste\ntom: C\n---\n\nLetra\n");
+    expect(song.metadata.colunas).toBeUndefined();
+  });
+
+  it("colunas: 1 é lido", () => {
+    const song = parseSongContent("---\ntitulo: Teste\ntom: C\ncolunas: 1\n---\n\nLetra\n");
+    expect(song.metadata.colunas).toBe(1);
+  });
+
+  it("colunas: 2 é lido", () => {
+    const song = parseSongContent("---\ntitulo: Teste\ntom: C\ncolunas: 2\n---\n\nLetra\n");
+    expect(song.metadata.colunas).toBe(2);
+  });
+
+  it("valores inválidos são ignorados", () => {
+    const song = parseSongContent("---\ntitulo: Teste\ntom: C\ncolunas: 3\n---\n\nLetra\n");
+    expect(song.metadata.colunas).toBeUndefined();
+  });
+});
+
+describe("parseSong — bold após secção PASSAGEM", () => {
+  it("remove ** e marca isBold em linhas soltas depois de [PASSAGEM]", () => {
+    const song = parseSongContent(
+      "---\ntitulo: Teste\ntom: C\n---\n\n[PASSAGEM] C D\n\n**Linha a negrito**\n"
+    );
+    const lines = song.parts[0].sections.flatMap((s) => s.lines);
+    const bold = lines.find((l) => l.lyrics?.includes("Linha a negrito"));
+    expect(bold).toBeDefined();
+    expect(bold!.lyrics).toBe("Linha a negrito");
+    expect(bold!.isBold).toBe(true);
+  });
+});

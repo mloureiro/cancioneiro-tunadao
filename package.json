@@ -2,7 +2,6 @@
   "name": "cancioneiro2",
   "version": "1.0.0",
   "description": "Plataforma para gerar cancioneiros de cifras (songbooks com acordes) para tunas académicas portuguesas",
-  "main": "index.js",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
@@ -16,7 +15,6 @@
     "@types/node": "^25.2.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.18",
-    "yaml": "^2.8.2"
+    "vitest": "^4.0.18"
   }
 }

@@ -32,6 +32,8 @@ export interface Song {
     tom: string;
     artista?: string;
     subtitulo?: string;
+    /** Número de colunas para esta música (1 ou 2). Default: 2. */
+    colunas?: number;
   };
   parts: SongPart[];
 }
