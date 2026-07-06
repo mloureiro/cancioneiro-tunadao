@@ -1,0 +1,35 @@
+---
+titulo: Lisboa Antiga
+artista: Tradicional (Lisboa)
+tom: Am
+---
+
+[VERSO]
+Am        F        E7
+Lisboa velha cidade
+Dm       E             Am
+Cheia de encanto e beleza
+                     G7
+Sempre formosa a sorrir
+        F             E7  Am
+E ao vestir sempre airosa
+          F           E
+O branco véu da saudade
+Dm          E7                Am  E7 (A)
+Cobre o teu rosto lindo princesa
+
+[REFRÃO]
+F#        Bm7    E7
+Olhai senhores
+                      A
+Esta Lisboa de outras eras
+                     E7
+Dos cinco reis das esperas
+          D   E    A
+E das touradas reais
+     D         E                A
+Das festas das seculares procissões
+                  E7
+Dos populares pregões matinais
+                  Am
+Que já não voltam mais
