@@ -1,0 +1,118 @@
+---
+titulo: Não é um Fado Normal
+artista: Ana Moura
+tom: Dm
+---
+
+[INTRO] F Dm7 F Dm7  F Dm7 F Dm7  F Dm7 F Dm7  Bb A C#dim
+
+Dm        G        C
+Olhas p'ra mim com esse ar reservado
+D            Bm
+A estoirar pelas costuras
+A/C#            Em
+Nem sei se estou em Lisboa
+A               D
+Será que é Tóquio ou Berlin?
+C              Bm
+Tu não me olhes assim!
+F#m         Bm
+Porque o teu olhar tem ópio
+Bm/Bb        Bm/A
+Tem quebras nos equinócios
+E/G#      A7
+Pitadas de gergelim
+
+Dm
+Mas se isto é fado
+G        C
+Ponho o gergelim de lado
+D            Bm
+Vou buscar o alecrim
+A/C#            Em
+E tu sempre a olhar p'ra mim
+A               D
+Como se alecrim aos molhos
+C           Bm
+Atraíssem os meus olhos
+F#m         Bm
+Não tenho nada com isso
+Bm/Bb        Bm/A
+Alguém que quebre este enguiço
+E/G#      A7
+Que eu não respondo por mim
+
+[REFRÃO]
+D                  C  G/B      Am7  D/F#      G
+E já estou, quase a trocar o mal pelo bem e o bem pelo mal
+A      D        F#m       Bm    A
+Se isto é fado, não é um fado normal
+D    C   G/B      Am7        G
+A trocar, o mal pelo bem e o bem pelo mal
+F#m      Bm    A
+Não é um fado normal
+
+Dm        G        C
+Vou por lugares nunca dantes visitados
+D            Bm
+E há que ter alguns cuidados
+A/C#            Em
+Porque bússola não há
+A               D
+E baralham-se os sentidos
+C              Bm
+Se andamos ao Deus-dará
+F#m         Bm
+Sem sentinelas nos olhos
+Bm/Bb        Bm/A
+Vou confiar no ouvido
+E/G#      A7
+E nada vai estar perdido
+
+Dm
+Mas se isto é fado
+G        C
+Vou entristecer o quadro
+D            Bm
+P'ra tom de cinza acordado
+A/C#            Em
+Que eu não quero exagerar
+A               D
+No meio do nevoeiro
+C           Bm
+Teimo em ver o teu olhar
+F#m         Bm
+Que sei não ser derradeiro
+Bm/Bb        Bm/A
+Alguma coisa se solta
+E/G#      A7
+Que talvez não tenha volta
+
+[REFRÃO]
+D                  C  G/B      Am7  D/F#      G
+E já estou, quase a trocar o mal pelo bem e o bem pelo mal
+A      D        F#m       Bm    A
+Se isto é fado, não é um fado normal
+D    C   G/B      Am7        G
+A trocar, o mal pelo bem e o bem pelo mal
+F#m      Bm    A
+Não é um fado normal
+
+[SOLO] Dm C Bb A7  Dm G/B C Am7  Bb G#dim A7
+
+D                  C  G/B      Am7  D/F#      G
+E já estou, quase a trocar o mal pelo bem e o bem pelo mal
+A      D        F#m       Bm    A
+Se isto é fado, não é um fado normal
+D    C   G/B      Am7        G
+A trocar, o mal pelo bem e o bem pelo mal
+F#m      Bm      A/C#
+Não é um fado normal
+D        Bm       E7    E7      A
+Se isto é fado, Se isto é fado
+
+Não é um fado normal
+
+[PASSAGEM] ( Bm A/C# D D#dim A7/E )
+
+[SAÍDA] F Dm7 F Dm7  F Dm7 F Dm7  F Dm7 F Dm7  F Dm7 Bb Dm  A7 Dm Dbm Dm

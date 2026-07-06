@@ -1,0 +1,50 @@
+---
+titulo: Coimbra (Abril em Portugal)
+artista: Amália Rodrigues
+tom: A
+---
+
+[INTRO] A  F#m  F  E7
+
+   A            Bbdim
+Coimbra é uma lição
+   Bb6       D9/E
+De sonho e tradição
+   E7
+O lente é uma canção
+    A           E7
+E a lua a faculdade
+  A             Bbdim
+O livro é uma mulher
+  Bb6       D9/E
+Só passa quem souber
+   E7          E7/B         A  E7
+E aprende-se a dizer saudade
+
+[REFRÃO]
+  Am           Am(maj7)
+Coimbra do choupal
+ Am7         Am6
+Ainda és capital
+    F7          Am7   E7
+Do amor em Portugal, ainda
+   E7            Dm6
+Coimbra onde uma vez
+    E7          Dm6
+Com lágrimas se fez
+     E7                   Am7
+A história dessa Inês tão linda
+
+[REFRÃO]
+  Am           Am(maj7)
+Coimbra das canções
+    Am7           Am6
+Tão meiga que nos pões
+   F7         Am7     E7
+Os nossos corações a nu
+  E7           Dm6
+Coimbra dos doutores
+    E7             Dm6
+Pra nós os teus cantores
+  E7                  A
+A fonte dos amores és tu

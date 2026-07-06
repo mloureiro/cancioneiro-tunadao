@@ -1,0 +1,32 @@
+---
+titulo: Um Homem na Cidade
+artista: Carlos do Carmo
+tom: Cm
+---
+
+Dm7(b5)   G7  G7(#5)
+Agarro a madrugada
+Cm7
+como se fosse uma criança
+Fm7(b5)              A#7
+uma roseira entrelaçada
+D#maj7
+uma videira de esperança
+Dm7(b5)           G7
+Tal qual o corpo da cidade
+Cm7
+que manhã cedo ensaia a dança
+G#m7             C#7
+de quem, por força da vontade
+C#m7(9)  F#7  F#7(13)
+de trabalhar nunca se cansa
+
+[REFRÃO]
+Bmaj7           B7
+Vou pela rua desta lua
+Emaj7
+que no meu Tejo acendo cedo
+Fm7(b5)          A#7
+vou por Lisboa, maré nua
+D#maj7
+que desagua no Rossio

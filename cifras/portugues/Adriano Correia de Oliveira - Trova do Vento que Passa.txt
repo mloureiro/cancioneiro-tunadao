@@ -1,0 +1,47 @@
+---
+titulo: Trova do Vento que Passa
+artista: Adriano Correia de Oliveira
+tom: G
+---
+
+[INTRO] G D G D G D7 G D7 G
+
+[VERSO]
+D7                 G
+Pergunto ao vento que passa
+D        D7     G    G7
+Notícias do meu país
+C     Cm     G
+E o vento cala a desgraça
+D7      G   G7
+O vento nada me diz
+C         Cm     G
+E o vento cala a desgraça
+D7            G
+O vento nada me diz
+
+[PASSAGEM] D G D G D7 G D7 G
+
+[VERSO]
+D7            G
+Mas há sempre uma candeia
+D         D7         G     G7
+Dentro da própria desgraça
+C         Cm           G
+Há sempre alguém que semeia
+D7        G     G7
+Canções no vento que passa
+C         Cm           G
+Há sempre alguém que semeia
+D7        G
+Canções no vento que passa
+
+[VERSO]
+D7               G
+Mesmo na noite mais triste
+D     D7      G   G7
+Em tempo de servidão
+C         Cm           G
+Há sempre alguém que resiste
+D7                    G   G7
+Há sempre alguém que diz não

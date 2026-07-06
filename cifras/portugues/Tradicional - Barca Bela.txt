@@ -1,0 +1,52 @@
+---
+titulo: Barca Bela
+artista: Tradicional
+tom: C
+---
+
+[INTRO] ( E7: 020100 )
+
+  Cmaj7            Dm7
+Pescador da barca bela,
+  G7                   Cmaj7
+Onde vais pescar com ela,
+      G7                    C
+Que é tão bela, ó pescador ?
+         G7              C
+Que é tão bela, ó pescador ?
+
+  E7                 Am
+Não vês que a última estrela
+  D7                    G
+No céu nublado se vela ?
+  G7                   Cmaj7
+Colhe a vela, ó pescador !
+    G7                 C
+Colhe a vela, ó pescador !
+
+          E7              Am
+Deita o lanço com cautela,
+   D7                G
+Que a sereia canta bela...
+   G7                 Cmaj7
+Mas cautela, ó pescador !
+  G7                   C
+Mas cautela, ó pescador !
+
+  E7               Am
+Não se enrede a rede nela,
+      D7                G
+Que perdido é remo e vela
+  G7                      Cmaj7
+Só de vê-la, ó pescador !
+   G7                C
+Só de vê-la, ó pescador !
+
+Cmaj7            Dm7
+Pescador da barca bela,
+    G7               Cmaj7
+Ainda é tempo, foge dela,
+    G7               Cmaj7
+Foge dela, ó pescador !
+    G7            Cmaj7  C Cmaj7 C
+Foge dela, ó pescador !

@@ -1,0 +1,57 @@
+---
+titulo: Pronúncia do Norte
+artista: GNR
+tom: C
+---
+
+[INTRO] F G
+
+[VERSO]
+F                      G
+Há um prenúncio de morte
+F                        G
+Lá do fundo donde eu venho
+F                         G
+Os antigos chamam-lhe relho
+F                        G
+Novos ricos são má sorte
+
+[REFRÃO]
+Am                   C
+É a pronúncia do Norte
+E                        F
+Os tontos chamam-lhe torpe
+
+[PASSAGEM] F G
+
+[VERSO]
+F                          G
+Hemisfério fraco outro forte
+F                        G
+Meio-dia não sejas triste
+F                         G
+A bússola não sei se existe
+F                     G
+E o plano talvez aborte
+
+[REFRÃO]
+Am                           C
+Nem guerra, em bairro ou corte
+                      F
+É a pronúncia do Norte
+Am                     C
+É um prenúncio de morte
+                      F
+Corre o rio para o mar
+
+[PASSAGEM] F G Dm F C C7 Dm F C G Em F
+
+[SAÍDA]
+G
+Não tenho barqueiro
+              Dm
+Nem hei de remar
+               F
+Procuro caminhos
+               C
+Novos para andar

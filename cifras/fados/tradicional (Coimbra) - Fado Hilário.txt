@@ -1,0 +1,38 @@
+---
+titulo: Fado Hilário
+artista: tradicional (Coimbra)
+tom: D
+---
+
+[INTRO] D7 G D7 G
+
+G                          D7
+A minha capa velhinha
+D7                         G
+é da cor da noite escura,
+Gm                         D7
+nela quero amortalhar-me,
+A7                         D7
+quando for p'ra sepultura.
+Cm                         G
+Nela quero amortalhar-me, ai
+D7                         G
+quando for p'ra sepultura.
+
+Em                         B7
+A minha capa ondulante
+B7                         Em
+feita de negro tecido,
+G                          D7
+não é capa de estudante, ai...
+C          D7             G
+é mortalha de vencido.
+
+Cm                         G7
+Ai!... Eu quero que o meu caixão
+G7                         Cm
+tenha uma forma bizarra,
+G7
+a forma de um coração,
+Cm                G7        Cm
+ai!... a forma de uma guitarra.

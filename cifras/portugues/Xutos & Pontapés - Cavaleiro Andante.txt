@@ -1,0 +1,40 @@
+---
+titulo: Cavaleiro Andante
+artista: Xutos & Pontapés
+tom: C#
+---
+
+[INTRO] C#maj7 F#maj7 C#maj7 F#/G# G#7(b9)
+
+C#maj7           F#maj7
+Porque sou o cavaleiro andante
+    C#maj7                   F#maj7
+Que mora no teu livro de aventuras
+D#m7                    G#6
+Podes vir chorar no meu peito
+   D#m7        F#/G#    C#maj7  F#maj7
+As mágoas e as des...venturas
+
+C#maj7               F#maj7
+Sempre que o vento te ralhe
+    C#maj7                F#maj7
+E a chuu..va de maio te molhe
+D#m7                     G#6
+Sempre que o teu barco encalhe
+    D#m7             F#/G#  C#maj7
+E a vida ....passe e não te olhe
+
+[PASSAGEM] F#maj7 C#maj7 F#/G# G#7(b9)
+
+F#maj7           C#maj7
+Porque sou o cavaleiro andante
+F#maj7                    C#maj7
+Que o teu velho medo inventou
+D#m7                    G#6
+Podes vir chorar no meu peito
+     D#m7         F#/G#        C#maj7
+Pois sabes sempre on - de es too..ou
+
+[PASSAGEM] F#maj7 C#maj7 F#/G# G#7(b9)
+
+[SAÍDA] C#maj7 F#maj7 C#maj7 F#maj7 F#/G# G#7(b9) C#maj7
