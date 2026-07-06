@@ -2,3 +2,7 @@ node_modules/
 dist/
 output/
 typst/cancioneiro-*.typ
+
+# Python bytecode
+__pycache__/
+*.pyc
