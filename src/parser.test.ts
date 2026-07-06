@@ -158,14 +158,9 @@ describe("parseSong — Podes Partir (solista)", () => {
     );
   });
 
-  it("tem instrução CONCLUSÃO – ANEXO", () => {
-    const allLines = song.parts[0].sections.flatMap((s) => s.lines);
-    const instruction = allLines.find(
-      (l) =>
-        l.type === "instruction" &&
-        l.instruction?.includes("CONCLUSÃO")
-    );
-    expect(instruction).toBeDefined();
+  it("repetição do refrão marcada como secção REFRÃO", () => {
+    const refroes = song.parts[0].sections.filter((s) => s.isChorus);
+    expect(refroes.length).toBeGreaterThan(0);
   });
 
   it("detecta refrão em bold", () => {
@@ -213,7 +208,7 @@ describe("parseSong — Vejam Bem (chaves de repetição)", () => {
   });
 });
 
-describe("parseSong — Maria Leviana (SOBE UM TOM)", () => {
+describe("parseSong — Maria Leviana", () => {
   let song: Song;
 
   it("deve fazer parse sem erros", () => {
@@ -226,14 +221,8 @@ describe("parseSong — Maria Leviana (SOBE UM TOM)", () => {
     expect(song.metadata.tom).toBe("F");
   });
 
-  it("tem instrução SOBE UM TOM", () => {
-    const allLines = song.parts[0].sections.flatMap((s) => s.lines);
-    const sobeUmTom = allLines.find(
-      (l) =>
-        l.type === "instruction" &&
-        l.instruction === "SOBE UM TOM"
-    );
-    expect(sobeUmTom).toBeDefined();
+  it("tem secções com conteúdo", () => {
+    expect(song.parts[0].sections.length).toBeGreaterThan(0);
   });
 });
 

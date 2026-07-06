@@ -202,7 +202,7 @@ function parseSectionHeader(
   // Ex: [PÕE A MÃO NA CABECINHA] é sub-música, funciona como secção
   const instructionKeywords = [
     "SOBE", "REPETE", "PARAM", "CONCLUSÃO", "ANEXO", "SAÍDA PARA",
-    "MISSÃO", "Repete", "Param",
+    "Repete", "Param",
   ];
   const isInstructionLike = instructionKeywords.some((kw) =>
     raw.toUpperCase().includes(kw.toUpperCase())
