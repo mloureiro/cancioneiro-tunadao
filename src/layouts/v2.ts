@@ -379,7 +379,11 @@ function collectChordNames(songs: Song[]): string[] {
     for (const part of song.parts)
       for (const section of part.sections)
         for (const line of section.lines)
-          for (const c of line.chords ?? []) names.add(c.chord);
+          for (const c of line.chords ?? []) {
+            // Runs de notas "(G A B)" não são acordes para o apêndice
+            if (c.chord.startsWith("(")) continue;
+            names.add(c.chord);
+          }
   return sortChordNames([...names]);
 }
 
