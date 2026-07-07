@@ -6,6 +6,7 @@ import {
   loadInstrument,
   sortChordNames,
   isAppendixChord,
+  mergeEnharmonicColumns,
   chartChordCall,
   miniPianoCall,
   ChordShape,
@@ -405,7 +406,7 @@ function collectChordNames(songs: Song[], allowed?: Set<string>): string[] {
 // mini-teclado + baixos Stradella). Acordes sem shape levam "—". Como não
 // cabem todos os acordes à largura, a tabela é dividida em blocos.
 function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>): string {
-  const chordNames = collectChordNames(songs, allowed);
+  const columns = mergeEnharmonicColumns(collectChordNames(songs, allowed));
   const titleSize = isA5 ? "22pt" : "30pt";
   const diagramSize = isA5 ? "11pt" : "15pt";
   const pianoWidth = isA5 ? "36pt" : "42pt";
@@ -429,9 +430,12 @@ function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>
     }
   }
 
-  // Avisos de cobertura (uma vez por instrumento)
+  // Avisos de cobertura (uma vez por instrumento) — uma coluna só falha se
+  // nenhuma das suas grafias tiver shape.
   for (const { data } of instruments) {
-    const missing = chordNames.filter((n) => !data.chords[n]?.length);
+    const missing = columns
+      .filter((col) => !col.names.some((n) => data.chords[n]?.length))
+      .map((col) => col.label);
     if (missing.length > 0) {
       console.warn(`  Aviso: ${data.instrument} sem diagrama para: ${missing.join(", ")}`);
     }
@@ -498,11 +502,11 @@ function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>
   out += `#box(width: 38pt, height: 3pt, fill: blue)\n`;
   out += `#v(1.1em)\n`;
 
-  for (let start = 0; start < chordNames.length; start += chordsPerTable) {
-    const chunk = chordNames.slice(start, start + chordsPerTable);
+  for (let start = 0; start < columns.length; start += chordsPerTable) {
+    const chunk = columns.slice(start, start + chordsPerTable);
 
     const headerCells = chunk
-      .map((name) => `[#chord-text("${escLiteral(name)}")]`)
+      .map((col) => `[#chord-text("${escLiteral(col.label)}")]`)
       .join(", ");
 
     const rows: string[] = [];
@@ -516,12 +520,17 @@ function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>
           }
           cells.push(`table.cell(rowspan: ${variations}, align: left + horizon, [${labelContent}])`);
         }
-        for (const name of chunk) {
-          const shape = data.chords[name]?.[v];
+        for (const col of chunk) {
+          // Qualquer grafia do grupo dá a mesma pega; usa a 1ª com shape.
+          let shape, resolved;
+          for (const n of col.names) {
+            const s = data.chords[n]?.[v];
+            if (s) { shape = s; resolved = n; break; }
+          }
           if (!shape) {
             cells.push(`[#chord-dash]`);
           } else if (kind === "piano") {
-            cells.push(`[#${miniPianoCall(shape as PianoShape, name)}]`);
+            cells.push(`[#${miniPianoCall(shape as PianoShape, resolved!)}]`);
           } else {
             cells.push(`[#${chartChordCall(shape as ChordShape)}]`);
           }

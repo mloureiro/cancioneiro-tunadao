@@ -72,6 +72,45 @@ export function isAppendixChord(name: string): boolean {
   return !name.includes("/") && !name.includes("(");
 }
 
+// Raízes enarmónicas: mesmo som, grafia diferente (D#≡Eb) → mesma pega em
+// qualquer instrumento. Chave de agrupamento normaliza a raiz para bemol.
+const ENHARMONIC_FLAT: Record<string, string> = {
+  "C#": "Db", "D#": "Eb", "F#": "Gb", "G#": "Ab", "A#": "Bb",
+};
+function enharmonicKey(name: string): string {
+  const m = name.match(/^([A-G][#b]?)(.*)$/);
+  if (!m) return name;
+  return (ENHARMONIC_FLAT[m[1]] ?? m[1]) + m[2];
+}
+
+export interface ChordColumn {
+  /** Rótulo do cabeçalho (ex: "D#/Eb"). */
+  label: string;
+  /** Grafias do grupo, por ordem de procura do shape (todas dão a mesma pega). */
+  names: string[];
+}
+
+// Junta grafias enarmónicas numa só coluna do apêndice: um diagrama, rótulo
+// com as grafias usadas (sustenido primeiro, "D#/Eb"). Colunas ordenadas como
+// sortChordNames (pela grafia de sustenido).
+export function mergeEnharmonicColumns(names: string[]): ChordColumn[] {
+  const groups = new Map<string, string[]>();
+  for (const n of names) {
+    const k = enharmonicKey(n);
+    (groups.get(k) ?? groups.set(k, []).get(k)!).push(n);
+  }
+  const flatFirst = (n: string) => (/^[A-G]b/.test(n) ? 1 : 0);
+  const cols = [...groups.values()].map((members) => {
+    const ordered = [...members].sort((a, b) => flatFirst(a) - flatFirst(b));
+    return { label: ordered.join("/"), names: ordered };
+  });
+  return cols.sort((a, b) => {
+    const [ra, sa] = chordSortKey(a.names[0]);
+    const [rb, sb] = chordSortKey(b.names[0]);
+    return ra - rb || sa.localeCompare(sb);
+  });
+}
+
 // Gerar a chamada chordx `chart-chord` para um shape (sem nome — o nome do
 // acorde vive no cabeçalho da tabela do apêndice).
 // tabs/fingers/capos seguem a convenção chordx: chars da corda mais grave para
