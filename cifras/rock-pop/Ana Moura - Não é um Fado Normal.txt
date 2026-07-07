@@ -2,10 +2,11 @@
 titulo: Não é um Fado Normal
 artista: Ana Moura
 tom: Dm
-colunas: 1
 ---
 
-[INTRO] F Dm7 F Dm7  F Dm7 F Dm7  F Dm7 F Dm7  Bb A C#dim
+[INTRO]
+F Dm7 x5
+Bb A C#dim
 
 Dm        G        C
 Olhas p'ra mim com esse ar reservado
@@ -44,8 +45,10 @@ E/G#      A7
 Que eu não respondo por mim
 
 [REFRÃO]
-D                  C  G/B      Am7  D/F#      G
-E já estou, quase a trocar o mal pelo bem e o bem pelo mal
+D
+E já estou,
+       C  G/B      Am7  D/F#      G
+Quase a trocar o mal pelo bem e o bem pelo mal
 A      D        F#m       Bm    A
 Se isto é fado, não é um fado normal
 D    C   G/B      Am7        G
@@ -91,7 +94,8 @@ Que talvez não tenha volta
 
 [REFRÃO]
 
-[Inst] Dm C Bb A7  Dm G/B C Am7  Bb G#dim A7
+[Inst]
+Dm C Bb A7  Dm G/B C Am7  Bb G#dim A7
 
 D                  C  G/B      Am7  D/F#      G
 E já estou, quase a trocar o mal pelo bem e o bem pelo mal
@@ -106,6 +110,9 @@ Se isto é fado, Se isto é fado
 
 Não é um fado normal
 
-[PASSAGEM] ( Bm A/C# D D#dim A7/E )
+[PASSAGEM]
+Bm A/C# D D#dim A7/E
 
-[SAÍDA] F Dm7 F Dm7  F Dm7 F Dm7  F Dm7 F Dm7  F Dm7 Bb Dm  A7 Dm Dbm Dm
+[SAÍDA]
+F Dm7 x6
+Bb Dm A7 Dm Dbm Dm

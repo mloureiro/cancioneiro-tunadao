@@ -5,8 +5,6 @@ colunas: 1
 creditos: Música litúrgica
 ---
 
-
-
 [REFRÃO]
 E              A            E
 É o Meu Corpo: tomai e comei.

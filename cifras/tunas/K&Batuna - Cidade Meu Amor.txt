@@ -2,7 +2,6 @@
 titulo: Cidade Meu Amor
 artista: K&Batuna
 tom: Em
-colunas: 1
 ---
 
 
@@ -57,11 +56,11 @@ Tenho-te assim no meu coração
         Vivo na esp'rança de voltar aqui
 
 [REFRÃO]
+
 [INTRO]
 
-Contrabaixo E                  D            G            B 
+          E                  D            G            B
         À Saudade... Ao regresso... Na tristeza... Eu te peço...
-
              D                     G
         Ó Senhor não me deixes morrer
                    D               G

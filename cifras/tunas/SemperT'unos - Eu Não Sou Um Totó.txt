@@ -2,7 +2,6 @@
 titulo: Eu Não Sou Um Totó
 artista: SemperT'unos
 tom: G
-colunas: 1
 ---
 
 [Inst] G D Cadd9 D (2x)

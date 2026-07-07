@@ -7,19 +7,19 @@ tom: a
 
 Intro ( la E ) x 4
 
-Am                    Dm 
+Am                    Dm
 Hei de cantar com paixão
-E              Am 
+E              Am
 Viana linda princesa
-Am              E 
+Am              E
 A quem dei o coração
-             Am 
+             Am
 Num acto de gentileza
-                     Dm 
+                     Dm
 E com minha alma a vibrar
-E                  Am 
+E                  Am
 Num roubo de melodias
-            E 
+            E
 Engrandecer a cantar
 
 A cidade o rio e o mar
@@ -28,10 +28,10 @@ O monte de Sta. Luzia
 
 [REFRÃO]
 
-A 
+A
 Sta. Luzia
 Tem encantos de magia
-                E 
+                E
 Com beleza sem igual
 Linda Viana
 Formosura de tricana
