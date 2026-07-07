@@ -2,6 +2,7 @@
 titulo: Chumbo da Maria
 artista: Seistetos
 tom: G
+creditos: Letra: Mauro Soares/Carlos Poêjo; Música: Carlos Poêjo
 ---
 
 
@@ -58,6 +59,4 @@ Pois o curso tu tens de acabar
 Mariaaaaaaaaaaaaaaaaaaaa
 Vais chumbar!!!!
 
-Letra: Mauro Soares/Carlos Poêjo
-Música: Carlos Poêjo
 CD: In Taberna

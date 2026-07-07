@@ -2,6 +2,7 @@
 titulo: Noiva
 artista: Seistetos
 tom: C
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -41,6 +42,3 @@ Hás-de ser,
 Hás-de ser, um juramento
 
 [REFRÃO]
-
-Letra: Popular
-Música: Popular

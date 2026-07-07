@@ -2,6 +2,7 @@
 titulo: Despedida ao Mondego
 artista: Phartuna
 tom: Bm
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 [INSTR.]
@@ -57,5 +58,3 @@ Coimbra será sempre a tua cidade
      G          A               Bm
 Coimbra será sempre a tua cidade
 (Coimbra, lágrimas, saudade)
-
-Letra e Música: Originais da Phartuna

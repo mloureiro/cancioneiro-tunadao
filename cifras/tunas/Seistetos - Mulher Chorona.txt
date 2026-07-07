@@ -2,6 +2,7 @@
 titulo: Mulher Chorona
 artista: Seistetos
 tom: C
+creditos: Letra: Popular Brasileira; Música: Popular Brasileira
 ---
 
 
@@ -33,6 +34,3 @@ mulher chorona
 chega de chorar
 
 [REFRÃO] (2x)
-
-Letra: Popular Brasileira
-Música: Popular Brasileira

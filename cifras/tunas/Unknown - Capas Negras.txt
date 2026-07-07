@@ -1,10 +1,10 @@
 ---
 titulo: Capas Negras
 tom: A
+creditos: Música: Armindo Maia; Letra: Fausto Feio
 ---
 
 
-(Música - Armindo Maia / Letra - Fausto Feio)
 Am A7   Dm         E7                    Am
 Capas Negras são o simbolo do amor
       A7  Dm       E7                               Am

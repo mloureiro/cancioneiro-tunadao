@@ -2,6 +2,7 @@
 titulo: Lá Longe
 artista: Florêncio de Carvalho
 tom: Bm
+creditos: Letra e Música: Florêncio de Carvalho
 ---
 
 [INSTR.]
@@ -47,5 +48,4 @@ Lá longe...ao cair da tarde.
 
 Ao longe, ao longe...
 
-Letra e Música: Florêncio de Carvalho
 Inicialmente a TFFLUP pôs o título Os teus cabelos

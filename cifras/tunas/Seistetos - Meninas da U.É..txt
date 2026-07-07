@@ -2,6 +2,7 @@
 titulo: Meninas da U.É.
 artista: Seistetos
 tom: G
+creditos: Letra: Marco Camacho/Seistetos; Música: Marco Camacho/Seistetos
 ---
 
 
@@ -73,6 +74,4 @@ Final
 G            G#     A#        C
 Dão trabalho a dobrar... dobrar.. dobrar
 
-Letra: Marco Camacho/Seistetos
-Música: Marco Camacho/Seistetos
 CD: Anda ká k'eu nãtalêjo

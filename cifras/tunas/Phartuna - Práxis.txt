@@ -2,6 +2,7 @@
 titulo: Práxis
 artista: Phartuna
 tom: Dm
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 
@@ -76,5 +77,3 @@ Coimbra tu…
 Ponte:
 Am , Dm , Am , E  (3x)
 Am , Dm , E , Am
-
-Letra e Música: Originais da Phartuna

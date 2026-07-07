@@ -2,11 +2,11 @@
 titulo: A mi manera
 tom: C
 colunas: 1
+creditos: Música de Tasco
 ---
 
 
 
-(Música de Tasco)
 
 [INTRO] D7  G7   C   C
 

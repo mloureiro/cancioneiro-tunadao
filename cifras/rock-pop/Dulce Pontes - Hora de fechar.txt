@@ -2,11 +2,11 @@
 titulo: Hora de fechar
 artista: Dulce Pontes
 tom: Am
+creditos: Música de Dulce Pontes
 ---
 
 
 
-(Música de Dulce Pontes)
 
 [INTRO] A   Dm  E   Am  (Bis) G    C   E   Am  (Bis)
 

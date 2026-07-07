@@ -2,6 +2,7 @@
 titulo: Cidade de Cetim
 artista: Versus Tuna
 tom: C
+creditos: Letra: Leonel Morgadinho; Música: José Subtil, Alex e Mauro Lopes
 ---
 
 [INTRO] C, G, Am, Em, F, G
@@ -47,6 +48,3 @@ Lembro a saudade sem fim
 Desta cidade que abarco
 F, Fm, C
 …Cetim.
-
-Letra: Leonel Morgadinho
-Música: José Subtil, Alex e Mauro Lopes

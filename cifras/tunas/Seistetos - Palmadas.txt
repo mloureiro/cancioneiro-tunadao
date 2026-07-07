@@ -2,6 +2,7 @@
 titulo: Palmadas
 artista: Seistetos
 tom: D
+creditos: Letra: Jorge Amaral; Música: Jorge Amaral
 ---
 
 
@@ -44,6 +45,4 @@ Em toda a universidade.
 
 [REFRÃO]
 
-Letra: Jorge Amaral
-Música: Jorge Amaral
 CD: In Taberna

@@ -2,6 +2,7 @@
 titulo: Promessa da Caloira
 artista: Seistetos
 tom: Em
+creditos: Letra: Jorge Amaral; Música: Jorge Amaral
 ---
 
 
@@ -60,6 +61,4 @@ O que ela tinha prometido.
 
 [REFRÃO]
 
-Letra: Jorge Amaral
-Música: Jorge Amaral
 CD: In Taberna

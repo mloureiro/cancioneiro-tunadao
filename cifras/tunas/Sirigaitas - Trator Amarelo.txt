@@ -2,6 +2,7 @@
 titulo: Trator Amarelo
 artista: Sirigaitas
 tom: Bb
+creditos: Letra e Música: Sirigaitas
 ---
 
 
@@ -75,5 +76,3 @@ que é a forma mais barata
 de ter um descapotável
 
 (C  F)
-
-Letra e Música: Sirigaitas

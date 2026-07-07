@@ -2,6 +2,7 @@
 titulo: Cochas com Pão
 artista: Seistetos
 tom: G
+creditos: Letra: Jorge Amaral; Música: Jorge Amaral
 ---
 
 
@@ -47,6 +48,3 @@ Deu-nos também as cochas
 P'ra comermos à vontade
 
 [REFRÃO]
-
-Letra: Jorge Amaral
-Música: Jorge Amaral

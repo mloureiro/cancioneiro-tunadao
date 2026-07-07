@@ -2,6 +2,7 @@
 titulo: Vida de Estudante
 artista: Seistetos
 tom: G
+creditos: Letra: Rui Serafim; Música: No me pises que llevo chanclas
 ---
 
 
@@ -52,6 +53,4 @@ Pois sempre temos Setembro
 
 [REFRÃO]
 
-Letra: Rui Serafim
-Música: No me pises que llevo chanclas
 CD: In Taberna

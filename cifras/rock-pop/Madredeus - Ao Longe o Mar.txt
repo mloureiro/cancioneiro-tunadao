@@ -2,6 +2,7 @@
 titulo: Ao Longe o Mar
 artista: Madredeus
 tom: C#
+creditos: Letra e Música: Madredeus
 ---
 
 
@@ -80,5 +81,3 @@ Cm   (10x)
 6ª volta: Solista
 
 Ficar
-
-Letra e Música: Madredeus

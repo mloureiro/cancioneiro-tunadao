@@ -2,6 +2,7 @@
 titulo: Afonso
 artista: EUC · Estudantina Universitária de Coimbra
 tom: E
+creditos: Letra e Música: Estudantina Universitária de Coimbra
 ---
 
 
@@ -63,5 +64,3 @@ Eu sou um grande estudante"
 
 [REFRÃO]
 Ó Afonso
-
-Letra e Música: Estudantina Universitária de Coimbra

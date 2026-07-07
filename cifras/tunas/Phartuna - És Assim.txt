@@ -2,6 +2,7 @@
 titulo: És Assim
 artista: Phartuna
 tom: F#
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 
@@ -78,5 +79,3 @@ teu…..olhar….
 
 Final:
 Bm  F#m  G   A  A#dim  Bm
-
-Letra e Música: Originais da Phartuna

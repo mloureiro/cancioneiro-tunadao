@@ -2,6 +2,7 @@
 titulo: Rua do Norte
 artista: Phartuna
 tom: D
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 
@@ -64,5 +65,3 @@ Tricana de sua vida
 G   C  D  G   G   C  D  G
 
 [REFRÃO]
-
-Letra e Música: Originais da Phartuna

@@ -2,6 +2,7 @@
 titulo: Caloira
 artista: Seistetos
 tom: G
+creditos: Letra: Nuno Tirapicos/ Seistetos; Música: Popular/ Seistetos
 ---
 
 
@@ -50,6 +51,4 @@ Foi jeito que me ficou.
 [INSTR.]
 [REFRÃO]
 
-Letra: Nuno Tirapicos/ Seistetos
-Música: Popular/ Seistetos
 CD: Anda ká k'eu nãtalêjo

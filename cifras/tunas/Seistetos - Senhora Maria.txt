@@ -2,6 +2,7 @@
 titulo: Senhora Maria
 artista: Seistetos
 tom: E
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -39,6 +40,4 @@ Com Música: Quadra Final
 
 [INSTR.]
 
-Letra: Popular
-Música: Popular
 CD: In Taberna

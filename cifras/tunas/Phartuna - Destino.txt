@@ -2,6 +2,7 @@
 titulo: Destino
 artista: Phartuna
 tom: Gm
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 
@@ -130,5 +131,3 @@ Transição de sopros
 Final:
 Já sei quem sou
 Quem serei…
-
-Letra e Música: Originais da Phartuna

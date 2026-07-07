@@ -2,6 +2,7 @@
 titulo: O Sol e a Lua
 artista: Seistetos
 tom: G
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -55,6 +56,3 @@ Agora são doutro paciência adeus.
 [INSTR.]
 
 [REFRÃO]
-
-Letra: Popular
-Música: Popular

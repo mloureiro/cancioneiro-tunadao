@@ -2,9 +2,9 @@
 titulo: Laurindinha
 artista: Teresa Raquel
 tom: A
+creditos: Música de Teresa Raquel
 ---
 
-(Música de Teresa Raquel)
 
 [INTRO] A G D E A E
 

@@ -2,6 +2,7 @@
 titulo: Abraço ao Alentejo
 artista: Seistetos
 tom: G
+creditos: Letra: Popular; Música: Popular/Seistetos
 ---
 
 
@@ -52,6 +53,4 @@ A cantar por Portugal.
   C           Fm     C
 Cantemos para esquecer.
 
-Letra: Popular
-Música: Popular/Seistetos
 CD: Anda ká k'eu nãtalêjo

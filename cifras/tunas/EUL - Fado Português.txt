@@ -2,6 +2,7 @@
 titulo: Fado Português
 artista: EUL · Estudantina Universitária de Lisboa
 tom: Dm
+creditos: Composição: José Régio (letra) / Alain Oulman (música)
 ---
 
 [INTRO]
@@ -84,5 +85,4 @@ Que, estando triste, cantava
 Que, estando triste, cantava
 
 Acordes principais: Dm, Gm, G#º, A7, C7, Bb7, D, F#m, B7, Em
-Composição: José Régio (letra) / Alain Oulman (música)
 Famosa interpretação: Amália Rodrigues

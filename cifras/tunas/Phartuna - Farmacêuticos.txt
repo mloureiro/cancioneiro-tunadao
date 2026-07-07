@@ -2,6 +2,7 @@
 titulo: Farmacêuticos
 artista: Phartuna
 tom: D
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 [INTRO] C  F  G   C
@@ -61,5 +62,3 @@ Ainda me vai chamar amor
 
 Am  G   C  (2x)
 (G   C )
-
-Letra e Música: Originais da Phartuna

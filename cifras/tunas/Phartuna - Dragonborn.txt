@@ -2,6 +2,7 @@
 titulo: Dragonborn
 artista: Phartuna
 tom: A
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 [REFRÃO]
@@ -35,7 +36,6 @@ PHAR – TU – NA! (2x)
 [INSTR.]
 Bm  A  Bm  A  (2x)
 
-Letra e Música: Originais da Phartuna
 
 Bm
 Ó Mondego (Ó Mondego)

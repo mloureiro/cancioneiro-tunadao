@@ -2,6 +2,7 @@
 titulo: Serenata para fazer-lhe a folha
 artista: Seistetos
 tom: G
+creditos: Letra: Nuno Oliveira; Música: Vitorino
 ---
 
 
@@ -40,6 +41,4 @@ Não me *vou embora daqui
 Sem de ti levar um beijo
 (*A partir daqui vai sendo mais lento)
 
-Letra: Nuno Oliveira
-Música: Vitorino
 CD: In Taberna

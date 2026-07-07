@@ -2,9 +2,9 @@
 titulo: Escadas de Luar
 artista: Pé na Terra
 tom: D
+creditos: Música dos Pé na Terra
 ---
 
-(Música dos Pé na Terra)
 
 [INTRO] D G D A
 

@@ -2,6 +2,7 @@
 titulo: Caloirinha
 artista: Seistetos
 tom: C
+creditos: Letra: Jorge Alfaiate; Música: Popular Brasileira/Quim Barreiros
 ---
 
 
@@ -64,6 +65,3 @@ juntinho p'ra eu praxar!
 [INSTR.]
 
 [REFRÃO] (2x)
-
-Letra: Jorge Alfaiate
-Musica: Popular Brasileira/Quim Barreiros

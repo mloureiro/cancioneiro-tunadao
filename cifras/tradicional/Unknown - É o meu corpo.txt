@@ -2,10 +2,10 @@
 titulo: É o meu corpo
 tom: E
 colunas: 1
+creditos: Música litúrgica
 ---
 
 
-(Música litúrgica)
 
 [REFRÃO]
 E              A            E

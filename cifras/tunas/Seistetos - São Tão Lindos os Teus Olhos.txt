@@ -2,6 +2,7 @@
 titulo: São Tão Lindos os Teus Olhos
 artista: Seistetos
 tom: Bm
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -23,6 +24,3 @@ Quando algum noivado vês... (bis)
 
 Deixa lá casar quem casa
 Que ninguém nos tira a vez (bis)
-
-Letra: Popular
-Música: Popular

@@ -2,6 +2,7 @@
 titulo: A Noite e a Tuna
 artista: Versus Tuna
 tom: G
+creditos: Letra e música: Miguel Ângelo Rodrigues
 ---
 
 [INTRO] G, D, Am, D, D7, G, E, Am, Cm, G, D, G
@@ -77,5 +78,3 @@ O mais feliz rosto
 Já que o desgosto
 G-Cm-G
 Foi-se deita – a – a – ar.
-
-Letra e música: Miguel Ângelo Rodrigues
