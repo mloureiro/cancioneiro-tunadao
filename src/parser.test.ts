@@ -397,6 +397,96 @@ describe("parseSongContent — linhas de acordes com vírgulas e repetições", 
   });
 });
 
+describe("parseSongContent — acordes com notação estendida (R3)", () => {
+  const header = "---\ntitulo: Teste\ntom: C\n---\n\n";
+
+  function chordsOf(line: string): string[] {
+    const song = parseSongContent(header + line + "\n");
+    const l = song.parts[0].sections[0].lines[0];
+    expect(l.type).toBe("chords-only");
+    return l.chords!.map((c) => c.chord);
+  }
+
+  it("modificador depois do número: E7sus4, E7dim, Amaj7sus4", () => {
+    expect(chordsOf("E7sus4 Am")).toEqual(["E7sus4", "Am"]);
+    expect(chordsOf("E7dim F7dim A#7dim")).toEqual(["E7dim", "F7dim", "A#7dim"]);
+    expect(chordsOf("Amaj7sus4 Bm7b5")).toEqual(["Amaj7sus4", "Bm7b5"]);
+  });
+
+  it("alteração entre parêntesis: Dm7(b5), G7(#5), C6(11+), D7(9-/13)", () => {
+    expect(chordsOf("Dm7(b5) G7(#5)")).toEqual(["Dm7(b5)", "G7(#5)"]);
+    expect(chordsOf("C6(11+) D7(9-/13)")).toEqual(["C6(11+)", "D7(9-/13)"]);
+    expect(chordsOf("Am(maj7) Bm7(5-)")).toEqual(["Am(maj7)", "Bm7(5-)"]);
+  });
+
+  it("alteração colada: F#m7b5, D7#9, E7b13, Bbm#5", () => {
+    expect(chordsOf("F#m7b5 D7#9 E7b13")).toEqual(["F#m7b5", "D7#9", "E7b13"]);
+    expect(chordsOf("Bbm#5 Em7b5")).toEqual(["Bbm#5", "Em7b5"]);
+  });
+
+  it("aumentado com '+': G7+, B+, B5+, Eb7+", () => {
+    expect(chordsOf("G7+ B+ B5+ Eb7+")).toEqual(["G7+", "B+", "B5+", "Eb7+"]);
+  });
+
+  it("baixo com alteração: E7/b9, Bm7/b5, Em#5/A", () => {
+    expect(chordsOf("E7/b9 Bm7/b5")).toEqual(["E7/b9", "Bm7/b5"]);
+    expect(chordsOf("Em#5/A C#m5+")).toEqual(["Em#5/A", "C#m5+"]);
+  });
+
+  it("mantém a compatibilidade com notação brasileira e baixos", () => {
+    expect(chordsOf("C#m7/5- D7/9 G6/D")).toEqual(["C#m7/5-", "D7/9", "G6/D"]);
+    expect(chordsOf("D7M Cadd9 Gsus4 Bdim")).toEqual(["D7M", "Cadd9", "Gsus4", "Bdim"]);
+  });
+
+  it("erros de dados continuam a NÃO ser acordes (linha vira letra)", () => {
+    // "Am-A7" (dois acordes unidos por hífen) não deve ser lido como acorde único
+    const j1 = parseSongContent(header + "Am-A7 Cena qualquer\n");
+    expect(j1.parts[0].sections[0].lines[0].type).toBe("lyrics");
+    // "Adeus, adeus" continua letra
+    const j2 = parseSongContent(header + "Adeus, adeus, meu bem\n");
+    expect(j2.parts[0].sections[0].lines[0].type).toBe("lyrics");
+  });
+});
+
+describe("parseSongContent — refrão fecha na linha em branco (R2b)", () => {
+  const header = "---\ntitulo: Teste\ntom: C\n---\n\n";
+
+  it("linha em branco fecha o [REFRÃO]; verso a seguir sai da secção-refrão", () => {
+    const song = parseSongContent(
+      header + "[REFRÃO]\n**linha do refrão**\n\nVerso normal a seguir\n"
+    );
+    const secs = song.parts[0].sections;
+    const refrao = secs.find((s) => s.isChorus)!;
+    expect(refrao).toBeDefined();
+    // o verso normal NÃO está dentro da secção-refrão
+    const inChorus = refrao.lines.some((l) => l.lyrics?.includes("Verso normal"));
+    expect(inChorus).toBe(false);
+    // existe noutra secção (não-refrão)
+    const versoSec = secs.find(
+      (s) => !s.isChorus && s.lines.some((l) => l.lyrics?.includes("Verso normal"))
+    );
+    expect(versoSec).toBeDefined();
+  });
+
+  it("família REFRÃO com qualificador ([REFRÃO 2x], [Refrão vozes]) conta como refrão", () => {
+    const s1 = parseSongContent(header + "[REFRÃO 2x]\nlinha\n");
+    expect(s1.parts[0].sections.find((s) => s.type === "REFRÃO 2x")?.isChorus).toBe(true);
+    const s2 = parseSongContent(header + "[Refrão vozes]\nlinha\n");
+    expect(s2.parts[0].sections.find((s) => /refrão vozes/i.test(s.type))?.isChorus).toBe(true);
+    // Pré-Refrão NÃO é refrão
+    const s3 = parseSongContent(header + "[Pré-Refrão]\nlinha\n");
+    expect(s3.parts[0].sections.find((s) => /pr[eé]/i.test(s.type))?.isChorus).toBe(false);
+  });
+
+  it("[REFRÃO 2x] com conteúdo também fecha na linha em branco", () => {
+    const song = parseSongContent(
+      header + "[REFRÃO 2x]\n**refrão**\n\nVerso depois\n"
+    );
+    const refrao = song.parts[0].sections.find((s) => s.isChorus)!;
+    expect(refrao.lines.some((l) => l.lyrics?.includes("Verso depois"))).toBe(false);
+  });
+});
+
 describe("parseSongContent — notas livres ('> ...')", () => {
   it("linha começada por '> ' é instrução", () => {
     const song = parseSongContent(
