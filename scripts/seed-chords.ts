@@ -13,6 +13,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { parseSong } from "../src/parser";
+import { isAppendixChord } from "../src/chord-diagrams";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const { findGuitarChord } = require("chord-fingering");
@@ -91,8 +92,9 @@ function collectChords(): string[] {
         for (const sec of part.sections)
           for (const line of sec.lines)
             for (const c of line.chords ?? []) {
-              // Runs de notas "(G A B)" não são acordes para os diagramas
-              if (c.chord.startsWith("(")) continue;
+              // Slash chords, extensões entre parêntesis e runs de notas ficam
+              // fora do banco — só o acorde base é diagramado.
+              if (!isAppendixChord(c.chord)) continue;
               chords.add(c.chord);
             }
     }
