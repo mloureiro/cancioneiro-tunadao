@@ -62,6 +62,16 @@ export function sortChordNames(names: string[]): string[] {
   });
 }
 
+// Acordes que NÃO entram no apêndice (nem no banco de acordes):
+//  - slash chords / baixo alterado (ex: "D/F#", "A7/5-") — nos instrumentos de
+//    4 cordas e no teclado tocar-se-ia o acorde base, que já está na tabela;
+//  - acordes com extensões entre parêntesis (ex: "A7(4)", "C7(9)") — notação
+//    redundante que se reduz ao acorde base.
+// Runs de notas ("(G A B)") também caem aqui por conterem "(".
+export function isAppendixChord(name: string): boolean {
+  return !name.includes("/") && !name.includes("(");
+}
+
 // Gerar a chamada chordx `chart-chord` para um shape (sem nome — o nome do
 // acorde vive no cabeçalho da tabela do apêndice).
 // tabs/fingers/capos seguem a convenção chordx: chars da corda mais grave para

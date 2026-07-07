@@ -5,6 +5,7 @@ import {
   APPENDIX_INSTRUMENTS,
   loadInstrument,
   sortChordNames,
+  isAppendixChord,
   chartChordCall,
   miniPianoCall,
   ChordShape,
@@ -389,8 +390,9 @@ function collectChordNames(songs: Song[]): string[] {
       for (const section of part.sections)
         for (const line of section.lines)
           for (const c of line.chords ?? []) {
-            // Runs de notas "(G A B)" não são acordes para o apêndice
-            if (c.chord.startsWith("(")) continue;
+            // Slash chords, extensões entre parêntesis e runs de notas ficam
+            // fora do apêndice — só o acorde base entra na tabela.
+            if (!isAppendixChord(c.chord)) continue;
             names.add(c.chord);
           }
   return sortChordNames([...names]);
