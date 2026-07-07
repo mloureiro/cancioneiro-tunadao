@@ -1,6 +1,6 @@
 ---
 titulo: Fado Português
-artista: EUL
+artista: EUL · Estudantina Universitária de Lisboa
 tom: Dm
 ---
 

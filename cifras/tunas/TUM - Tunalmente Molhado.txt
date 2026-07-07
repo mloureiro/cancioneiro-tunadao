@@ -1,6 +1,6 @@
 ---
 titulo: Tunalmente Molhado
-artista: TUM
+artista: TUM · Tuna Universitária do Minho
 tom: Dm
 ---
 

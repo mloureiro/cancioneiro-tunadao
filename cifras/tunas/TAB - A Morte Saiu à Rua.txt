@@ -1,6 +1,6 @@
 ---
 titulo: A Morte Saiu à Rua
-artista: TAB
+artista: TAB · Tuna Académica de Biomédicas
 tom: G#m
 creditos: Original: Zeca Afonso (José Afonso)
 ---

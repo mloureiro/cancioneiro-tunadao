@@ -1,6 +1,6 @@
 ---
 titulo: Tuna Tuna (HINO)
-artista: TAIPCA
+artista: TAIPCA · Tuna Académica do Instituto Politécnico do Cávado e do Ave
 tom: D
 ---
 

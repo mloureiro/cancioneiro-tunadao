@@ -1,6 +1,6 @@
 ---
 titulo: Quero Beber
-artista: TAIPCA
+artista: TAIPCA · Tuna Académica do Instituto Politécnico do Cávado e do Ave
 tom: G
 ---
 

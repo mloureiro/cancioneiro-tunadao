@@ -1,6 +1,6 @@
 ---
 titulo: Tradições
-artista: TFAAUAv
+artista: TFAAUAv · Tuna Feminina da Associação Académica da Universidade de Aveiro
 tom: F
 ---
 

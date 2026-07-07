@@ -1,6 +1,6 @@
 ---
 titulo: Adeus é sempre adeus
-artista: TUM
+artista: TUM · Tuna Universitária do Minho
 tom: Am
 ---
 

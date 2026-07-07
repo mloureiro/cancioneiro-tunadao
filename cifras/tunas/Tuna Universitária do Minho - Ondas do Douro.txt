@@ -1,6 +1,6 @@
 ---
 titulo: Ondas do Douro
-artista: Tuna Universitária do Minho
+artista: TUM · Tuna Universitária do Minho
 tom: C
 creditos: Original: (Tuna Universitária do Porto)
 ---

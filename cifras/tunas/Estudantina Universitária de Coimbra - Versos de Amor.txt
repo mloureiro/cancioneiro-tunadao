@@ -1,6 +1,6 @@
 ---
 titulo: Versos de Amor
-artista: Estudantina Universitária de Coimbra
+artista: EUC · Estudantina Universitária de Coimbra
 creditos: Original de Carlos Paião
 tom: Cm
 ---

@@ -1,7 +1,7 @@
 ---
 titulo: Rapariga
 tom: C
-artista: Estudantina Universitária de Coimbra
+artista: EUC · Estudantina Universitária de Coimbra
 creditos: Original: Assim Mesmo É Que É (EUC)
 ---
 

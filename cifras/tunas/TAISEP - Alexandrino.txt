@@ -1,6 +1,6 @@
 ---
 titulo: Alexandrino
-artista: TAISEP
+artista: TAISEP · Tuna Académica do Instituto Superior de Engenharia do Porto
 tom: F#m
 ---
 

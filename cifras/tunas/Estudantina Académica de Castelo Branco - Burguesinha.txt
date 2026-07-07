@@ -1,6 +1,6 @@
 ---
 titulo: Burguesinha
-artista: Estudantina Académica de Castelo Branco
+artista: EACB · Estudantina Académica de Castelo Branco
 tom: A
 creditos: Original: Seu Jorge (Gabriel Moura / Pretinho da Serrinha / Seu Jorge)
 ---

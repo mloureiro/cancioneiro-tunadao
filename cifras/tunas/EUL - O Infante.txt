@@ -1,6 +1,6 @@
 ---
 titulo: O Infante
-artista: EUL
+artista: EUL · Estudantina Universitária de Lisboa
 tom: Gm
 versao: EUL - Estudantina Universitária de Lisboa / Dulce Pontes
 ---

@@ -1,6 +1,6 @@
 ---
 titulo: Canção de Embalar
-artista: Tuna de Engenharia UP
+artista: TEUP · Tuna de Engenharia da Universidade do Porto
 tom: Em
 ---
 

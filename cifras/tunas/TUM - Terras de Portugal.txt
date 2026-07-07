@@ -1,6 +1,6 @@
 ---
 titulo: Terras de Portugal
-artista: TUM
+artista: TUM · Tuna Universitária do Minho
 tom: D
 ---
 

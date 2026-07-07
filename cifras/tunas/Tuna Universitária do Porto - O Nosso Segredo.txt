@@ -1,6 +1,6 @@
 ---
 titulo: O Nosso Segredo
-artista: Tuna Universitária do Porto
+artista: TUP · Tuna Universitária do Porto
 tom: Em
 ---
 

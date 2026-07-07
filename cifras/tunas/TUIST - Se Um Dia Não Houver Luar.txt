@@ -1,6 +1,6 @@
 ---
 titulo: Se Um Dia Não Houver Luar
-artista: TUIST
+artista: TUIST · Tuna Universitária do Instituto Superior Técnico
 tom: F#m
 ---
 

@@ -1,6 +1,6 @@
 ---
 titulo: Velho Lobo do Mar
-artista: Estudantina Universitária de Lisboa
+artista: EUL · Estudantina Universitária de Lisboa
 tom: F
 ---
 

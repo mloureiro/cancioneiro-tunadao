@@ -1,7 +1,7 @@
 ---
 titulo: Balada de Despedida (5º Ano Jurídico 88/89)
 tom: G
-artista: Estudantina Universitária de Coimbra
+artista: EUC · Estudantina Universitária de Coimbra
 ---
 
 [INTRO]   G Em Bm C Am D

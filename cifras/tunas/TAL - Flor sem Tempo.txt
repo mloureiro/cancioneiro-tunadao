@@ -1,6 +1,6 @@
 ---
 titulo: Flor sem Tempo
-artista: TAL
+artista: TAL · Tuna Académica de Lisboa
 tom: Gm
 creditos: Original: Paulo de Carvalho
 ---

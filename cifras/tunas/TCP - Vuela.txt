@@ -1,6 +1,6 @@
 ---
 titulo: Vuela
-artista: TCP
+artista: TCP · Tuna de Contabilidade do Porto
 tom: F#m
 ---
 

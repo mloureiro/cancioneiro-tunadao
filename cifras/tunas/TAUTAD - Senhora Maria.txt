@@ -1,6 +1,6 @@
 ---
 titulo: Senhora Maria
-artista: TAUTAD
+artista: TAUTAD · Tuna Académica da Universidade de Trás-os-Montes e Alto Douro
 tom: Em
 ---
 

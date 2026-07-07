@@ -1,6 +1,6 @@
 ---
 titulo: O Galo é o Dono dos Ovos
-artista: TAIPCA
+artista: TAIPCA · Tuna Académica do Instituto Politécnico do Cávado e do Ave
 tom: Dm
 ---
 

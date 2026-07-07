@@ -357,12 +357,21 @@ function splitTitle(titulo: string): { main: string; sub: string } {
   return m ? { main: m[1], sub: m[2] } : { main: titulo, sub: "" };
 }
 
-function renderSong(song: Song, labelId: string, autor: string): string {
+// Crédito "SIGLA · Nome completo" (tunas/estudantinas) → { sigla, full }.
+// Sem separador " · ", é um artista simples: sigla = tudo, full = "".
+function splitArtista(artista: string): { sigla: string; full: string } {
+  const i = artista.indexOf(" · ");
+  return i === -1
+    ? { sigla: artista, full: "" }
+    : { sigla: artista.slice(0, i), full: artista.slice(i + 3) };
+}
+
+function renderSong(song: Song, labelId: string, autor: string, autorFull = ""): string {
   let out = "";
   // Qualificador entre parêntesis no fim do título → texto mais pequeno
   const { main, sub } = splitTitle(song.metadata.titulo);
   out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
-  out += `#song-title("${escLiteral(main)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}", sub: "${escLiteral(sub)}")\n`;
+  out += `#song-title("${escLiteral(main)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}", autor-full: "${escLiteral(autorFull)}", sub: "${escLiteral(sub)}")\n`;
 
   const seen = new Set<string>();
   for (let i = 0; i < song.parts.length; i++) {
@@ -746,7 +755,7 @@ function generate(input: LayoutInput): string {
 // sub: qualificador entre parêntesis no fim do título (ex: "(5º Ano
 // Jurídico 88/89)", "(versão de X)") — bastante mais pequeno que o título.
 // O tom não é mostrado (fica na metadata para transposição futura).
-#let song-title(titulo, tom, autor: "", sub: "") = block(breakable: false, sticky: true, below: 0.9em, {
+#let song-title(titulo, tom, autor: "", autor-full: "", sub: "") = block(breakable: false, sticky: true, below: 0.9em, {
   grid(
     columns: (auto, 1fr),
     column-gutter: 6pt,
@@ -762,7 +771,17 @@ function generate(input: LayoutInput): string {
   )
   if autor != "" {
     v(2.5pt)
-    cond-text(upper(autor), size: 0.78em, fill: grey, weight: 600, tracking: 0.1em)
+    // Sem upper: a sigla já vem em maiúsculas na fonte e os nomes por extenso
+    // ficam em caixa natural. Só a sigla (quando acompanhada do nome completo)
+    // leva o tracking largo de "etiqueta"; o nome completo fica mais leve.
+    cond-text(size: 0.78em, fill: grey, weight: 600, tracking: 0.03em, {
+      if autor-full != "" {
+        text(tracking: 0.1em)[#autor]
+        text(weight: 400, tracking: 0.02em)[ · #autor-full]
+      } else {
+        autor
+      }
+    })
   }
 })
 
@@ -902,9 +921,11 @@ ${indexBody}
       }
       // Autor por baixo do título — omitido quando é o próprio grupo do
       // livro (nos originais do Tunadão só os covers mostram o autor).
-      const autor = song.metadata.artista && song.metadata.artista !== headerTitle
-        ? song.metadata.artista : "";
-      typ += renderSong(song, labelOf.get(song)!, autor);
+      const showAutor = song.metadata.artista && song.metadata.artista !== headerTitle;
+      const { sigla, full } = showAutor
+        ? splitArtista(song.metadata.artista!)
+        : { sigla: "", full: "" };
+      typ += renderSong(song, labelOf.get(song)!, sigla, full);
       typ += `\n`;
     }
   }

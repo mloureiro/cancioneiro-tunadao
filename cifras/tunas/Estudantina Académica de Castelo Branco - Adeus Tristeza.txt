@@ -1,6 +1,6 @@
 ---
 titulo: Adeus Tristeza
-artista: Estudantina Académica de Castelo Branco
+artista: EACB · Estudantina Académica de Castelo Branco
 tom: Cm
 creditos: Original: Fernando Tordo (1973)
 ---

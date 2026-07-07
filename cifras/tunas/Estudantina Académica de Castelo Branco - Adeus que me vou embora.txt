@@ -1,6 +1,6 @@
 ---
 titulo: Adeus que me vou embora
-artista: Estudantina Académica de Castelo Branco
+artista: EACB · Estudantina Académica de Castelo Branco
 tom: E
 creditos: Original: Música Popular Portuguesa (António Variações)
 ---
