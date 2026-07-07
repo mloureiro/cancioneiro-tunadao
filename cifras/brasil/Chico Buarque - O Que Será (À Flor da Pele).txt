@@ -1,0 +1,122 @@
+---
+titulo: O Que Será (À Flor da Pele)
+artista: Chico Buarque
+tom: Dm
+---
+
+[PRIMEIRA PARTE]
+Dm      Dm7M      Dm7
+O que será, que será
+    Dm6        Am      Am7M    Am7
+Que andam suspirando pelas alcovas
+    Am6    Gm        Gm7M     Gm7
+Que andam sussurrando em versos e trovas
+    Gm6        Bbm    Bbm7M        Em7(5-)
+Que andam combinando no breu das tocas
+    A7(13-)    Dm       Dm7M      Dm7
+Que anda nas cabeças, anda nas bocas
+    Dm6       Am      Am7M        Am7
+Que andam acendendo velas nos becos
+  Am6     Gm     Gm7M      Gm7
+Estão falando alto pelos botecos
+  Gm6           Bbm     Bbm7M     Em7(5-)
+E gritam nos mercados que com certeza
+  A7(13-)   Dm      Dm7M       Dm7
+Está na natureza, será que será
+
+[PRÉ-REFRÃO]
+  Dm6           Bbm     Bbm7M   Bbm7
+O que não tem certeza, nem nunca terá
+  Bbm6           F/A        Abº      Gm7
+O que não tem conserto, nem nunca terá
+  A7(13-)        Dm   A7(13-)
+O que não tem tamanho
+
+[SEGUNDA PARTE]
+Dm      Dm7M        Dm7
+O que será, que será
+    Dm6       Am      Am7M        Am7
+Que vive nas idéias desses amantes
+    Am6     Gm        Gm7M     Gm7
+Que cantam os poetas mais delirantes
+    Gm6         Bbm   Bbm7M    Em7(5-)
+Que juram os profetas embriagados
+    A7(13-)     Dm      Dm7M    Dm7
+Que está na romaria dos mutilados
+    Dm6          Am      Am7M     Am7
+Que está na fantasia dos infelizes
+  Am6     Gm      Gm7M      Gm7
+Está no dia-a-dia das meretrizes
+   Gm6          Bbm      Bbm7M    Em7(5-)
+No plano dos bandidos, dos desvalidos
+   A7(13-)     Dm       Dm7M       Dm7
+Em todos os sentidos, será que será
+
+[PRÉ-REFRÃO]
+  Dm6           Bbm       Bbm7M    Bbm7
+O que não tem decência, nem nunca terá
+  Bbm6           F/A       Abº      Gm7
+O que não tem censura, nem nunca terá
+  A7(13-)        Dm   D7
+O que não faz sentido
+
+[PONTE]
+Gm      Gm7M        Gm7
+O que será, que será
+    Gm6       Dm        Dm7M     Dm7
+Que todos os avisos não vão evitar
+   Abº     Cm        Cm7M   Cm7
+Porque todos os risos vão desafiar
+   Cm6          Ebm    Ebm7M     Am7(5-)
+Porque todos os sinos irão repicar
+    D7(9-)      Gm     Gm7M        Gm7
+Porque todos os hinos irão consagrar
+  Gm6        Dm        Dm7M     Dm7
+E todos os meninos vão desembestar
+  G7/B        Cm     Cm7M          Cm7
+E todos os destinos irão se encontrar
+  Cm6            Ebm        Ebm7M      Am7(5-)
+E mesmo o padre eterno, que nunca foi lá
+ D7(9-)          Gm         Gm7M   Gm7
+Olhando aquele inferno, vai abençoar
+
+[PRÉ-REFRÃO]
+  Gm6           Ebm        Ebm7M   Ebm7
+O que não tem governo, nem nunca terá
+  Ebm6           Bb/D       C#º      Cm7
+O que não tem vergonha, nem nunca terá
+  D7            Gm  E7
+O que não tem juízo
+
+[SOLO]
+Am  Am7M  Am7  Am6  Em  Em7M  Em7  Em6
+Dm  Dm7M  Dm7  Dm6  Fm  Fm7M  Bm7(5-)  E7(9-)
+Am  Am7M  Am7  Am6  Em  Em7M  Em7  Em6
+
+[TERCEIRA PARTE]
+Dm      Dm7M       Dm7
+O que será, que será
+    Dm6       Am        Am7M    Am7
+Que todos os avisos não vão evitar
+   Am6      Gm        Gm7M   Gm7
+Porque todos os risos vão desafiar
+   Gm6          Bbm  Bbm7M    Em7(5-)
+Porque todos os sinos irão repicar
+   A7(13-)      Dm     Dm7M     Dm7
+Porque todos os hinos irão consagrar
+  Dm6        Am        Am7M      Am7
+E todos os meninos vão desembestar
+  Am6      Gm     Gm7M           Gm7
+E todos os destinos irão se encontrar
+  Gm6            Bbm      Bbm7M      Em7(5-)
+E mesmo o padre eterno, que nunca foi lá
+ A7(13-)         Dm         Dm7M   Dm7
+Olhando aquele inferno, vai abençoar
+
+[FINAL]
+  Dm6          Bbm     Bbm7M    Bbm7
+O que não tem governo, nem nunca terá
+  Bbm6           F/A        Abº      Gm7
+O que não tem vergonha, nem nunca terá
+  A7(13-)       Dm  G7(13)
+O que não tem juízo

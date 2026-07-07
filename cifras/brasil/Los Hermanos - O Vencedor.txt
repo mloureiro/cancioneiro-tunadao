@@ -1,0 +1,37 @@
+---
+titulo: O Vencedor
+artista: Los Hermanos
+tom: B
+---
+
+[INTRO]
+G5    F7M/C    G5    F7M/C
+G5    F7M/C    G5    F7M/C
+
+[PRIMEIRA PARTE]
+G5                F7M/C        G5
+   Olha lá, quem vem do lado oposto
+         F7M/C         G5
+Vem sem gosto de viver
+                 F7M/C        G5
+Olha lá que os bravos são escravos
+        F7M/C           G5
+Sãos e salvos de sofrer
+
+[REFRÃO]
+Dm7                 Em7
+    Eu que já não quero mais
+Dm7              Em7  Ebm7  Dm7
+    Ser um vencedor
+             Em7      F         G    C
+Levo a vida devagar pra não faltar amor
+Bb5(9)          C  Bb5(9)            C
+       Olha você          e diz que não
+
+[SEGUNDA PARTE]
+( Am7  D5(9) )
+( Am7  D5(9) )
+( Am7  D5(9) )
+
+Am7         D5(9)   Am7
+    Não faz isso, amigo

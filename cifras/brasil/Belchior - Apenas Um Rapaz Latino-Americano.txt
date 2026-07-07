@@ -1,0 +1,39 @@
+---
+titulo: Apenas Um Rapaz Latino-Americano
+artista: Belchior
+tom: E
+---
+
+[INTRO]
+E  F#m7  G#m7  A  B7(4)  B7
+
+[PRIMEIRA PARTE]
+       E                F#m7             G#m7
+Eu sou apenas um rapaz latino-americano sem dinheiro no banco
+     A                      B7            B7(4)  B7
+Sem parentes importantes e vindo do interior
+      E                              F#m7
+Mas trago, de cabeça, uma canção do rádio
+                     G#m7
+Em que um antigo compositor baiano me dizia
+        A                B7(4)   B7
+Tudo é divino, tudo é maravilhoso
+
+      E                              F#m7
+Mas trago, de cabeça, uma canção do rádio
+                     G#m7
+Em que um antigo compositor baiano me dizia
+        A                B7(4)   B7  Bb7
+Tudo é divino, tudo é maravilhoso
+
+ A                   G#m7
+Tenho ouvido muitos discos
+               A                         G#m7
+Conversado com pessoas, caminhado meu caminho
+                     A                   G#m7
+Papo, som dentro da noite e não tenho um amigo sequer
+               A                                B7(4)  B7
+Que ainda acredite nisso, não, tudo muda e com toda razão
+
+[FINAL]
+F#m7  G#m7  A  E

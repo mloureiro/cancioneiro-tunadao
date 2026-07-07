@@ -1,0 +1,80 @@
+---
+titulo: Corcovado
+artista: Tom Jobim
+tom: Am
+---
+
+[INTRO]
+Am6  E9-/G#  Gm7
+C7(9-)  F#7  F7M  E7(9+)
+C9  C6(9)  Am6(11)  G#°
+
+[PRIMEIRA PARTE]
+Am6
+    Um cantinho, um violão
+E9-/G#
+       Este amor, uma canção
+Gm7              C7(9)  Gm6
+    Pra fazer feliz
+    F#7(11+)  F7M
+A quem se ama
+Fm7           Fm6
+    Muita calma pra pensar
+E6        E6-    A7(4/9)  A7(9-)
+   E ter tempo pra sonhar
+
+(A7(9-/13-)  D7(9/13))
+
+                Dm7
+Da janela vê-se o corcovado
+           Dm7(5-)
+O redentor         que lindo
+
+[SEGUNDA PARTE]
+Am6
+    Quero a vida sempre assim
+E9-/G#
+       Com você perto de mim
+Gm7           Gm6       F#7(11+)  F7M
+    Até o apagar da velha chama
+
+[REFRÃO]
+Fm7            Fm6
+    E eu que era triste
+Em7(9)      Em7      Am7
+       Descrente desse mundo
+Dm7                 G7(4/9)
+    Ao encontrar você
+G7(9-)   E6  E6-  A7(4/9)  C#°
+Eu conheci
+Dm7(9)           G7(4/9-)  Cm6
+O que é a felicidade meu amor
+
+(G/B  A#m  A#m7M  A#m7)
+(D#7(4)  A7(11+)  G#7M  G#m7)
+(C#7(9)  G7(13)  G7(13-)  C7(4/9))
+(C7(9-)  F7(13)  G#6/B  A#7(9))
+(Am6  E9-/G#  Gm7  F#7(11+))
+(C7  F7M)
+
+[REFRÃO FINAL]
+Fm7
+    E eu que era triste
+Em7(9)      Em7      Am7
+       Descrente desse mundo
+Dm7                 G7(4/9)    E6
+    Ao encontrar você eu conheci
+
+(E6-  A7(4/9)  C#°)
+
+Dm7(9)           Dm7(5-)
+O que é felicidade
+      Am6
+Meu amor
+
+Um cantinho, um violão
+
+(G#m6  Am6(9)  G#m6)
+
+Am6                        G#m6
+    Um cantinho, um violão
