@@ -2,13 +2,16 @@
 titulo: Arrebita
 artista: Roberto Leal
 tom: G
-colunas: 1
 ---
 
-G                          D                                 G
-Ai caxopa se tu queres ser bonita! Arrebita, arrebita, arrebita!
-G                                            D
-Casei com uma Gabriela, por ela Ter muita guita
+G                          D
+Ai caxopa se tu queres ser bonita!
+                          G
+Arrebita, arrebita, arrebita!
+G
+Casei com uma Gabriela,
+                     D
+por ela Ter muita guita
  C               G
 Agora minha espinhela
 D                         G

@@ -5,7 +5,10 @@ tom: G
 creditos: Letra e música: Miguel Ângelo Rodrigues
 ---
 
-[INTRO] G, D, Am, D, D7, G, E, Am, Cm, G, D, G
+[INTRO]
+G D Am D D7
+G E Am Cm G D G
+
 G       D              G
 A noite chega e a tuna
 G       D              G
@@ -32,10 +35,8 @@ G
 Brilha ao luar
 
 G
-[Inst] Cm, G, D, G,
-(Introdução)
+[Inst] Cm G D G D
 
-D
 Gm                  Cm
 Olha e ri para nós
 D
@@ -76,5 +77,5 @@ Cm            G
 O mais feliz rosto
 
 Já que o desgosto
-G-Cm-G
+G Cm G
 Foi-se deita – a – a – ar.

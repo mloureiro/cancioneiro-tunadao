@@ -5,9 +5,6 @@ tom: G
 creditos: Música de Alceu Valença
 ---
 
-
-
-
 [INTRO] Am  G    (bis) | G    Em  F   C   G    (bis)
 
 G                                       Am

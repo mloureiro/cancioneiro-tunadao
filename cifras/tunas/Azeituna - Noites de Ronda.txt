@@ -2,6 +2,7 @@
 titulo: Noites de Ronda
 artista: Azeituna
 tom: Am
+creditos: Letra & Música: Azeituna - T.C.U.M.
 ---
 
 
@@ -25,6 +26,7 @@ A7  Dm  G7   C
 Vem à janela ouvir cantar
 F         E         E7        A
 Noites de ronda te venho murmurar
+
 [REFRÃO]
 A  E7  A  D#dim7  E
 Não é meu teu olhar
@@ -37,5 +39,3 @@ D  D#dim7  A
 Solta uma lágrima amarga
 A#dim7  Bm  E7  A
 Quando o nosso amor findar
-
-Letra & Música: Azeituna - T.C.U.M.

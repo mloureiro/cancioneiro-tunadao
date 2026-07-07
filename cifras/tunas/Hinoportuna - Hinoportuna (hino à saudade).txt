@@ -23,8 +23,9 @@ Nossas cantidas
 Belas raparigas são de coração.
 
 
-(instrumental) Cm  – G   – D  – Gm  
-               Cm  – G   – D  – G   – F#  – G
+[Inst]
+Cm G  D Gm
+Cm G  D G  F# G
 
 
 É uma cantida esta nossa vida
@@ -45,8 +46,3 @@ Sonhos encanto são Vozes soando
 Acordes de emoção,
 Nossas cantidas
 Belas raparigas são de coração.
-
-
-Acordes:
-
-    G             E            Am             D            Cm

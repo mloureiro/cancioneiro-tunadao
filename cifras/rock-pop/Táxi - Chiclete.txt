@@ -2,15 +2,18 @@
 titulo: Chiclete
 artista: Táxi
 tom: A
-colunas: 1
 ---
 
-F#m                          B          B                F#m
-E como tudo como é coisa que promete    A gente vê como uma chiclete
+F#m                          B
+E como tudo como é coisa que promete
+B                F#m
+A gente vê como uma chiclete
 E                           F#m   B
 Que se mastiga deita fora, sem demora
-F#m                        B             F#m                     B
-Como esta música é produto acabado       Da sociedade de consumo imediato
+F#m                        B
+Como esta música é produto acabado
+F#m                     B
+Da sociedade de consumo imediato
 E                              F#m
 Como tudo que se promete nesta vida, Chiclete
 

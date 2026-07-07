@@ -6,124 +6,124 @@ tom: F#m
 
 [INTRO]
 
-   F#m 
+   F#m
 
 estrofas:
 
-   F#m 
+   F#m
 
-    D 
+    D
 
-   E 
+   E
 
-   F#m 
+   F#m
 
-   F#m 
+   F#m
 
-    D 
+    D
 
-   E7 
+   E7
 
-   F#m 
+   F#m
 
-    D 
+    D
 
-   C#m 
+   C#m
 
-   Bm 
+   Bm
 
-   C#7 
+   C#7
 
-    D 
+    D
 
-   C#m 
+   C#m
 
-   Bm 
+   Bm
 
-   E               E7 
+   E               E7
 
-F#m          D         E         F#m 
+F#m          D         E         F#m
   Vuela una lagrima, porque no estas aqui
-           D          E7                       F#m 
+           D          E7                       F#m
   sufre mi corazon, llora porque le duele la soledad.
-  D           C#m         Bm 
+  D           C#m         Bm
   Sueña que vuelves barriendo las nostalgias y las
-  C#7 
+  C#7
   penas.
-  D           C#m         Bm 
+  D           C#m         Bm
   Rompe el silencio, la voz de un alma triste que te
-    E    E7 
+    E    E7
   espera.
-         A                        D 
+         A                        D
   Yo que voy a hacer si muero de amor por ti
-                E7                       A            C#7 
+                E7                       A            C#7
   ya nada es lo mismo, mi vida desde que tu no estas.
 
-         F#m 
+         F#m
   Son tus ojos, que me han embrujado
-        D 
+        D
   es tu boca, que me hace temblar
-  Bm 
+  Bm
   es tu risa que mueve montañas
-            E7 
+            E7
   no se que sera.
 
-            A                      D 
+            A                      D
   Yo que voy a hacer si muero de amor por ti
-                E7                            A      C#7 
+                E7                            A      C#7
   ya nada es lo mismo, mi vida desde que tu no estas.
 
-         F#m                             D 
+         F#m                             D
   Y me tienes, soñando despierto en las noches
-                       Bm                E7     A   C#7 
+                       Bm                E7     A   C#7
   mirando a la luna tratando de verte en su carita.
 
 [Inst] de Quena:
 
-   F#m        D 
+   F#m        D
 
-   E             F#m 
+   E             F#m
 
-   F#m        D 
+   F#m        D
 
-   E             F#m 
+   E             F#m
 
-F#m       D       E           F#m 
+F#m       D       E           F#m
 Vuela una lagrima porque no estas aquí
-            D      E7 
+            D      E7
 se oye un lamento, cruza la noche intenta
-   F#m 
+   F#m
 llegar a ti.
-D         C#m    Bm                         C#7 
+D         C#m    Bm                         C#7
 Sube el deseo, aumenta en la distancia tu recuerdo
-D      C#m      Bm                            M  i E7 
+D      C#m      Bm                            M  i E7
 dale paloma, consuela un alma triste que te espera.
 
-       A                        D 
+       A                        D
   Yo que voy a hacer si muero de amor por ti
-                E7                       A            C#7 
+                E7                       A            C#7
   ya nada es lo mismo, mi vida desde que tu no estas.
 
-         F#m 
+         F#m
   Son tus ojos, que me han embrujado
-        D 
+        D
   es tu boca, que me hace temblar
-  Bm 
+  Bm
   es tu risa que mueve montañas
-            E7 
+            E7
   no se que sera.
 
-            A                      D 
+            A                      D
   Yo que voy a hacer si muero de amor por ti
-                E7                            A      C#7 
+                E7                            A      C#7
   ya nada es lo mismo, mi vida desde que tu no estas.
 
-         F#m                             D 
+         F#m                             D
   Y me tienes, soñando despierto en las noches
-                       Bm                E7     A   C#7 
+                       Bm                E7     A   C#7
   mirando a la luna tratando de verte en su carita.
 
-         A                  D 
+         A                  D
   Yo que voy a hacer, yo que voy a hacer
      E                  A             (E7 )
   no se vivir desde que tu no estas.

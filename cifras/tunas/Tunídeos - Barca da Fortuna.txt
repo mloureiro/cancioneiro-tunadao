@@ -5,8 +5,10 @@ tom: Bm
 colunas: 1
 ---
 
-E9                                 E9
-Brilha o Sol e cai a chuva              Oooh (crescendo) (7x)
+E9
+Brilha o Sol e cai a chuva
+E9
+Oooh (crescendo) (7x)
      Bm         Bsus2
 Vão casando as feiticeiras
        E9

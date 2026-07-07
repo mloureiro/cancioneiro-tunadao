@@ -2,11 +2,12 @@
 titulo: Ora Vejam Lá
 artista: António Mafra
 tom: C
-colunas: 1
 ---
 
-C                                            G
-Segunda, Terça, Quarta, Quinta, Sexta, Sábado, Domingo
+C
+Segunda, Terça, Quarta,
+                     G
+Quinta, Sexta, Sábado, Domingo
                C
 Vai a malta passear.
                G

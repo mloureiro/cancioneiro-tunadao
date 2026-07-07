@@ -4,9 +4,6 @@ tom: G
 creditos: Música de Tasco
 ---
 
-
-
-
 [INTRO] G    Em  C
 
                                           

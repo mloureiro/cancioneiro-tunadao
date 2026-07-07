@@ -5,7 +5,9 @@ tom: A
 colunas: 1
 ---
 
-[INTRO] A  C#7  F#m  Fmaj7  Fmaj7/A  E  A  C#7  F#m  F  E4  E
+[INTRO]
+A  C#7  F#m  Fmaj7  Fmaj7/A
+E  A  C#7  F#m  F  E4  E
 
 A                  C#7             F#m
 Anda comigo ver os aviões levantar vôo
@@ -47,7 +49,9 @@ E que eu morra aqui, se um dia eu não te levo à lua
 Fdim7              Bm   E       A
 Nem que eu roube a lua, só para ti
 
-[Inst] A  E  C#m9  F#m  C#7  D7+  Ebdim  E  Fdim  F#m  C#7  D7+  Ebdim  E  Fdim  Bm  E  A
+[Inst]
+A  E  C#m9  F#m  C#7  D7+  Ebdim
+E  Fdim  F#m  C#7  D7+  Ebdim  E  Fdim  Bm  E  A
 
 A                      E     C#7       F#m
 Um dia eu vou jogar a bola, ou vendo esta viola

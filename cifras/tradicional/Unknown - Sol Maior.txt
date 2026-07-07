@@ -4,7 +4,6 @@ tom: G
 creditos: Música de autor desconhecido
 ---
 
-
 [INTRO] D   A7  D
 
 [REFRÃO]

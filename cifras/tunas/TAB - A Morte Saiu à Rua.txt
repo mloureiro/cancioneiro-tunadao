@@ -23,10 +23,7 @@ E o som da bigorna, como um clarim do céu
 C#m                   B             F#   G#m
 Vão dizendo em toda a parte: - O pintor morreu
 
-( B  F#m  G )
-( B  F#m  G )
-( B  F#m  G )
-( B  F#m  G )
+( B  F#m  G ) x4
 
 G#m                 B            F#    G#m
 Teu sangue pintor, reclama outra morte igual
@@ -46,10 +43,7 @@ Da curva da estrada há covas feitas no chão
 C#m                 B          F#   G#m
 E em todas florirão rosas por uma nação
 
-( B  F#  G )
-( B  F#  G )
-( B  F#  G )
-( B  F#  G )
+( B  F#  G ) x4
 
 G#m           B        F#    G#m
 A morte saiu à rua num dia assim
@@ -69,12 +63,7 @@ E o som da bigorna, como um clarim do céu
 C#m                   B             F#   G#m
 Vão dizendo em toda a parte: - O pintor morreu
 
-( B  F#  G#m )
-( B  F#  G#m )
-( B  F#  G#m )
-( B  F#  G#m )
+( B  F#  G#m ) x4
 
 B    F#   G#m
 O pintor morreu
-
-Nota: Esta é uma versão de tuna baseada na música original de Zeca Afonso

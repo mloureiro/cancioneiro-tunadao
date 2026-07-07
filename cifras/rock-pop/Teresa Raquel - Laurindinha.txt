@@ -5,7 +5,6 @@ tom: A
 creditos: Música de Teresa Raquel
 ---
 
-
 [INTRO] A G D E A E
 
   A       G     D
