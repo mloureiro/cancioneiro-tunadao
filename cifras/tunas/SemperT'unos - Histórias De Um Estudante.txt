@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: Bb
 ---
 
-[INSTR.] (F, Dm, Am, Bb, C) 2X
+[Inst] (F, Dm, Am, Bb, C) 2X
 
 F                   C
 Debaixo de um manto negro

@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: G
 ---
 
-[INSTR.] G# Cm Bb G# G
+[Inst] G# Cm Bb G# G
 
 […]
 
@@ -25,4 +25,4 @@ Cantamos melodias
 G             G#
 Que palpitam… a razão
 
-[INSTR.] G# Cm Bb G# G
+[Inst] G# Cm Bb G# G

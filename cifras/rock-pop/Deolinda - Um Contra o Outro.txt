@@ -82,7 +82,7 @@ Por mais vidas que tu ganhes
      Am           F
 É a tua que mais perde se não vens
 
-[INSTR.] C  E  Am  F
+[Inst] C  E  Am  F
 
 [VERSO]
 C
@@ -131,7 +131,7 @@ Por mais vidas que tu ganhes
      Am           F
 É a tua que mais perde se não vens
 
-[INSTR.] C  E  Am  F
+[Inst] C  E  Am  F
 
 C                    E          Am
 Sai de casa e vem comigo para a rua

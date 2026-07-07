@@ -4,7 +4,7 @@ artista: Ornatos Violeta
 tom: Em
 ---
 
-[INSTR.] Em(E), Em(D#), Em(D), Em(C#), Em(C), Em(B) (x3)
+[Inst] Em(E), Em(D#), Em(D), Em(C#), Em(C), Em(B) (x3)
 > a nota entre parêntesis é o baixo do acorde, que desce sempre meio tom
 
 Em

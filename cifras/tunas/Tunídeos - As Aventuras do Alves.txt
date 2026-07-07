@@ -23,7 +23,7 @@ Não se sentia inferior
 Também queria ser Doutor
 (2x)
 
-[INSTR.]
+[Inst]
 F#m E F#m E
 F#m G#m A B E
  F#m                   B
@@ -43,7 +43,7 @@ Que dormia com o Alves
 E com quem estivesse à frente
 (2x)
 
-[INSTR.]
+[Inst]
 E dez anos se passaram
 Fui conhecer os Açores
 Encontrei o jovem Alves

@@ -6,7 +6,7 @@ creditos: Letra: Popular; Música: Popular/Seistetos
 ---
 
 
-[INSTR.]
+[Inst]
 
 [REFRÃO]
                           C
@@ -47,7 +47,7 @@ A cantar por Portugal.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 [REFRÃO] (com Final)
   C           Fm     C

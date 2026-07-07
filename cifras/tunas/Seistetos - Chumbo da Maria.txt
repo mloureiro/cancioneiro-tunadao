@@ -6,7 +6,7 @@ creditos: Letra: Mauro Soares/Carlos Poêjo; Música: Carlos Poêjo
 ---
 
 
-[INSTR.]
+[Inst]
 Am           G            Am
 A Maria já saiu da escola
               G             Am
@@ -33,7 +33,7 @@ Mariaaaaaaaaaaaaaaaaaaaa
                          Am  Am
 Vais chumbar!!!!
 
-[INSTR.]
+[Inst]
 
 Um dia apareceu-lhe um estudante
 Que com ela se queria enrolar
@@ -51,7 +51,7 @@ Pois o curso tu tens de acabar
 Mariaaaaaaaaaaaaaaaaaaaa
 Vais chumbar!!!!
 
-[INSTR.]
+[Inst]
 
 Ó Maria tu não faças isso
 Pois o curso tu tens de acabar

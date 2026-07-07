@@ -44,7 +44,7 @@ Quando te toco
 Dm
 Pões-me andar de gatas
 
-[SOLO] Dm, C(4x), Bb, C, F, Dm, F, Bb, F
+[Inst] Dm, C(4x), Bb, C, F, Dm, F, Bb, F
 
 F
 Vida de estudante
@@ -73,6 +73,6 @@ O sol a nascer
 C
 Que grande tolada (prolonga 8 tempos)
 
-[SOLO] Dm, C(4x), Bb, C, F, Dm, F, Bb, F
+[Inst] Dm, C(4x), Bb, C, F, Dm, F, Bb, F
 
 [REFRÃO]

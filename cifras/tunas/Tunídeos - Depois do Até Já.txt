@@ -5,7 +5,7 @@ tom: G
 creditos: Letra e Música: Miguel Matias
 ---
 
-[INSTR.] G Bm C
+[Inst] G Bm C
 Navegar por noites nunca dantes
       G
 navegadas

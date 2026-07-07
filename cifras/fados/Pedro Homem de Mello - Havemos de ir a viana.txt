@@ -33,7 +33,7 @@ Se o meu sangue não me engana,
     E7            A
 Havemos de ir a Viana.
 
-[INSTR.] D A E7 A
+[Inst] D A E7 A
 
 A                   Bm
 Partamos de flor ao peito
@@ -46,7 +46,7 @@ E morre a todo o momento.
 
 [REFRÃO]
 
-[INSTR.] D A E7 A
+[Inst] D A E7 A
 
 A                 Bm
 Ciganos, verdes ciganos,

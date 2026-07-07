@@ -539,9 +539,9 @@ describe("parseSongContent — continuações indentadas de secções", () => {
 
   it("continuações com indentação ≠ 10 espaços são apanhadas e sem indent", () => {
     const song = parseSongContent(
-      header + "[SOLO]   Em Am D C B7 (2x)\n         Am D G C Am B7 Em\n         C B7 Em (2x)\n"
+      header + "[Inst]   Em Am D C B7 (2x)\n         Am D G C Am B7 Em\n         C B7 Em (2x)\n"
     );
-    const solo = song.parts[0].sections.find((s) => s.type === "SOLO")!;
+    const solo = song.parts[0].sections.find((s) => s.type === "Inst")!;
     const runs = solo.lines.filter((l) => l.type === "chords-only");
     expect(runs).toHaveLength(3);
     expect(runs[1].lyrics).toBe("Am D G C Am B7 Em");

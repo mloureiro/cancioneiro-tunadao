@@ -5,7 +5,7 @@ tom: G
 colunas: 1
 ---
 
-[INSTR.] (C, Dm, G, C, F, C, Am, Dm, G, C 2x)
+[Inst] (C, Dm, G, C, F, C, Am, Dm, G, C 2x)
 C               G
 Neste gesto tão sereno
              Am
@@ -27,7 +27,7 @@ Seria escravo vencido, enganado por esta paixão
 E como o sol vê surgir o luar
            Dm       G    C
 Eu te vejo todos os dias passer
-[INSTR.] (C, Dm, G, C, F, C, Am, Dm, G, C)
+[Inst] (C, Dm, G, C, F, C, Am, Dm, G, C)
 Se a noite me mostrar
 Um pouco da tua alma
 Será como a chuva a chegar

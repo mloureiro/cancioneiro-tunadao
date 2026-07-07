@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: G
 ---
 
-[INSTR.] (C, Am, F, G, C x2)
+[Inst] (C, Am, F, G, C x2)
 
 C
 As cordas vibrando

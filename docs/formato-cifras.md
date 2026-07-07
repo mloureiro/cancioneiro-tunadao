@@ -16,6 +16,7 @@ subtitulo: Texto opcional
 ```
 
 Campos:
+
 - **titulo** (obrigatório): nome da música
 - **tom** (obrigatório): tonalidade principal (notação internacional: C, D, E, F, G, A, B)
 - **artista** (opcional): compositor ou intérprete
@@ -46,6 +47,7 @@ A posição do acorde corresponde à sílaba onde muda a harmonia.
 Usar **notação internacional**: C, D, E, F, G, A, B (não Dó, Ré, Mi).
 
 Acordes suportados:
+
 - Maiores: `C`, `D`, `G`
 - Menores: `Am`, `Dm`, `Em`
 - Sétimas: `G7`, `D7`, `Am7`
@@ -76,10 +78,10 @@ Texto do refrão
 [PASSAGEM]
 Am  G  F  C
 
-[SOLO]
+[Inst]
 Em  Am  D7  G
 
-[INSTR.]
+[Inst]
 C  F  G  C
 
 [SAÍDA]

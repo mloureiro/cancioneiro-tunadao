@@ -77,10 +77,10 @@ Então melhor não ter razão
 
 ( Am7  C/B  C  D  D#  E )
 
-[SOLO] E  G#m7  C#m7  G#m7
+[Inst] E  G#m7  C#m7  G#m7
          E  C°  C#m7  D/E  E7(4/13)
 
-[SOLO] F#m  F#m7M  F#m7  F#m7M
+[Inst] F#m  F#m7M  F#m7  F#m7M
          F#m  D7M  D#°  G#7
 
 [Pré-Refrão]

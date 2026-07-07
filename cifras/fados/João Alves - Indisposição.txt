@@ -43,7 +43,7 @@ E que insiste em ficar
 [REFRÃO]
 
 (E A B7) 2x
-[INSTR.] E B7 E A B7 E A B7 E A B7 E
+[Inst] E B7 E A B7 E A B7 E A B7 E
 (E A B7) 2x
 [REFRÃO]
 

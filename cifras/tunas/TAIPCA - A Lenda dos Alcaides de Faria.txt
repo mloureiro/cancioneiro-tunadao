@@ -32,7 +32,7 @@ E era vê-los…
 Em          D         Em
 Os Alcaides de Barcelos
 
-[INSTR.] Em D G A · Em D G A · C B7 Em
+[Inst] Em D G A · Em D G A · C B7 Em
 
 O Alcaide, D.Nuno Gonçalves de Faria,
 temendo que a sua liberdade
@@ -63,7 +63,7 @@ A força das gentes de Barcelos (2x)
 
 [REFRÃO]
 
-[INSTR.] Em D G A · Em D G A · C B7 Em
+[Inst] Em D G A · Em D G A · C B7 Em
 
 [SAÍDA]
 Ôôô's

@@ -32,7 +32,7 @@ Para te ensinar agora
 A ver o lado claro de um
 Dia Mau
 
-[INSTR.]
+[Inst]
 Bm  G   C  F#  (2x)
 
 Bm          G
@@ -48,7 +48,7 @@ O travo amargo da melancolia
 
             E
 Então rapaz,
-[INSTR.]
+[Inst]
   Fdim               F#
 Então porquê a raiva se a culpa não
   Bm
@@ -78,7 +78,7 @@ Pois vou dar-te a provar
   G                   F#
 O travo amargo da solidão!
 
-[INSTR.]
+[Inst]
 Bm  G   C  F#  (4x)
 
 [REFRÃO]
@@ -97,6 +97,6 @@ Eu vou dar-te a provar
   G                   F#7
 O travo amargo da solidão!
 
-[INSTR.] Final:
+[Inst] Final:
 Bm  G   C  F#  (4x)
 Bm

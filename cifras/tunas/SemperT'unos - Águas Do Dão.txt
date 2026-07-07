@@ -5,7 +5,7 @@ creditos: Original de Infantuna de Viseu
 tom: Em
 ---
 
-[INSTR.] (E, Am, F, C, G, C)
+[Inst] (E, Am, F, C, G, C)
 
                     G
 Quando Deus criou o mundo
@@ -31,7 +31,7 @@ Foram as águas do Dão
 G                       C
 Fiquei de pernas para o ar (bis)
 
-[INSTR.] (E, Am, F, C, G, C)
+[Inst] (E, Am, F, C, G, C)
 
 E quando falta a coragem
 Para a garota conquistar

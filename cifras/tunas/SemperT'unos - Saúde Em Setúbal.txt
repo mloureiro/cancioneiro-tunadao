@@ -5,7 +5,7 @@ creditos: Original de Rúben Cardoso, 2012
 tom: E
 ---
 
-[INSTR.] (E, C#m, A, E, B, C#m, A, B, E)
+[Inst] (E, C#m, A, E, B, C#m, A, B, E)
 
 E                    A
 P'ra quem mora na cidade

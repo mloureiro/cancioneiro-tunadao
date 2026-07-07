@@ -5,7 +5,7 @@ tom: Am
 creditos: Música de Amália Rodrigues
 ---
 
-[INSTR.] Dm  Bb   Gm   A   Dm  Bb   Gm   A   Dm
+[Inst] Dm  Bb   Gm   A   Dm  Bb   Gm   A   Dm
 
                  Gm
  Ao passar pelo ribeiro
@@ -26,7 +26,7 @@ creditos: Música de Amália Rodrigues
        Gm   A              Dm
  Meu amor quando me enlaças
 
-[INSTR.] Dm  Bb   Gm   A
+[Inst] Dm  Bb   Gm   A
  Dm  Gm   A   Bb   Gm   A   Dm
 
  Que palidez nesse rosto
@@ -39,4 +39,4 @@ creditos: Música de Amália Rodrigues
  Cuidei que tinha morrido
  Cuidei que tinha morrido
 
-[INSTR.] Dm  Bb   Gm   A        Dm
+[Inst] Dm  Bb   Gm   A        Dm

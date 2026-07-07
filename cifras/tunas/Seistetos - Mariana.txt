@@ -29,7 +29,7 @@ Mariana dos seus encantos limpa o corrimão
 da escada. (Bis)
 Limpa o co...rrimão das escadas. (Bis)
 
-[INSTR.]
+[Inst]
 
 Mariana dos seus encantos quis uma mala
 por cem paus. (Bis)
@@ -47,7 +47,7 @@ Mariana dos seus encantos faz bolinhas de
 sabão. (Bis)
 Faz bo... linhas de sabão. (Bis)
 
-[INSTR.]
+[Inst]
 
 Mariana dos seus encantos só queria os
 SEISTETOS. (Bis)

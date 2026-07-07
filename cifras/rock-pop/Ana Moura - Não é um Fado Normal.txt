@@ -91,7 +91,7 @@ Que talvez não tenha volta
 
 [REFRÃO]
 
-[SOLO] Dm C Bb A7  Dm G/B C Am7  Bb G#dim A7
+[Inst] Dm C Bb A7  Dm G/B C Am7  Bb G#dim A7
 
 D                  C  G/B      Am7  D/F#      G
 E já estou, quase a trocar o mal pelo bem e o bem pelo mal

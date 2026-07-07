@@ -4,7 +4,7 @@ artista: Ala dos Namorados
 tom: E
 ---
 
-[INSTR.]
+[Inst]
 
 [INTRO] E, F#b9 (x4)
 

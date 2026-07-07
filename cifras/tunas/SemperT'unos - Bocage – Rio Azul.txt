@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: Dm
 ---
 
-[INSTR.] Dm G C Am Dm G C B C
+[Inst] Dm G C Am Dm G C B C
 
 C             Dm
 Setúbal terra encantada

@@ -5,7 +5,7 @@ tom: E
 subtitulo: Adaptado em 2007 · Original de Jorge Cruz
 ---
 
-[INSTR.] Am Am Am
+[Inst] Am Am Am
 
 Am                       E
 Longe fica a rua onde eu te vi

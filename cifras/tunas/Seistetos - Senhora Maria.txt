@@ -8,7 +8,7 @@ creditos: Letra: Popular; Música: Popular
 
 Entrada
 
-[INSTR.]
+[Inst]
 
 Em        Am      G           Am
 Senhora Maria detrás do mosteiro
@@ -29,15 +29,15 @@ Quer um donatinho de Nossa Senhora.
 Donato, não, não que ele não o tem
 Quer Santo Antoninho vem cá tu meu bem.
 
-[INSTR.]
+[Inst]
 
 Repete a Letra
 
-[INSTR.]
+[Inst]
 
 Só Vozes: duas quadras
 Com Música: Quadra Final
 
-[INSTR.]
+[Inst]
 
 CD: In Taberna

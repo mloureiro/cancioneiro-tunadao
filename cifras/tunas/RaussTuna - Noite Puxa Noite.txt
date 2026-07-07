@@ -5,7 +5,7 @@ tom: E
 creditos: Letra: Ricardo Amorim; Música: Bruno Gonçalves, João Escobar
 ---
 
-[SOLO] (2x): E, C#m, A, B
+[Inst] (2x): E, C#m, A, B
 
 E                  C#m
 Saio de casa pró café
@@ -35,7 +35,7 @@ Amigos e guitarradas
 E                        E
 Os copos não vão parar
 
-[SOLO]
+[Inst]
 
 Dia seguinte ao acordar
 A cabeça a rebentar

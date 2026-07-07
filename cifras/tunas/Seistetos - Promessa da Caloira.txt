@@ -6,7 +6,7 @@ creditos: Letra: Jorge Amaral; Música: Jorge Amaral
 ---
 
 
-[INSTR.]
+[Inst]
 A#  F  C  Dm  A#  F  C  F
 
       A#               F
@@ -38,7 +38,7 @@ Quando a festa acabar
  C                      F
 Vai-me levar p'ra Caminha.
 
-[INSTR.]
+[Inst]
 
 Mesmo ali à minha frente
 Uma beleza sem par
@@ -57,7 +57,7 @@ O que ela tinha prometido.
 
 [REFRÃO] (2x)
 
-[INSTR.]
+[Inst]
 
 [REFRÃO]
 

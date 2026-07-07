@@ -6,7 +6,7 @@ creditos: Letra: Jorge Amaral; Música: Jorge Amaral
 ---
 
 
-[INSTR.]
+[Inst]
 A#  F  C  F  A#  F  C  F
 
                     F

@@ -5,7 +5,7 @@ tom: G
 colunas: 1
 ---
 
-[INSTR.] G D Cadd9 D (2x)
+[Inst] G D Cadd9 D (2x)
 
 G      D
 Tu partiste
@@ -33,7 +33,7 @@ decidiste dar de frósques e
        G          D
 deixar-me a ganir.
 
-[INSTR.] G D Cadd9 D (2x)
+[Inst] G D Cadd9 D (2x)
 
 Em    Cadd9
 Sua burra
@@ -43,7 +43,7 @@ Em                 Cadd9  D
 sou um homem bem jeitoso
 (paragem dramática!) p'ra arranjar outra mulher!
 
-[INSTR.] G D Cadd9 D (2x)
+[Inst] G D Cadd9 D (2x)
 
 Em                  Cadd9
 Não quiseste admitir que era o
@@ -60,7 +60,7 @@ mas antes quiseste outro (paragem dramática!)
       G           D
 vai prá puta que pariu (beijar o teu Romeu).
 
-[INSTR.] G D Cadd9 D (2x)
+[Inst] G D Cadd9 D (2x)
 
 Em                Cadd9
 Não quiseste mais saber do que
@@ -78,7 +78,7 @@ Em                 Cadd9  D
 sou um homem bem jeitoso
 (paragem dramática!) e já tenho outra mulher!
 
-[INSTR.] G D Cadd9 D (2x)
+[Inst] G D Cadd9 D (2x)
 
 (Parte lenta)
 G          D

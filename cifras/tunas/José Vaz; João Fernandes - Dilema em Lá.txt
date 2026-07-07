@@ -5,9 +5,9 @@ tom: Dm
 ---
 
 [INTRO] Am E A
-[INSTR.] A F#m Bm E Bm E A
+[Inst] A F#m Bm E Bm E A
 A A7 D Dm A E Am
-[INSTR.] A F#m Bm E Bm E A
+[Inst] A F#m Bm E Bm E A
 Am                     Dm
 Penso com grande aflição
 E                Am

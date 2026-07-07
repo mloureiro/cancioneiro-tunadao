@@ -5,7 +5,7 @@ tom: C
 creditos: Letra e Música: João Nuno Gonçalo
 ---
 
-[INSTR.] Am Dm G C (2x)
+[Inst] Am Dm G C (2x)
 
    Am                 Dm
 Entramos pela brincadeira
@@ -32,7 +32,7 @@ F                     C
 Somos de todos os indivíduos,
            G                C
 Os que esguicham mais glamour.
-[INSTR.] (2x)
+[Inst] (2x)
 Ir para um bar qualquer,
 Tomar umas “canecas”,
 Agarrar numa mulher,
@@ -42,7 +42,7 @@ Ser peixe mais graúdo,
 Para isso trabalhamos,
 Contra todos, e contra tudo.
 [REFRÃO] (2x)
-[INSTR.] (2x)
+[Inst] (2x)
 
 Podemos vir a ser pescados,
 “Um ano e um dia” mais tarde.

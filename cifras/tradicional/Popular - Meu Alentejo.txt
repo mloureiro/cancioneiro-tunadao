@@ -6,7 +6,7 @@ tom: C
 
 
 [INTRO] C
-[INSTR.] (C G F G C) 2x
+[Inst] (C G F G C) 2x
 (Am Dm G C) 2x
 
 C                  G

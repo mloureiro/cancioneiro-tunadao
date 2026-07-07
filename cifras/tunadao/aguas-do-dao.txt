@@ -4,7 +4,7 @@ tom: Bm
 ---
 
 
-[INSTR.]
+[Inst]
 F#  Bm  G   D  A  D
 G   D  A  D
 
@@ -36,7 +36,7 @@ G                     D
   A                         D
 Fiquei de pernas para o ar] (2x)
 
-[INSTR.]
+[Inst]
 
 E quando falta a coragem
 Para a garota conquistar
@@ -50,6 +50,6 @@ Levanta logo a moral] (2x)
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 [REFRÃO] (Acapella)

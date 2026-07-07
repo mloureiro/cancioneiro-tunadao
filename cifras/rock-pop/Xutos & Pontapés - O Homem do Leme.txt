@@ -7,7 +7,7 @@ colunas: 1
 
 [INTRO] Am Em F G Am
 
-[SOLO] Riff 1
+[Inst] Riff 1
 
    Am              Em                F               G           Am
       Sozinho na noite,   um barco ruma.        Para onde vai?
@@ -28,7 +28,7 @@ colunas: 1
                                  Am
              A vida é sempre a perder
 
-[SOLO] Riff 1
+[Inst] Riff 1
 
    Am              Em                F               G           Am
       No fundo do mar,    jazem os outros,      os que lá ficaram.
@@ -39,7 +39,7 @@ colunas: 1
 
 [REFRÃO]
 
-[SOLO] Riff 1
+[Inst] Riff 1
 
    Am              Em                F               G           Am
       No fundo horizonte, sopra o murmúrio.     Para onde vai?

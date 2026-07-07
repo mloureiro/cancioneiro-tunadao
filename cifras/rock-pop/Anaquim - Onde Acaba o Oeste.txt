@@ -35,7 +35,7 @@ Passo por casas, sendo sempre forasteiro.
          Haverá relva bem mais verde noutros campos
          E estou tão certo que o engano me domina
 
-[INSTR.] Dm, F, G7, A# (x2)
+[Inst] Dm, F, G7, A# (x2)
 
 Vou a galope perseguida por fobias,
 Há vários dias que as sei no meu encalço.
@@ -74,7 +74,7 @@ Voltou o vento, já me lembro o seu prenúncio
 Era a fobia da fobia das fobias,
 Velho fantasma que me leva a gente viva
 
-[SOLO] Dm, F, G7, A# (x4)
+[Inst] Dm, F, G7, A# (x4)
 
 [Só vozes]
 Talvez me chorem por saberem ao que parto,

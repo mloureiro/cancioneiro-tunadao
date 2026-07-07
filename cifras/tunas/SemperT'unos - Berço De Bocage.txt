@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: G
 ---
 
-[INSTR.] (Cm, Fm, G, Cm, Bb, D#, G)
+[Inst] (Cm, Fm, G, Cm, Bb, D#, G)
 
 Cm            Fm
 Aqui nesta cidade

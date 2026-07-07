@@ -129,7 +129,7 @@ function isInstruction(line: string): string | null {
     // ou se for referência a anexo, ou instrução musical
     const sectionNames = [
       "INTRO", "REFRÃO", "REFRAO", "PASSAGEM", "SOLO",
-      "INSTR.", "INSTRUMENTAL", "SAÍDA", "SAIDA", "SOLISTA", "/SOLISTA",
+      "INST", "INSTR.", "INSTRUMENTAL", "SAÍDA", "SAIDA", "SOLISTA", "/SOLISTA",
     ];
     // Secções com conteúdo extra (ex: [PASSAGEM] ou [SAÍDA] seguidos de acordes)
     // são tratadas como secções, não instruções
@@ -225,7 +225,7 @@ function isMedleySeparator(line: string): boolean {
 // Nomes de secções conhecidas que agrupam linhas
 const KNOWN_SECTION_NAMES = new Set([
   "INTRO", "REFRÃO", "REFRAO", "PASSAGEM", "SOLO",
-  "INSTR.", "SAÍDA", "SAIDA", "SOLISTA", "/SOLISTA",
+  "INST", "INSTR.", "SAÍDA", "SAIDA", "SOLISTA", "/SOLISTA",
 ]);
 
 /**
@@ -390,7 +390,7 @@ function parsePartLines(lines: string[]): Section[] {
       i++;
 
       // Verificar linhas de continuação (indentadas, sem [] prefix).
-      // A indentação alinha-as com o conteúdo inline a seguir a "[SOLO] ",
+      // A indentação alinha-as com o conteúdo inline a seguir a "[Inst] ",
       // que desaparece na renderização — por isso são emitidas sem indent.
       while (i < lines.length) {
         const nextLine = lines[i];

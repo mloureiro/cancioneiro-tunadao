@@ -5,7 +5,7 @@ tom: E
 colunas: 1
 ---
 
-[INSTR.] (Am, E, Am)
+[Inst] (Am, E, Am)
 
 Am  Dm G   C  Am               Dm      E
 Santo, Santo, Santo é o Senhor Deus do Universo.
