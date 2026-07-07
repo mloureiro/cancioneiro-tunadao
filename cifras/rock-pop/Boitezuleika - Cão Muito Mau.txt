@@ -1,0 +1,46 @@
+---
+titulo: Cão Muito Mau
+artista: Boitezuleika
+tom: G
+---
+
+(intro/verse) (fingerpicked)
+
+        Em        G        C       B
+
+(1st chorus) (fingerpicked)
+
+         C       B       Em       G        C       B
+
+(verse)
+
+        Em        G        C       B
+
+(chorus)
+
+         C        B        Em
+
+(lyrics)
+
+(verse)
+A noite está muito muito fria
+Corres o risco de apanhar peneumonia
+Aparece uma fada e como por magia
+Agita uma varinha e transforma a noite em dia
+
+(chorus)
+Sou um cão muito mau
+Porque não me dão afecto
+Mas se me mexem no pilau
+Dou pulinhos até chegar ao tecto.
+Dou pulinhos até chegar, dou pulinhos até chegar!
+Dou pulinhos até chegar ao tectooooo!!!!
+Sou um cão muito mauuuu!!
+
+| /  slide up
+| \  slide down
+| h  hammer-on
+| p  pull-off
+| ~  vibrato
+| +  harmonic
+| x  Mute note
