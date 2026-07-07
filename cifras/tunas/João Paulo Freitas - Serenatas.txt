@@ -32,7 +32,7 @@ Há estrelas d'oiro, brilhando à lua
        F#m  B7            E
 Quando se fazem as serenatas
 
-[INSTR.] A  E  B7  E  E7  A  Am  E  C#m  F#m  B7  E
+[Inst] A  E  B7  E  E7  A  Am  E  C#m  F#m  B7  E
 
 E
 São horas e horas de alegria
@@ -53,4 +53,4 @@ Isto vai ser uma noite para a desgraça.
 
 [REFRÃO]
 
-[INSTR.] A  E  B7  E  E7  A  Am  E  C#m  F#m  B7  E  B7  E
+[Inst] A  E  B7  E  E7  A  Am  E  C#m  F#m  B7  E  B7  E

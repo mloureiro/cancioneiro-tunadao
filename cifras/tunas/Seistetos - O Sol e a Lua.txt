@@ -6,7 +6,7 @@ creditos: Letra: Popular; Música: Popular
 ---
 
 
-[INSTR.]
+[Inst]
 F  C
 
 [REFRÃO]
@@ -53,6 +53,6 @@ Agora são doutro paciência adeus.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 [REFRÃO]

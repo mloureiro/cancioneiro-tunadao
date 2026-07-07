@@ -30,7 +30,7 @@ Modesto primeiro andar
       A             D
 A contar vindo do céu
 
-[INSTR.] D
+[Inst] D
 
        D               D/C#
 As saudades que eu já tinha
@@ -45,8 +45,8 @@ Modesto primeiro andar
       A             D
 A contar vindo do céu
 
-[INSTR.] D A D A
-[INSTR.] D A D A Em
+[Inst] D A D A
+[Inst] D A D A Em
 
 Em                   A
 Lá lá lá lá lá lá lá lá

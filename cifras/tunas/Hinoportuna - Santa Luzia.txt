@@ -38,7 +38,7 @@ Formosura de tricana
               A
 Num sorriso Virginal
 
-[INSTR.]
+[Inst]
 A  E  x4
 
 Viana guarda em segredo

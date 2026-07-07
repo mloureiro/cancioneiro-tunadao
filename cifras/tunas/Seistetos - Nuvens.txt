@@ -31,7 +31,7 @@ Que eu passei à porta dela
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 O vento que leva a nuvem,
 Trás a chuva e rega a flôr,
@@ -40,7 +40,7 @@ Aos lábios do meu amor.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 Final
 

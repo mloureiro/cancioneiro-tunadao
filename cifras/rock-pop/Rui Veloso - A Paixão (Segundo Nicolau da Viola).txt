@@ -35,7 +35,7 @@ Para te levar ao concerto
        F         G
 Que havia no rivoli
 
-[INSTR.] C F (x2)
+[Inst] C F (x2)
 
 [VERSO]
  C           F
@@ -58,7 +58,7 @@ Não se ama alguém que não ouve a mesma canção
 
 [REFRÃO]
 
-[INSTR.] C F (x4)
+[Inst] C F (x4)
 
 [VERSO]
  C           F

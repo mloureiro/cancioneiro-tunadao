@@ -4,7 +4,7 @@ artista: Fado de Coimbra
 tom: E
 ---
 
-[INSTR.] E , B7        (x2)
+[Inst] E , B7        (x2)
                             A , B7 , E
 
 E                 B7
@@ -30,7 +30,7 @@ De mansinho abre a janela                 (x2)
                       A             B7  E
       Trinando as cordas a cantar o fado.
 
-[INSTR.]
+[Inst]
 
 Dão as doze badaladas
 E ao ouvir-se as guitarradas              (x2)
@@ -42,4 +42,4 @@ Para ouvir a serenata.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]

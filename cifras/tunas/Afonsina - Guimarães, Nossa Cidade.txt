@@ -5,7 +5,7 @@ tom: D
 ---
 
 [Refrão, só com vozes]
-[INSTR.] Em, B7(x2), Em, E, Am, C, B7
+[Inst] Em, B7(x2), Em, E, Am, C, B7
 
    Em                   B7
 O castelo do grande Afonso
@@ -43,7 +43,7 @@ Saudades de uma paixão
 Já perdida no passado
 
 [REFRÃO]
-[INSTR.]
+[Inst]
 
 Cantamos até ao fim
 A maravilha desta cidade

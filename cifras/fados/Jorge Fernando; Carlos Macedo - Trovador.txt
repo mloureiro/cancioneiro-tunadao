@@ -14,7 +14,7 @@ F                      C
 Porque me assalta tão grande paixão
 F                E
 Dou-te na voz o meu coração
-[INSTR.] D A E A D A E Am
+[Inst] D A E A D A E Am
 A                   E
 Com a guitarra sou teu trovador
 A
@@ -33,7 +33,7 @@ Deixa-me ser p'la força do amor
 E              A
 Teu trovador, teu trovador
 
-[INSTR.] D A E A D A E Am
+[Inst] D A E A D A E Am
 
 Am                      Dm
 Já não é de hoje nem de ontem sequer

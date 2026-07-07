@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: D
 ---
 
-[INSTR.] D A
+[Inst] D A
 
 D
 Quer seja curto ou comprido

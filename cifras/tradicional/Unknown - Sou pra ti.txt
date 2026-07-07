@@ -4,7 +4,7 @@ tom: A
 ---
 
 
-[INSTR.] D  F#m  E7  A  (2x)
+[Inst] D  F#m  E7  A  (2x)
 
 D  F#m  E7  A
 Ah ah ah ah ah (2x)
@@ -17,7 +17,7 @@ em busca de fortuna
          E7                    A
 e também de um grande amor
 
-[INSTR.] D  F#m  E7  A
+[Inst] D  F#m  E7  A
 
 D               F#m  E7  A                      D
 Mulher, teus olhos, são lágrimas que eu sinto

@@ -39,7 +39,7 @@ Tiriririri buririririri, Tiriririri paraburibaiê
 Dm    C      G     C     Dm     C       G      C
 Tiriririri buririririri, Tiriririri paraburibaiê
 
-[INSTR.] Dm  C  G
+[Inst] Dm  C  G
 
 C  Dm  C      G      C Dm C G
 Tiiiiiiii paraburibaiê
@@ -51,7 +51,7 @@ Tiriririri buririririri, Tiriririri paraburibaiê
 Dm    C      G     C     Dm     C       G      C
 Tiriririri buririririri, Tiriririri paraburibaiê
 
-[INSTR.] Dm C G / C Dm C G / C Dm C G
+[Inst] Dm C G / C Dm C G / C Dm C G
 
 [2ª PARTE]
 
@@ -85,7 +85,7 @@ Tiriririri buririririri, Tiriririri paraburibaiê
 Dm    C      G     C     Dm     C       G      C
 Tiriririri buririririri, Tiriririri paraburibaiê
 
-[INSTR.] Dm  C  G
+[Inst] Dm  C  G
 
 C  Dm  C      G      C  Dm  C  G
 Tiiiiiiii paraburibaiê
@@ -97,7 +97,7 @@ Tiriririri buririririri, Tiriririri paraburibaiê
 Dm    C      G     C     Dm     C       G      C
 Tiriririri buririririri, Tiriririri paraburibaiê
 
-[INSTR.] Dm C G / C Dm C G / C Dm C G
+[Inst] Dm C G / C Dm C G / C Dm C G
 
 [3ª PARTE]
 
@@ -133,7 +133,7 @@ Tiriririri buririririri, Tiriririri paraburibaiê
 Dm    C      G     C     Dm     C       G      C
 Tiriririri buririririri, Tiriririri paraburibaiê
 
-[INSTR.] Dm  C  G
+[Inst] Dm  C  G
 
 C  Dm  C      G      C  Dm  C  G
 Tiiiiiiii paraburibaiê

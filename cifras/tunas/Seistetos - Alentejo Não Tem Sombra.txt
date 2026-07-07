@@ -6,7 +6,7 @@ creditos: Letra: Popular; Música: Popular
 ---
 
 
-[INSTR.]
+[Inst]
 
 [REFRÃO]
   C              G
@@ -37,7 +37,7 @@ Três copinhos de licor.
 Levas um murro nos cornos
 Passa-te já o calor.
 
-[INSTR.]
+[Inst]
 
 Pus-me a contar as estrelas
 Pus-me a contar as estrelas
@@ -50,6 +50,6 @@ Com os teus olhos comparei
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 CD: In Taberna

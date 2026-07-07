@@ -46,10 +46,10 @@ No divãnzinho me deitas,
 Vê se com essa conversa
 A cabeça me endireitas.
 
-[INSTR.]
+[Inst]
 F  G   C  F  G   C  F  G#   C
 
-[INSTR.]
+[Inst]
 
 [REFRÃO]
 
@@ -73,10 +73,10 @@ Andas sempre de branquinho,
 Vem cá ter comigo fazer festas
 No meu coelhinho.
 
-[INSTR.]
+[Inst]
 F  G   C  F  G   C  F  G#   C
 
-[INSTR.]
+[Inst]
 Final
 G             G#      A#         C
 Dão trabalho a dobrar... dobrar.. dobrar

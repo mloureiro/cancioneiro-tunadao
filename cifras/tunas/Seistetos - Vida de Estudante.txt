@@ -6,7 +6,7 @@ creditos: Letra: Rui Serafim; Música: No me pises que llevo chanclas
 ---
 
 
-[INSTR.]
+[Inst]
 G                             C
 Acordo tarde sigo para o exame
                D            G
@@ -39,7 +39,7 @@ Ou um trovador errante
         D             G
 Ou um estudante marrão
 
-[INSTR.]
+[Inst]
 
 Meus pais já me avisaram
 Que nesta vida não posso continuar

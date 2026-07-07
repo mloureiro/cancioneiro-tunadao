@@ -6,7 +6,7 @@ creditos: Letra: Jorge Amaral; Música: Jorge Amaral
 ---
 
 
-[INSTR.]
+[Inst]
 D
 Conheci uma miúda
        A                 D
@@ -32,7 +32,7 @@ Só querem os Seistetos.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 Começou por esta amiga;
 Que sempre teve à vontade;
@@ -41,7 +41,7 @@ Em toda a universidade.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 [REFRÃO]
 

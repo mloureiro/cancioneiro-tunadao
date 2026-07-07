@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: E
 ---
 
-[INSTR.] E F#m B E C#m F#m B E
+[Inst] E F#m B E C#m F#m B E
 
 [REFRÃO]
 E              F#m

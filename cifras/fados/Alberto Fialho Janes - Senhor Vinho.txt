@@ -5,7 +5,7 @@ tom: D
 ---
 
 [INTRO] G D G
-[INSTR.] (C D G Em Am D G) 2x
+[Inst] (C D G Em Am D G) 2x
 
 G                  D
 Oiça lá ó senhor Vinho
@@ -42,7 +42,7 @@ Oscila sem se deter
 G
 Deixando de ser perpendicular
 
-[INSTR.] (C D G Em Am D G) 2x
+[Inst] (C D G Em Am D G) 2x
 
 G                        D
 Eu já fui, responde o Vinho

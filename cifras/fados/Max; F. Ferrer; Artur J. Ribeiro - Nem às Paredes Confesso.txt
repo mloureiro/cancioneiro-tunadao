@@ -7,9 +7,9 @@ tom: A
 Artur J. Ribeiro)
 
 [INTRO] A E
-[INSTR.] A F#m Bm E A E
+[Inst] A F#m Bm E A E
 A G# G F#m Bm Dm
-[INSTR.] A A G# G F#m Bm E
+[Inst] A A G# G F#m Bm E
 A E A E Am E
 
 Am
@@ -35,7 +35,7 @@ A      A G# G
 [REFRÃO]
 De quem eu gosto
 F#m                   Bm
-[INSTR.] A A G# G F#m Bm E
+[Inst] A A G# G F#m Bm E
 Nem às paredes confesso
 E
 E até aposto

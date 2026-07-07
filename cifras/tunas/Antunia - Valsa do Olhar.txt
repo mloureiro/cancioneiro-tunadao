@@ -4,7 +4,7 @@ artista: Antunia
 tom: E
 ---
 
-[INSTR.] B7 , E , F#m , B7 , E  (x2)
+[Inst] B7 , E , F#m , B7 , E  (x2)
 
 E                        C#7              F#m
 Quando os teus olhos dizem o que eu quero
@@ -25,7 +25,7 @@ Que os teus também se possam comover.
                 A      B7     E
       O nosso olhar fala por nós.
 
-[INSTR.]
+[Inst]
 
 Quando os teus olhos dizem em segredo
 Coisas que só os meus podem entender
@@ -34,7 +34,7 @@ Que seja tudo um sonho do meu querer.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 E , C#7 , F#m
 B7 , E
@@ -43,4 +43,4 @@ E , B7 , E
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]

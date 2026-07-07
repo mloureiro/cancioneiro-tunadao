@@ -51,7 +51,7 @@ Hoje é o primeiro dia do resto da tua vida
 Eb         Bb                           Cm  F
 Hoje é o primeiro dia do resto da tua vida
 
-[INSTR.] Eb F Eb F Eb / F Eb F G G7
+[Inst] Eb F Eb F Eb / F Eb F G G7
 
 C
 Depois vêm cansados e o corpo fraqueja
@@ -70,7 +70,7 @@ Ab                 Eb                 Fm    Bb
 Ab                 Eb                  Fm   Bb
  Hoje é o primeiro dia do resto da tua vida
 
-[INSTR.] Ab Bb Ab Bb C
+[Inst] Ab Bb Ab Bb C
 
 C
 Enfim duma escolha faz-se um desafio

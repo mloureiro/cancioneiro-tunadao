@@ -32,7 +32,7 @@ Dizer adeus a ninguém,
 Quem parte leva saudades,
 Quem fica saudades tem.
 
-[INSTR.]
+[Inst]
 [REFRÃO]
 
 No meio de tanta gente,
@@ -40,7 +40,7 @@ Dois olhos me estão matando,
 Matem-me devagarinho,
 Que eu quero morrer cantando.
 
-[INSTR.]
+[Inst]
 [REFRÃO]
 
 Se algum dia te quis bem,
@@ -48,7 +48,7 @@ Esse tempo acabou,
 Agora olho p'ra ti,
 Foi jeito que me ficou.
 
-[INSTR.]
+[Inst]
 [REFRÃO]
 
 CD: Anda ká k'eu nãtalêjo

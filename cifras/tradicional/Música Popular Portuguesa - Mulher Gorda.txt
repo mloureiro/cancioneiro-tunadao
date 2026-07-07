@@ -5,7 +5,7 @@ tom: Am
 ---
 
 
-[INSTR.]
+[Inst]
 Am  E  (2x)
 
           Am
@@ -46,7 +46,7 @@ Com a muleta de ninguém
 
 [REFRÃO] (2x)
 
-[INSTR.]
+[Inst]
 
          Am
 Mulher bonita para

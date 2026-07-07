@@ -5,7 +5,7 @@ tom: Bm
 creditos: Letra e Música: Originais da Phartuna
 ---
 
-[INSTR.]
+[Inst]
 Bm  Em  A  Bm
                                 2x
 Em Bm A Bm (2x)
@@ -44,7 +44,7 @@ Mondego, lágrimas, saudade
   G           A               Bm
 Coimbra será sempre a tua cidade
 
-[INSTR.]
+[Inst]
 
             Em                  Bm
 Mondego, choras a saudade

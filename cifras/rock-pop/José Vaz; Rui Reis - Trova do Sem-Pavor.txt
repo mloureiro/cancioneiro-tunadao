@@ -6,7 +6,7 @@ tom: Am
 
 
 [INTRO] (Am) 2x
-[INSTR.] (Am G Am C G E Am) 2x E Am
+[Inst] (Am G Am C G E Am) 2x E Am
 (Am F G Am) 2x
 
 Am F            Am
@@ -23,7 +23,7 @@ E Am                  G          F       E
 Am               G             F             E   E7 Am
 Além Tejo conquistou p'ra Afonso "O Cristão"
 
-[INSTR.] (Am F G Am) 2x
+[Inst] (Am F G Am) 2x
 
 Am      F      Am
 A noite era seu reino
@@ -39,7 +39,7 @@ P´rá infiel andaluza o destino o levou
 Am             G          F            E   E7 Am
 E à nobre terra Lusa nunca mais voltou
 
-[INSTR.] (Am F G Am) 4x
+[Inst] (Am F G Am) 4x
 (Am F Am G Am) 2x
 C                     G
 Giraldo conquistou, Giraldo triunfou

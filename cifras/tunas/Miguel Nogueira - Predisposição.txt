@@ -25,7 +25,7 @@ Onde se pode amar
 Dm                   C
 Cantar e ser estudante
 
-[INSTR.] (Dm C Dm C Dm C F G) 2x
+[Inst] (Dm C Dm C Dm C F G) 2x
 
 F                C
 Queremos cantar
@@ -36,7 +36,7 @@ Para que esta noite ao luar
 Dm                  C
 Vos deixe recordações
 
-[INSTR.] (Dm Dm C Dm C Dm C F G) 2x
+[Inst] (Dm Dm C Dm C Dm C F G) 2x
 (Dm Dm/C Dm/B Gm6/A#) 2x
 
 Dm  Dm/C         Dm/B   Bbmaj7(b5)
@@ -50,5 +50,5 @@ Da capa de um estudante.
 
 [REFRÃO]
 
-[INSTR.] Dm  C  Dm  C  Dm  C  F  G
+[Inst] Dm  C  Dm  C  Dm  C  F  G
 Dm  C  Dm

@@ -5,7 +5,7 @@ tom: Em
 subtitulo: Original de Copituna
 ---
 
-[INSTR.] G C D G Em Am D G (2x)
+[Inst] G C D G Em Am D G (2x)
 
     G                 C
 Caloiro que chega a Setúbal

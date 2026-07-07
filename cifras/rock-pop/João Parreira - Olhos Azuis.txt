@@ -5,7 +5,7 @@ tom: Em
 ---
 
 [INTRO] B7
-[INSTR.]
+[Inst]
 Em9 Am7 B7 Em9 Am7 D7 G D9 Em C B7
 C7 B7 E9
 

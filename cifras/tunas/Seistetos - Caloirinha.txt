@@ -6,7 +6,7 @@ creditos: Letra: Jorge Alfaiate; Música: Popular Brasileira/Quim Barreiros
 ---
 
 
-[INSTR.]
+[Inst]
 F  C  C7  F  A#  C  C7  F  F  A#  C  C7  F
                  F
 Quando eu entrei
@@ -62,6 +62,6 @@ juntinho p'ra eu praxar!
 
 [REFRÃO] (2x)
 
-[INSTR.]
+[Inst]
 
 [REFRÃO] (2x)

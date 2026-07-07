@@ -4,7 +4,7 @@ Migra ficheiros de cifra v1 -> v2.
 
 v2 espera:
   - header YAML entre --- com: titulo (obrigatório), tom, artista (opcional)
-  - secções instrumentais em bracket: [INTRO] [PASSAGEM] [SOLO] [INSTR.] [REFRÃO] [SAÍDA]
+  - secções instrumentais em bracket: [INTRO] [PASSAGEM] [Inst] [Inst] [REFRÃO] [SAÍDA]
   - acordes em notação inglesa (A-G) — a notação portuguesa NÃO é reconhecida pelo parser
 
 Por defeito corre em DRY-RUN: não escreve nada, gera relatório e amostras em /tmp.

@@ -45,7 +45,7 @@ Cólica escorbuto e caganeira
 
 [REFRÃO]
 
-[INSTR.] (G7 C9)x12  D7#9
+[Inst] (G7 C9)x12  D7#9
 
   G7                      C9
 Sempre a domar a cena

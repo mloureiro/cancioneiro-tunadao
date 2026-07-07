@@ -122,7 +122,7 @@ function renderLine(line: SongLine, forceBold: boolean): string {
 // depois da palavra-chave, ex: "x2", "só vozes", "- Pantera Cor-de-Rosa")
 // é mostrado em texto pequeno a seguir à pill.
 const REFRAO_FAMILY = /^(\d+º\s*)?refr[ãa]o\s*[,–—-]?\s*(.*)$/i;
-const INST_FAMILY = /^(?:instr\.?|instrumental|passagem|solo)\s*[,–—-]?\s*(.*)$/i;
+const INST_FAMILY = /^(?:inst(?:r|rumental)?\.?|passagem|solo)\s*[,–—-]?\s*(.*)$/i;
 
 type TagFamily =
   | { kind: "pill"; label: string; color: string; qualifier: string }
@@ -153,7 +153,7 @@ function classifyTag(type: string): TagFamily {
   return { kind: "label", label: t.toUpperCase() };
 }
 
-// Secções SEM conteúdo (ex: [SOLO] no fim da cifra) não são sticky: uma pill
+// Secções SEM conteúdo (ex: [Inst] no fim da cifra) não são sticky: uma pill
 // sticky sem linhas a seguir era arrastada sozinha para a coluna seguinte,
 // deixando colunas fantasma quase vazias.
 function renderSectionTag(type: string, hasContent: boolean, times: number): string {

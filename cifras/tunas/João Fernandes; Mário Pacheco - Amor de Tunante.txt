@@ -20,7 +20,7 @@ Que a minha alma grita
 A7
 E esta guitarra toca
 
-[INSTR.] Dm C Dm C Am
+[Inst] Dm C Dm C Am
 
 F                        C
 Quero louvar ao fim da tarde
@@ -31,7 +31,7 @@ Fazer amor intensamente
 Gm                   A7
 Ouvir o som da tua voz
 
-[INSTR.] Dm C Dm C Am
+[Inst] Dm C Dm C Am
 
 Dm                C
 Vejo searas queimadas, por um fogo
@@ -44,9 +44,9 @@ Dm                          C A7
 
 [REFRÃO]
 
-[INSTR.] Dm C Dm C Am
+[Inst] Dm C Dm C Am
 
 [REFRÃO]
 
-[INSTR.] Dm C Dm C Am
+[Inst] Dm C Dm C Am
 Dm

@@ -37,7 +37,7 @@ As lendas de uma princesa!
 
 [REFRÃO] (2x)
 
-[INSTR.] (2x): igual ao refrão com quebras no C
+[Inst] (2x): igual ao refrão com quebras no C
 
 G               Bm
 De mãos dadas com a natureza

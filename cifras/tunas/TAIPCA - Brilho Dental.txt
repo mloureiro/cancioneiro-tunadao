@@ -13,7 +13,7 @@ Sempre a rir e a chorar / Agarrado ao sabão            Pré-Refrão
 Pode a alma enferrujar / Mas o teu sorriso não         [F#7, Bm7] x2 [B7, Em] x2
 
                                                        [G, Gm, D, Bm, Em,A7, D, D7]
-[INSTR.] [G, Gm, D, Bm, Em,A7, D*, A7*, D*]
+[Inst] [G, Gm, D, Bm, Em,A7, D*, A7*, D*]
 
 Verso
 Olá, tu que me sorris / Diz-me quem é o teu dentista

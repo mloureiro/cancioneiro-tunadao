@@ -9,7 +9,7 @@ creditos: Letra e Música: Simone de Oliveira
 [INTRO] (Guitarra de Coimbra)
 Em C#ø F# Bm (2x)
 --
-[INSTR.]
+[Inst]
 Bm  Em  F#  Bm  (2x)
 
            Bm                    Em
@@ -49,7 +49,7 @@ presente
                 F#          Bm
 Em cada espiga desfolhada.
 
-[INSTR.]
+[Inst]
 
 Minha raiz de pinho verde
 Meu céu azul tocando a serra.
@@ -62,7 +62,7 @@ Seara louca em movimento.
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 
 Olhos de amêndoa, cisterna escura
 Onde se alpendra, a desventura.

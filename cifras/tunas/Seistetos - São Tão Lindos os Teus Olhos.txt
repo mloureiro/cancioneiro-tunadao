@@ -6,7 +6,7 @@ creditos: Letra: Popular; Música: Popular
 ---
 
 
-[INSTR.]
+[Inst]
 A               Bm
 São tão lindos os teus olhos
 E                 A
@@ -17,7 +17,7 @@ Dizem coisas, contam coisas
 E          A
 Ai Jesus, valha-me Deus! (bis)
 
-[INSTR.]
+[Inst]
 
 Ficam teus olhos em brasa
 Quando algum noivado vês... (bis)

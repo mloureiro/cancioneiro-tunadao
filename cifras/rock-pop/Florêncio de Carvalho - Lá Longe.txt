@@ -5,7 +5,7 @@ tom: Bm
 creditos: Letra e Música: Florêncio de Carvalho
 ---
 
-[INSTR.]
+[Inst]
 
 Bm         B      Em
 Lá longe, ao cair da tarde

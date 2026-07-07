@@ -5,7 +5,7 @@ tom: Am
 creditos: Letra: João Escobar, Filipe Morais; Música: João Escobar
 ---
 
-[INSTR.] C , F , C , G
+[Inst] C , F , C , G
 
 C               F
 Partimos na aventura,

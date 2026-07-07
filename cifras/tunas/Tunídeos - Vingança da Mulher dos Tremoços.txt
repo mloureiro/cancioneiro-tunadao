@@ -5,11 +5,11 @@ tom: G
 creditos: Música: Miguel Soares, Rafael Fraga, Sérgio Ávila
 ---
 
-[SOLO]
+[Inst]
 Em G Am Em (4x)
 1ª Parte:
 Am C G Am (2x)
-[SOLO] (Notas)
+[Inst] (Notas)
 ABCDEGE
 EGEDCAA
 2ª Parte:

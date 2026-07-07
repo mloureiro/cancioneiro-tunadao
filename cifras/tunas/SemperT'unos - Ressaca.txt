@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: Am
 ---
 
-[INSTR.] (Dm, Am, E, A) x2
+[Inst] (Dm, Am, E, A) x2
 
 Am
 Hoje quando acordei,

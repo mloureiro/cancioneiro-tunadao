@@ -63,7 +63,7 @@ Voar…
                            Dm  A
 Voar para ti
 
-[INSTR.]
+[Inst]
 Dm  F  C  Dm
 Dm  F  C  Dm
 A  A7

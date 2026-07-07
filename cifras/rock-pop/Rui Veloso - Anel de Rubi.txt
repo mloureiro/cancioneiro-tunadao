@@ -35,7 +35,7 @@ Pra te levar ao concerto
         F         G
 Que havia no Rivoli
 
-[INSTR.] C F C F
+[Inst] C F C F
 
 C          F
 Era só a ti que eu mais queria
@@ -57,8 +57,8 @@ Não se ama alguém que não ouve a mesma canção...
 
 [REFRÃO]
 
-[INSTR.] C F C F
-[INSTR.] C F C F
+[Inst] C F C F
+[Inst] C F C F
 
 C            F
 Foi nesse dia que percebi
@@ -71,5 +71,5 @@ Que não tinha mais lenha por onde arder
 
 [REFRÃO]
 
-[INSTR.] C F C F
-[INSTR.] C F C F
+[Inst] C F C F
+[Inst] C F C F

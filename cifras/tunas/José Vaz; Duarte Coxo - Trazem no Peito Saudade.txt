@@ -35,7 +35,7 @@ Connosco cantar
 
 [REFRÃO]
 
-[INSTR.]
+[Inst]
 Gm Cm Gm D#7 Gm Cm Gm D7 Gm Cm Gm D7
 
 Gm          Cdim/F#     Ddim/G# Fm

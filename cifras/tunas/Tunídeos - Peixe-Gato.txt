@@ -5,7 +5,7 @@ tom: Bm
 creditos: Música: Tunídeos
 ---
 
-[SOLO] (2x):
+[Inst] (2x):
  1ª parte:
  Bm A A Bm (2x)
  2ª parte:

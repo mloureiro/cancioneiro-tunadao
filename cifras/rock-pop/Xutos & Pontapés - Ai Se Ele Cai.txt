@@ -47,6 +47,6 @@ Meu coração
 D5 F#5 B5
 Vai se partir
 
-[SOLO] A5 G5 F#5 B5 A5 G5 F#5 B5 F#5
+[Inst] A5 G5 F#5 B5 A5 G5 F#5 B5 F#5
 
 [SAÍDA] A5 G5 F#5 B5 A5 G5 F#5 B5 A5

@@ -5,9 +5,9 @@ tom: Em
 ---
 
 [INTRO] F#m            B7          E       A
-[INSTR.] D Gm C B7 Em Gm A7
+[Inst] D Gm C B7 Em Gm A7
 D Gm C B7 Em C Am A7 D B7
-[INSTR.] D Gm C B7 Em Gm A7
+[Inst] D Gm C B7 Em Gm A7
 E                             G#m
 Há muitas noites em que sorrio ao pensar
 F#m           Am              B7

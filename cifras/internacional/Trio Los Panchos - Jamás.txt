@@ -4,7 +4,7 @@ artista: Trio Los Panchos
 tom: C#m
 ---
 
-[INSTR.]
+[Inst]
 
 Am                       E
 Jamás...

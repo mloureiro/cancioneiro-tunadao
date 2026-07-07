@@ -4,7 +4,7 @@ artista: SemperT'unos
 tom: F
 ---
 
-[INSTR.] (C, Dm x4)
+[Inst] (C, Dm x4)
 
       Dm
 Vejam bem,

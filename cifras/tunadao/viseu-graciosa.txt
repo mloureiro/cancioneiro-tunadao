@@ -31,7 +31,7 @@ Tens flores em teus recantos
 
 [PASSAGEM]   C B7 Em (2x)
 
-[SOLO]    Em Am D C B7 (2x)
+[Inst]    Em Am D C B7 (2x)
           Am D G C Am B7 Em
           C B7 Em (2x)
 
@@ -83,7 +83,7 @@ Que o povo não esqueceu
 
 [PASSAGEM]   C B7 Em (2x)
 
-[SOLO]   Em Am D C B7 (2x)
+[Inst]   Em Am D C B7 (2x)
          Am D G C Am B7 Em
          C B7 Em (2x)
 
