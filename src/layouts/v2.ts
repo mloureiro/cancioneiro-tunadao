@@ -630,7 +630,8 @@ function generate(input: LayoutInput): string {
     return `  #context {
     let loc = locate(label("song-${labelId}"))
     let pg = counter(page).at(loc).first()
-    [${title} #box(width: 1fr, repeat(gap: 2.5pt)[#text(fill: hairline-color)[.]]) #text(font: sans-font, stretch: 100%, weight: 700, fill: blue)[#pg] \\ ]
+    link(label("song-${labelId}"))[${title} #box(width: 1fr, repeat(gap: 2.5pt)[#text(fill: hairline-color)[.]]) #text(font: sans-font, stretch: 100%, weight: 700, fill: blue)[#pg]]
+    linebreak()
   }`;
   };
   const sortByTitle = (a: Song, b: Song) => a.metadata.titulo.localeCompare(b.metadata.titulo, "pt");
