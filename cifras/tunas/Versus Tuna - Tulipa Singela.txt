@@ -1,9 +1,0 @@
----
-titulo: Tulipa Singela
-artista: Versus Tuna
-tom: d
----
-
-
-[INTRO] Bordão (1ª guitarra: E, F#, G#; 2ª: E, C#, B) A, F#, D, E (X2)
-A         F#
