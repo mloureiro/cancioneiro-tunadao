@@ -2,9 +2,9 @@
 titulo: Garça Perdida
 artista: Leonardo Amuedo
 tom: Am
+creditos: Música: Leonardo Amuedo; Letra: João Mendonça; Canta: Dulce Pontes
 ---
 
-(Música: Leonardo Amuedo | Letra : João Mendonça | Canta : Dulce Pontes)
 
 [INTRO] 2x: Am E Am Dm Am G Am
 

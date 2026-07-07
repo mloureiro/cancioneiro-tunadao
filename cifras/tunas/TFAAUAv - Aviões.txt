@@ -2,9 +2,9 @@
 titulo: Aviões
 artista: TFAAUAv · Tuna Feminina da Associação Académica da Universidade de Aveiro
 tom: C
+creditos: Música d'Os Azeitonas
 ---
 
-(Música d'Os Azeitonas)
 [INTRO] C G Am F G (bis)
 
 C                     G            Am

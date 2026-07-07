@@ -2,6 +2,7 @@
 titulo: Noites boémias
 artista: Seistetos
 tom: G
+creditos: Letra: Jorge Amaral; Música: Jorge Amaral
 ---
 
 
@@ -53,6 +54,4 @@ P'ra açorda são convidados. (bis)
 
 [SAÍDA] Fm G7 C
 
-Letra: Jorge Amaral
-Música: Jorge Amaral
 CD: In Taberna

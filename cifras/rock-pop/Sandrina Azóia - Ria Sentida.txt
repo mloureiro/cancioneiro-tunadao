@@ -2,9 +2,9 @@
 titulo: Ria Sentida
 artista: Sandrina Azóia
 tom: D
+creditos: Música e Letra: Sandrina Azóia
 ---
 
-(Música e Letra: Sandrina Azóia)
 
 Poema:
 O horizonte coberto de salinas,

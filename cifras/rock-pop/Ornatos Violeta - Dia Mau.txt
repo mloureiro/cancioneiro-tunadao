@@ -2,6 +2,7 @@
 titulo: Dia Mau
 artista: Ornatos Violeta
 tom: Bm
+creditos: Letra e Música: Ornatos Violeta
 ---
 
 [INTRO]
@@ -99,5 +100,3 @@ O travo amargo da solidão!
 [INSTR.] Final:
 Bm  G   C  F#  (4x)
 Bm
-
-Letra e Música: Ornatos Violeta

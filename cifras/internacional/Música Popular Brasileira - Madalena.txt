@@ -2,6 +2,7 @@
 titulo: Madalena
 artista: Música Popular Brasileira
 tom: Dm
+creditos: Letra e Música: Música Popular Brasileira
 ---
 
 [INTRO] de bandolim:
@@ -71,5 +72,3 @@ Gm   Dm  A#  A
 A#  A  (2x)
 Dm (A Dm)
 Laaa laaa laaa laaa…
-
-Letra e Música: Música Popular Brasileira

@@ -2,6 +2,7 @@
 titulo: Nuvens
 artista: Seistetos
 tom: Em
+creditos: Letra: Popular; Música: Popular/Seistetos
 ---
 
 
@@ -45,6 +46,4 @@ Final
 
 F       F    F
 
-Letra: Popular
-Música: Popular/Seistetos
 CD: Anda ká k'eu nãtalêjo

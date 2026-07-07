@@ -2,6 +2,7 @@
 titulo: Vila de Frades
 artista: Seistetos
 tom: A
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -37,6 +38,3 @@ Branca e singela é Vila de Frades
 Nesta planície linda alentejana
 
 [REFRÃO] (2x)
-
-Letra: Popular
-Música: Popular

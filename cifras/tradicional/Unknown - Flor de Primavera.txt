@@ -1,11 +1,11 @@
 ---
 titulo: Flor de Primavera
 tom: G
+creditos: Música de Tasco
 ---
 
 
 
-(Música de Tasco)
 
 [INTRO] G    Em  C
 

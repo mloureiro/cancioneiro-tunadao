@@ -2,6 +2,7 @@
 titulo: Quando a Noite Chega
 artista: Phartuna
 tom: C
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 C  G   F  C  (2x)
@@ -50,5 +51,3 @@ Nas ruas o movimento
 Da rotina sabemos fugir
 
 [REFRÃO] (2x)
-
-Letra e Música: Originais da Phartuna

@@ -2,6 +2,7 @@
 titulo: Évora Meu Amor
 artista: Seistetos
 tom: G
+creditos: Letra: Marco Camacho/Seistetos; Música: Marco Camacho/Seistetos
 ---
 
 
@@ -53,6 +54,4 @@ Coração...
 
 Instrumental, Refrão, pá ra ra
 
-Letra: Marco Camacho/Seistetos
-Música: Marco Camacho/Seistetos
 CD: Anda ká k'eu nãtalêjo

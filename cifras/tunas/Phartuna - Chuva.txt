@@ -2,6 +2,7 @@
 titulo: Chuva
 artista: Phartuna
 tom: Am
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 [INSTR.]
@@ -94,5 +95,3 @@ Em      G                          F
 F       G               Am
 (Este rumo traço eu)
 Mas a chuva venceu                  3x
-
-Letra e Música: Originais da Phartuna

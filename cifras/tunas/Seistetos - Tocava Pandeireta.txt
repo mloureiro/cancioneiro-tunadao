@@ -2,6 +2,7 @@
 titulo: Tocava Pandeireta
 artista: Seistetos
 tom: C
+creditos: Letra: Mauro Soares / Jorge Amaral; Música: Jorge Amaral
 ---
 
 
@@ -66,6 +67,3 @@ Eu deixava pegar nela se me levassem
 também
 
 [REFRÃO]
-
-Letra: Mauro Soares / Jorge Amaral
-Música: Jorge Amaral

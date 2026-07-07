@@ -2,6 +2,7 @@
 titulo: Serenata para M'Amar
 artista: Seistetos
 tom: C
+creditos: Letra: Carlos Cardoso; Música: Popular Napolitana/Seistetos
 ---
 
 
@@ -63,6 +64,3 @@ Ela sorriu para mim
 E eu nem queria acreditar.
 
 [REFRÃO]
-
-Letra: Carlos Cardoso
-Música: Popular Napolitana/Seistetos

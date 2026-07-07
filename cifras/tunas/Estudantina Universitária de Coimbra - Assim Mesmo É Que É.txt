@@ -2,6 +2,7 @@
 titulo: Assim Mesmo É Que É
 artista: EUC · Estudantina Universitária de Coimbra
 tom: G
+creditos: Letra e Música: Estudantina Universitária de Coimbra
 ---
 
 
@@ -75,5 +76,3 @@ Ai rapariga, rapariga, rapariga, rapariga,
 rapariga, rapariga tem cuidado
 Ai rapariga, rapariga, rapariga, rapariga,
 rapariga e assim mesmo é que é
-
-Letra e Música: Estudantina Universitária de Coimbra

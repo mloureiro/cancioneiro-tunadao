@@ -2,6 +2,7 @@
 titulo: Mariana
 artista: Seistetos
 tom: G
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -52,6 +53,4 @@ Mariana dos seus encantos só queria os
 SEISTETOS. (Bis)
 Só queria os SEISTETOS. (Bis)
 
-Letra: Popular
-Música: Popular
 CD: Anda ká k'eu nãtalêjo

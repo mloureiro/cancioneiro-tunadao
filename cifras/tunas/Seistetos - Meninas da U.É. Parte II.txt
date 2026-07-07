@@ -2,6 +2,7 @@
 titulo: Meninas da U.É. Parte II
 artista: Seistetos
 tom: G
+creditos: Letra: Marco Camacho e Mauro Soares; Música: Marco Camacho
 ---
 
 
@@ -80,6 +81,4 @@ Final
 G             G#      A#         C
 Dão trabalho a dobrar... dobrar.. dobrar
 
-Letra: Marco Camacho e Mauro Soares
-Música: Marco Camacho
 CD: In Taberna

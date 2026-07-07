@@ -2,6 +2,7 @@
 titulo: Algarve Mais
 artista: Versus Tuna
 tom: F
+creditos: Letra e música: Mauro Lopes, João d’Olhão, José Subtil, Pedro Cabanita
 ---
 
 
@@ -42,4 +43,3 @@ Bb           Gm            F                             2
 E a praia mesmo aqui ao lado
 Gm                                    C
 Ainda dizem que há clima para estudar
-Letra e música: Mauro Lopes, João d’Olhão, José Subtil, Pedro Cabanita

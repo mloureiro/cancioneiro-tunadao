@@ -2,6 +2,7 @@
 titulo: Balada Intemporal
 artista: Phartuna
 tom: Cm
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 Cm  Bb  G   Cm  C7
@@ -64,5 +65,3 @@ Cm         Bb  G#   G
 Dor!
 
 Cm
-
-Letra e Música: Originais da Phartuna

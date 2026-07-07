@@ -2,6 +2,7 @@
 titulo: Alentejo Não Tem Sombra
 artista: Seistetos
 tom: G
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -51,6 +52,4 @@ Com os teus olhos comparei
 
 [INSTR.]
 
-Letra: Popular
-Música: Popular
 CD: In Taberna

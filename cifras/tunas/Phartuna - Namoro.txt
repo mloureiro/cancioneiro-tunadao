@@ -2,6 +2,7 @@
 titulo: Namoro
 artista: Phartuna
 tom: F
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 
@@ -68,5 +69,3 @@ Dm  F  C  Dm
 A  A7
 
 Final: Dm 
-
-Letra e Música: Originais da Phartuna

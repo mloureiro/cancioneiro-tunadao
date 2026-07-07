@@ -2,6 +2,7 @@
 titulo: Veterana
 artista: Seistetos
 tom: F
+creditos: Letra: Nuno Tirapicos/Seistetos; Música: Popular/Seistetos
 ---
 
 
@@ -45,6 +46,4 @@ Uma letra te dedicámos.
 Agora que vais embora...
 É dela que te lembramos.
 
-Letra: Nuno Tirapicos/Seistetos
-Música: Popular/Seistetos
 CD: Anda ká k'eu nãtalêjo

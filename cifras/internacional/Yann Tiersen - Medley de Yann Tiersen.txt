@@ -2,6 +2,7 @@
 titulo: Medley de Yann Tiersen
 artista: Yann Tiersen
 tom: Dm
+creditos: Música: Yann Tiersen
 ---
 
 
@@ -34,5 +35,3 @@ Em  Am  B
 Autre Été: L'Après Mi-di
 Em  G   Bm  D  (6x)
 (Acabar em Em)
-
-Música: Yann Tiersen

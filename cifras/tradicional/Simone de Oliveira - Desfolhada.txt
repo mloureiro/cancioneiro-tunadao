@@ -2,6 +2,7 @@
 titulo: Desfolhada
 artista: Simone de Oliveira
 tom: G
+creditos: Letra e Música: Simone de Oliveira
 ---
 
 
@@ -92,5 +93,3 @@ presente
 Em cada espiga desfolhada.
 
 Cm Fm G Cm (3x) (G Cm)
-
-Letra e Música: Simone de Oliveira

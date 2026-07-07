@@ -2,6 +2,7 @@
 titulo: Balada do 5º Ano Farmacêutico 16-17
 artista: Phartuna
 tom: Am
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 [INTRO]
@@ -65,5 +66,3 @@ Coimbra, os estudantes são só teus
 
 [SAÍDA] C F G E
            Am
-
-Letra e Música: Originais da Phartuna

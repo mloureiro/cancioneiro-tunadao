@@ -2,6 +2,7 @@
 titulo: Sardinha
 artista: Seistetos
 tom: G
+creditos: Letra: Popular; Música: Popular
 ---
 
 
@@ -98,6 +99,3 @@ Abaixo de Deus tão elas (ai ai ai ai)
 Em cima delas estou eu (ai ai ai ai) (bis)
 
 [REFRÃO]
-
-Letra: Popular
-Música: Popular

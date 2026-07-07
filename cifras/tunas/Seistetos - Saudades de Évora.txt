@@ -2,6 +2,7 @@
 titulo: Saudades de Évora
 artista: Seistetos
 tom: C
+creditos: Letra: Jorge Amaral/ Rui Serafim; Música: Jorge Amaral/ Rui Serafim
 ---
 
 
@@ -48,6 +49,3 @@ Praxes, copos, guitarradas
 Tudo isto é tradição
 É a vida de um estudante
 Ter Évora no coração.
-
-Letra: Jorge Amaral/ Rui Serafim
-Música: Jorge Amaral/ Rui Serafim

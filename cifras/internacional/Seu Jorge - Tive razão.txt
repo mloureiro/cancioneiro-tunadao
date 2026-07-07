@@ -2,10 +2,10 @@
 titulo: Tive razão
 artista: Seu Jorge
 tom: Em
+creditos: Música de Seu Jorge
 ---
 
 
-(Música de Seu Jorge)
 
 [INTRO] (repete): Em Dm7 G7 Cmaj7 B7
 Uuuu aaaaaah…

@@ -2,9 +2,9 @@
 titulo: Hoy
 artista: Gloria Estefan
 tom: Am
+creditos: Música de Gloria Estefan
 ---
 
-(Música de Gloria Estefan)
 
 [INTRO]
 Am             G                F       G         Am

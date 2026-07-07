@@ -2,6 +2,7 @@
 titulo: Malta da Phartuna
 artista: Phartuna
 tom: Am
+creditos: Letra e Música: Originais da Phartuna
 ---
 
 [INTRO] C
@@ -77,5 +78,3 @@ F        G    C (G C)
 Vai passar o garrafão!
 
 [REFRÃO]
-
-Letra e Música: Originais da Phartuna
