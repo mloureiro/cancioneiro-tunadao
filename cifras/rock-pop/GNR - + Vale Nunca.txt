@@ -1,0 +1,128 @@
+---
+titulo: + Vale Nunca
+artista: GNR
+tom: C
+---
+
+[Intro]
+C G11 G C G11 G
+
+[Primeira Parte]
+C G11 G
+Há um lixo novo prá limpar
+C F
+Ao nascer, um grito surdo que
+G11 G
+tentam calar
+
+[Refrão 1]
+F
+Vais ouvir e ver
+G Am
+Mais vale nunca, nunca mais saber
+D F
+Mais vale nada nunca mais querer
+G C
+Mais vale nunca mais crescer
+G11 G
+
+[Segunda Parte]
+C G11 G
+É ter e ver cérebros em fuga
+C F
+A dominar o gene preguiçoso e
+G11 G
+letal
+
+[Refrão 2]
+F
+Olha pró que eu faço
+G Am
+Mais vale nunca, nunca aprender
+D F
+Mais vale nada nunca mais querer
+G C
+Mais vale nunca mais crescer
+F
+Ficas aprender
+G Am
+Mais vale nunca, nunca mais saber
+D F
+Mais vale nada nunca mais beber
+G C
+Mais vale nunca mais crescer
+F
+Agora é a doer
+G Am
+Mais vale nunca nunca apetecer
+D F
+Mais vale nada nunca escolher
+G C
+Mais vale nunca mais crescer
+
+[Solo]
+C G11 G C G11 G
+F G Am D F G C
+
+[Refrão 3]
+F
+Vais ouvir e ver
+G Am
+Mais vale nunca, nunca mais saber
+D F
+Mais vale nada nunca mais querer
+G C
+Mais vale nunca mais crescer
+F
+Toca a aprender
+G Am
+Mais vale nunca, nunca mais saber
+D F
+Mais vale nada nunca mais beber
+G C
+Mais vale nunca mais crescer
+F
+Olha pró que eu faço
+G Am
+Mais vale nunca, nunca aprender
+D F
+Mais vale nada nunca mais querer
+G C
+Mais vale nunca mais crescer
+F
+Agora é a doer
+G Am
+Mais vale nunca, nunca apetecer
+D F
+Mais vale nada nunca escolher
+G C
+Mais vale nunca mais crescer
+
+[Refrão Final]
+F
+Vais ouvir e ver
+G Am
+(mais vale nunca) Nunca mais saber
+D F
+(mais vale nada) Nunca mais querer
+G C
+(mais vale nunca mais crescer)
+F
+Toca a aprender
+G Am
+(mais vale nunca) Nunca mais saber
+D F
+(mais vale nada) Nunca mais beber
+G C
+(mais vale nunca mais crescer)
+F
+Agora é a doer
+G Am
+Nunca apetecer
+D F
+Nunca escolher
+G C
+Mais vale nunca mais crescer
+
+[Final]
+F G Am D F G C
