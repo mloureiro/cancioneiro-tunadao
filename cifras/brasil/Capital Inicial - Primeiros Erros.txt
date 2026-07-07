@@ -1,0 +1,55 @@
+---
+titulo: Primeiros Erros
+artista: Capital Inicial
+tom: D
+---
+
+[INTRO]
+D5  D  E/B
+D5  D  E/B
+D9  A11/C#  G/B
+D9  A11/C#  G/B
+
+[PRIMEIRA PARTE]
+D5        D7M(9)          D5
+Meu caminho é cada manhã
+     D7M(9)            Bm7(11)
+Não procure saber onde estou
+    Bm7(9/11)         Bm7(11)
+Meu destino não é de ninguém
+      A7(4)                    D5
+E eu não deixo os meus passos no chão
+
+D7M(9)             D5
+Se você não entende não vê
+     D7M(9)        Bm7(11)
+Se não me vê não entende
+    Bm7(9/11)         Bm7(11)
+Não procure saber onde estou
+      Bm7(9/11)     G7M
+Se o meu jeito te surpreende
+
+[SEGUNDA PARTE]
+      G4+(6)        G7M
+Se o meu corpo virasse sol
+        G4+(6)        Em7(9)
+Se a minha mente virasse sol
+     Em7(13)    Em7(9)
+Mas só chove, chove
+Em7(13)
+Chove, chove
+
+[TERCEIRA PARTE]
+D5        D7M(9)         D5
+Se um dia eu pudesse ver
+    D7M(9)      Bm7(11)
+Meu passado inteiro
+ Bm7(9/11)         Bm7(11)
+E fizesse parar de chover
+    Bm7(9/11)   G7M
+Nos primeiros erros
+
+[FINAL]
+D9  A11/C#  G/B
+D9  A11/C#  G/B
+D5  E/B  D5

@@ -1,0 +1,37 @@
+---
+titulo: Deixa a Vida Me Levar
+artista: Zeca Pagodinho
+tom: E
+---
+
+[INTRO]
+A B7 C#m7 C#7
+F#m7 G#m7 A B7
+E B7
+
+[PRIMEIRA PARTE]
+E                   B7         E
+Eu já passei por quase tudo nessa vida
+                  F#m7
+Em matéria de guarida
+        B7            E  B7
+Espero ainda a minha vez
+
+E                 B7       E
+Confesso que sou de origem pobre
+ C#7               F#m7
+Mas meu coração é nobre
+       B7              E
+Foi assim que Deus me fez
+
+[REFRÃO]
+         A7M       E/G#       G°  F#m7
+Deixa a vida me levar (vida, leva eu)
+                              B7  E
+Deixa a vida me levar (vida, leva eu)
+         B7        E          E7  A
+Deixa a vida me levar (vida, leva eu)
+       B7        E
+Sou feliz e agradeço
+ C#7   F#m7   B7      E  B7
+Por tudo que Deus me deu

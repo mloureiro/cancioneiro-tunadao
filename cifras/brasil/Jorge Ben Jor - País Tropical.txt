@@ -1,0 +1,33 @@
+---
+titulo: País Tropical
+artista: Jorge Ben Jor
+tom: Em
+---
+
+[INTRO]
+( G7  C7  D7 )
+( G7  C7  D7 )
+( G7  C7  D7 )
+( G7  C7  D7 )
+
+[REFRÃO]
+Em7  D  C       D7       Em7
+Moro num país tropical
+D  C       D7       Em7
+Abençoado por Deus
+D      C        D7  Em7
+E bonito por natureza
+D    C
+Mas que beleza
+D7  Em7  D  C
+Em fevereiro
+D7       Em7  D  C
+Tem carnaval
+D7
+Eu tenho um carro
+Em7     D
+E uma guitarra cantante
+C
+Sou Flamengo
+D7            G7
+E minha nega continua deliciante

@@ -1,0 +1,58 @@
+---
+titulo: Ideologia
+artista: Cazuza
+tom: C
+---
+
+[INTRO]
+Am7  Am7(13) (2x)
+
+[PRIMEIRA PARTE]
+Am7
+Meu partido
+                    Am7(13)
+É um coração partido
+       G/A
+E as ilusões
+               Am7  Am7(13)
+Estão todas perdidas
+      Dm7
+Os meus sonhos
+Foram todos vendidos
+Tão barato
+       Am7
+Que eu nem acredito
+                   Am7(13)
+Ah! eu nem acredito
+
+[SEGUNDA PARTE]
+      Em7
+Que aquele garoto
+   G5          C7M
+Que ia mudar o mundo
+Mudar o mundo
+Em7                    G5
+   Frequenta agora as festas
+             D5(9)
+Do "Grand Monde"
+
+[TERCEIRA PARTE]
+Am7
+   Meus heróis
+   G6          D9(11)
+Morreram de overdose
+Am7         G6
+Meus inimigos
+           D9(11)
+Estão no poder
+
+[REFRÃO]
+      F5(7M/9)/C
+Ideologia!
+    Dm7           Am7
+Eu quero uma pra viver
+
+      F5(7M/9)/C
+Ideologia!
+    Dm7           Am7
+Eu quero uma pra viver

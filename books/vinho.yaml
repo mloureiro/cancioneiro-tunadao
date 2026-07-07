@@ -28,3 +28,4 @@ sections:
   - name: Internacional
     songs:
       - cifras/internacional/*.txt
+      - cifras/brasil/*.txt

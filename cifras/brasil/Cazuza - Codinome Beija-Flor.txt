@@ -1,0 +1,44 @@
+---
+titulo: Codinome Beija-Flor
+artista: Cazuza
+tom: F#m
+---
+
+[INTRO]
+A7M(9)  F#m7(11)  D5(6/9)  A4/E
+
+[PRIMEIRA PARTE]
+
+A  A7M(9)  A  A7M(9)  A
+Pra que mentir, fingir que perdoou
+
+D5(7M/9)  E/D  F#m7
+Tentar ficar amigos sem rancor
+
+D5(7M/9)  E/D
+A emoção acabou
+
+D5(7M/9)  E/D
+Que coincidência é o amor
+
+Bm7(11)  C#m7(11)  D5(7M/9)  D/E  F/G  G7(9)
+A nossa música nunca mais tocou
+
+[SEGUNDA PARTE]
+
+C7M  Bm7(5-)  E4  E
+Eu protegi teu nome por amor
+
+F7M  G6  A4  A
+Em um codinome beija-flor
+
+[TERCEIRA PARTE]
+
+F7M  Em/F  F7M  Em/F
+Que só eu que podia
+
+F7M  Em/G  A4  A
+Dentro da tua orelha fria
+
+[FINAL]
+A7M(9)  F#m7(11)  D5(6/9)  A4/E

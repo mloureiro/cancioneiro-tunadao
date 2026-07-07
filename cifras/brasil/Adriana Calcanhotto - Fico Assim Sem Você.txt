@@ -1,0 +1,45 @@
+---
+titulo: Fico Assim Sem Você
+artista: Adriana Calcanhotto
+tom: Bb
+---
+
+[INTRO]
+A  C#m7  D  E7
+A  C#m7  D  E7
+
+[PRIMEIRA PARTE]
+A               C#m7
+Avião sem asa, fogueira sem brasa
+    D               E7
+Sou eu assim sem você
+ A                 C#m7
+Futebol sem bola, piu-Piu sem frajola
+    D               E7
+Sou eu assim sem você
+
+[SEGUNDA PARTE]
+D                    E7
+Por que é que tem que ser assim?
+      Fº                 F#m7
+Se o meu desejo não tem fim
+        B7
+Eu te quero a todo instante
+
+[TERCEIRA PARTE]
+  A
+Amor sem beijinho
+    C#m7
+Buchecha sem Claudinho
+    D               E7
+Sou eu assim sem você
+
+[REFRÃO]
+         F#m7             C#m7
+Eu não existo longe de você
+         D                     A  C#7
+E a solidão é o meu pior castigo
+             F#m7               C#m7
+Eu conto as horas pra poder te ver
+         D                 E7
+Mas o relógio tá de mal comigo
