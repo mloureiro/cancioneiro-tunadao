@@ -1466,6 +1466,96 @@
         ]
       }
     ],
+    "Abm7": [
+      {
+        "frets": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          2,
+          2
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          4,
+          2,
+          3
+        ],
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          3,
+          1,
+          3,
+          1,
+          -1
+        ],
+        "fingers": [
+          0,
+          2,
+          1,
+          3,
+          1,
+          0
+        ],
+        "baseFret": 9,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          1,
+          2,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          1,
+          2,
+          1
+        ],
+        "baseFret": 11,
+        "barres": [
+          1
+        ]
+      }
+    ],
     "Adim": [
       {
         "frets": [
@@ -1894,6 +1984,148 @@
         ]
       }
     ],
+    "Amaj7": [
+      {
+        "frets": [
+          -1,
+          0,
+          2,
+          1,
+          2,
+          0
+        ],
+        "fingers": [
+          0,
+          0,
+          2,
+          1,
+          3,
+          0
+        ],
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          0,
+          2,
+          2,
+          2,
+          4
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          4
+        ],
+        "baseFret": 1,
+        "barres": [
+          2
+        ]
+      },
+      {
+        "frets": [
+          1,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        "fingers": [
+          1,
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "baseFret": 5,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          0,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 7,
+        "barres": [
+          3
+        ]
+      }
+    ],
+    "Amaj7sus4": [
+      {
+        "frets": [
+          0,
+          0,
+          0,
+          1,
+          3,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          0,
+          2,
+          1,
+          3,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          0,
+          0,
+          2,
+          3,
+          4
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          4,
+          0,
+          0,
+          2,
+          3,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      }
+    ],
     "Asus2": [
       {
         "frets": [
@@ -2066,6 +2298,62 @@
         "barres": [
           1
         ]
+      }
+    ],
+    "B+": [
+      {
+        "frets": [
+          -1,
+          2,
+          1,
+          4,
+          0,
+          3
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          -1,
+          4,
+          4,
+          3
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          3,
+          2,
+          1,
+          1,
+          4
+        ],
+        "fingers": null,
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          -1,
+          2,
+          2,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 7,
+        "barres": []
       }
     ],
     "B4": [
@@ -2381,6 +2669,60 @@
           1,
           3
         ]
+      }
+    ],
+    "B7sus4": [
+      {
+        "frets": [
+          0,
+          0,
+          2,
+          2,
+          0,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          2,
+          0,
+          2,
+          2,
+          0,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          2,
+          2,
+          2,
+          0,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
       }
     ],
     "B9": [
@@ -3215,6 +3557,66 @@
         "barres": []
       }
     ],
+    "Bbm#5": [
+      {
+        "frets": [
+          2,
+          4,
+          4,
+          3,
+          2,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": [
+          2
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          4,
+          3
+        ],
+        "fingers": null,
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          3,
+          1,
+          2,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          3,
+          1,
+          2,
+          4
+        ],
+        "fingers": null,
+        "baseFret": 6,
+        "barres": []
+      }
+    ],
     "Bbm11": [
       {
         "frets": [
@@ -3448,6 +3850,97 @@
         "baseFret": 8,
         "barres": [
           1
+        ]
+      }
+    ],
+    "Bbmaj7": [
+      {
+        "frets": [
+          -1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          4
+        ],
+        "baseFret": 3,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        "fingers": [
+          1,
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 8,
+        "barres": [
+          1,
+          3
         ]
       }
     ],
@@ -3704,6 +4197,207 @@
         "baseFret": 9,
         "barres": [
           1
+        ]
+      }
+    ],
+    "Bm7b5": [
+      {
+        "frets": [
+          1,
+          0,
+          0,
+          2,
+          0,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          1,
+          2,
+          0,
+          2,
+          0,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          1,
+          0,
+          0,
+          4,
+          0,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          2,
+          0,
+          2,
+          3,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      }
+    ],
+    "Bmadd9": [
+      {
+        "frets": [
+          2,
+          4,
+          0,
+          4,
+          0,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          2,
+          0,
+          4,
+          2,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          4,
+          0,
+          4,
+          3,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          4,
+          0,
+          4,
+          2,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": [
+          2
+        ]
+      }
+    ],
+    "Bmaj7": [
+      {
+        "frets": [
+          2,
+          2,
+          4,
+          3,
+          4,
+          2
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          2
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          4
+        ],
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        "fingers": [
+          1,
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "baseFret": 7,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 9,
+        "barres": [
+          1,
+          3
         ]
       }
     ],
@@ -4682,6 +5376,94 @@
         ]
       }
     ],
+    "C#maj7": [
+      {
+        "frets": [
+          -1,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          0,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          3
+        ],
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          -1,
+          2,
+          2,
+          1,
+          -1
+        ],
+        "fingers": [
+          1,
+          0,
+          3,
+          4,
+          2,
+          0
+        ],
+        "baseFret": 9,
+        "barres": []
+      }
+    ],
     "C69": [
       {
         "frets": [
@@ -5512,6 +6294,94 @@
         ]
       }
     ],
+    "Cmaj7": [
+      {
+        "frets": [
+          3,
+          3,
+          2,
+          0,
+          0,
+          0
+        ],
+        "fingers": [
+          2,
+          3,
+          1,
+          0,
+          0,
+          0
+        ],
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 3,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          4
+        ],
+        "baseFret": 5,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 10,
+        "barres": [
+          3
+        ]
+      }
+    ],
     "D": [
       {
         "frets": [
@@ -6178,6 +7048,213 @@
         ]
       }
     ],
+    "D#m7b5": [
+      {
+        "frets": [
+          -1,
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          2,
+          4,
+          4,
+          2,
+          4,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": [
+          2
+        ]
+      },
+      {
+        "frets": [
+          2,
+          1,
+          1,
+          3,
+          1,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          3,
+          1,
+          3,
+          1,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      }
+    ],
+    "D#maj7": [
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 1,
+        "barres": [
+          1,
+          3
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          0,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 3,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          4
+        ],
+        "baseFret": 8,
+        "barres": [
+          1
+        ]
+      }
+    ],
+    "D-": [
+      {
+        "frets": [
+          1,
+          0,
+          0,
+          2,
+          3,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          0,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          0,
+          3,
+          2,
+          3,
+          5
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          3,
+          2,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 5,
+        "barres": [
+          1
+        ]
+      }
+    ],
     "D4": [
       {
         "frets": [
@@ -6390,6 +7467,66 @@
         "baseFret": 10,
         "barres": [
           1
+        ]
+      }
+    ],
+    "D7#9": [
+      {
+        "frets": [
+          1,
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          2,
+          0,
+          0,
+          2,
+          1,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          2,
+          3,
+          0,
+          2,
+          1,
+          1
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          2,
+          3,
+          3,
+          2,
+          3,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": [
+          2
         ]
       }
     ],
@@ -6837,6 +7974,94 @@
         ]
       }
     ],
+    "Dbmaj7": [
+      {
+        "frets": [
+          -1,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          0,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          3
+        ],
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          -1,
+          2,
+          2,
+          1,
+          -1
+        ],
+        "fingers": [
+          1,
+          0,
+          3,
+          4,
+          2,
+          0
+        ],
+        "baseFret": 9,
+        "barres": []
+      }
+    ],
     "Ddim": [
       {
         "frets": [
@@ -7172,6 +8397,96 @@
           1
         ],
         "baseFret": 10,
+        "barres": [
+          1
+        ]
+      }
+    ],
+    "Dmaj7": [
+      {
+        "frets": [
+          -1,
+          -1,
+          0,
+          2,
+          2,
+          2
+        ],
+        "fingers": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          2
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          0,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 2,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 5,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          4
+        ],
+        "baseFret": 7,
         "barres": [
           1
         ]
@@ -7838,6 +9153,114 @@
         "barres": [
           1
         ]
+      }
+    ],
+    "E7b13": [
+      {
+        "frets": [
+          0,
+          2,
+          0,
+          1,
+          1,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          3,
+          0,
+          1,
+          0,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          3,
+          0,
+          4,
+          0,
+          4
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          4,
+          3,
+          0,
+          4,
+          0,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      }
+    ],
+    "E7sus4": [
+      {
+        "frets": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          2,
+          0,
+          2,
+          0,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          2,
+          0,
+          2,
+          3,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
       }
     ],
     "E9": [
@@ -8535,6 +9958,97 @@
         ]
       }
     ],
+    "Ebmaj7": [
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 1,
+        "barres": [
+          1,
+          3
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          0,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 3,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          4
+        ],
+        "baseFret": 8,
+        "barres": [
+          1
+        ]
+      }
+    ],
     "Edim": [
       {
         "frets": [
@@ -8789,6 +10303,60 @@
         ]
       }
     ],
+    "Em7b5": [
+      {
+        "frets": [
+          0,
+          1,
+          0,
+          0,
+          3,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          1,
+          2,
+          0,
+          3,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          1,
+          0,
+          0,
+          3,
+          3
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          3,
+          1,
+          0,
+          0,
+          3,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      }
+    ],
     "Em9": [
       {
         "frets": [
@@ -8870,6 +10438,94 @@
           1
         ],
         "baseFret": 10,
+        "barres": [
+          1
+        ]
+      }
+    ],
+    "Emaj7": [
+      {
+        "frets": [
+          0,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "fingers": [
+          0,
+          3,
+          1,
+          2,
+          0,
+          0
+        ],
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          -1,
+          -1,
+          2,
+          4,
+          4,
+          4
+        ],
+        "fingers": [
+          0,
+          0,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 1,
+        "barres": [
+          4
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          0,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 7,
         "barres": [
           1
         ]
@@ -9721,6 +11377,150 @@
         ]
       }
     ],
+    "F#m7b5": [
+      {
+        "frets": [
+          2,
+          0,
+          2,
+          2,
+          1,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          0,
+          2,
+          2,
+          1,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          0,
+          4,
+          2,
+          1,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          0,
+          0,
+          4,
+          5,
+          5,
+          0
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      }
+    ],
+    "F#maj7": [
+      {
+        "frets": [
+          2,
+          4,
+          3,
+          3,
+          2,
+          2
+        ],
+        "fingers": [
+          1,
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          2
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 4,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "fingers": [
+          0,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "baseFret": 6,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 9,
+        "barres": [
+          1
+        ]
+      }
+    ],
     "F7": [
       {
         "frets": [
@@ -10239,6 +12039,94 @@
         ],
         "baseFret": 9,
         "barres": []
+      }
+    ],
+    "Fmaj7": [
+      {
+        "frets": [
+          -1,
+          -1,
+          3,
+          2,
+          1,
+          0
+        ],
+        "fingers": [
+          0,
+          0,
+          3,
+          2,
+          1,
+          0
+        ],
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          1,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        "fingers": [
+          1,
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 3,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          1,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 8,
+        "barres": [
+          1
+        ]
       }
     ],
     "G": [
@@ -12147,6 +14035,95 @@
         "fingers": null,
         "baseFret": 1,
         "barres": []
+      }
+    ],
+    "Gmaj7": [
+      {
+        "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "fingers": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "baseFret": 1,
+        "barres": []
+      },
+      {
+        "frets": [
+          1,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        "fingers": [
+          1,
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "baseFret": 3,
+        "barres": [
+          1
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "fingers": [
+          0,
+          1,
+          1,
+          3,
+          3,
+          3
+        ],
+        "baseFret": 5,
+        "barres": [
+          1,
+          3
+        ]
+      },
+      {
+        "frets": [
+          -1,
+          1,
+          3,
+          2,
+          3,
+          1
+        ],
+        "fingers": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 10,
+        "barres": [
+          1
+        ]
       }
     ],
     "Gsus4": [
