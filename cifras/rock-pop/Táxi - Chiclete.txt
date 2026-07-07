@@ -2,6 +2,7 @@
 titulo: Chiclete
 artista: Táxi
 tom: A
+colunas: 1
 ---
 
 F#m                          B          B                F#m

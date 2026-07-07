@@ -2,6 +2,7 @@
 titulo: A Garagem da Vizinha
 artista: Quim Barreiros
 tom: C
+colunas: 1
 ---
 
 C                                      G

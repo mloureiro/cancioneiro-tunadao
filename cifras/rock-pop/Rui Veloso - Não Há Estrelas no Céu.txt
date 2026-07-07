@@ -20,6 +20,7 @@ Ter uma nota no bolso
         C
 Para cigarros e bilhar
 
+[REFRÃO]
      Am
 A Primavera da vida
      D7
@@ -36,6 +37,7 @@ Está um frio de rachar
 Parece que o mundo inteiro
       Em           G
 Se uniu para me tramar
+
 C
 Passo horas no café
 
@@ -53,6 +55,7 @@ De manhã ouço o conselho
   C
 Que o velho tem para me dar
 
+[REFRÃO]
     Am
 A Primavera da vida
     D7
@@ -115,6 +118,7 @@ Se não fosse o "rock and roll"
   Em               G
 O que seria de mim?
 
+[REFRÃO]
 Am
 A Primavera da vida
   D7

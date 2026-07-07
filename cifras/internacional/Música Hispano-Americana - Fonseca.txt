@@ -2,6 +2,7 @@
 titulo: Fonseca
 artista: Música Hispano-Americana
 tom: Em
+colunas: 1
 ---
 
 Em
@@ -48,18 +49,6 @@ Yo no puedo tener mas que a una
 Y esa una, mi vida eras tu.
 
 [REFRÃO]
-Em
-Triste y sola,
-B7
-Sola se queda a Fonseca.
-B7
-Triste y llorosa,
-Em
-Queda la Universidad.
-       E7            Am
-Y los libros, encerados
-Em         B7            Em
-En el Monte, en el Monte de Piedad.
 
 Em         B7            Em
 En el Monte, en el Monte de Piedad.

@@ -16,6 +16,7 @@ viajo com as mãos por entre as montanhas e os rios
    Bb                          C
 e sinto nos meus lábios os teus doces e frios
 
+[REFRÃO]
 Eb              Ab                Eb
 E voas sobre o mar, com as asas que eu te dou
                  Ab                Eb
@@ -58,20 +59,7 @@ pedras e praias e o céu a bailar
      C
 os corpos que fogem do chão
 
-Eb              Ab                Eb
-E voas sobre o mar, com as asas que eu te dou
-                 Ab                Eb
-E dizes-me a cantar: 'é assim que eu sou'
-                               Ab
-E olhar para ti, e ver o que eu vejo
-                                  Eb
-olhar-te nos olhos com olhares de desejo
-                               Ab
-E olhar para ti e ver o que eu vejo
-                                  Fm
-olhar-te nos olhos com olhares de desejo
-                  Bb
-Eu não tenho nada mais para te dar
+[REFRÃO]
 
     C#
 esta vida são dois dias

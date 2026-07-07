@@ -2,6 +2,7 @@
 titulo: Assim Mesmo é Que é
 artista: EUL · Estudantina Universitária de Lisboa
 tom: C
+colunas: 1
 ---
 
 C

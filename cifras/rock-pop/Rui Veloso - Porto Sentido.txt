@@ -40,6 +40,7 @@ Que nos oculta o mistério
 F#7    B7            E Ddim
 Dessa luz bela e sombria
 
+[REFRÃO]
 Fdim         G#dim  F#m7(4) B7
 Ver-te assim aban---dona---do
       Cdim        E    Ddim
@@ -64,6 +65,7 @@ Fdim  G#dim
        C#m7  C#7
        F#7  B7  E
 
+[REFRÃO]
 Ddim          Fdim   G#dim
        Ver-te assim
 F#m7(4) B7

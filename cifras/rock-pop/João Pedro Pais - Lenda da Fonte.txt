@@ -2,6 +2,7 @@
 titulo: Lenda da Fonte
 artista: João Pedro Pais
 tom: Dm
+colunas: 1
 ---
 
 

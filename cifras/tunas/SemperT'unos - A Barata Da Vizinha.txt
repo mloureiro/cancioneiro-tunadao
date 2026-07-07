@@ -2,6 +2,7 @@
 titulo: A Barata Da Vizinha
 artista: SemperT'unos
 tom: G
+colunas: 1
 ---
 
 D                          G

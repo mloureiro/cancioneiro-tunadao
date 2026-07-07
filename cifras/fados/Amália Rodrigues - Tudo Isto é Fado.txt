@@ -21,6 +21,7 @@ E disse-te que não sabia
         E7        A
 Mas vou-te dizer agora
 
+[REFRÃO]
 A
 Almas vencidas
           F#7
@@ -63,27 +64,4 @@ O fado é tudo o que digo
          E7            A
 Mais o que eu não sei dizer
 
-A
-Almas vencidas
-          F#7
-Noites perdidas
-          Bm
-Sombras bizarras
-E7
-Na Mouraria
-           E7
-Canta um rufia
-          A
-Choram guitarras
-       F#7
-Amor ciúme
-         F#7
-Cinzas e lume
-        Bm
-Dor e pecado
-Bm7(b5)    A
-Tudo isto existe
-            B7
-Tudo isto é triste
-E7          A
-Tudo isto é fado
+[REFRÃO]

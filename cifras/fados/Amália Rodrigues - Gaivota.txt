@@ -16,6 +16,7 @@ Fm                   Cm
 Bb   Ab           G
 Esmorece e cai no mar
 
+[REFRÃO]
 C7              Fm
 Que perfeito coração
 Bb                 Eb
@@ -39,16 +40,7 @@ Se um olhar de novo brilho
 Bb    Ab          G
 No meu olhar se enlaçasse
 
-C7              Fm
-Que perfeito coração
-Bb                 Eb
- No meu peito bateria
-Ab                G
- Meu amor na tua mão
-Ab                 G
- Nessa mão onde cabia
-   G7             Cm
-Perfeito o meu coração
+[REFRÃO]
 
         G7         Cm
 Se ao dizer adeus à vida
@@ -62,13 +54,4 @@ Esse olhar que era só teu
  Bb     Ab        G
 Amor que foste o primeiro
 
-C7              Fm
-Que perfeito coração
-Bb                 Eb
- No meu peito bateria
-Ab                G
- Meu amor na tua mão
-Ab                 G
- Nessa mão onde cabia
-   G7             Cm
-Perfeito o meu coração
+[REFRÃO]

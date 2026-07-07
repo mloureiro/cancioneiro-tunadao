@@ -28,6 +28,7 @@ As melodias que na memória ficaram
 
 ( F  G  C )
 
+[REFRÃO]
           F                     C
 Somos os tunos de Camões e de Epopeia
          G                   C
@@ -59,14 +60,7 @@ Que suspiram pelos seus tunos amados
 
 ( F  G  C )
 
-          F                     C
-Somos os tunos de Camões e de Epopeia
-         G                   C
-De capa negra e de voz inebriada
-           F                        C
-Serenatas, copos e farras todos os dias
-          D                    G
-Com o coração na universidade amada
+[REFRÃO]
 
           F                        C
 Somos os tunos da cerveja e da sangria

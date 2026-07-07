@@ -2,6 +2,7 @@
 titulo: A Little Respect
 artista: Silence 4
 tom: A
+colunas: 1
 ---
 
 [INTRO] A A A A

@@ -24,8 +24,8 @@ Também queria ser Doutor
 (2x)
 
 [INSTR.]
-(F#m E F#m E
-F#m G#m A B E)
+F#m E F#m E
+F#m G#m A B E
  F#m                   B
 Em nova noite de copos
  E

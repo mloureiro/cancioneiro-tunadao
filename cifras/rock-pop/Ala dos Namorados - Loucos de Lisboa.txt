@@ -2,6 +2,7 @@
 titulo: Loucos de Lisboa
 artista: Ala dos Namorados
 tom: E
+colunas: 1
 ---
 
 E                             A

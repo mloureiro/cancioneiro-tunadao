@@ -2,6 +2,7 @@
 titulo: Tsenera
 artista: Versus Tuna
 tom: C
+colunas: 1
 ---
 
 

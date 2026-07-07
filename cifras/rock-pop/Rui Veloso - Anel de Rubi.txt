@@ -25,6 +25,7 @@ Mas esse teu mundo era mais forte do que eu
   Dm                        F        G
 E nem com a força da música ele se moveu
 
+[REFRÃO]
          F                G
 Mesmo sabendo que não gostavas
      C          Am       F
@@ -54,14 +55,7 @@ Contigo aprendi uma grande lição
        Dm                       F         G
 Não se ama alguém que não ouve a mesma canção...
 
-         F                G
-Mesmo sabendo que não gostavas
-    C              Am      F
-Empenhei o meu anel de rubi
-       G               Em
-Pra te levar ao concerto
-        F         G
-Que havia no Rivoli
+[REFRÃO]
 
 [INSTR.] C F C F
 [INSTR.] C F C F
@@ -75,14 +69,7 @@ A minha paixão por ti era um lume
     Dm                  F            G
 Que não tinha mais lenha por onde arder
 
-         F            G
-Mesmo sabendo que não gostavas
-    C           Am       F
-Empenhei o meu anel de rubi
-       G           Em
-Pra te levar ao concerto
-        F         G
-Que havia no Rivoli
+[REFRÃO]
 
 [INSTR.] C F C F
 [INSTR.] C F C F

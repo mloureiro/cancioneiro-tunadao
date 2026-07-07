@@ -2,6 +2,7 @@
 titulo: Anda Comigo Ver os Aviões
 artista: Os Azeitonas
 tom: A
+colunas: 1
 ---
 
 [INTRO] A  C#7  F#m  Fmaj7  Fmaj7/A  E  A  C#7  F#m  F  E4  E

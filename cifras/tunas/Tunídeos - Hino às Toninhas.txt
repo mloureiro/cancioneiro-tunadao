@@ -3,6 +3,7 @@ titulo: Hino às Toninhas
 artista: Tunídeos
 tom: A
 creditos: Letra: Alexandre Oliveira, João Gregório, José Carlos Ferreira, Sérgio Ávila; Música: Sérgio Ávila
+colunas: 1
 ---
 
 Entrada: D A E A D A

@@ -6,6 +6,7 @@ tom: C#
 
 [INTRO] C#maj7 F#maj7 C#maj7 F#/G# G#7(b9)
 
+[REFRÃO]
 C#maj7           F#maj7
 Porque sou o cavaleiro andante
     C#maj7                   F#maj7
@@ -26,6 +27,7 @@ E a vida ....passe e não te olhe
 
 [PASSAGEM] F#maj7 C#maj7 F#/G# G#7(b9)
 
+[REFRÃO]
 F#maj7           C#maj7
 Porque sou o cavaleiro andante
 F#maj7                    C#maj7

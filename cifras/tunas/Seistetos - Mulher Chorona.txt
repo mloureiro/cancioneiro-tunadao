@@ -5,7 +5,7 @@ tom: C
 ---
 
 
-Refrão: 2x
+[REFRÃO] (2x)
 F                 C
 Eta mulher chorona
  C7                    F
@@ -32,7 +32,7 @@ mulher chorona
               F
 chega de chorar
 
-Refrão 2x
+[REFRÃO] (2x)
 
 Letra: Popular Brasileira
 Música: Popular Brasileira

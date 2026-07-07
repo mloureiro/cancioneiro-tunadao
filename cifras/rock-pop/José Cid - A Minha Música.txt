@@ -4,7 +4,7 @@ artista: José Cid
 tom: Am
 ---
 
-
+[REFRÃO]
 Música, eu nasci p\'rá música
 E7                     A
 Para te ver sorrir e a sonhar
@@ -40,6 +40,7 @@ Que mau doutor seria
    E7                    Am
 Quero é cantar numa telefonia.
 
+[REFRÃO]
 A              Bm
 Música, eu nasci p\'rá música
 E7                     A
@@ -76,17 +77,9 @@ De blusão e de blue jeans, igual a james deen
 E7                       Am
 Já mordia cá por dentro esse bichinho  (da)
 
-A              Bm
-Música, eu nasci p\'rá música
-E7                     A
-Para te ver sorrir e a sonhar
-A7
-E se escutares com atenção
-D7                G7
-Tens o bater do teu coração
-   A      Bm   E7 A
-Na minha música
+[REFRÃO]
 
+[REFRÃO]
 B              C#m
 Música, eu nasci p\'rá música
 F#7                    B

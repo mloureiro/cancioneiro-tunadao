@@ -13,14 +13,12 @@ A saia da Carolina
                    C
 Tem um lagarto pintado
 
+[REFRÃO]
                          G
 Sim Carolina ó - i - ó - ai
                          C
 Sim Carolina ó - ai meu bem
-                         G
-Sim Carolina ó - i - ó - ai
-                         C
-Sim Carolina ó - ai meu bem
+[REFRÃO]
 
                    G
 Tem cuidado ó Carolina
@@ -31,14 +29,8 @@ Tem cuidado ó Carolina
                      C
 Que o lagarto dá ao rabo
 
-                         G
-Sim Carolina ó - i - ó - ai
-                         C
-Sim Carolina ó - ai meu bem
-                         G
-Sim Carolina ó - i - ó - ai
-                         C
-Sim Carolina ó - ai meu bem
+[REFRÃO]
+[REFRÃO]
 
                G
 A saia da Carolina
@@ -49,14 +41,8 @@ Tem cuidado ó Carolina
                      C
 Não fique a saia rasgada
 
-                         G
-Sim Carolina ó - i - ó - ai
-                         C
-Sim Carolina ó - ai meu bem
-                         G
-Sim Carolina ó - i - ó - ai
-                         C
-Sim Carolina ó - ai meu bem
+[REFRÃO]
+[REFRÃO]
 
                 G
 A saia da Carolina
@@ -67,11 +53,5 @@ Tem cuidado, ó Carolina
                        C
 Não lhes deixes por a mão
 
-                         G
-Sim Carolina ó - i - ó - ai
-                         C
-Sim Carolina ó - ai meu bem
-                         G
-Sim Carolina ó - i - ó - ai
-                         C
-Sim Carolina ó - ai meu bem
+[REFRÃO]
+[REFRÃO]

@@ -2,6 +2,7 @@
 titulo: Guitarra de Ilusões
 artista: Copituna D'oppidana
 tom: G
+colunas: 1
 ---
 
 [INTRO] G Am D G Am G A Am D G Em A Am D G Em Am D G A
@@ -52,8 +53,6 @@ Eu não sei se chore por ti, se for esta canção
 Am  D  G
 
 [REFRÃO]
-C       G        Am    Em      D
-Sim, eras tu, sim, sempre tu, meu amor
 
 C     D                    C  G
 Vem desvendar o chore de uma guitarra,

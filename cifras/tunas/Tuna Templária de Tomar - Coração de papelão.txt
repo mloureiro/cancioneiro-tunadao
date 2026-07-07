@@ -2,6 +2,7 @@
 titulo: Coração de papelão
 artista: Tuna Templária de Tomar
 tom: C
+colunas: 1
 ---
 
 G             Am    → D

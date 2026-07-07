@@ -22,7 +22,7 @@ Cantando vai o seu pranto
                        Am
 Coração tão triste a sorrir
 
-Refrão:
+[REFRÃO]
      Dm           Am
 Ó minha linda capa negra
        E                 Am
@@ -57,6 +57,6 @@ E por baixo da capa negra
 Am
 Tantos segredos esconderam
 
-Refrão à capella
+[REFRÃO] (à capella)
 
-Refrão 2x
+[REFRÃO] (2x)

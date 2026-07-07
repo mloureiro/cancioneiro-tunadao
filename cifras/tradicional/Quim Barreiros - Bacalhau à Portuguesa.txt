@@ -6,6 +6,7 @@ tom: Fm
 
 [INTRO] Fm  C  C7  Fm
 
+[REFRÃO]
 Fm                     C         C7
 Quero cheirar teu bacalhau maria
                        Fm
@@ -26,16 +27,7 @@ Se o cheiro é bom mais gostoso é o cozido
                C7                   Fm
 É o prato preferido do povo de Portugal
 
-Fm                     C         C7
-Quero cheirar teu bacalhau maria
-                       Fm
-Quero cheirar teu bacalhau
-                           Bbm
-Mariazinha deixa-me ir à cozinha, deixa-me
-        C7
-Ir à cozinha
-                     Fm
-P'ra cheirar teu bacalhau
+[REFRÃO]
 
         Bbm          Fm
 Teu bacalhau demolhadinho

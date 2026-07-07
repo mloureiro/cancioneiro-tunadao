@@ -2,6 +2,7 @@
 titulo: A Nossa Vez
 artista: Calema
 tom: Bb
+colunas: 1
 ---
 
          Eb

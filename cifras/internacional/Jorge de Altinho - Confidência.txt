@@ -2,6 +2,7 @@
 titulo: Confidência
 artista: Jorge de Altinho
 tom: G
+colunas: 1
 creditos: Música de Jorge de Altinho
 ---
 

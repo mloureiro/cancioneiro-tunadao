@@ -2,6 +2,7 @@
 titulo: That's How We Roll
 artista: Richie Campbell
 tom: G#m
+colunas: 1
 ---
 
 [REFRÃO]

@@ -46,6 +46,7 @@ E para o mundo vão garrafas cá do fundo
 De uma gente envaidecida 
 De uma gente envaidecida  
 
+[REFRÃO]
         Ebm
 Vinho do Porto
          Bbm
@@ -64,6 +65,7 @@ Há-de haver Porto
              Bbm
 Para o nosso mar
 
+[REFRÃO]
         Ebm
 Vinho do Porto
          Bbm
@@ -118,14 +120,7 @@ Nem ninguém que nos apanhe
          F
 Porque o vinho é português
 
-        Ebm
-Vinho do Porto
-         Bbm
-Vinho de Portugal
-        F
-E vai à nossa
-        Bbm
-À nossa beira mar
+[REFRÃO]
  
         Ebm
 À beira Porto
@@ -136,25 +131,9 @@ Há-de haver Porto
              Bbm
 Para o nosso mar
 
-        Ebm
-Vinho do Porto
-         Bbm
-Vinho de Portugal
-        F
-E vai à nossa
-        Bbm
-À nossa beira mar
-        Ebm
-À beira Porto
-        Bbm
-À vinho Porto mar
-             F
-Há-de haver Porto 
-Para o desconforto 
-Para o que anda torto
-          Bbm
-Neste navegar
+[REFRÃO]
 
+[REFRÃO]
 Bm       Em
 Vinho do Porto
          Bm
@@ -172,6 +151,7 @@ Há-de haver Porto
              Bm
 Para o nosso mar 
 
+[REFRÃO]
 Bm       Em
 Vinho do Porto
          Bm

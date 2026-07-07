@@ -2,6 +2,7 @@
 titulo: A Cabritinha
 artista: Quim Barreiros
 tom: F
+colunas: 1
 ---
 
 [INTRO] F C F C F

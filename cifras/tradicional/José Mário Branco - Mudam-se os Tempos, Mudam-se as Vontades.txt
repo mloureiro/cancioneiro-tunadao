@@ -2,6 +2,7 @@
 titulo: Mudam-se os Tempos, Mudam-se as Vontades
 artista: José Mário Branco
 tom: Dm
+colunas: 1
 ---
 
 Dm               Gm   A
@@ -31,10 +32,6 @@ F     G# C                 F
 E  do  bem,  e  do  bem,  se  algum  houve  a  saudade
 
 [REFRÃO]
-Gm             C              F A#
-E  se  todo  o  mundo  é  composto  de  mudança
-Gm   C                   F               C   F
-Troquemos-lhe  as  voltas  que  ainda  o  dia  é  uma  criança
 
 Dm                    Gm    A
 O tempo  cobre  o  chão  de  verde  manto
@@ -46,10 +43,6 @@ F    G# C                 F
 E  em  mim  converte,  em  mim  converte,  em  choro  o  doce  canto
 
 [REFRÃO]
-Gm             C              F A#
-E  se  todo  o  mundo  é  composto  de  mudança
-Gm   C                   F               C   F
-Troquemos-lhe  as  voltas  que  ainda  o  dia  é  uma  criança
 
 Dm                    Gm    A
 E  afora  este  mudar-se  cada  dia

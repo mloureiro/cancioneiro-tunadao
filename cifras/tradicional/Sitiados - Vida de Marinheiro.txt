@@ -2,6 +2,7 @@
 titulo: Vida de Marinheiro
 artista: Sitiados
 tom: A
+colunas: 1
 ---
 
 [INTRO] E

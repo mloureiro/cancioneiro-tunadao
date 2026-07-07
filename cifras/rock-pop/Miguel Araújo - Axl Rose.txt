@@ -34,6 +34,7 @@ All Dressed in gloom
 F#            B             G#/C     G#4 G#
 A mole humana bale a todo o gás
 
+[REFRÃO]
 C#        F#
 Esconde a rosa
 D#m       G#
@@ -41,6 +42,7 @@ Dentro do coldre
 C#         A#m     D#m  G#4 G#
 O Axl Rose caiu ao chão
 
+[REFRÃO]
 C#    F#
 Cai o mito
 D#m    G#
@@ -78,13 +80,9 @@ Já só resta o pó
 F#             B                 G#/C    G#4 G#
 Que é do Angel Dust dos Faith no More?
 
-C#        F#
-Esconde a rosa
-D#m       G#
-Dentro do coldre
-C#         A#m     D#m   G#4 G#
-O Axl Rose caiu ao chão
+[REFRÃO]
 
+[REFRÃO]
 C#    F#
 Cai o mito
 D#m    G#

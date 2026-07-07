@@ -2,6 +2,7 @@
 titulo: Ó Laurindinha
 artista: Tradicional
 tom: C
+colunas: 1
 ---
 
          G7              C
