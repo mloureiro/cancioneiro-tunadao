@@ -8944,34 +8944,6 @@
         "barres": []
       }
     ],
-    "D/A#": [
-      {
-        "frets": [
-          -1,
-          1,
-          0,
-          2,
-          3,
-          2
-        ],
-        "fingers": null,
-        "baseFret": 1,
-        "barres": []
-      },
-      {
-        "frets": [
-          -1,
-          -1,
-          4,
-          3,
-          3,
-          1
-        ],
-        "fingers": null,
-        "baseFret": 5,
-        "barres": []
-      }
-    ],
     "D/B": [
       {
         "frets": [
@@ -12868,90 +12840,6 @@
         "barres": []
       }
     ],
-    "Edim7": [
-      {
-        "frets": [
-          0,
-          1,
-          2,
-          0,
-          2,
-          0
-        ],
-        "fingers": [
-          0,
-          1,
-          2,
-          0,
-          3,
-          0
-        ],
-        "baseFret": 1,
-        "barres": []
-      },
-      {
-        "frets": [
-          -1,
-          -1,
-          2,
-          3,
-          2,
-          3
-        ],
-        "fingers": [
-          0,
-          0,
-          1,
-          3,
-          2,
-          4
-        ],
-        "baseFret": 1,
-        "barres": []
-      },
-      {
-        "frets": [
-          -1,
-          2,
-          3,
-          1,
-          3,
-          -1
-        ],
-        "fingers": [
-          0,
-          2,
-          3,
-          1,
-          4,
-          0
-        ],
-        "baseFret": 6,
-        "barres": []
-      },
-      {
-        "frets": [
-          2,
-          -1,
-          1,
-          2,
-          1,
-          -1
-        ],
-        "fingers": [
-          2,
-          0,
-          1,
-          3,
-          1,
-          0
-        ],
-        "baseFret": 11,
-        "barres": [
-          1
-        ]
-      }
-    ],
     "Em": [
       {
         "frets": [
@@ -16506,60 +16394,6 @@
         "barres": [
           3
         ]
-      }
-    ],
-    "G/E": [
-      {
-        "frets": [
-          0,
-          2,
-          0,
-          0,
-          0,
-          0
-        ],
-        "fingers": null,
-        "baseFret": 1,
-        "barres": []
-      },
-      {
-        "frets": [
-          0,
-          2,
-          0,
-          0,
-          0,
-          3
-        ],
-        "fingers": null,
-        "baseFret": 1,
-        "barres": []
-      },
-      {
-        "frets": [
-          0,
-          2,
-          0,
-          0,
-          3,
-          0
-        ],
-        "fingers": null,
-        "baseFret": 1,
-        "barres": []
-      },
-      {
-        "frets": [
-          0,
-          2,
-          0,
-          0,
-          3,
-          3
-        ],
-        "fingers": null,
-        "baseFret": 1,
-        "barres": []
       }
     ],
     "G/G": [

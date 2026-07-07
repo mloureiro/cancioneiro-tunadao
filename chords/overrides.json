@@ -113,6 +113,19 @@
         "baseFret": 1,
         "barres": []
       }
+    ],
+    "D#m7M": [
+      {
+        "frets": [
+          3,
+          1,
+          5,
+          2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      }
     ]
   },
   "cavaquinho": {
@@ -177,6 +190,32 @@
           2,
           3,
           2
+        ],
+        "fingers": null,
+        "baseFret": 1,
+        "barres": []
+      }
+    ],
+    "F#m7M": [
+      {
+        "frets": [
+          1,
+          5,
+          5,
+          3
+        ],
+        "fingers": null,
+        "baseFret": 2,
+        "barres": []
+      }
+    ],
+    "G#m7/5-": [
+      {
+        "frets": [
+          1,
+          4,
+          3,
+          4
         ],
         "fingers": null,
         "baseFret": 1,

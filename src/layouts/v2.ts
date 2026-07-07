@@ -478,6 +478,7 @@ function renderChordAppendix(songs: Song[], isA5: boolean): string {
   })
 }\n`;
   out += `#metadata("Acordes") <song-acordes>\n`;
+  out += `#metadata("Acordes") <section-marker>\n`;
   out += `#v(4pt)\n`;
   out += `#cond-text([ACORDES], size: ${titleSize}, tracking: 0.06em)\n`;
   out += `#v(5pt)\n`;
@@ -771,6 +772,12 @@ function generate(input: LayoutInput): string {
 )
 
 // Página divisória de secção: barra coral, nome centrado, sem header/footer
+// Secção corrente (para o rodapé): último marker de secção até esta página
+#let current-section() = {
+  let markers = query(selector(<section-marker>).before(here()))
+  if markers.len() > 0 { markers.last().value } else { none }
+}
+
 #let section-divider(name) = page(header: none, footer: none, columns: 1)[
   #set align(center + horizon)
   #box(width: 26%, height: 3pt, fill: coral)
@@ -857,10 +864,17 @@ ${indexBody}
     line(length: 100%, stroke: 0.5pt + ink)
     v(3pt)
     set text(font: sans-font, size: ${footerSize}, weight: 700, fill: ink)
+    let sec = ${hasSections ? "current-section()" : "none"}
+    let sec-label = if sec != none {
+      cond-text(upper(sec), size: 0.82em, fill: grey, weight: 600, tracking: 0.12em)
+    } else { none }
+    // número da página na margem exterior; secção corrente no lado interior
     if calc.odd(pg) {
-      align(left, counter(page).display())
+      grid(columns: (auto, 1fr), align: (left, right),
+        counter(page).display(), sec-label)
     } else {
-      align(right, counter(page).display())
+      grid(columns: (1fr, auto), align: (left, right),
+        sec-label, counter(page).display())
     }
   },
 )
@@ -874,7 +888,8 @@ ${indexBody}
   let currentCols: number | null = null;
   for (const sec of bookSections) {
     if (hasSections && sec.name.trim() !== "") {
-      typ += `#section-divider("${escLiteral(sec.name)}")\n\n`;
+      typ += `#section-divider("${escLiteral(sec.name)}")\n`;
+      typ += `#metadata("${escLiteral(sec.name)}") <section-marker>\n\n`;
       currentCols = null; // a 1.ª música da secção re-emite o modo de colunas
     }
     for (const song of sec.songs) {
