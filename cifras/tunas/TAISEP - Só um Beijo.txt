@@ -1,6 +1,6 @@
 ---
 titulo: Só um Beijo
-artista: TAISEP
+artista: TAISEP · Tuna Académica do Instituto Superior de Engenharia do Porto
 tom: Am
 ---
 

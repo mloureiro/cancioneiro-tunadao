@@ -1,6 +1,6 @@
 ---
 titulo: Voltar
-artista: TCP
+artista: TCP · Tuna de Contabilidade do Porto
 tom: G
 ---
 

@@ -1,6 +1,6 @@
 ---
 titulo: Feiticeira
-artista: Tuna Universitária do Minho
+artista: TUM · Tuna Universitária do Minho
 tom: Gm
 ---
 

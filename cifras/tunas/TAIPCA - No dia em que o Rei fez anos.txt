@@ -1,6 +1,6 @@
 ---
 titulo: No dia em que o Rei fez anos
-artista: TAIPCA
+artista: TAIPCA · Tuna Académica do Instituto Politécnico do Cávado e do Ave
 tom: E
 ---
 

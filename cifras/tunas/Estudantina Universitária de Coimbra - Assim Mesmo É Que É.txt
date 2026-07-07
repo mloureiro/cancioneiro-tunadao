@@ -1,6 +1,6 @@
 ---
 titulo: Assim Mesmo É Que É
-artista: Estudantina Universitária de Coimbra
+artista: EUC · Estudantina Universitária de Coimbra
 tom: G
 ---
 

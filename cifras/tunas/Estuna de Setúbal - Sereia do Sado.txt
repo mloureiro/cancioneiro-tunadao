@@ -1,6 +1,6 @@
 ---
 titulo: Sereia do Sado
-artista: Estuna de Setúbal
+artista: ESTuna · Tuna de Engenharia da Escola Superior de Tecnologia de Setúbal
 tom: d
 ---
 

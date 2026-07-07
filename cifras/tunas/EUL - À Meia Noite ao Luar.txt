@@ -1,6 +1,6 @@
 ---
 titulo: À Meia Noite ao Luar
-artista: EUL
+artista: EUL · Estudantina Universitária de Lisboa
 tom: D
 ---
 

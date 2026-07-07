@@ -1,6 +1,6 @@
 ---
 titulo: Estas São Estórias
-artista: TAUTAD
+artista: TAUTAD · Tuna Académica da Universidade de Trás-os-Montes e Alto Douro
 tom: F
 ---
 

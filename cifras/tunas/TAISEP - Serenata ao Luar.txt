@@ -1,6 +1,6 @@
 ---
 titulo: Serenata ao Luar
-artista: TAISEP
+artista: TAISEP · Tuna Académica do Instituto Superior de Engenharia do Porto
 tom: D
 ---
 

@@ -1,6 +1,6 @@
 ---
 titulo: Fado da Sina
-artista: TUIST
+artista: TUIST · Tuna Universitária do Instituto Superior Técnico
 tom: A
 creditos: Original: Camané
 ---

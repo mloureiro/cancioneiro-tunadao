@@ -1,6 +1,6 @@
 ---
 titulo: Risos de Um Estudante
-artista: TUM
+artista: TUM · Tuna Universitária do Minho
 tom: D
 ---
 

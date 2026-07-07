@@ -1,6 +1,6 @@
 ---
 titulo: Boémia
-artista: TUM
+artista: TUM · Tuna Universitária do Minho
 tom: D
 ---
 

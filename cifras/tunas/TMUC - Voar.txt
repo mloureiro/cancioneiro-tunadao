@@ -1,6 +1,6 @@
 ---
 titulo: Voar
-artista: TMUC
+artista: TMUC · Tuna de Medicina da Universidade de Coimbra
 tom: Bm
 ---
 

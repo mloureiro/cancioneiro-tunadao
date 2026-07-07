@@ -1,6 +1,6 @@
 ---
 titulo: Verde Vinho
-artista: TCP
+artista: TCP · Tuna de Contabilidade do Porto
 tom: Am
 creditos: Original: Paulo Alexandre
 ---

@@ -1,6 +1,6 @@
 ---
 titulo: Afonso
-artista: Estudantina Universitária de Coimbra
+artista: EUC · Estudantina Universitária de Coimbra
 tom: E
 ---
 

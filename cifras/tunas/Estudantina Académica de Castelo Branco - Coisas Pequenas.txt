@@ -1,6 +1,6 @@
 ---
 titulo: Coisas Pequenas
-artista: Estudantina Académica de Castelo Branco
+artista: EACB · Estudantina Académica de Castelo Branco
 tom: Am
 creditos: Original: Madredeus (Pedro Ayres Magalhães)
 ---

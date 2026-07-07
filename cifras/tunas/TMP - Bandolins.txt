@@ -1,6 +1,6 @@
 ---
 titulo: Bandolins
-artista: TMP
+artista: TMP · Tuna de Medicina do Porto
 tom: Em
 ---
 

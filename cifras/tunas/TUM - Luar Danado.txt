@@ -1,6 +1,6 @@
 ---
 titulo: Luar Danado
-artista: TUM
+artista: TUM · Tuna Universitária do Minho
 tom: G
 ---
 
