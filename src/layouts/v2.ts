@@ -383,7 +383,7 @@ function renderSong(song: Song, labelId: string, autor: string, autorFull = ""):
 }
 
 // Nomes de acordes usados num conjunto de músicas
-function collectChordNames(songs: Song[]): string[] {
+function collectChordNames(songs: Song[], allowed?: Set<string>): string[] {
   const names = new Set<string>();
   for (const song of songs)
     for (const part of song.parts)
@@ -393,6 +393,8 @@ function collectChordNames(songs: Song[]): string[] {
             // Slash chords, extensões entre parêntesis e runs de notas ficam
             // fora do apêndice — só o acorde base entra na tabela.
             if (!isAppendixChord(c.chord)) continue;
+            // Acordes demasiado raros na colecção não ganham diagrama.
+            if (allowed && !allowed.has(c.chord)) continue;
             names.add(c.chord);
           }
   return sortChordNames([...names]);
@@ -402,8 +404,8 @@ function collectChordNames(songs: Song[]): string[] {
 // linhas (guitarra com várias linhas — uma por variação; acordeão com
 // mini-teclado + baixos Stradella). Acordes sem shape levam "—". Como não
 // cabem todos os acordes à largura, a tabela é dividida em blocos.
-function renderChordAppendix(songs: Song[], isA5: boolean): string {
-  const chordNames = collectChordNames(songs);
+function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>): string {
+  const chordNames = collectChordNames(songs, allowed);
   const titleSize = isA5 ? "22pt" : "30pt";
   const diagramSize = isA5 ? "11pt" : "15pt";
   const pianoWidth = isA5 ? "36pt" : "42pt";
@@ -936,7 +938,7 @@ ${indexBody}
     }
   }
 
-  typ += renderChordAppendix(songs, isA5);
+  typ += renderChordAppendix(songs, isA5, input.appendixChords);
 
   return typ;
 }

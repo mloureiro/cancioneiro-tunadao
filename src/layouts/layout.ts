@@ -24,6 +24,11 @@ export interface LayoutInput {
   logoRelPath: string;
   /** Versão a mostrar (ex: "2026.42" ou "dev") */
   version: string;
+  /**
+   * Acordes que podem entrar no apêndice (usados em músicas suficientes na
+   * colecção). Se ausente, o apêndice mostra todos os acordes usados no livro.
+   */
+  appendixChords?: Set<string>;
 }
 
 // Cada módulo em src/layouts/ (excepto este) exporta default um Layout.
