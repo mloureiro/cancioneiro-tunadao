@@ -5,6 +5,7 @@ import { parse as parseYaml } from "yaml";
 import { parseSong } from "./parser";
 import { Song } from "./types";
 import { Layout, BookSection } from "./layouts/layout";
+import { appendixChordSet } from "./chord-usage";
 
 // --- Configuração ---
 const BOOKS_DIR = path.resolve(__dirname, "../books");
@@ -142,6 +143,10 @@ function main() {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
+  // Acordes que merecem diagrama no apêndice: usados em músicas suficientes na
+  // colecção inteira (contagem global, aplicada a todos os livros).
+  const appendixChords = appendixChordSet(path.join(PROJECT_ROOT, "cifras"));
+
   for (const manifestFile of manifests) {
     const name = manifestFile.replace(/\.ya?ml$/, "");
     const book = loadBookManifest(path.join(BOOKS_DIR, manifestFile));
@@ -169,6 +174,7 @@ function main() {
           headerTitle: book.header,
           logoRelPath,
           version,
+          appendixChords,
         });
 
         // Com um único layout, nomes limpos (sem o segmento do layout)
