@@ -100,7 +100,7 @@ ${placeCalls}
 function renderLine(line: SongLine, forceBold: boolean): string {
   switch (line.type) {
     case "empty":
-      return `#v(0.35em)\n`;
+      return `#v(0.6em)\n`;
     case "instruction":
       return `#instruction-text([${escTypst(line.instruction || "")}])\n#linebreak()\n`;
     case "chords-only":
@@ -698,7 +698,7 @@ function generate(input: LayoutInput): string {
   cond-text(label, size: 0.72em, fill: ink, weight: 700, tracking: 0.03em),
 )
 
-#let sec-pill(label, color, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.3em, below: 0.45em, {
+#let sec-pill(label, color, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.55em, below: 0.5em, {
   box(
     stroke: 0.8pt + color,
     radius: 2pt,
@@ -716,7 +716,7 @@ function generate(input: LayoutInput): string {
 })
 
 // Label de secção custom (sub-músicas etc.): quadrado azul + texto
-#let section-label(label, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.3em, below: 0.45em, {
+#let section-label(label, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.55em, below: 0.5em, {
   box(baseline: -0.08em, square(size: 0.5em, fill: blue))
   h(0.45em)
   cond-text(label, size: 0.85em, tracking: 0.04em)
