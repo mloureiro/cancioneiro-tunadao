@@ -21,7 +21,7 @@ Por mundos de ilusão
 Vamos descobrindo
            E9 E7
 O brilho desta paixão
-Refrão
+[REFRÃO]
       A
 E quando a viagem
  Am           E
@@ -54,7 +54,7 @@ Na palma da tua mão
 Encontrei por fim
 A minha Salvação
 
-Refrão:
+[REFRÃO]
 E quando a viagem
 Tiver que chegar ao fim
 Voltamos a saltar
@@ -81,7 +81,7 @@ Esta paixão
 Encontrei em ti
 A Salvação
 
-Refrão:
+[REFRÃO]
 E quando a viagem
 Tiver que chegar ao fim
 Voltamos a saltar

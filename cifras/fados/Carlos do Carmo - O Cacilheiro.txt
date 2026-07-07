@@ -2,6 +2,7 @@
 titulo: O Cacilheiro
 artista: Carlos do Carmo
 tom: Am
+colunas: 1
 ---
 
                 Am

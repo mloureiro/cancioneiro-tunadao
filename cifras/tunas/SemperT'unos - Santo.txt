@@ -2,6 +2,7 @@
 titulo: Santo
 artista: SemperT'unos
 tom: E
+colunas: 1
 ---
 
 [INSTR.] (Am, E, Am)

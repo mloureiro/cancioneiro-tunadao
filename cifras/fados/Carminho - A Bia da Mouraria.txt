@@ -2,6 +2,7 @@
 titulo: A Bia da Mouraria
 artista: Carminho
 tom: F#m
+colunas: 1
 ---
 
 [VERSO]

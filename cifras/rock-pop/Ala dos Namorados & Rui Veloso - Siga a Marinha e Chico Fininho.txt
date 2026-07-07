@@ -25,7 +25,7 @@ Mais vale navegar ao vento, ao Sol
                 D7            G
 O que é que havemos de fazer?
 
-[Refrão - Siga a Marinha]
+[REFRÃO] (Siga a Marinha)
       G
       Adeus, Adeus
                   Am, E, Am
@@ -62,7 +62,7 @@ O Chico Fininho, o freak da cantareira.
 Da cantareira à baixa, da baixa à cantareira
 Conhece os flipados todos de ginjeira.
 
-[Refrão - Chico Fininho]
+[REFRÃO] (Chico Fininho)
       G       C9
 Chico Fininho, Uuuuuuh (x3)
 G     C9 D7#9
@@ -83,7 +83,7 @@ Mais vale navegar ao vento, ao Sol
 D7            G
 O que é que havemos de fazer?
 
-[Refrão, x2 - Siga a Marinha]
+[REFRÃO] (2x Siga a Marinha)
 
 G
 E um dia se a maré for de voltar

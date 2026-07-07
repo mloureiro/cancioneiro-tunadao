@@ -2,6 +2,7 @@
 titulo: Barca da Fortuna
 artista: Tunídeos
 tom: Bm
+colunas: 1
 ---
 
 E9                                 E9

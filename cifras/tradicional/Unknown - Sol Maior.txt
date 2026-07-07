@@ -3,11 +3,11 @@ titulo: Sol Maior
 tom: G
 ---
 
-
 (Música de autor desconhecido)
 
 [INTRO] D   A7  D
 
+[REFRÃO]
 G
 Vida, sacode a cabeleira
        A         D
@@ -34,16 +34,7 @@ Também queria bem mais.
 Uma luta, essa pressa
 Feita de sonhos normais.
 
-G
-Vida, sacode a cabeleira
-       A          D
-Vem dançar no meu salão.
-          G
-Há um sol lá fora,
-                Em
-Espera quem queira
-A                 D
-Fugir dessa escuridão.
+[REFRÃO]
 
 Vida, sacode a cabeleira
 Vem dançar no meu salão.
@@ -53,16 +44,7 @@ Fugir dessa escuridão.
 
 Ponte: Sol lá fora . Sol lá fora (bis)
 
-G
-Vida, sacode a cabeleira
-       A          D
-Vem dançar no meu salão.
-           G
-Há um sol lá fora,
-               Em
-Espera quem queira
-A                 D
-Fugir dessa escuridão.
+[REFRÃO]
 
 Vida, Vida, Vida,
 Vida, Vida, Vida,

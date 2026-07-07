@@ -18,6 +18,7 @@ Com verdura bela
 Ovelhas, que nela
 Vosso pasto tendes
 
+[REFRÃO]
                F
 De ervas vos mantendes
              G
@@ -34,14 +35,7 @@ Não são ervas, não
 São graças dos olhos
 Do meu coração
 
-                F
-De ervas vos mantendes
-             G
-Que traz o Verão
-             C
-E eu das lembranças
-          G
-Do meu coração
+[REFRÃO]
 
               C
 Verdes são os campos
@@ -56,14 +50,7 @@ Com verdura bela
 Ovelhas, que nela
 Vosso pasto tendes
 
-                F
-De ervas vos mantendes
-             G
-Que traz o Verão
-              C
-E eu das lembranças
-          G
-Do meu coração
+[REFRÃO]
 
            C
 Isso que comeis

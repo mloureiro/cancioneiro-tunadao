@@ -1,6 +1,7 @@
 ---
 titulo: A mi manera
 tom: C
+colunas: 1
 ---
 
 

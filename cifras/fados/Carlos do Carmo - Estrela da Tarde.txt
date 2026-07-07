@@ -2,6 +2,7 @@
 titulo: Estrela da Tarde
 artista: Carlos do Carmo
 tom: Dm
+colunas: 1
 ---
 
 [INTRO] Dm  E/D

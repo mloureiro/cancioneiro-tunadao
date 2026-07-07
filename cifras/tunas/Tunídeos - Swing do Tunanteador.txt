@@ -17,7 +17,7 @@ Não quero aprender
 Ando com os cadernos
 Só pra inglês ver
 
-Pré-Refrão
+[PRÉ-REFRÃO]
 Am7                  D7
 Deixo os livros em casa
               B7
@@ -30,7 +30,7 @@ Ando mal acompanhado
                   G
 Antes assim que só
 
-Refrão
+[REFRÃO]
 (G A    A#)
 Eu quero é
 B7             Em
@@ -41,6 +41,7 @@ Mas o estilo musical
 Que eu não sou dessas coisas
                G
 De trocar de casal
+
 À noite eu saio
 Só penso em curtir
 
@@ -52,7 +53,7 @@ O que hei-de fazer
 A preguiça ganha
 E eu deixo-me vencer
 
-Pré-Refrão:
+[PRÉ-REFRÃO]
 
 Quando penso nas aulas
 Perco logo a fé
@@ -61,11 +62,11 @@ Afinada em Ré
 É sempr'hora de ir
 Ao bar tomar um café
 
-Refrão
+[REFRÃO]
 
 Instrumental:
 
-Pré-Refrão:
+[PRÉ-REFRÃO]
 
 Nem sei a quantas ando
 As aulas que perdi
@@ -74,7 +75,7 @@ Afinada em Mi
 Até já perdi a conta
 De tudo o que bebi
 
-Refrão
+[REFRÃO]
 
 Final
 

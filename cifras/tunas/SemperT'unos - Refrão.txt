@@ -2,6 +2,7 @@
 titulo: Refrão
 artista: SemperT'unos
 tom: E
+colunas: 1
 ---
 
 [REFRÃO]

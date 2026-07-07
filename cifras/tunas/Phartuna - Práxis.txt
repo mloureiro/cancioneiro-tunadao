@@ -28,7 +28,7 @@ Ponte:
 Am , Dm , Am , E  (3x)
 Am , Dm , Am
 
-Refrão: (2x)
+[REFRÃO] (2x)
              Dm         G           Am
 Tu és caloiro desta faculdade
              Dm                E         Am
@@ -54,11 +54,11 @@ Se não o tens, um dia irás ter
 
 Ponte
 
-Refrão (2x)
+[REFRÃO] (2x)
 
 Instrumental (4x)
 
-Refrão (Acapella)
+[REFRÃO] (Acapella)
 
 [REFRÃO]
                  Dm      G          Am

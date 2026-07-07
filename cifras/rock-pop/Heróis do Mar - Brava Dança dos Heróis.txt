@@ -9,6 +9,7 @@ Oh Grande tribo, nasces do cio
 E        D          E        D
 De bélicas Deusas à beira rio
 
+[REFRÃO]
 F#m
 Brava Dança dos Heróis
 
@@ -19,8 +20,7 @@ Sagras a vida quando guerreias
 E        D          E    D
 À luz macia das luas cheias
 
-F#m
-Brava Dança dos Heróis
+[REFRÃO]
 
 E        D          E       D
 Dos fracos não reza a história
@@ -32,16 +32,14 @@ Corpos caídos na selva ardente
 E        D          E     D
 A terra fértil do sangue quente
 
-F#m
-Brava Dança dos Heróis
+[REFRÃO]
 
 E        D          E     D
 Dos feitos a glória há de perdurar
 E        D          E     D
 Mesmo se a morte nos apagar
 
-F#m
-Brava Dança dos Heróis
+[REFRÃO]
 
 (Bm  E)(2x)
 

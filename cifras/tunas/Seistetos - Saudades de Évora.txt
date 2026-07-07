@@ -5,7 +5,7 @@ tom: C
 ---
 
 
-Refrão (Ternário)
+[REFRÃO] (Ternário)
 F
 Trovas antigas
       C
@@ -37,7 +37,7 @@ Ouvem-se as vozes soar
 Cantando lindas canções
 Até a noite findar.
 
-Refrão (ternário)
+[REFRÃO] (ternário)
 
 Quando alguém se vai embora
 Com seu curso acabado

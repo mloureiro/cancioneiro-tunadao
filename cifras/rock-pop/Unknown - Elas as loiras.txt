@@ -34,6 +34,7 @@ F                          B7           C
 D7
 Aquela loira que a nos todos faz sorrir
 
+[REFRÃO]
 F                      B7
 E enquanto esperas, desesperas
         C            D7
@@ -48,17 +49,8 @@ G                   C
 Também queira beber
 
 Instrumental F Bb7 C7 D7 2x
-F                     B7
-E enquanto esperas, desesperas
-        C            D7
-E ela sem aparecer
-F                              D7
-Temos que dar tempo ao tempo
-F                          D7
-Pois pode bem acontecer
-F                           G#
-Que o empregado de serviço
-G                   C
-Também queira beber
+
+[REFRÃO]
+
 F                Fm            C
 Esta sede que insiste em ficar

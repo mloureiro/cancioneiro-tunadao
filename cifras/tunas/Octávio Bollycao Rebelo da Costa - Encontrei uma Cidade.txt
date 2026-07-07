@@ -2,6 +2,7 @@
 titulo: Encontrei uma Cidade
 artista: Octávio Bollycao Rebelo da Costa
 tom: D
+colunas: 1
 ---
 
 [INSTR.] D  Bm  G   E  G   D  A  A7

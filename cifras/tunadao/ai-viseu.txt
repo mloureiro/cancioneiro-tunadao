@@ -29,6 +29,8 @@ Sofre dores da sua lida
 Luta pra ganhar a vida
                           C
 Mas tem forças pra cantar
+
+[REFRÃO]
                 G
 **Tens ruelas tortuosas**
                     C
@@ -41,6 +43,7 @@ Mas tem forças pra cantar
 **Vais alargando os teus muros**
       G               C
 **Ai Viseu, que linda és**
+
                         C
 Santo António, animação
                         A
@@ -67,7 +70,6 @@ Leva pros céus o intento
                          C
 De um futuro mais risonho
 
-[REFRÃO]
                    C
 Teu infante fez o mundo
                           A

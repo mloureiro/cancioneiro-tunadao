@@ -25,7 +25,7 @@ Que lhe disse "Raios me partam
          E          Am
 Se não é a Conceição"
 
-Refrão
+[REFRÃO]
           Dm
 Oh Zé, oh Zé
            Am
@@ -34,6 +34,7 @@ Oh Conceição (2x)
 Cuidado Ó Zé
            Am
 Com a tua mão (2x)
+
 No meio de tanta gente
 Ela estava cheia de calor
 E o Zé frequentemente
@@ -43,7 +44,8 @@ Sempre foste o meu bem
 Deixa andar a minha mão
 Enquanto a luz não vem"
 
-Refrão
+[REFRÃO]
+
 A temperatura ia subindo
 Ela não sabia explicar muito bem
 À medida que ia sentindo

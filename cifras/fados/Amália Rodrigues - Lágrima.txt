@@ -2,6 +2,7 @@
 titulo: Lágrima
 artista: Amália Rodrigues
 tom: D
+colunas: 1
 ---
 
 [INTRO] D F#m Em A7 D

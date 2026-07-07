@@ -2,6 +2,7 @@
 titulo: Solta-se o Beijo
 artista: Ala dos Namorados
 tom: F
+colunas: 1
 ---
 
 [INTRO] Dm A7 Dm A7

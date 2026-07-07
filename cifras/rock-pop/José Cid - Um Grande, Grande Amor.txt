@@ -2,10 +2,12 @@
 titulo: Um Grande, Grande Amor
 artista: José Cid
 tom: A
+colunas: 1
 ---
 
 [INTRO] E
 
+[REFRÃO]
  A                                Bm
 Addio, adieu, aufwiedersehen, Goodbye,
  E                                    A
@@ -33,6 +35,7 @@ Das estrelas p'ra onde eu regresso,
      Cmaj7                      F               E4  E
 Onde sempre (onde sempre) esta música paira no ar.
 
+[REFRÃO]
 Addio, adieu, aufwiedersehen, Goodbye,
 Amore, amour, meine liebe, love of my life.
 Se o nosso amor findar,
@@ -48,6 +51,7 @@ E as palavras que eu uso em Refrão,
 Fazem parte da mesma canção,
 Que ecoa (que ecoa) nas galáxias da minha ilusão
 
+[REFRÃO]
 Addio, adieu, aufwiedersehen, Goodbye,
 Amore, amour, meine liebe, love of my life.
 Se o nosso amor findar,
@@ -56,6 +60,7 @@ Addio, adieu, aufwiedersehen, Goodbye,
  B7                 E                 A  F#
 Amore, amour, meine liebe, love of my life.
 
+[REFRÃO]
  B                                C#m
 Addio, adieu, aufwiedersehen, Goodbye,
 

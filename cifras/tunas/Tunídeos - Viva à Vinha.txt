@@ -21,7 +21,7 @@ Garota bonita
        C      F
 O verdelho cura
 
-Refrão
+[REFRÃO]
 Am                Dm
 Tenho sede, tenho sede
 A#             C
@@ -39,10 +39,10 @@ Pra cantar afinado
 Só mais um bocado
 Da tua candura
 
-Refrão
+[REFRÃO]
 
 (Instrumental)
-Refrão
+[REFRÃO]
 
 Água nem do Vimeiro
 Quero um copo de vinho de cheiro

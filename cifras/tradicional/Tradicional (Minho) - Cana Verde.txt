@@ -2,6 +2,7 @@
 titulo: Cana Verde
 artista: Tradicional (Minho)
 tom: D
+colunas: 1
 ---
 
 [INTRO] D A7 D
@@ -11,6 +12,7 @@ Cana verde cana verde, cana do canavial
                     A7                            D
 Quem me chama cana verde me quer bem não me quer mal
 
+[REFRÃO]
              A7             D
 Ai, ai meu bem ai, ai meu bem
                     A7                            D
@@ -23,6 +25,7 @@ Quando eu era pequeninho e pelo mato andava
                    A7                   D
 Todas folhas que caiam os passarinhos voavam
 
+[REFRÃO]
              A7             D
 Ai, ai meu bem ai, ai meu bem
                    A7                   D
@@ -35,6 +38,7 @@ Abaixai-vos cana verde, que eu quero ver a cidade
                   B7                     E
 Quero ver o meu amor se não morro de saudade
 
+[REFRÃO]
              B7             E
 Ai, ai meu bem ai, ai meu bem
                   B7                     E

@@ -20,7 +20,7 @@ Passo certeiro, passo num passo apressado.
 Passo por hóspede onde os outros chamam casa.
 Passo por casas, sendo sempre forasteiro.
 
-[Refrão 1]
+[REFRÃO]
                    G                            Dm
          Não vou parar, não posso! E se me esqueço
                      A              Dm, D7
@@ -47,7 +47,7 @@ Passo inseguro, passo num passo apressado.
 Passo em naufrágio pelas âncoras dos barcos.
 Passo em refúgios sempre em modo de batalha.
 
-[Refrão 2]
+[REFRÃO]
 Não vou parar, não posso! E se me apanham
 Esses contornos que em mim levo guardados?
 E se adormeço, envelheço e me encanto

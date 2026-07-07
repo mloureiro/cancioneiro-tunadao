@@ -2,6 +2,7 @@
 titulo: Hinoportuna (hino à saudade)
 artista: Hinoportuna
 tom: G
+colunas: 1
 ---
 
 
@@ -11,6 +12,7 @@ Hinoportuna de festa
 É paródia riso mocidade.
              D                               G
 Brincam guitarras com velhas cantigas Luzia cidade.
+[REFRÃO]
              E
 Sonhos encanto são Vozes soando
                Am

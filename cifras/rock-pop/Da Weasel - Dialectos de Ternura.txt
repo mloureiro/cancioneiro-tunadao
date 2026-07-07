@@ -2,6 +2,7 @@
 titulo: Dialectos de Ternura
 artista: Da Weasel
 tom: Dm
+colunas: 1
 ---
 
 [INTRO] D5 Bb5 G5 Bb5
@@ -49,10 +50,6 @@ Sigo calmo atrás dela, deixo crescer a semente
 E Diz-me
 
 [REFRÃO]
-Uh, uh!
-Yeah, yeah!
-Faz, faz!
-Da da (2x)
 
 Em cada beijo, há uma frase, em cada frase há um verso
 Em cada verso há um lado do lado inverso
@@ -69,7 +66,3 @@ Revê-se na expressão da expressão enamorada
 E diz-me…
 
 [REFRÃO]
-Uh, uh!
-Yeah, yeah!
-Faz, faz!
-Da da (2x)

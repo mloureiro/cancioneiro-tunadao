@@ -1,6 +1,7 @@
 ---
 titulo: É o meu corpo
 tom: E
+colunas: 1
 ---
 
 

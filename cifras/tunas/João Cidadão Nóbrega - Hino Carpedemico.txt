@@ -2,6 +2,7 @@
 titulo: Hino Carpedemico
 artista: João Cidadão Nóbrega
 tom: B
+colunas: 1
 ---
 
 

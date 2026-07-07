@@ -2,6 +2,7 @@
 titulo: Fado do Super Zé
 artista: Hinoportuna
 tom: D
+colunas: 1
 ---
 
           D                             A

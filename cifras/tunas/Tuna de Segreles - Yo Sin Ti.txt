@@ -2,6 +2,7 @@
 titulo: Yo sin ti
 artista: Tuna de Segreles
 tom: E
+colunas: 1
 ---
 
 E        Caug

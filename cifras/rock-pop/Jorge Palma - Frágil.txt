@@ -30,6 +30,7 @@ Frágil
                Gm7
 Eu sinto-me frágil
 
+[REFRÃO]
 D7
 Frágil
                     Gm7 Gsus4
@@ -64,6 +65,8 @@ Cm7
 Frágil
                 Gm7
 Eu sinto-me frágil
+
+[REFRÃO]
 D7
 Frágil
 Cm7                   Gm7

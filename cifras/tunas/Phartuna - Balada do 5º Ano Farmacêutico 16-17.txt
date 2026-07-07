@@ -28,7 +28,7 @@ Na canção da despedida
 F          G                 C
 Pois a ti te levo p'rá vida
 
-Refrão: (Só Solistas)
+[REFRÃO] (Só Solistas)
 C                       F
 Chega a minha hora
      G             Am
@@ -61,7 +61,7 @@ Te escrevo memórias do teu encanto
 De um estudante e do seu adeus
 Coimbra, os estudantes são só teus
 
-Refrão (2x) (Todos)
+[REFRÃO] (2x)
 
 [SAÍDA] C F G E
            Am

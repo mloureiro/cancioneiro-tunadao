@@ -2,6 +2,7 @@
 titulo: Bem Bom
 artista: Doce
 tom: A
+colunas: 1
 ---
 
 [INTRO]

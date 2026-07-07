@@ -4,7 +4,7 @@ artista: José Vaz; Duarte Coxo
 tom: G
 ---
 
-Refrão (vozes)
+[REFRÃO] (vozes)
 
 [INTRO] G
 
@@ -40,7 +40,6 @@ Gm Cm Gm D#7 Gm Cm Gm D7 Gm Cm Gm D7
 
 Gm          Cdim/F#     Ddim/G# Fm
 Trazem no peito a saudade
-[REFRÃO]
 G#dim/D       Cm D#maj7
 Alegria de um viver
 
@@ -78,4 +77,4 @@ De na memória ficar.
 E Am D G E Am D G E Am B7 Em C Cm
 G D G
 
-Refrão (vozes)
+[REFRÃO] (vozes)

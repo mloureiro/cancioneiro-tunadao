@@ -2,6 +2,7 @@
 titulo: O Homem do Leme
 artista: Xutos & Pontapés
 tom: Am
+colunas: 1
 ---
 
 [INTRO] Am Em F G Am
@@ -19,7 +20,7 @@ tom: Am
               Am             Em                    F                   G
       Mas vogando à vontade, rompendo a saudade, vai quem já nada teme, vai o homem do leme_____
 
-[REFRÃO 2]
+[REFRÃO]
    C      F                Am    Em                C
              E uma vontade de rir, nasce do fundo do ser
              F                Am                     Em
@@ -35,18 +36,8 @@ tom: Am
       Em dias cinzentos,      descanso eterno,  lá encontraram.
 
 [REFRÃO]
-              Am             Em                    F                   G             Am
-        E mais que uma onda, mais que uma maré,   tentaram prende-lo, impôr-lhe uma fé
-              Am             Em                    F                   G
-      Mas vogando à vontade, rompendo a saudade, vai quem já nada teme, vai o homem do leme_____
 
-[REFRÃO 2]
-   C      F                Am    Em                C
-             E uma vontade de rir, nasce do fundo do ser
-             F                Am                     Em
-             E uma vontade de ir, correr o mundo e partir,
-                                 Am
-             A vida é sempre a perder
+[REFRÃO]
 
 [SOLO] Riff 1
 
@@ -55,10 +46,4 @@ tom: Am
        Am          Em                F               G           Am
       Do fundo do tempo,      foge o futuro,    é tarde demais_____
 
-[REFRÃO 2] (x2)
-   C      F                Am    Em                C
-             E uma vontade de rir, nasce do fundo do ser
-             F                Am                     Em
-             E uma vontade de ir, correr o mundo e partir,
-                                 Am
-             A vida é sempre a perder
+[REFRÃO] (2x)

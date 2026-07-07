@@ -2,6 +2,7 @@
 titulo: Ora Vejam Lá
 artista: António Mafra
 tom: C
+colunas: 1
 ---
 
 C                                            G

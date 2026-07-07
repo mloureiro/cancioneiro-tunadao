@@ -4,7 +4,6 @@ artista: João Alves
 tom: a
 ---
 
-
 [INTRO] (E A B7) 2x
 
 E
@@ -19,6 +18,7 @@ Que não nos deixa parar
 E se não fosse o amor
 E7                  A
 Que insistes em me dar
+[REFRÃO]
 A         B7       E
 Como seriam as noites
 A         B7       E
@@ -40,12 +40,7 @@ E este chão a meus pés
 Sem este amor que nos cega
  E7                 A
 E que insiste em ficar
-A           B7       E
-Como seriam as noites
-A           B7       E
-De que serviam as noites
-A           B7       E
-Como poderia amar.
+[REFRÃO]
 
 (E A B7) 2x
 [INSTR.] E B7 E A B7 E A B7 E A B7 E

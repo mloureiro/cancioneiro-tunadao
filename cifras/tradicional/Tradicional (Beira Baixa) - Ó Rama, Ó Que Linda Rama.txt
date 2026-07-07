@@ -2,6 +2,7 @@
 titulo: Ó Rama, Ó Que Linda Rama
 artista: Tradicional (Beira Baixa)
 tom: E
+colunas: 1
 ---
 
 [INTRO] A  E  B  E  A  B

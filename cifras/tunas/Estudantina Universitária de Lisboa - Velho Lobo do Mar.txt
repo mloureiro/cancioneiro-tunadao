@@ -30,6 +30,7 @@ Enfrentar o adamastor
                F       C
 Coragem mais ninguém tem
 
+[REFRÃO]
 Bb                       F
 Estrelas do céu que me guiam
 C                 F
@@ -70,22 +71,7 @@ Saudades são minhas trovas
                      G (C)
 Do amor que és para mim
 
-Bb                       F
-Estrelas do céu que me guiam
-C                 F
-Em noites de solidão
-Bb                   F
-Nunca deixem de brilhar
-A7                 Dm
-Aqueçam o meu coração
-A                  Dm
-Brilha a estrela-polar
-C                 F
-Meu coração incendeia
-Gm                   Dm
-Sou um velho lobo do mar
-A                Dm
-Serás a minha sereia  
+[REFRÃO]
 
 ( C  F  G  Dm )
 ( Gm  Dm  A  Dm )
@@ -110,22 +96,7 @@ Enfrentar o adamastor
                F       C
 Coragem mais ninguém tem
 
-Bb                       F
-Estrelas do céu que me guiam
-C                 F
-Em noites de solidão
-Bb                   F
-Nunca deixem de brilhar
-A7                 Dm
-Aqueçam o meu coração
-A                  Dm
-Brilha a estrela-polar
-C                 F
-Meu coração incendeia
-Gm                   Dm
-Sou um velho lobo do mar
-A                Dm
-Serás a minha sereia  
+[REFRÃO]
 
 A                  Dm
 Brilha a estrela-polar

@@ -27,6 +27,7 @@ Com lençóis bordados à pressa
         C          Fm
 Na cambraia de um beijo
 
+[REFRÃO]
     Fm                   Bbm
 Lisboa menina e moça, menina     
     Eb                          Ab
@@ -63,14 +64,7 @@ Aguardente de vida e medronho
         C      Fm
 Que me faz cantar
 
-    Fm                   Bbm
-Lisboa menina e moça, menina     
-    Eb                          Ab
-Da luz que os meus olhos vêem, tão pura     
-      Fm                       Bbm
-Teus seios são as colinas, varina     
-    C                              Fm
-Pregão que me traz à porta ternura    
+[REFRÃO]
 
                        Bbm
 Cidade a ponto luz bordada

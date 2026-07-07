@@ -7,7 +7,7 @@ creditos: Letra: Ricardo Amorim; Música: João Escobar
 
 [INTRO] G, Bm, Em, C (com quebras), G D 2x
 
-Refrão: (2x)
+[REFRÃO] (2x)
 G              Bm
 Quem tem, quem vê
 Em                   C
@@ -35,7 +35,7 @@ Por essas ruas te dão vida
 D                      G
 As lendas de uma princesa!
 
-Refrão: (2x)
+[REFRÃO] (2x)
 
 [INSTR.] (2x): igual ao refrão com quebras no C
 
@@ -57,8 +57,8 @@ Para sempre unidos
 D                       G
 Queimamos na catedral
 
-Refrão: (2x)
+[REFRÃO] (2x)
 
 Instrumental (2x)
 
-Refrão: (4x) 2x 1ªs sem instrumentos
+[REFRÃO] (4x)

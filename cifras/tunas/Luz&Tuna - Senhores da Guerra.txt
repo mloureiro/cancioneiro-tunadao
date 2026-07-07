@@ -27,6 +27,7 @@ Cm
 E o medo
 Ali mesmo
 
+[REFRÃO]
 Cm G Cm
 Ó terra
 Cm    Bb      Cm
@@ -46,20 +47,6 @@ Cm
 E o medo
 Ali mesmo
 
-Cm G Cm
-Ó terra
-Cm    Bb      Cm
-Mais um dia a nascer
-Cm Bb Cm
-Ai,
-Cm    Bb      Cm
-é menos um dia a perder
+[REFRÃO]
 
-Cm G Cm
-Ó terra
-Cm    Bb      Cm
-Mais um dia a nascer
-Cm Bb Cm
-Ai,
-Cm    Bb      Cm
-é menos um dia a perder
+[REFRÃO]

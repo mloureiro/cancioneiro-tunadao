@@ -2,6 +2,7 @@
 titulo: Ronda (Noites de Ronda)
 artista: Jair Rodrigues
 tom: A
+colunas: 1
 ---
 
 [INTRO] A  C#m  D7+  Dm  A  F#  Cº  E7  A  F   E7

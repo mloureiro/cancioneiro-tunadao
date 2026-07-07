@@ -2,6 +2,7 @@
 titulo: Rosa Branca
 artista: Mariza
 tom: Bb
+colunas: 1
 ---
 
 [INTRO] G G6 G G6 G G6 G
@@ -20,6 +21,7 @@ Tantas voltas dei bailando,
       D7           Gm
 Que a rosa se desfolhou
 
+[REFRÃO]
                D               Gm
 Quem tem, quem tem, amor a seu jeito
              D                       Gm
@@ -45,11 +47,4 @@ Se de rosas gostas tanto,
        D7            Gm
 Porque não gostas de mim
 
-               D               Gm
-Quem tem, quem tem, amor a seu jeito
-             D                       Gm
-Colha a rosa branca, ponha a rosa ao peito
-               D               Gm
-Quem tem, quem tem, amor a seu jeito
-             D#              D7      Gm
-Colha a rosa branca, ponha a rosa ao peito
+[REFRÃO]

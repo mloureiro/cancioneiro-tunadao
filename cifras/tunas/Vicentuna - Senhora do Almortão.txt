@@ -2,6 +2,7 @@
 titulo: Senhora do Almortão
 artista: Vicentuna
 tom: Dm
+colunas: 1
 ---
 
 [INTRO] Dm  C  Bb  A  Gm  Bb  A  Gm  Bb  A  A7
@@ -25,6 +26,7 @@ não queirais sercastelhana
 C         F       A
  Não queirais ser castelhana,     Aiiiiiiiiiiii
 
+[REFRÃO]
 Am        E              A
  Nossa senhora da  Póvoa - Nossa senhora da Póvoa
 E         A

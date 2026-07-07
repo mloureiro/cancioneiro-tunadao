@@ -2,6 +2,7 @@
 titulo: Quando a noite já ia serena
 artista: In'vinus Tuna
 tom: Em
+colunas: 1
 ---
 
 [INTRO] Em G Am C
@@ -58,12 +59,6 @@ C
 tão quente, tão quente, já quase queimar.
 
 [REFRÃO]
-      G
-E quando a noite já ia serena
-       Am                   C
-disse-me a frase mais terna que ouvi:
-                        D          Em
-Valeu a pena. Mesmo que o fim da história seja aqui.
 
       G
 E quando a noite já ia serena
