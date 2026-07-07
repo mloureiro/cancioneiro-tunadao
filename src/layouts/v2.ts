@@ -911,7 +911,11 @@ ${indexBody}
       typ += `#metadata("${escLiteral(sec.name)}") <section-marker>\n\n`;
       currentCols = null; // a 1.ª música da secção re-emite o modo de colunas
     }
-    for (const song of sec.songs) {
+    // Dentro de cada secção nomeada, as músicas saem por título (A–Z), tal
+    // como no índice. Livros sem secções (lista curada, ex: Tunadão) mantêm a
+    // ordem em que foram listados.
+    const sectionSongs = hasSections ? sec.songs.slice().sort(sortByTitle) : sec.songs;
+    for (const song of sectionSongs) {
       const cols = song.metadata.colunas === 1 ? 1 : 2;
       if (cols !== currentCols) {
         typ += `#set page(columns: ${cols})\n\n`;
