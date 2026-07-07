@@ -2,23 +2,18 @@
 
 Músicas pedidas para o acervo português que ainda **não têm cifra (acordes)** obtida. Lista de trabalho — marcar `[x]` à medida que forem recuperadas.
 
-## Próximo passo (como recuperar)
+## Estado
 
-Estas existem, mas as fontes que as têm bloqueiam scripts:
-- **Ultimate-Guitar** (melhor cobertura destes artistas) e **e-chords** → Cloudflare (403 a `curl`).
-- **cifras.com.br** e **cifras.pt** (têm as indie recentes) → acordes posicionados por JS/CSS, sem quebras de linha no HTML.
+Passe pelo navegador feito (2026-07-07): **recuperadas 8** — de cifras.com.br (GNR – Quero Que Vá Tudo Pró Inferno; Ban – Dias Atlânticos; Clã – Dançar na Corda Bamba; Oioai – Pertencer; Os Azeitonas – Tu Pertences a Mim) e de Ultimate-Guitar (GNR – + Vale Nunca; Linda Martini – Panteão; Mundo Cão – Anos de Bailado e Natação).
 
-➡️ **Fazer um passe pelo navegador** (extensão Claude-in-Chrome, claude.ai/chrome): renderiza o JS e passa o Cloudflare. Ordem sugerida: Ultimate-Guitar primeiro (cobre quase tudo), cifras.pt para o resto.
-
-Fontes já esgotadas por script: cifraclub.com.br (só letra p/ estes artistas; GNR removida), azchords.com e musica-e-acordes.com (só os temas populares, já no acervo).
+As **67 restantes** foram procuradas em CifraClub, Ultimate-Guitar e cifras.com.br (catálogos completos verificados por artista) e **não têm transcrição de acordes em lado nenhum** — são maioritariamente B-sides/faixas de nicho que ninguém cifrou (ex.: os 8 deep-cuts dos Ornatos Violeta, os 9 dos Anaquim, os Diabo na Cruz em falta, p3dro, Mesa, Oquestrada). Só aparecem como *letra*. Ficam registadas caso surjam ou para introdução manual.
 
 _Última verificação: 2026-07-07._
 
-## Sem cifra (só letra ou inexistente no CifraClub)
+## Sem cifra (só letra ou inexistente)
 
 - [ ] Agir – Prescrever
 - [ ] Ana Bacalhau – Morreu Romeu
-- [ ] Ban – Dias Atlânticos
 - [ ] Bárbara Tinoco – O Teu Namorado
 - [ ] Anaquim – Anda por Aí um Bicho
 - [ ] Anaquim – Cabeça de Vento
@@ -32,7 +27,6 @@ _Última verificação: 2026-07-07._
 - [ ] Boss AC – Sexta-Feira (Emprego Bom Já)
 - [ ] Capitão Fausto – Raposa
 - [ ] Capitão Fausto – Supernova
-- [ ] Clã – Dançar na Corda Bamba
 - [ ] Clã – Tira a Teima
 - [ ] Ena Pá 2000 – Dr. Bayard
 - [ ] Filarmónica Gil – Vontade de te Matar
@@ -43,14 +37,13 @@ _Última verificação: 2026-07-07._
 - [ ] Diabo na Cruz – Siga a Rusta
 - [ ] Diabo na Cruz – Casamento
 - [ ] Diabo na Cruz – Fecha a Loja
-- [ ] Diabo na Cruz – Vida de Estrada _(no CifraClub só há tablatura, sem acordes)_
+- [ ] Diabo na Cruz – Vida de Estrada _(no CifraClub só há tablatura)_
 - [ ] Jafumega – Nó Cego
 - [ ] João Só e Abandonados – Anda Daí
 - [ ] Naifa – Música
 - [ ] O Martim feat Cut Slack – Razão da Distração
 - [ ] Jorge Palma – Quarteto da Corda
 - [ ] Linda Martini – Amor Combate
-- [ ] Linda Martini – Panteão
 - [ ] Manel Cruz – Cães e Ossos
 - [ ] Mesa – Estrela Carente
 - [ ] Mesa – Luz Vaga
@@ -58,10 +51,8 @@ _Última verificação: 2026-07-07._
 - [ ] Miguel Araújo – Karma Kamikaze
 - [ ] Mimicat – Vais Ter Saudades
 - [ ] Mundo Cão – Morfina
-- [ ] Mundo Cão – Anos de Bailado e Natação
 - [ ] Nena – Diz-se Aí
-- [ ] Oioai – Pertencer
-- [ ] Oioai – Jardim das Estátuas _(no CifraClub em formato de legenda, ilegível pelo parser)_
+- [ ] Oioai – Jardim das Estátuas _(no CifraClub em formato de legenda)_
 - [ ] Os Golpes – Campo de Santa Clara
 - [ ] Os Prana – Sapatos de Pedra
 - [ ] Os Prana – Naco
@@ -79,7 +70,6 @@ _Última verificação: 2026-07-07._
 - [ ] Ornatos Violeta – O.M.E.M.
 - [ ] Ornatos Violeta – Nuvem
 - [ ] Os Azeitonas – Mulheres Nuas
-- [ ] Os Azeitonas – Tu Pertences a Mim
 - [ ] p3dro – O Teu Pior Alibi
 - [ ] p3dro – Podes Crer
 - [ ] p3dro – Preso
@@ -87,16 +77,14 @@ _Última verificação: 2026-07-07._
 - [ ] p3dro – Tu És Diferente
 - [ ] p3dro – Estou na Lei
 
-## GNR — removida do CifraClub
+## GNR — removida do CifraClub (restantes)
 
-Página do artista vazia no CifraClub; cada música redirecciona para ela. **Já recuperadas** de musica-e-acordes.com: Tirana, Ana Lee, Sub-16, Sangue Oculto. Ainda em falta (não estão nessa fonte):
+Já recuperadas: Tirana, Ana Lee, Sub-16, Sangue Oculto (musica-e-acordes), + Vale Nunca, Quero Que Vá Tudo Pró Inferno (browser). Ainda em falta:
 
-- [ ] GNR – + Vale Nunca
-- [ ] GNR – Quero Que Vá Tudo Pró Inferno
 - [ ] GNR – Sexta-Feira
 - [ ] GNR – Acorda
 - [ ] GNR – Homem Mau
 
 ---
 
-**Total em falta: 75** (70 + 5 GNR).
+**Total em falta: 67.**
