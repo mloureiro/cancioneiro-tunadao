@@ -1,8 +1,10 @@
 # Cifras em falta
 
-Músicas pedidas para o acervo português que **não têm cifra (acordes) no CifraClub** — apenas letra, ou sem página. Registadas para tentar noutra fonte (ex.: cifras.pt / cifras.com.br) ou introduzir à mão.
+Músicas pedidas para o acervo português que ainda **não têm cifra (acordes)** obtida.
 
-_Última verificação: 2026-07-07 (fonte: cifraclub.com.br)._
+Fontes já verificadas: **cifraclub.com.br** (só letra para a maioria destes artistas) e **musica-e-acordes.com** (recuperou 4 GNR; catálogo antigo, sem os artistas recentes). A maioria das que faltam existe em **cifras.com.br** e **cifras.pt**, mas essas guardam os acordes em formato posicionado por JS/CSS (sem quebras de linha no HTML) e/ou atrás de Cloudflare — não dá para extrair por `curl`. Requerem o navegador (extensão Claude-in-Chrome) ou introdução manual.
+
+_Última verificação: 2026-07-07._
 
 ## Sem cifra no CifraClub (só letra ou inexistente)
 
@@ -79,14 +81,10 @@ _Última verificação: 2026-07-07 (fonte: cifraclub.com.br)._
 
 ## GNR — removida do CifraClub
 
-Todas as cifras dos GNR foram removidas do CifraClub (a página do artista está vazia e cada música redirecciona para ela). Existem noutras fontes.
+Todas as cifras dos GNR foram removidas do CifraClub (a página do artista está vazia e cada música redirecciona para ela). **Recuperadas de musica-e-acordes.com:** Tirana, Ana Lee, Sub-16, Sangue Oculto. Ainda em falta (não estão nessa fonte):
 
-- GNR – Tirana
 - GNR – + Vale Nunca
 - GNR – Quero Que Vá Tudo Pró Inferno
 - GNR – Sexta-Feira
-- GNR – Sangue Oculto
-- GNR – Ana Lee
 - GNR – Acorda
-- GNR – Sub-16
 - GNR – Homem Mau
