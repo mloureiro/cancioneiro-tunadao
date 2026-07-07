@@ -91,8 +91,9 @@ export interface ChordColumn {
 }
 
 // Junta grafias enarmónicas numa só coluna do apêndice: um diagrama, rótulo
-// com as grafias usadas (sustenido primeiro, "D#/Eb"). Colunas ordenadas como
-// sortChordNames (pela grafia de sustenido).
+// com as grafias usadas (sustenido primeiro, "D#|Eb"). Separador "|" e não "/"
+// para não se confundir com a notação de baixo (slash chord). Colunas
+// ordenadas como sortChordNames (pela grafia de sustenido).
 export function mergeEnharmonicColumns(names: string[]): ChordColumn[] {
   const groups = new Map<string, string[]>();
   for (const n of names) {
@@ -102,7 +103,7 @@ export function mergeEnharmonicColumns(names: string[]): ChordColumn[] {
   const flatFirst = (n: string) => (/^[A-G]b/.test(n) ? 1 : 0);
   const cols = [...groups.values()].map((members) => {
     const ordered = [...members].sort((a, b) => flatFirst(a) - flatFirst(b));
-    return { label: ordered.join("/"), names: ordered };
+    return { label: ordered.join("|"), names: ordered };
   });
   return cols.sort((a, b) => {
     const [ra, sa] = chordSortKey(a.names[0]);
