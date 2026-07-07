@@ -3,9 +3,10 @@ titulo: Encontrei uma Cidade
 artista: Octávio Bollycao Rebelo da Costa
 tom: D
 colunas: 1
+creditos: Letra: Octávio "Bollycao" Rebelo da Costa & Francisco "Caniche" Faustino; Música: Octávio "Bollycao" Rebelo da Costa
 ---
 
-[INSTR.] D  Bm  G   E  G   D  A  A7
+[Inst] D  Bm  G   E  G   D  A  A7
 
 D                  Bm  G                  E
 Encontrei uma cidade, em tons de rio e de mar,
@@ -45,7 +46,3 @@ G                       D
 Para sempre ficam ligadas às vielas e às calçadas,
 A                    D
 desta Lisboa onde vivi.
-
-Letra: Octávio "Bollycao" Rebelo da Costa &
-Francisco "Caniche" Faustino
-Música: Octávio "Bollycao" Rebelo da Costa
