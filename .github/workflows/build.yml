@@ -32,6 +32,7 @@ jobs:
           CANCIONEIRO_VERSION: ${{ github.run_number }}
 
       - uses: actions/upload-artifact@v4
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         with:
           name: cancioneiro-pdfs
           path: output/*.pdf
