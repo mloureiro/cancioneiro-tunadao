@@ -435,7 +435,7 @@ function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>
   for (const { data } of instruments) {
     const missing = columns
       .filter((col) => !col.names.some((n) => data.chords[n]?.length))
-      .map((col) => col.label);
+      .map((col) => col.labelParts.join(" • "));
     if (missing.length > 0) {
       console.warn(`  Aviso: ${data.instrument} sem diagrama para: ${missing.join(", ")}`);
     }
@@ -510,9 +510,9 @@ function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>
 
     const headerCells = chunk
       .map((col) =>
-        col.names.length === 1
-          ? `[#chord-text("${escLiteral(col.names[0])}")]`
-          : `[#{${col.names.map((n) => `chord-text("${escLiteral(n)}")`).join(" + enh-sep + ")}}]`
+        col.labelParts.length === 1
+          ? `[#chord-text("${escLiteral(col.labelParts[0])}")]`
+          : `[#{${col.labelParts.map((n) => `chord-text("${escLiteral(n)}")`).join(" + enh-sep + ")}}]`
       )
       .join(", ");
 

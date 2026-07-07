@@ -73,9 +73,13 @@ export function isAppendixChord(name: string): boolean {
 }
 
 // Raízes enarmónicas: mesmo som, grafia diferente (D#≡Eb) → mesma pega em
-// qualquer instrumento. Chave de agrupamento normaliza a raiz para bemol.
+// qualquer instrumento. Agrupa por bemol; para mostrar as duas grafias mesmo
+// quando só uma é usada, precisamos também do sentido bemol → sustenido.
 const ENHARMONIC_FLAT: Record<string, string> = {
   "C#": "Db", "D#": "Eb", "F#": "Gb", "G#": "Ab", "A#": "Bb",
+};
+const FLAT_TO_SHARP: Record<string, string> = {
+  Db: "C#", Eb: "D#", Gb: "F#", Ab: "G#", Bb: "A#",
 };
 function enharmonicKey(name: string): string {
   const m = name.match(/^([A-G][#b]?)(.*)$/);
@@ -84,16 +88,17 @@ function enharmonicKey(name: string): string {
 }
 
 export interface ChordColumn {
-  /** Rótulo do cabeçalho (ex: "D#/Eb"). */
-  label: string;
-  /** Grafias do grupo, por ordem de procura do shape (todas dão a mesma pega). */
+  /** Grafias a mostrar no cabeçalho (sustenido, bemol) — sempre ambas se a
+   *  raiz for acidente, mesmo que só uma seja usada. */
+  labelParts: string[];
+  /** Grafias usadas na colecção, para procurar o shape (todas dão a mesma pega). */
   names: string[];
 }
 
-// Junta grafias enarmónicas numa só coluna do apêndice: um diagrama, rótulo
-// com as grafias usadas (sustenido primeiro, "D#|Eb"). Separador "|" e não "/"
-// para não se confundir com a notação de baixo (slash chord). Colunas
-// ordenadas como sortChordNames (pela grafia de sustenido).
+// Junta grafias enarmónicas numa só coluna do apêndice: um diagrama, cabeçalho
+// com as duas grafias (sustenido primeiro, "D# • Eb"). Para acordes com raiz
+// acidente mostra sempre as duas grafias, mesmo que a colecção só use uma — o
+// shape vem da grafia usada. Colunas ordenadas pela grafia de sustenido.
 export function mergeEnharmonicColumns(names: string[]): ChordColumn[] {
   const groups = new Map<string, string[]>();
   for (const n of names) {
@@ -101,13 +106,19 @@ export function mergeEnharmonicColumns(names: string[]): ChordColumn[] {
     (groups.get(k) ?? groups.set(k, []).get(k)!).push(n);
   }
   const flatFirst = (n: string) => (/^[A-G]b/.test(n) ? 1 : 0);
-  const cols = [...groups.values()].map((members) => {
-    const ordered = [...members].sort((a, b) => flatFirst(a) - flatFirst(b));
-    return { label: ordered.join("|"), names: ordered };
+  const cols = [...groups.entries()].map(([key, members]) => {
+    const used = [...members].sort((a, b) => flatFirst(a) - flatFirst(b));
+    const m = key.match(/^([A-G][#b]?)(.*)$/)!;
+    const flatRoot = m[1], suffix = m[2];
+    const sharpRoot = FLAT_TO_SHARP[flatRoot];
+    const labelParts = sharpRoot
+      ? [sharpRoot + suffix, flatRoot + suffix] // acidente → # e b sempre
+      : [key]; // raiz natural → grafia única
+    return { labelParts, names: used };
   });
   return cols.sort((a, b) => {
-    const [ra, sa] = chordSortKey(a.names[0]);
-    const [rb, sb] = chordSortKey(b.names[0]);
+    const [ra, sa] = chordSortKey(a.labelParts[0]);
+    const [rb, sb] = chordSortKey(b.labelParts[0]);
     return ra - rb || sa.localeCompare(sb);
   });
 }
