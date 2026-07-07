@@ -446,6 +446,9 @@ function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>
   out += `#set page(columns: 1)\n`;
   out += `#let chart-chord-d = chart-chord.with(size: ${diagramSize}, font: sans-font, hold-color: blue)\n`;
   out += `#let chord-dash = text(fill: grey, size: 1.2em)[—]\n`;
+  // Separador de grafias enarmónicas (D# | Eb): cinzento e leve, com espaço,
+  // para se distinguir dos nomes de acorde (azuis, bold).
+  out += `#let enh-sep = text(fill: grey, weight: 400)[#h(0.22em)|#h(0.22em)]\n`;
   // Mini-teclado: 8 teclas brancas (uma oitava a partir da fundamental);
   // pw = índices das brancas premidas, blacks = ((posição, premida), ...)
   out += `#let piano-pressed = blue\n`;
@@ -506,7 +509,11 @@ function renderChordAppendix(songs: Song[], isA5: boolean, allowed?: Set<string>
     const chunk = columns.slice(start, start + chordsPerTable);
 
     const headerCells = chunk
-      .map((col) => `[#chord-text("${escLiteral(col.label)}")]`)
+      .map((col) =>
+        col.names.length === 1
+          ? `[#chord-text("${escLiteral(col.names[0])}")]`
+          : `[#{${col.names.map((n) => `chord-text("${escLiteral(n)}")`).join(" + enh-sep + ")}}]`
+      )
       .join(", ");
 
     const rows: string[] = [];
