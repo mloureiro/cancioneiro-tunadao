@@ -7,11 +7,27 @@ import {
   ChordPosition,
 } from "./types";
 
-// Padrão para detectar acordes: letra maiúscula + opcionais (# b m 7 maj dim aug sus add / etc.)
-// Aceita notação brasileira ("D7M", "C#m7/5-", "D7/9"), baixo alterado
-// ("G6/D") e baixo entre parêntesis (ex: "Em(E)") — baixo descendente.
-const CHORD_TOKEN_RE =
-  /^[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*M?(?:\/(?:[A-G][#b]?|\d+[+-]?))?(?:\([A-G][#b]?\))?$/;
+// Gramática de acordes, montada de peças partilhadas para que a detecção
+// (`CHORD_TOKEN_RE`, ancorada) e a extracção (`CHORD_EXTRACT_RE`, global)
+// nunca divirjam. Aceita, além do básico:
+//  - modificador depois do número: E7sus4, E7dim, Amaj7sus4
+//  - alteração entre parêntesis: Dm7(b5), G7(#5), C6(11+), D7(9-/13), Am(maj7)
+//  - alteração colada: F#m7b5, D7#9, E7b13, Bbm#5
+//  - aumentado com "+": G7+, B+, B5+
+//  - notação brasileira (D7M, C#m7/5-, D7/9), baixo alterado (G6/D),
+//    baixo entre parêntesis (Em(E) — descendente) e baixo com alteração (E7/b9)
+const NOTE = String.raw`[A-G][#b]?`;
+// Grupo entre parêntesis: (maj7) ou alterações numéricas — (b5) (#5) (9) (13) (5-) (11+) (9-/13) (4)
+const PAREN_MOD = String.raw`\((?:maj7|[0-9#b+\-\/]+)\)`;
+// Um sufixo de acorde (qualidade, número, alteração, M, ou grupo entre parêntesis)
+const CHORD_SUFFIX = String.raw`(?:maj|min|dim|aug|sus|add|m|M|[0-9]+|[#b][0-9]+|[0-9]+[#b+\-]|[+\-]|${PAREN_MOD})`;
+// Baixo: /nota ou /alteração (ex: C#m7/5-, E7/b9)
+const CHORD_BASS = String.raw`(?:\/(?:${NOTE}|[#b]?[0-9]+[#b+\-]?))`;
+// Baixo descendente entre parêntesis (ex: Em(E))
+const CHORD_PARBASS = String.raw`(?:\(${NOTE}\))`;
+const CHORD_CORE = `${NOTE}${CHORD_SUFFIX}*${CHORD_BASS}?${CHORD_PARBASS}?`;
+
+const CHORD_TOKEN_RE = new RegExp(`^${CHORD_CORE}$`);
 
 // Tokens decorativos permitidos numa linha de acordes: repetições
 // ("x2", "2x", "(x2)", "(2x)", "(bis)"), separadores soltos ("-", "|")
@@ -76,7 +92,7 @@ function extractChordPositions(chordLine: string): ChordPosition[] {
   // 2º passo: acordes normais no resto da linha. O baixo entre parêntesis
   // (ex: "Em(E)") é consumido pelo match (para não gerar um acorde
   // fantasma), mas removido do nome — o apêndice só conhece o acorde base.
-  const re = /[A-G][#b]?(?:m|min|maj|dim|aug|sus[24]?|add\d+)?[0-9]*M?(?:\/(?:[A-G][#b]?|\d+[+-]?))?(?:\([A-G][#b]?\))?/g;
+  const re = new RegExp(CHORD_CORE, "g");
   let match: RegExpExecArray | null;
   while ((match = re.exec(masked)) !== null) {
     positions.push({
@@ -175,10 +191,15 @@ function parseYamlHeader(lines: string[]): {
 }
 
 /**
- * Determina se uma secção type indica refrão.
+ * Determina se uma secção type indica refrão. Reconhece a família completa
+ * (com qualificador: "REFRÃO 2x", "REFRÃO vozes", "1º Refrão", "Refrão - X"),
+ * em sincronia com a classificação do layout — para que a regra "linha em
+ * branco fecha o refrão" também se aplique a estes. "Pré-Refrão" NÃO é refrão.
  */
 function isSectionChorus(type: string): boolean {
-  return type.toUpperCase() === "REFRÃO" || type.toUpperCase() === "REFRAO";
+  const t = type.trim();
+  if (/^pr[eé]/i.test(t)) return false;
+  return /^(\d+º\s*)?refr[ãa]o\b/i.test(t);
 }
 
 /**
@@ -423,10 +444,17 @@ function parsePartLines(lines: string[]): Section[] {
     // Linhas de passagem com conteúdo formatado (ex: "Pulp Fiction   A# A ...")
     // Estas aparecem como continuação de uma secção PASSAGEM
 
-    // Linha vazia — só adicionar se já temos uma secção activa
+    // Linha vazia. Numa secção-refrão, a linha em branco FECHA o refrão —
+    // o conteúdo a seguir volta a ser verso normal (não-bold), sem precisar
+    // de tag de fecho no ficheiro (as cifras ficam simples). Nas restantes
+    // secções, a linha em branco é apenas espaçamento interno.
     if (trimmed === "") {
       if (currentSection) {
+        const hasContent = currentSection.lines.some((l) => l.type !== "empty");
         currentSection.lines.push({ type: "empty" });
+        if (currentSection.isChorus && hasContent) {
+          currentSection = null;
+        }
       }
       i++;
       continue;
