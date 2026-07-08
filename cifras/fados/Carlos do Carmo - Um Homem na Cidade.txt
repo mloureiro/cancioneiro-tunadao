@@ -2,6 +2,7 @@
 titulo: Um Homem na Cidade
 artista: Carlos do Carmo
 tom: Cm
+afinação: Lisboa
 ---
 
 Dm7(b5)   G7  G7(#5)

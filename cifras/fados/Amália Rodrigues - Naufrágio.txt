@@ -2,6 +2,7 @@
 titulo: Naufrágio
 artista: Amália Rodrigues
 tom: Bb
+afinação: Lisboa
 ---
 
 Gm                 F

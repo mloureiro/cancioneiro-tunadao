@@ -2,6 +2,7 @@
 titulo: A Casa da Mariquinhas
 artista: Alfredo Marceneiro
 tom: D
+afinação: Lisboa
 ---
 
 [INTRO] D A Bm A D

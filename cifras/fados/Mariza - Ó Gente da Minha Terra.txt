@@ -2,6 +2,7 @@
 titulo: Ó Gente da Minha Terra
 artista: Mariza
 tom: Gm
+afinação: Lisboa
 ---
 
 (D7)        Gm   (D Db  C) G7/B

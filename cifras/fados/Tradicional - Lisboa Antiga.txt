@@ -2,6 +2,7 @@
 titulo: Lisboa Antiga
 artista: Tradicional (Lisboa)
 tom: Am
+afinação: Lisboa
 ---
 
 [VERSO]

@@ -2,6 +2,7 @@
 titulo: Indisposição
 artista: João Alves
 tom: a
+afinação: Lisboa
 ---
 
 [INTRO] (E A B7) 2x

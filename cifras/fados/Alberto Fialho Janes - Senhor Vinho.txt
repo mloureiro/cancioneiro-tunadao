@@ -2,6 +2,7 @@
 titulo: Senhor Vinho
 artista: Alberto Fialho Janes
 tom: D
+afinação: Lisboa
 ---
 
 [INTRO] G D G

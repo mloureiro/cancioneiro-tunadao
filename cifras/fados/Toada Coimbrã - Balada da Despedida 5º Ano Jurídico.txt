@@ -2,6 +2,7 @@
 titulo: Balada da Despedida 5º Ano Jurídico
 artista: Toada Coimbrã
 tom: d
+afinação: Coimbra
 ---
 
 

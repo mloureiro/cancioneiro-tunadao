@@ -2,6 +2,7 @@
 titulo: Canção do Mar
 artista: Dulce Pontes
 tom: Em
+afinação: Lisboa
 ---
 
 [INTRO] Em D/F# C Am B D#º

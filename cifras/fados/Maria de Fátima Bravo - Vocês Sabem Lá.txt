@@ -2,6 +2,7 @@
 titulo: Vocês Sabem Lá
 artista: Maria de Fátima Bravo
 tom: D
+afinação: Lisboa
 creditos: Compositor: Jerónimo Bragança
 ---
 

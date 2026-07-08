@@ -2,6 +2,7 @@
 titulo: Garça Perdida
 artista: Leonardo Amuedo
 tom: Am
+afinação: Lisboa
 creditos: Música: Leonardo Amuedo; Letra: João Mendonça; Canta: Dulce Pontes
 ---
 

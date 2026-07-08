@@ -2,6 +2,7 @@
 titulo: Coimbra (Abril em Portugal)
 artista: Amália Rodrigues
 tom: A
+afinação: Coimbra
 ---
 
 [INTRO] A  F#m  F  E7

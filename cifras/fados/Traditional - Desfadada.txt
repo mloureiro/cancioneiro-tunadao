@@ -2,6 +2,7 @@
 titulo: Desfadada
 artista: Traditional
 tom: F
+afinação: Lisboa
 ---
 
 (Medley de fados)

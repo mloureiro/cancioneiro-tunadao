@@ -2,6 +2,7 @@
 titulo: Flagrante
 artista: António Zambujo
 tom: E
+afinação: Lisboa
 ---
 
 [INTRO] E  F#  A  B  E

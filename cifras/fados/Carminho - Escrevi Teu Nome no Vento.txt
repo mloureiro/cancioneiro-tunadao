@@ -2,6 +2,7 @@
 titulo: Escrevi Teu Nome no Vento
 artista: Carminho
 tom: C
+afinação: Lisboa
 ---
 
 [INTRO] A7 Dm G7 C

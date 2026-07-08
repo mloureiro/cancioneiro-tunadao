@@ -2,6 +2,7 @@
 titulo: Com que Voz
 artista: Amália Rodrigues
 tom: Fm
+afinação: Lisboa
 ---
 
 Fm                      Bbm

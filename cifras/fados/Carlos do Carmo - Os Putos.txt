@@ -2,6 +2,7 @@
 titulo: Os Putos
 artista: Carlos do Carmo
 tom: E
+afinação: Lisboa
 ---
 
 [INTRO] F#m  G#  C#m  D#m  G#  C#m

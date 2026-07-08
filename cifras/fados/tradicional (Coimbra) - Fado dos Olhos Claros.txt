@@ -2,6 +2,7 @@
 titulo: Fado dos Olhos Claros
 artista: tradicional (Coimbra)
 tom: Dm
+afinação: Coimbra
 ---
 
 [INTRO] Dm A A Dm | D Gm Dm A Dm

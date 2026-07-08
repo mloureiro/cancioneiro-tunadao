@@ -2,6 +2,7 @@
 titulo: Poetas do meu país
 artista: Katia Guerreiro
 tom: G
+afinação: Lisboa
 ---
 
 

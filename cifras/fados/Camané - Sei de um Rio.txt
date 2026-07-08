@@ -2,6 +2,7 @@
 titulo: Sei de um Rio
 artista: Camané
 tom: F#m
+afinação: Lisboa
 ---
 
   C#7

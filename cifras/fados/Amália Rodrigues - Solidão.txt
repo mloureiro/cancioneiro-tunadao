@@ -2,6 +2,7 @@
 titulo: Solidão
 artista: Amália Rodrigues
 tom: Em
+afinação: Lisboa
 ---
 
 [INTRO] Em  F#m7b5  B7

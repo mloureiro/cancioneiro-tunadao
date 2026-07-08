@@ -2,6 +2,7 @@
 titulo: Saudades de Coimbra (Do Choupal até à Lapa)
 artista: Tradicional (Coimbra)
 tom: Fm
+afinação: Coimbra
 ---
 
 Fm               C    C#

@@ -2,6 +2,7 @@
 titulo: Saudade
 artista: E. Damas & F. Carvalho
 tom: d
+afinação: Lisboa
 ---
 
 [INTRO]                F#m , B , E , A , B7 , E , Em
