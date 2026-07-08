@@ -2,6 +2,7 @@
 titulo: Leva-me aos Fados
 artista: Ana Moura
 tom: Bb
+afinação: Lisboa
 ---
 
 [INTRO] G C Am G Bb7 Cm

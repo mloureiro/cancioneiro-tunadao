@@ -2,6 +2,7 @@
 titulo: Meu Fado Meu
 artista: Mariza
 tom: Am
+afinação: Lisboa
 ---
 
 [INTRO] Em  F#7  Bm

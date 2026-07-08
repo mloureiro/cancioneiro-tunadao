@@ -2,6 +2,7 @@
 titulo: Meu Amor de Longe
 artista: Raquel Tavares
 tom: F
+afinação: Lisboa
 ---
 
 [INTRO] F  Dm  C  F  Dm  C

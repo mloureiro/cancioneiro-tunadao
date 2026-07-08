@@ -2,6 +2,7 @@
 titulo: Fado Hilário
 artista: tradicional (Coimbra)
 tom: D
+afinação: Coimbra
 ---
 
 [INTRO] D7 G D7 G

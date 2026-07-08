@@ -2,6 +2,7 @@
 titulo: Ó Tempo Volta para Trás
 artista: A Severa
 tom: A
+afinação: Lisboa
 ---
 
 [INTRO] D, A, E, A (x2)

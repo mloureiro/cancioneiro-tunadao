@@ -2,6 +2,7 @@
 titulo: Que Deus me Perdoe
 artista: Amália Rodrigues
 tom: Cm
+afinação: Lisboa
 ---
 
 [INTRO] Cm7 Fm Bb D# Gsus4 Cm Fm G Cm

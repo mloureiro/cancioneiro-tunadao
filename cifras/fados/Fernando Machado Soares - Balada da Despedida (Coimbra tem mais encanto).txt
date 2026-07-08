@@ -2,6 +2,7 @@
 titulo: Balada da Despedida (Coimbra tem mais encanto)
 artista: Fernando Machado Soares
 tom: Ab
+afinação: Coimbra
 ---
 
 [INTRO] Fm Bbm C# G7 C C7

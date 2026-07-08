@@ -2,6 +2,7 @@
 titulo: Ai Mouraria
 artista: Amália Rodrigues
 tom: Am
+afinação: Lisboa
 ---
 
 F       E7

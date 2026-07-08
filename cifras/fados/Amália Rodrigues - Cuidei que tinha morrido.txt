@@ -2,6 +2,7 @@
 titulo: Cuidei que tinha morrido
 artista: Amália Rodrigues
 tom: Am
+afinação: Lisboa
 creditos: Música de Amália Rodrigues
 ---
 

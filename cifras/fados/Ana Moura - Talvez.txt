@@ -2,6 +2,7 @@
 titulo: Talvez
 artista: Ana Moura
 tom: D
+afinação: Lisboa
 colunas: 1
 ---
 

@@ -2,6 +2,7 @@
 titulo: Havemos De Ir A Viana
 artista: Pedro Homem de Mello
 tom: A
+afinação: Lisboa
 ---
 
 [INTRO] D A E7 A

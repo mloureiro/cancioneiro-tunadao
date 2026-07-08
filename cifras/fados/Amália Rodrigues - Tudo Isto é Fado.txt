@@ -2,6 +2,7 @@
 titulo: Tudo Isto é Fado
 artista: Amália Rodrigues
 tom: Am
+afinação: Lisboa
 ---
 
 Am                   E7

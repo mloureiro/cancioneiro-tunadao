@@ -2,6 +2,7 @@
 titulo: Maria Lisboa
 artista: Amália Rodrigues
 tom: G
+afinação: Lisboa
 ---
 
 Em             Am

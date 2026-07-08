@@ -2,6 +2,7 @@
 titulo: Rosa Branca
 artista: Mariza
 tom: Bb
+afinação: Lisboa
 colunas: 1
 ---
 

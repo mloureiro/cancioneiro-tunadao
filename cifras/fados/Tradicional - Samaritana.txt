@@ -2,6 +2,7 @@
 titulo: Samaritana
 artista: Tradicional
 tom: C
+afinação: Lisboa
 ---
 
 [INTRO] C

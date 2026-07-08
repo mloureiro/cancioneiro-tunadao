@@ -2,6 +2,7 @@
 titulo: Barco Negro
 artista: Amália Rodrigues
 tom: A
+afinação: Lisboa
 creditos: Original: Amália Rodrigues
 ---
 

@@ -2,6 +2,7 @@
 titulo: Gaivota
 artista: Amália Rodrigues
 tom: Cm
+afinação: Lisboa
 ---
 
        G7    Cm

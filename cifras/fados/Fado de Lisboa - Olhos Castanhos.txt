@@ -2,6 +2,7 @@
 titulo: Olhos Castanhos
 artista: Fado de Lisboa
 tom: E
+afinação: Lisboa
 ---
 
 [REFRÃO]

@@ -2,6 +2,7 @@
 titulo: O Meu Menino é d'Oiro
 artista: tradicional (Coimbra)
 tom: A
+afinação: Coimbra
 ---
 
 [INTRO] D  A F#m  Bm E  A

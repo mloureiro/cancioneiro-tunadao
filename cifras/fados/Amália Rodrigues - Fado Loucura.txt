@@ -2,6 +2,7 @@
 titulo: Fado Loucura
 artista: Amália Rodrigues
 tom: Dm
+afinação: Lisboa
 ---
 
 Dm

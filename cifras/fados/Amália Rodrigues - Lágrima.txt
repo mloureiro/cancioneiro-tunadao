@@ -2,6 +2,7 @@
 titulo: Lágrima
 artista: Amália Rodrigues
 tom: D
+afinação: Lisboa
 colunas: 1
 ---
 

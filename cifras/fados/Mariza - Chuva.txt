@@ -2,6 +2,7 @@
 titulo: Chuva
 artista: Mariza
 tom: F#
+afinação: Lisboa
 ---
 
 [INTRO] F#  B9  F#  B9

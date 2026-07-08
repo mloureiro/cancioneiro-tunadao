@@ -2,6 +2,7 @@
 titulo: Povo que Lavas no Rio
 artista: Amália Rodrigues
 tom: Gm
+afinação: Lisboa
 ---
 
 [INTRO] F Bb Gm Eb D Gm

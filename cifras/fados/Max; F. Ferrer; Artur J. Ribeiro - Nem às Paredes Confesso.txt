@@ -2,6 +2,7 @@
 titulo: Nem às Paredes Confesso
 artista: Max; F. Ferrer; Artur J. Ribeiro
 tom: A
+afinação: Lisboa
 ---
 
 Artur J. Ribeiro)

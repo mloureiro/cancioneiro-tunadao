@@ -2,6 +2,7 @@
 titulo: À Meia-Noite ao Luar
 artista: Fado de Coimbra
 tom: E
+afinação: Coimbra
 ---
 
 [Inst] E , B7        (x2)

@@ -2,6 +2,7 @@
 titulo: Estranha Forma de Vida
 artista: Amália Rodrigues
 tom: Am
+afinação: Lisboa
 ---
 
 [INTRO] Am E7 Am
