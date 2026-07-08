@@ -88,3 +88,50 @@ Já recuperadas: Tirana, Ana Lee, Sub-16, Sangue Oculto (musica-e-acordes), + Va
 ---
 
 **Total em falta: 67.**
+
+---
+
+# Passe 2026-07-08 — nova lista (P–Y)
+
+Lista de 93 músicas (Paulo Gonzo → Yellow W Van). **Recuperadas 60** por curl (CifraClub + cifras.com.br) e recolha manual de fontes alternativas (cifras.pt, guitaretab, blog Correcaminhos). Restam **33**: 2 existem mas só atrás de Cloudflare/Ultimate-Guitar (precisam de passe pelo navegador), 31 não têm cifra em lado nenhum (só letra ou tablatura).
+
+_Última verificação: 2026-07-08._
+
+## Precisam de navegador (cifra existe, bloqueada por Cloudflare/UG)
+
+- [ ] Pedro Abrunhosa - Socorro
+- [ ] UHF - Matas-me Com o Teu Olhar
+
+## Sem cifra (só letra ou tablatura; inexistente)
+
+- [ ] Pedro Abrunhosa - Não Posso Mais
+- [ ] Pinto Ferreira - Violinos no Telhado
+- [ ] Pluto - Bem Vindo a Ti
+- [ ] Pluto - Lição de Adição
+- [ ] Pluto - Liders & Filhos Lda
+- [ ] Pluto - O 2 Vem Sempre Depois
+- [ ] Pluto - Prisão
+- [ ] Pluto - Segue-me à Luz
+- [ ] Pluto - Só Mais um Começo
+- [ ] Pólo Norte - Amor é...
+- [ ] Quinta do Bill - Chamar-te a Mim
+- [ ] Quinta do Bill - Senhora Maria do Olival
+- [ ] Rita Laranjeira - Jump
+- [ ] Ritual Tejo - Nascer Outra Vez
+- [ ] Ritual Tejo - Saudade
+- [ ] Ritual Tejo - Três Vidas
+- [ ] Rodolfo Figueiredo - Desalinhados
+- [ ] Rui Veloso - A Minha Namorada Até Fala Estrangeiro
+- [ ] Rui Veloso - Fio de Beque
+- [ ] Sergio Godinho - Bomba-Relógio
+- [ ] Stereossauro - Mar de Gente
+- [ ] Susana Félix - Amanhecer
+- [ ] Toranja - Sangue Que Ficou
+- [ ] TV Rural - Em Menos de Meia Hora
+- [ ] Virgem Suta - Exporto Tristeza
+- [ ] Virgem Suta - Luso Gentleman
+- [ ] Virgem Suta - Maria Alice
+- [ ] Virgem Suta - Ressaca
+- [ ] Xutos & Pontapés - Fim do Mês
+- [ ] Xutos & Pontapés - Melga
+- [ ] Yellow W Van - O Que Eu Penso é o Que Eu Falo
