@@ -32,6 +32,8 @@ export interface Song {
     tom: string;
     artista?: string;
     subtitulo?: string;
+    /** Afinação/contexto (ex: "Coimbra", "Lisboa"). Etiqueta de display, não transpõe. */
+    afinacao?: string;
     /** Número de colunas para esta música (1 ou 2). Default: 2. */
     colunas?: number;
   };
