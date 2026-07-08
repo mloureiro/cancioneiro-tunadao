@@ -203,6 +203,18 @@ function isSectionChorus(type: string): boolean {
 }
 
 /**
+ * Determina se uma secção type é da família refrão OU pré-refrão. Usado para
+ * detectar remissões "vazias": um [REFRÃO]/[PRÉ-REFRÃO] sem conteúdo próprio
+ * (linha em branco logo a seguir) é uma referência ao refrão já mostrado, não
+ * um cabeçalho que agrupa o verso seguinte.
+ */
+function isChorusFamilyTag(type: string): boolean {
+  const t = type.trim();
+  if (/^pr[eé]-?\s*refr[ãa]o\b/i.test(t)) return true;
+  return isSectionChorus(t);
+}
+
+/**
  * Verifica se uma linha é o início de um marcador [parte: ...] ou [tom: ...]
  */
 function parsePartMetadata(
@@ -424,6 +436,20 @@ function parsePartLines(lines: string[]): Section[] {
           i++;
         } else {
           break;
+        }
+      }
+
+      // Remissão de refrão/pré-refrão "vazia": um [REFRÃO] ou [PRÉ-REFRÃO] sem
+      // conteúdo próprio (linha em branco logo a seguir, ou fim de ficheiro) é
+      // uma referência ao refrão já mostrado — fecha-se de imediato para o
+      // verso seguinte não ser absorvido como parte do refrão.
+      if (
+        isChorusFamilyTag(sectionHeader.sectionType) &&
+        currentSection.lines.length === 0
+      ) {
+        const next = lines[i];
+        if (next === undefined || next.trim() === "") {
+          currentSection = null;
         }
       }
       continue;

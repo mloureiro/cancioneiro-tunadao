@@ -560,3 +560,60 @@ describe("parseSongContent — continuações indentadas de secções", () => {
     expect(line.chords!.map((c) => c.chord)).toEqual(["C", "G"]);
   });
 });
+
+describe("remissão de refrão vazia (bare [REFRÃO]/[PRÉ-REFRÃO])", () => {
+  const header = "---\ntitulo: T\ntom: D\n---\n\n";
+
+  it("[REFRÃO] vazio (linha em branco a seguir) não absorve o verso seguinte", () => {
+    const song = parseSongContent(
+      header +
+        "[REFRÃO]\nEstava a assar sardinhas\nCom o lume a arder\n\n" +
+        "[REFRÃO]\n\nVindo eu da cidade\nDa cidade de Viseu\n"
+    );
+    const secs = song.parts[0].sections;
+    const chorus = secs.filter((s) => s.isChorus);
+    // dois cabeçalhos de refrão: o 1º com conteúdo, o 2º vazio (remissão)
+    expect(chorus).toHaveLength(2);
+    expect(chorus[0].lines.some((l) => l.type === "lyrics")).toBe(true);
+    expect(chorus[1].lines.some((l) => l.type === "lyrics")).toBe(false);
+    // o verso a seguir à remissão NÃO é refrão
+    const verse = secs.find(
+      (s) => !s.isChorus && s.lines.some((l) => l.lyrics === "Vindo eu da cidade")
+    );
+    expect(verse).toBeDefined();
+    expect(verse!.isChorus).toBe(false);
+  });
+
+  it("[REFRÃO] vazio no fim do ficheiro fecha sem erro", () => {
+    const song = parseSongContent(
+      header + "[REFRÃO]\nLinha do refrão\n\n[REFRÃO]\n"
+    );
+    const chorus = song.parts[0].sections.filter((s) => s.isChorus);
+    expect(chorus).toHaveLength(2);
+    expect(chorus[1].lines.some((l) => l.type === "lyrics")).toBe(false);
+  });
+
+  it("[REFRÃO] com conteúdo imediato (sem linha em branco) continua a agrupar", () => {
+    const song = parseSongContent(
+      header + "[REFRÃO]\nEstava a assar sardinhas\nCom o lume a arder\n"
+    );
+    const refrao = song.parts[0].sections.find((s) => s.isChorus)!;
+    expect(refrao.lines.filter((l) => l.type === "lyrics")).toHaveLength(2);
+  });
+
+  it("[PRÉ-REFRÃO] vazio não absorve o verso seguinte", () => {
+    const song = parseSongContent(
+      header +
+        "[PRÉ-REFRÃO]\nSobe a montanha\n\n[PRÉ-REFRÃO]\n\nOutro verso qualquer\n"
+    );
+    const secs = song.parts[0].sections;
+    const pre = secs.filter((s) => /^pr[eé]/i.test(s.type));
+    expect(pre).toHaveLength(2);
+    expect(pre[1].lines.some((l) => l.type === "lyrics")).toBe(false);
+    const verse = secs.find((s) =>
+      s.lines.some((l) => l.lyrics === "Outro verso qualquer")
+    );
+    expect(verse).toBeDefined();
+    expect(/^pr[eé]/i.test(verse!.type)).toBe(false);
+  });
+});
