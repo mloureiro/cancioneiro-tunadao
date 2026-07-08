@@ -6,6 +6,7 @@ tom: G
 
 [INTRO] G D7 Em B7 C G D7 G
 
+[REFRÃO]
 G                    D7
 Canta mi pueblo, canta mi gente,
 Em                B7
@@ -32,14 +33,7 @@ todo el mundo baila conga
 Am        D7        G
 cuando Julio toca conga.
 
-G                    D7
-Canta mi pueblo, canta mi gente,
-Em                B7
-canta en Enero, canta en Diciembre,
-C              G
-canta mi pueblo, canta mi gente,
-D7        G
-son borinqueño.
+[REFRÃO]
 
 G
 Oye, que la fiesta ya empezó.

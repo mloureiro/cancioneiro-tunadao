@@ -24,6 +24,8 @@ La barrera de fuego
       Am   D
 Una frontera
 
+[REFRÃO]
+
 Ao fugir da própria vida
 Sem correr e sem saltar
 Oculto sangue que tenho para dar
@@ -33,9 +35,7 @@ Correran esntre mis veras
 Ardem como el desejo
 Tu vision en mi caberas
 
-Ao fugir da própria vida
-Sem correr e sem saltar
-Oculto sangue que tenho para dar
+[REFRÃO]
 
 F   G   Am
 F   G   Am  D
@@ -49,8 +49,8 @@ Ao deixar la própria vida
 Sem volver la pista atrás
 Guardaré la sangre
 Que tengo para dar
-Voltar à lista de cifras de  GNR 
-
-
-
-                      
+Voltar à lista de cifras de  GNR 
+
+
+
+                      

@@ -27,6 +27,8 @@ Quem sabe se te amo
                G    (G A B)
 Talvez só o padeiro
 
+[REFRÃO]
+
                  Em
 **Não esqueço a saudade**
                     B
@@ -73,21 +75,4 @@ Quem sabe se te adoro
                G       (G A B)
 Num beijo prometido
 
-                 Em
-**Não esqueço a saudade**
-                    B
-**É verdade, eu não nego**
-
-**Mando embora a tristeza**
-                    Em
-**Na certeza que te levo**
-                      E7
-**E se eu ficar esquecido**
-                         Am Cm
-**Entre um beijo que te dou**
-                  G
-**Podes mandar-me embora**
-                D
-**Pra sempre ou agora**
-                    G
-**Sabes bem que não vou**
+[REFRÃO]

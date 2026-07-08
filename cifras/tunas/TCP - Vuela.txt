@@ -54,6 +54,8 @@ F#m          D         E         F#m
   Rompe el silencio, la voz de un alma triste que te
     E    E7
   espera.
+
+[REFRÃO]
          A                        D
   Yo que voy a hacer si muero de amor por ti
                 E7                       A            C#7
@@ -68,10 +70,7 @@ F#m          D         E         F#m
             E7
   no se que sera.
 
-            A                      D
-  Yo que voy a hacer si muero de amor por ti
-                E7                            A      C#7
-  ya nada es lo mismo, mi vida desde que tu no estas.
+[REFRÃO]
 
          F#m                             D
   Y me tienes, soñando despierto en las noches
@@ -99,10 +98,7 @@ Sube el deseo, aumenta en la distancia tu recuerdo
 D      C#m      Bm                            M  i E7
 dale paloma, consuela un alma triste que te espera.
 
-       A                        D
-  Yo que voy a hacer si muero de amor por ti
-                E7                       A            C#7
-  ya nada es lo mismo, mi vida desde que tu no estas.
+[REFRÃO]
 
          F#m
   Son tus ojos, que me han embrujado
@@ -113,10 +109,7 @@ dale paloma, consuela un alma triste que te espera.
             E7
   no se que sera.
 
-            A                      D
-  Yo que voy a hacer si muero de amor por ti
-                E7                            A      C#7
-  ya nada es lo mismo, mi vida desde que tu no estas.
+[REFRÃO]
 
          F#m                             D
   Y me tienes, soñando despierto en las noches

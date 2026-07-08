@@ -17,14 +17,7 @@ Te ter e ter que esquecer
 C#m
   É insuportável é dor incrível
 
-B
-Te ver e não te querer
-C#m
-  É improvável é impossível
-B
-Te ter e ter que esquecer
-C#m
-  É insuportável é dor incrível
+[REFRÃO]
 
 ( B  C#m  B  C#m )
 
@@ -39,14 +32,6 @@ B                                        C#m
 É ver o céu se abrir no estio e não se animar
 
 [REFRÃO]
-B
-Te ver e não te querer
-C#m
-  É improvável é impossível
-B
-Te ter e ter que esquecer
-C#m
-  É insuportável é dor incrível
 
 ( B  C#m  B  C#m )
 
@@ -61,23 +46,8 @@ B                               C#m
 É como procurar no mato estrela do mar
 
 [REFRÃO]
-B
-Te ver e não te querer
-C#m
-  É improvável é impossível
-B
-Te ter e ter que esquecer
-C#m
-  É insuportável é dor incrível
 
-B
-Te ver e não te querer
-C#m
-  É improvável é impossível
-B
-Te ter e ter que esquecer
-C#m
-  É insuportável é dor incrível
+[REFRÃO]
 
 ( B  C#m  B  C#m )
 
@@ -101,20 +71,5 @@ B                                      C#m
 Depois que o coração detecta a mais fina flor
 
 [REFRÃO]
-B
-Te ver e não te querer
-C#m
-  É improvável é impossível
-B
-Te ter e ter que esquecer
-C#m
-  É insuportável é dor incrível
 
-B
-Te ver e não te querer
-C#m
-  É improvável é impossível
-B
-Te ter e ter que esquecer
-C#m
-  É insuportável é dor incrível
+[REFRÃO]

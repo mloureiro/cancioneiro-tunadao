@@ -32,6 +32,8 @@ Não é no fado só
 
 Mas que saudade eu tenho
 
+[REFRÃO]
+
     C#
 Oh, que saudade eu tenho
            Bb
@@ -74,21 +76,7 @@ Não é no fado só
 
 Mas que saudade eu tenho
 
-    C#
-Oh, que saudade eu tenho
-          Bb
-Do cheiro das manhãs de inverno
-
-Pensei que fosse eterno
-
-    C#
-Oh, que saudade eu tenho
-         Bb
-Daquelas noites de verão
-                      C#
-Havia sempre solução, para nós
-Bb
-Havia
+[REFRÃO]
 
 C#
 Oh, não sei se tu sabes que tudo muda
@@ -106,21 +94,7 @@ E não há nada
 
 Nada a fazer
 
-    C#
-Oh, que saudade eu tenho
-          Bb
-Do cheiro das manhãs de inverno
-
-Pensei que fosse eterno
-
-    C#
-Oh, que saudade eu tenho
-         Bb
-Daquelas noites de verão
-                      C#
-Havia sempre solução, para nós
-Bb
-Havia
+[REFRÃO]
 
 Mas que saudade, saudade do tempo
 

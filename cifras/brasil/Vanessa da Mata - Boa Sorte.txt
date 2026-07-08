@@ -58,22 +58,6 @@ And what I feel
 Won't change
 
 [REFRÃO]
-                    C#m7
-Tudo o que quer me dar
-     E
-É demais
-     B
-É pesado
-        F#
-Não há paz
-                    C#m7
-Tudo o que quer de mim
-    E
-Irreais
-        B
-Expectativas
-     F#
-Desleais
 
 [SOLO]
 C#m7  B  F#
@@ -122,22 +106,6 @@ All you want
 All you want
 
 [REFRÃO]
-                    C#m7
-Tudo o que quer me dar
-     E
-É demais
-     B
-É pesado
-        F#
-Não há paz
-                    C#m7
-Tudo o que quer de mim
-    E
-Irreais
-        B
-Expectativas
-     F#
-Desleais
 
 [FINAL]
            C#m7

@@ -28,6 +28,8 @@ No meu barco à vela já vejo a janela
           A          Dm
 Que a lua tenta iluminar
 
+[REFRÃO]
+
      Gm             C
 **Meu barco está perdido**
        Gm        C
@@ -59,14 +61,7 @@ No meu barco à vela já vejo a janela
         A              Dm
 Que a lua tenta iluminar
 
-     Gm             C
-**Meu barco está perdido**
-       Gm        C
-**Já perdeu a direção**
-    Gm              C
-**Só sente o vento ameno**
-     Gm      E        A
-**Do bater do teu coração**
+[REFRÃO]
 
 D                   E
 Vamos lá cambada, todos à molhada

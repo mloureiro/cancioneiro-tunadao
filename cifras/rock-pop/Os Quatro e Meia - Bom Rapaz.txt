@@ -20,6 +20,7 @@ Lava a roupa, dá comida
 D7
 Faz de mim um incapaz
 
+[REFRÃO]
                Am  G  D7
 Mas eu sou um bom rapaz
 Am  G  D7
@@ -39,10 +40,7 @@ Que me liga de hora a hora
 D7
 Porque eu sou um incapaz
 
-               Am  G  D7
-Mas eu sou um bom rapaz
-Am  G  D7
-Bom rapaz!
+[REFRÃO]
 
 Am        G       D7
 Acho que já sou capaz

@@ -77,6 +77,7 @@ O meu lugar
                    B
 Porque até aqui eu só
 
+[REFRÃO]
 F#        E 
 Estou bem aonde não estou
              B
@@ -122,37 +123,4 @@ Aonde não estou
 Aonde não estou
 (F#  E  B  C#)
 
-F#        E 
-Estou bem aonde não estou
-             B
-Porque eu só quero ir
-C#
-Aonde não vou
-             F# 
-Porque eu só estou bem
-E
-Aonde não estou
-             B
-Porque eu só quero ir
-C#
-Aonde não vou
-             F# 
-Porque eu só estou bem
-E
-Aonde não estou
-             B
-Porque eu só quero ir
-C#
-Aonde não vou
-F# 
-Porque eu só estou bem
-E
-Aonde não estou
-             B
-Porque eu só quero ir
-C#
-Aonde não vou
-
-Porque eu só estou bem
-          F# 
-Aonde não estou
+[REFRÃO]

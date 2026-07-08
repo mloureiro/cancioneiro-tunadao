@@ -6,6 +6,7 @@ tom: D
 
 [Intro] F
 
+[REFRÃO]
          Bb                  Eb
 Muda de vida, se tu não vives satisfeito
          Bb                  F7
@@ -24,14 +25,7 @@ Será de ti, ou pensas que tens
          F
 Que ser assim
 
-         Bb                  Eb
-Muda de vida, se tu não vives satisfeito
-         Bb                  F7
-Muda de vida, estás sempre a tentar mudar
-         Bb                  Eb
-Muda de vida, não deves viver contrafeito
-         Bb                  F7
-Muda de vida, se há vida em ti a latejar
+[REFRÃO]
 
                Bb             Eb
 Olha que a vida não é, nem deve ser

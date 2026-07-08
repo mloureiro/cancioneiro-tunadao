@@ -18,6 +18,8 @@ A                           C#m       E  F#m
 D             C#m
 Ska, Ska, Ska
 
+[REFRÃO]
+
 A          C#m
 Despe, despe-te à Verão
 F#m                     D
@@ -53,15 +55,6 @@ Bm                       F#m
 Rock, rock, rock, rocksteady
 
 [Refrão]
-
-A                           C#m       E  F#m
-É o som nacional, Despe e Siga onda Ska
-D
-Ska, Ska, Ska
-A                           C#m       E  F#m
-É o som nacional, Despe e Siga onda Ska
-D             C#m
-Ska, Ska, Ska
 
 A                       C#m
 Com a batida forte a subir até às 10
@@ -130,22 +123,4 @@ Para acabar com o serviço informativo
 Segue um som e um tema puro e duro
 Com Despe e Siga e muito sexo seguro
 
-[Refrão]
-
-A                           C#m       E  F#m
-É o som nacional, Despe e Siga onda Ska
-D
-Ska, Ska, Ska
-A                           C#m       E  F#m
-É o som nacional, Despe e Siga onda Ska
-D             C#m
-Ska, Ska, Ska
-
-A          C#m
-Despe, despe-te à Verão
-F#m                     D
-Enche, um copo ao teu irmão
-A              C#m
-Siga, que quem dança tem mulher!
-Bm                              Dm
-Dança Ska dança, de Lagos até Bragança
+[REFRÃO]

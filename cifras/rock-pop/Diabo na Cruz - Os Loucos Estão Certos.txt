@@ -27,6 +27,8 @@ As cheias estão à porta
                                 C
 O António das chamuças mudou de canal
 
+[REFRÃO]
+
 F
 Os loucos estão certos
 F
@@ -57,12 +59,7 @@ Os putos comem ratos
                                      C
 Na igreja de São Torpes hoje há bacanal
 
-F
-Os loucos estão certos
-F
-É preciso ouvi-los
-         C                     F
-Foram avisados não nos querem mal
+[REFRÃO]
 
 Dm
 Ai, ai, ai

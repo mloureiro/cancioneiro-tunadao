@@ -27,6 +27,8 @@ São o fim da escuridão
 Bm           G              A
 Atrás de nós não ficou nada
 
+[REFRÃO]
+
 Em           A     D/F#  Bm
 A glória do mundo, aleluia!
 Em A D/F# C
@@ -57,11 +59,4 @@ No império que deus quis
 Bm           G              A
 Atrás de nós não ficou nada
 
-Em           A     D/F#  Bm
-A glória do mundo, aleluia!
-Em A D/F# C
-Está no mistério do senhor
-Em           A     D/F#  Bm
-A glória do mundo, aleluia!
-Em A D
-Salvé no reino do amor
+[REFRÃO]

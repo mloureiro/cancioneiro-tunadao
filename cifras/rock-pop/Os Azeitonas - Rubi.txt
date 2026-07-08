@@ -22,6 +22,7 @@ Formas de te abordar
 C/C#                     B
 Frente a frente eu te comtemplo
 
+[REFRÃO]
 Am
 Amanhã cai a noite
 Am                   C/G
@@ -57,19 +58,4 @@ Nas paredes do teu quarto retratados
 C/C#            B
 Se que te vias assim
 
-Am
-Amanhã cai a noite
-Am                   C/G
-E cais nos braços de outro alguém
-                           Em
-Sem saberes que sofro em solidão
-Em   G         Am     C
-Como posso resistir
-C      Em   G       Am    C
-se eu te amo noutra dança
-C                Em
-Quando me levas até ao Bolchoi,
-G                Am           C
-À Opera, ao Scala de Milão…
-   Em
-Em sonhos
+[REFRÃO]

@@ -27,14 +27,7 @@ Recordações do passado
 Am        D       G
 O bater da velha cabra
 
-   G             B7        C
-**Capa negra de saudade**
-       D           G
-**No momento da partida**
-     G           B7        C
-**Segredos desta cidade**
-       D         G
-**Levo comigo pra vida**
+[REFRÃO]
 
    G             B7        C
 **Capa negra de saudade**
@@ -44,6 +37,8 @@ O bater da velha cabra
 **Segredos desta cidade**
        D         G
 **Levo comigo pra vida**
+
+[REFRÃO]
 
 [PASSAGEM]   G Em Bm C Am D
              G Em Bm C D G
@@ -68,11 +63,4 @@ Recordações do passado
 Am        D       G
 O bater da velha cabra
 
-   G             B7     C
-**Capa negra de saudade**
-       D           G
-**No momento da partida**
-     G           B7     C
-**Segredos desta cidade**
-       D         G
-**Levo comigo pra vida**
+[REFRÃO]

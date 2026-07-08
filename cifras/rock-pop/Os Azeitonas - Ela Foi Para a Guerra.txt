@@ -33,6 +33,8 @@ De tantas mulheres que há por aí
          F           E
 Arranjei uma com sentido de missão
 
+[REFRÃO]
+
 A           C#m
 Ela foi pra guerra
         F#m                F
@@ -71,14 +73,7 @@ De tantas mulheres que há por aí
          F           E
 Arranjei uma com sentido de missão
 
-A           C#m
-Ela foi pra guerra
-        F#m                F
-Diz que vai lutar por um mundo melhor
-A           C#m
-Ela foi pra guerra
-      F#m              F         E
-E deixou-me aqui a combater pelo nosso amor
+[REFRÃO]
 
 ( A  C#m  F#m  F )  (2X)
 

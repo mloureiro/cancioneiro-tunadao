@@ -22,6 +22,7 @@ Queremos tudo
       F#m
 Mas vivemos tudo a sós
 
+[REFRÃO]
 D
 A terra gira em contramão
 E
@@ -51,16 +52,7 @@ Queremos tudo
       F#m
 Mas vivemos tudo a sós
 
-D
-A terra gira em contramão
-E
-Ficamos tontos sem direção
-A                         F#m
-Corremos até nos faltar o ar
-    D                        E
-E a vida vai ficando p'ra depois
-   A                        F#m
-E continuamos os dois a sonhar
+[REFRÃO]
 
 ( D  E  A  F#m )
 ( D  E  A  F#m )
@@ -76,16 +68,7 @@ E a vida vai ficando p'ra depois
    A                        F#m
 E continuamos os dois a sonhar
 
-D
-A terra gira em contramão
-E
-Ficamos tontos sem direção
-A                         F#m
-Corremos até nos faltar o ar
-    D                        E
-E a vida vai ficando p'ra depois
-   A                        F#m
-E continuamos os dois a sonhar
+[REFRÃO]
 
     D                     E
 E continuamos os dois e continuamos os dois

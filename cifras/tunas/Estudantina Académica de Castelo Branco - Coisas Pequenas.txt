@@ -31,6 +31,7 @@ coisa pequena
                       E7
 que nada é maior que amar.
 
+[REFRÃO]
     Am
 E a hora
 que te espreita
@@ -63,32 +64,4 @@ que esperaste a vida inteira,
 
 [Inst]
 
-    Am
-E a hora
-que te espreita
-     Dm
-é só tua.
-  G
-Decerto, não será
-         C
-só a que resta;
-  Dm
-a hora
-que esperei a vida toda,
-  E7     Dm    E7
-é esta.
-
-    Am
-E a hora
-que te espreita
-       Dm
-é derradeira.
-  G
-Decerto já bateu
-      C
-à tua porta.
-  Dm
-A hora
-que esperaste a vida inteira,
-   E7    Dm   E7   Am
-é agora.
+[REFRÃO]
