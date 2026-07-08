@@ -34,7 +34,7 @@ E uma estátua
                            A7
 E uma estátua de febre a arder
 
-[PASSAGEM]   Dm C Dm C  }
+[Inst]   Dm C Dm C  }
              Dm C Dm A7 } 2x
 
           Dm
@@ -46,7 +46,7 @@ E não há quem lhe queira valer
         C                  Dm    A7
 E não há quem lhe queira valer
 
-[PASSAGEM]   Dm C Dm C  }
+[Inst]   Dm C Dm C  }
              Dm C Dm A7 } 2x
 
 Dm                C
@@ -76,7 +76,7 @@ Ninguém vai
                                A7
 Ninguém vai levantá-lo do chão
 
-[PASSAGEM]   Dm C Dm C  }
+[Inst]   Dm C Dm C  }
              Dm C Dm A7 } 2x
 
        Dm

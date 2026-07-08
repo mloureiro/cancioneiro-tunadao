@@ -42,7 +42,7 @@ Não lhe contes o passado
                       F
 Que tem muito que contar
 
-[PASSAGEM]   C F C Fm
+[Inst]   C F C Fm
 
 Juraste amor ao primeiro
                  C

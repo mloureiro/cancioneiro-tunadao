@@ -42,7 +42,7 @@ Com sete palmos de terra
        Dm7        G
 Se constrói uma cabana
 
-[PASSAGEM] C G F G  C G F G
+[Inst] C G F G  C G F G
 
 F                   C/E
 Tu trabalhas todo o ano
@@ -71,7 +71,7 @@ Mas nada o prende ao presente
        Dm7        G
 Se só ele é o enganado
 
-[PASSAGEM] C G F G  C G F G
+[Inst] C G F G  C G F G
 
 C                 C/B
 Oito mil horas contadas
@@ -109,7 +109,7 @@ Deixas tudo à dependura
        Dm7        G
 Quando na presa reparas
 
-[PASSAGEM] C G F G  C G F G
+[Inst] C G F G  C G F G
 
 F               C/E
 Das eleições acabadas
@@ -138,7 +138,7 @@ Dizem que o mundo só anda
         Dm7           G
 Tendo à frente um capataz
 
-[PASSAGEM] C G F G  C G F G
+[Inst] C G F G  C G F G
 
 C                  C/B
 Eram mulheres e crianças

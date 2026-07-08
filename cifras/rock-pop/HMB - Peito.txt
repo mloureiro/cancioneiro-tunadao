@@ -59,7 +59,7 @@ Meu coração torna-se inquieto
      Bm7          A9
 Quando estás por perto
 
-[PASSAGEM] Gmaj7 Bm7 Gmaj7 Bm7
+[Inst] Gmaj7 Bm7 Gmaj7 Bm7
 
 [SEGUNDA PARTE]
 
@@ -89,8 +89,8 @@ Tem atenção
 
 [REFRÃO]
 
-[PASSAGEM] Gmaj7 Em7 Bm7 A9
-[PASSAGEM] Gmaj7 Em7 Bm7 A9
+[Inst] Gmaj7 Em7 Bm7 A9
+[Inst] Gmaj7 Em7 Bm7 A9
 
 [SAÍDA]
 

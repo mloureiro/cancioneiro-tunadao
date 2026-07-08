@@ -48,10 +48,10 @@ Talvez só o padeiro
                     G
 **Sabes bem que não vou**
 
-[PASSAGEM]       D7 Gm D7 Gm
+[Inst]       D7 Gm D7 Gm
 La Cumparsita    Cm Gm D7 Gm D7
 
-[PASSAGEM]   F F# G (3x)
+[Inst]   F F# G (3x)
              G Gdim7 Am D G
              E Am Cm
              G D G

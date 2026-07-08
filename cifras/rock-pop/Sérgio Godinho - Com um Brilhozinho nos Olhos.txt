@@ -106,7 +106,7 @@ Portanto
                  G
 Hoje soube-me a pouco
 
-[PASSAGEM] ( G  C ) ( G  G7 )
+[Inst] ( G  C ) ( G  G7 )
 
 C                     Em/B
 Com um brilhozinho nos olhos
@@ -168,7 +168,7 @@ E com um brilhozinho nos olhos
          C#               G#
 Ficamos imoveis a dar uma de tête a tête
 
-[PASSAGEM] ( G  C ) ( G  G7 )
+[Inst] ( G  C ) ( G  G7 )
 
    C                  Em/B
 E com um brilhinho nos olhos

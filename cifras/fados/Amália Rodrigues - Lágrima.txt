@@ -16,7 +16,7 @@ No meu peito, já me ficou no meu peito
         A7                       D
 Este jeito, o jeito de te querer tanto
 
-[PASSAGEM] D F#m Em A7 D
+[Inst] D F#m Em A7 D
 
        D                      A
 Desespero, tenho por meu desespero
@@ -27,7 +27,7 @@ Não te quero, eu digo que não te quero
           A7                   D
 E de noite, de noite sonho contigo
 
-[PASSAGEM] D F#m Em A7 D
+[Inst] D F#m Em A7 D
 
            D                     A
 Se considero que um dia hei-de morrer
@@ -38,7 +38,7 @@ Estendo o meu xaile, estendo o meu xaile no chão
               A7                     D
 Estendo o meu xaile e deixo-me adormecer
 
-[PASSAGEM] D F#m Em A7 D
+[Inst] D F#m Em A7 D
 
             D                          A
 Se eu soubesse, se eu soubesse que morrendo
@@ -49,7 +49,7 @@ Por uma lágrima, por uma lágrima tua
           A7               D
 Que alegria me deixaria matar
 
-[PASSAGEM] D A7 D
+[Inst] D A7 D
 
          D                    A
 Uma lágrima, por uma lágrima tua

@@ -76,7 +76,7 @@ Para acordar fresquinho
               B7                E
 De cara lavada e voltar a beber
 
-[PASSAGEM]   G D G C
+[Inst]   G D G C
              G C A D B7 Em
              C D G E7 A
 
@@ -116,7 +116,7 @@ Espera que a sua amada
           E           A
 Lhe venha aquecer a alma
 
-[PASSAGEM]   A B7 F E (2x)
+[Inst]   A B7 F E (2x)
 
                  Bm        E
 **O estudante de Viseu**

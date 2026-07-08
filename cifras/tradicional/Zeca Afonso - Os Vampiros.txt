@@ -15,7 +15,7 @@ Vêm em bandos com pés veludo
 A7                             Dm
 Chupar o sangue fresco da manada
 
-[PASSAGEM] Dm C Dm C Dm
+[Inst] Dm C Dm C Dm
 
 Dm
 Se alguém se engana com seu ar sisudo
@@ -30,7 +30,7 @@ Eles comem tudo, eles comem tudo
 A7                             Dm
 Eles comem tudo E não deixam nada
 
-[PASSAGEM] Dm C Dm C Dm
+[Inst] Dm C Dm C Dm
 
 Dm
 A toda a parte Chegam os vampiros
@@ -41,7 +41,7 @@ Trazem no ventre despojos antigos
 A7                             Dm
 Mas nada os prende às vidas acabadas
 
-[PASSAGEM] Dm C Dm C Dm
+[Inst] Dm C Dm C Dm
 
 Dm
 São os mordomos do universo todo
@@ -52,7 +52,7 @@ Enchem as tulhas, bebem vinho novo
 A7                            Dm
 Dançam a ronda no pinhal do rei
 
-[PASSAGEM] Dm C Dm C Dm
+[Inst] Dm C Dm C Dm
 
 [REFRÃO]
 C                           Dm
@@ -64,7 +64,7 @@ Eles comem tudo, eles comem tudo
 A7                             Dm
 Eles comem tudo E não deixam nada
 
-[PASSAGEM] Dm C Dm C
+[Inst] Dm C Dm C
 
 Dm
 No chão do medo Tombam os vencidos
@@ -75,7 +75,7 @@ Jazem nos fossos vítimas dum credo
 A7                             Dm
 E não se esgota O sangue da manada
 
-[PASSAGEM] Dm C Dm C Dm
+[Inst] Dm C Dm C Dm
 
 Dm
 Se alguém se engana Com seu ar sisudo

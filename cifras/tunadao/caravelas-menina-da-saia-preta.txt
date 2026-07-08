@@ -72,7 +72,7 @@ Deixem-se de tretas,
  E               A
 Força nas canetas que a maior...
 
-[PASSAGEM]     A A (8 tempos cada)
+[Inst]     A A (8 tempos cada)
 Pulp Fiction   A# A (4 tempos cada)
                A# Gm A A (2 tempos cada)
 
@@ -96,7 +96,7 @@ Eu vim pra aqui pra te levar
 Bb                        A
 Eu vim pra aqui pra te levar
 
-[PASSAGEM]     A A (8 tempos cada)
+[Inst]     A A (8 tempos cada)
 Pulp Fiction   A# A (4 tempos cada)
                A# Gm A A (2 tempos cada)
 

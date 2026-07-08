@@ -40,7 +40,7 @@ E assim mesmo é que é
              G                    C
 **Loucos por ti, vê lá se algum tropeça**
 
-[PASSAGEM]   F Fm C Am Dm G C (2x)
+[Inst]   F Fm C Am Dm G C (2x)
 
                 G
 Noutro dia a Rosita
@@ -68,7 +68,7 @@ E assim mesmo é que é
 
 [REFRÃO]
 
-[PASSAGEM]   F Fm C Am Dm G C (2x)
+[Inst]   F Fm C Am Dm G C (2x)
 
                     G
 Esta vida são dois dias

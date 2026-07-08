@@ -25,7 +25,7 @@ Sempre que o teu barco encalhe
     D#m7             F#/G#  C#maj7
 E a vida ....passe e não te olhe
 
-[PASSAGEM] F#maj7 C#maj7 F#/G# G#7(b9)
+[Inst] F#maj7 C#maj7 F#/G# G#7(b9)
 
 [REFRÃO]
 F#maj7           C#maj7
@@ -37,6 +37,6 @@ Podes vir chorar no meu peito
      D#m7         F#/G#        C#maj7
 Pois sabes sempre on - de es too..ou
 
-[PASSAGEM] F#maj7 C#maj7 F#/G# G#7(b9)
+[Inst] F#maj7 C#maj7 F#/G# G#7(b9)
 
 [SAÍDA] C#maj7 F#maj7 C#maj7 F#maj7 F#/G# G#7(b9) C#maj7

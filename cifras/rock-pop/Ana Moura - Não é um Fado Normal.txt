@@ -110,7 +110,7 @@ Se isto é fado, Se isto é fado
 
 Não é um fado normal
 
-[PASSAGEM]
+[Inst]
 Bm A/C# D D#dim A7/E
 
 [SAÍDA]

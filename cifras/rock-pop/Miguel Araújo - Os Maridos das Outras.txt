@@ -15,7 +15,7 @@ São muito pouco astutos, muito pouco astutos
 A                                   D
 Toda a gente sabe que os homens são brutos
 
-[PASSAGEM] D G D G
+[Inst] D G D G
 
 D                          G
 Toda a gente sabe que os homens são feios
@@ -28,7 +28,7 @@ E vêm com rodeios, vêm com rodeios
 A                                 D
 Toda gente sabe que os homens são feios
 
-[PASSAGEM] D G D D7
+[Inst] D G D D7
 
 [REFRÃO]
        G                  A
@@ -65,7 +65,7 @@ Abaixo de bicho, abaixo de bicho
 A                                   D
 Toda a gente sabe que os homens são lixo
 
-[PASSAGEM] D G D G
+[Inst] D G D G
 
 D                           G
 Toda a gente sabe que os homens são animais
@@ -78,7 +78,7 @@ Na nananam na nanana
 A                                      D
 Toda a gente sabe que os homens são animais
 
-[PASSAGEM] D G D D7
+[Inst] D G D D7
 
 [REFRÃO]
        G                  A
