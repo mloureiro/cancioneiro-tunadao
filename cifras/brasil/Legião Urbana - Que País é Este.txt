@@ -7,7 +7,7 @@ tom: Em
 [INTRO]
 Em  C  D
 
-[SOLO]
+[Inst]
 
 [VERSO 1]
 Em  C  D

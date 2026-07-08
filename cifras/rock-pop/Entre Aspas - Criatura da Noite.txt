@@ -7,7 +7,7 @@ tom: Bbm
 A#m F#
 A#m F# F Eb Db
 
-[Verse I]
+[VERSO 1]
 A#m                    F#
 Esta noite eu quero cantar
           A#m       F# F Eb Db
@@ -18,7 +18,7 @@ E.. Quero ver luzes, muitas
                 A#m        F# F Eb Db
 Quero ser um pássaro... Uô, uô, uô, uã
 
-[Chorus]
+[REFRÃO]
 A#m                      F#
 Quero ver os peixes a bailar
                 A#m
@@ -34,7 +34,7 @@ Até a luz, a luz me cercar
                      F#  F Eb Db
 E eu voltar pró meu lugar
 
-[Verse II]
+[VERSO 2]
 A#m                    F#
 Esta noite eu quero cantar
           A#m       F# F Eb Db

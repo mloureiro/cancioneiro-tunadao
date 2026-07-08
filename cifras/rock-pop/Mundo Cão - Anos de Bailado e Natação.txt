@@ -7,7 +7,7 @@ tom: Am
 [Intro]
 Am
 
-[Verse 1]
+[VERSO 1]
 Am
 O bandido solitário
 Am
@@ -44,7 +44,7 @@ Escolhe sempre as mais feias,
 Am
 Gosta de beijar sem ver.
 
-[Chorus]
+[REFRÃO]
 C G Dm F
 E a mulher que o quiser
 C G Dm F
@@ -54,7 +54,7 @@ E a mulher que o quiser,
 C G Dm N.C. Am
 Farto peito, grande língua, anos de bailado e natação.
 
-[Verse 2]
+[VERSO 2]
 Am
 Foi um dia apanhado
 Am
@@ -72,7 +72,7 @@ Carregando numa mola
 Am
 Não servia para matar.
 
-[Chorus]
+[REFRÃO]
 C G Dm F
 E a mulher que o quiser
 C G Dm F

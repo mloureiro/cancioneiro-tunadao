@@ -6,8 +6,6 @@ tom: G
 
 [Inst] G# Cm Bb G# G
 
-[…]
-
 G#       Cm
 Unidos Pelo traje
 Bb        G#  G

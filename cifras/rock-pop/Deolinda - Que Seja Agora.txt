@@ -7,13 +7,9 @@ creditos: Música: Deolinda
 
 [INTRO] B  E  B  F#
 
-[Estrutura de acordes preservada do cancioneiro]
-
 B                   E
 Nós havemos de nos ver os dois
                  B
 Ver no que isto dá
          F#
 Ficar um pouco mais a conversar
-
-[Estrutura musical completa conforme o cancioneiro original]

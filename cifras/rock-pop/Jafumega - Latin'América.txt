@@ -6,7 +6,7 @@ tom: Dm
 
 Dm Am Bb C
 
-[Verse 1]
+[VERSO 1]
 
 Dm    Am     Bb          C
 Todas as manhãs o sol espelha
@@ -17,7 +17,7 @@ O sangue jorra de esguelha
 Dm   Am     Bb     C
 Na pala das ditaduras
 
-[Verse 2]
+[VERSO 2]
 
 Dm    Am    Bb    C
 Continente gritador
@@ -28,7 +28,7 @@ A morte o medo e o terror
 Dm    Am     Bb      C
 São dias feitos agruras
 
-[Bridge]
+[Ponte]
 
 Dm   Am     Bb      F
 Do Paraguai a Porto Rico
@@ -39,7 +39,7 @@ Da Bolívia à Guatemala
 Dm   Am       Bb   Bb C
 Argentina ao Chile
 
-[Chorus]
+[REFRÃO]
 
   Dm       Am Bb Bb C
 Latina América
@@ -50,7 +50,7 @@ Latina América
 Dm       Am Bb Bb C
 Latina América
 
-[Verse 3]
+[VERSO 3]
 
 Dm    Am    Bb    C
 Descem das montanhas
@@ -61,7 +61,7 @@ Que te rebenta as entranhas
 Dm    Am    Bb    C
 Capacete em cada esquina
 
-[Verse 4]
+[VERSO 4]
 
 Dm    Am     Bb          C
 Todas as manhãs o sol espelha
@@ -72,7 +72,7 @@ O sangue jorra de esguelha
 Dm   Am     Bb     C
 Na pala das ditaduras
 
-[Bridge]
+[Ponte]
 
 Dm   Am     Bb      F
 Do Paraguai a Porto Rico

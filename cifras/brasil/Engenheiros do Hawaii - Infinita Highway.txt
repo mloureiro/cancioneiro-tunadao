@@ -70,7 +70,7 @@ Eu vejo as placas cortando o horizonte
         D5          E5
 Elas parecem facas de dois gumes
 
-[SOLO]
+[Inst]
 D  E  F#m  D  E  F#m
 D  E  A  C#m  F#m  E5
 

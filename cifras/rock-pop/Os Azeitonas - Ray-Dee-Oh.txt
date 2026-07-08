@@ -33,7 +33,7 @@ E que música era aquela que ainda agora deu no meu?
 E                           F#
 E que música era aquela que ainda agora deu?
 
-[Chorus]
+[REFRÃO]
 B       E   C#m        F#
 Ray-dee-oh, acabou de dar no meu
 B       E     C#m        F#          B
@@ -41,7 +41,7 @@ Ray-dee-oh e se não me engano era em Stereo
 E       C#m       F#      B
 Ouvi eu lá no meu Ray-dee-ohh
 
-[Verse 2]
+[VERSO 2]
 E
 Smart-ass, IOS
 F#
@@ -71,7 +71,7 @@ Diz mas é que música era a que ainda agora deu no meu?
 E                           F#
 Diz mas é que música era a que ainda agora deu!
 
-[Bridge]
+[Ponte]
 B       E C#m        F#           B  E
 Ray-dee-oh acabou e o meu pai não odiou
 C#m        F#                B         E
@@ -79,7 +79,7 @@ Quase que garanto que era em stereo ouvi eu
 C#m     F#
 E o meu pai gostou
 
-[Chorus]
+[REFRÃO]
 B       E   C#m        F#
 Ray-dee-ohh acabou de dar no meu
 B       E   C#m        F#            B
@@ -89,7 +89,7 @@ Ouvi eu lá no meu Ray-dee-ohh
 
 E   C#m   F#   B   E   C#m   F#
 
-[Verse 3]
+[VERSO 3]
 B
 Se Marte fosse já aqui
 E
@@ -121,7 +121,7 @@ Diz que a música era aquela que ainda nem rebobinou!
 
 [REFRÃO]
 
-[Outro]
+[FINAL]
 E
 Ray-dee
 (Smartphone Synchronize)
