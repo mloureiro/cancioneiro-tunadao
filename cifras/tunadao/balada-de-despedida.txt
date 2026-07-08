@@ -40,7 +40,7 @@ O bater da velha cabra
 
 [REFRÃO]
 
-[PASSAGEM]   G Em Bm C Am D
+[Inst]   G Em Bm C Am D
              G Em Bm C D G
 
  G            Em        Bm

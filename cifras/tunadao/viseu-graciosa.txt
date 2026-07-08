@@ -30,7 +30,7 @@ Tens flores em teus recantos
              B7             Em
 **Canto a ti Viseu, minha saudade**
 
-[PASSAGEM]   C B7 Em (2x)
+[Inst]   C B7 Em (2x)
 
 [Inst]    Em Am D C B7 (2x)
           Am D G C Am B7 Em
@@ -47,7 +47,7 @@ Imponente sempre em pé
 
 [REFRÃO]
 
-[PASSAGEM]   C B7 Em (2x)
+[Inst]   C B7 Em (2x)
 
    Em         Am      D
 Em ti há sete torres
@@ -60,7 +60,7 @@ Que o povo não esqueceu
 
 [REFRÃO]
 
-[PASSAGEM]   C B7 Em (2x)
+[Inst]   C B7 Em (2x)
 
 [Inst]   Em Am D C B7 (2x)
          Am D G C Am B7 Em

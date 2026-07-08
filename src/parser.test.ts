@@ -102,17 +102,16 @@ describe("parseSong — Caravelas/Menina da Saia Preta (medley)", () => {
     expect(part2.metadata?.tom).toBe("Am");
   });
 
-  it("detecta PASSAGEM com nome Pulp Fiction", () => {
+  it("passagem nomeada Pulp Fiction aparece na secção [Inst]", () => {
     const part1 = song.parts[0];
-    const passagem = part1.sections.find(
-      (s) => s.type.toUpperCase() === "PASSAGEM"
+    // [PASSAGEM] foi normalizada para [Inst]; a passagem nomeada continua a
+    // aparecer como linha de letra dentro da secção instrumental.
+    const inst = part1.sections.find(
+      (s) =>
+        s.type.toUpperCase() === "INST" &&
+        s.lines.some((l) => l.lyrics?.includes("Pulp Fiction"))
     );
-    expect(passagem).toBeDefined();
-    // Procurar menção a Pulp Fiction nas linhas
-    const pulpLine = passagem!.lines.find(
-      (l) => l.lyrics?.includes("Pulp Fiction")
-    );
-    expect(pulpLine).toBeDefined();
+    expect(inst).toBeDefined();
   });
 
   it("detecta bold nas linhas do refrão", () => {

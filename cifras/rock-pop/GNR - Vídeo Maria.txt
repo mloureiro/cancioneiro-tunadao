@@ -15,7 +15,7 @@ Sentada, imóvel, fumando em frente ao altar
 F                                     G
 Silhueta, um esboço a esfinge de um anjo fumegante
 
-[PASSAGEM] A G F G   A G F G
+[Inst] A G F G   A G F G
 
 F                              G
 Há em mim um profano desejo a crescer
@@ -26,7 +26,7 @@ Os santos do altar devem tentar compreender
 F                        G
 O que ela faz aqui fumando? Estará a meditar?
 
-[PASSAGEM] A G F G   A G F G
+[Inst] A G F G   A G F G
 
 [REFRÃO]
 Dm  C   Bm E   Am

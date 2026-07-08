@@ -24,7 +24,7 @@ Comer e beber, o tirim-tim-tim
            G
 Passear na rua
 
-[PASSAGEM] ( D  G  D  G ) ( D  D7  G )
+[Inst] ( D  G  D  G ) ( D  D7  G )
 
 [SEGUNDA PARTE]
                  D
@@ -44,7 +44,7 @@ Foi um caixerinho, o tirim-tim-tim
 
 Tinha as pernas feias
 
-[PASSAGEM] ( D  G  D  G ) ( D  D7  G )
+[Inst] ( D  G  D  G ) ( D  D7  G )
 
 [TERCEIRA PARTE]
                  D

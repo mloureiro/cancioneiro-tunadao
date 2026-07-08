@@ -40,7 +40,7 @@ E ele respondeu
               E
 É grande é a lua
 
-[PASSAGEM]   A D F#m E (2x)
+[Inst]   A D F#m E (2x)
 
 A          Bm
 O teu sentir
@@ -76,7 +76,7 @@ Realmente me apaixonei
               E
 **É grande é a lua**
 
-[PASSAGEM]   A D F#m E (2x)
+[Inst]   A D F#m E (2x)
 
 [REFRÃO]
 

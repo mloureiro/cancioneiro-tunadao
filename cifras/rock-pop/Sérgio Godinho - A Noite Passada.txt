@@ -28,7 +28,7 @@ Depois sorriste
 G                         D  G7M  E  G6/D  F#7/C#
 Abriste a janela e voaste
 
-[PASSAGEM] ( G6/D F#7/C# G6/D F#7/C# )
+[Inst] ( G6/D F#7/C# G6/D F#7/C# )
            ( G6/D F#7/C# G6/D F#7/C# )
 
 D         G7M            E        G6/D  F#7/C#
@@ -52,7 +52,7 @@ E então dissemos
 G                        D  G7M  E  G6/D  F#7/C#
 Aqui vivemos muitos anos
 
-[PASSAGEM] ( G6/D F#7/C# G6/D F#7/C# )
+[Inst] ( G6/D F#7/C# G6/D F#7/C# )
            ( G6/D F#7/C# G6/D F#7/C# )
 
 D          G7M          E       G6/D  F#7/C#

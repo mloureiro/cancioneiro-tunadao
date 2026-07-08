@@ -22,7 +22,7 @@ Am                   C
 E                        F
 Os tontos chamam-lhe torpe
 
-[PASSAGEM] F G
+[Inst] F G
 
 [VERSO]
 F                          G
@@ -44,7 +44,7 @@ Am                     C
                       F
 Corre o rio para o mar
 
-[PASSAGEM] F G Dm F C C7 Dm F C G Em F
+[Inst] F G Dm F C C7 Dm F C G Em F
 
 [SAÍDA]
 G
