@@ -153,12 +153,24 @@ function classifyTag(type: string): TagFamily {
   return { kind: "label", label: t.toUpperCase() };
 }
 
+// Secções "vocais" da família refrão (refrão, pré-refrão, pós-refrão, chorus)
+// são centradas; tudo o resto (intro, inst, saída, versos, partes) fica à
+// esquerda, ancorado aos acordes/letra por baixo.
+function isVocalRefraoTag(type: string): boolean {
+  const t = type.trim();
+  return (
+    /^(pr[eé]-?\s*|p[oó]s-?\s*)?refr[ãa]o\b/i.test(t) ||
+    /^(pre-?\s*)?chorus\b/i.test(t)
+  );
+}
+
 // Secções SEM conteúdo (ex: [Inst] no fim da cifra) não são sticky: uma pill
 // sticky sem linhas a seguir era arrastada sozinha para a coluna seguinte,
 // deixando colunas fantasma quase vazias.
 function renderSectionTag(type: string, hasContent: boolean, times: number): string {
   const fam = classifyTag(type);
   if (!fam) return "";
+  const centerArg = isVocalRefraoTag(type) ? ", centered: true" : "";
   const sticky = hasContent ? "" : ", sticky: false";
   const timesArg = times > 1 ? `, times: ${times}` : "";
   // qualificador do nome pode já ser um marcador de repetição ("x2") — nesse
@@ -174,9 +186,9 @@ function renderSectionTag(type: string, hasContent: boolean, times: number): str
   const bubbleArg = bubbleTimes > 1 ? `, times: ${bubbleTimes}` : "";
   const note = qual ? `, note: "${escLiteral(`(${qual})`)}"` : "";
   if (fam.kind === "pill") {
-    return `#sec-pill("${escLiteral(fam.label)}", ${fam.color}${sticky}${bubbleArg}${note})\n`;
+    return `#sec-pill("${escLiteral(fam.label)}", ${fam.color}${sticky}${bubbleArg}${note}${centerArg})\n`;
   }
-  return `#section-label("${escLiteral(fam.label)}"${sticky}${bubbleArg}${note})\n`;
+  return `#section-label("${escLiteral(fam.label)}"${sticky}${bubbleArg}${note}${centerArg})\n`;
 }
 
 function renderSection(
@@ -225,7 +237,7 @@ function renderSection(
   const flushPill = () => {
     if (!pendingPill) return;
     const t = pendingPill.times > 1 ? `, times: ${pendingPill.times}` : "";
-    out += `#sec-pill("REFRÃO", coral, sticky: false${t})\n`;
+    out += `#sec-pill("REFRÃO", coral, sticky: false${t}, centered: true)\n`;
     pendingPill = null;
   };
 
@@ -254,7 +266,7 @@ function renderSection(
     seenChorus.add(sig);
     flushPill();
     const t = blockTimes > 1 ? `, times: ${blockTimes}` : "";
-    out += `#sec-pill("REFRÃO", coral${t})\n`;
+    out += `#sec-pill("REFRÃO", coral${t}, centered: true)\n`;
     for (const line of blockLines) out += renderLine(line, false);
     emitted = true;
   }
@@ -717,36 +729,42 @@ function generate(input: LayoutInput): string {
   cond-text(label, size: 0.72em, fill: ink, weight: 700, tracking: 0.03em),
 )
 
-#let sec-pill(label, color, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.55em, below: 0.5em, {
-  box(
-    stroke: 0.8pt + color,
-    radius: 2pt,
-    inset: (x: 5pt, y: 2.6pt),
-    cond-text(label, size: 0.78em, fill: color, tracking: 0.07em),
-  )
-  if times > 1 {
-    h(4pt)
-    rep-bubble("x" + str(times))
+#let sec-pill(label, color, sticky: true, note: "", times: 0, centered: false) = block(sticky: sticky, above: 1.55em, below: 0.5em, width: 100%, {
+  let body = {
+    box(
+      stroke: 0.8pt + color,
+      radius: 2pt,
+      inset: (x: 5pt, y: 2.6pt),
+      cond-text(label, size: 0.78em, fill: color, tracking: 0.07em),
+    )
+    if times > 1 {
+      h(4pt)
+      rep-bubble("x" + str(times))
+    }
+    if note != "" {
+      h(4pt)
+      text(fill: grey, style: "italic", size: 0.78em, note)
+    }
   }
-  if note != "" {
-    h(4pt)
-    text(fill: grey, style: "italic", size: 0.78em, note)
-  }
+  if centered { align(center, body) } else { body }
 })
 
 // Label de secção custom (sub-músicas etc.): quadrado azul + texto
-#let section-label(label, sticky: true, note: "", times: 0) = block(sticky: sticky, above: 1.55em, below: 0.5em, {
-  box(baseline: -0.08em, square(size: 0.5em, fill: blue))
-  h(0.45em)
-  cond-text(label, size: 0.85em, tracking: 0.04em)
-  if times > 1 {
-    h(4pt)
-    rep-bubble("x" + str(times))
+#let section-label(label, sticky: true, note: "", times: 0, centered: false) = block(sticky: sticky, above: 1.55em, below: 0.5em, width: 100%, {
+  let body = {
+    box(baseline: -0.08em, square(size: 0.5em, fill: blue))
+    h(0.45em)
+    cond-text(label, size: 0.85em, tracking: 0.04em)
+    if times > 1 {
+      h(4pt)
+      rep-bubble("x" + str(times))
+    }
+    if note != "" {
+      h(4pt)
+      text(fill: grey, style: "italic", size: 0.78em, note)
+    }
   }
-  if note != "" {
-    h(4pt)
-    text(fill: grey, style: "italic", size: 0.78em, note)
-  }
+  if centered { align(center, body) } else { body }
 })
 
 // Separador entre partes de um medley
