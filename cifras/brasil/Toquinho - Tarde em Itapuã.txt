@@ -24,6 +24,7 @@ Gm7          Gm/F    Em7(5-)  A7(13-)
 Cm7        Cm/Bb     Am7(5-)  D7(9-)
  Beber uma água  de côco
 
+[REFRÃO]
    G7M
  É bom
              Am7          Bm7          Am7          Bb7M
@@ -55,16 +56,7 @@ Gm7           Gm/F     Em7(5-)  A7(13-)
 Cm7       Cm/Bb  Am7(5-)  D7(9-)
  A terra toda rodar
 
-    G7M
- É bom
-             Am7          Bm7          Am7          Bb7M
- Passar uma tarde em Itapuã ao sol que arde em Itapuã
-            Eb7(9)     Am7           D7(9)      G7M
- Ouvindo o mar de Itapuã, falar de amor em Itapuã
-             Am7          Bm7           Am7          Bb7M
- Passar uma tarde em Itapuã, ao sol que arde em Itapuã
-            Eb7(9)     Am7           D7(9)
- Ouvindo o mar de Itapuã, falar de amor em Itapuã
+[REFRÃO]
 
 Solo: Gm  Gm6-  C7/G  Gm6-
 
@@ -86,13 +78,4 @@ Gm7         Gm/F    Em7(5-)  A7(13-)
 Cm7      Cm/Bb  Am7(5-)  D7(9)
  Da lua de Itapuã
 
-    G7M
- É bom
-             Am7          Bm7          Am7          Bb7M
- Passar uma tarde em Itapuã ao sol que arde em Itapuã
-            Eb7(9)     Am7           D7(9)      G7M
- Ouvindo o mar de Itapuã, falar de amor em Itapuã
-             Am7          Bm7           Am7          Bb7M
- Passar uma tarde em Itapuã, ao sol que arde em Itapuã
-            Eb7(9)     Am7           D7(9)
- Ouvindo o mar de Itapuã, falar de amor em Itapuã
+[REFRÃO]

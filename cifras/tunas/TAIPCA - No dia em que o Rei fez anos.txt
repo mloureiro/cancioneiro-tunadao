@@ -22,6 +22,7 @@ Para enfeitar a cidade
     B                        E  A  B
 E abrir-lhe as portas de par em par
 
+[REFRÃO]
     E                    G#m
 No dia em que o rei fez anos
        F#m                 B
@@ -58,14 +59,7 @@ Só ficou um trovador
        B                      E  A  B
 P'ra contar o que acabava de ver
 
-    E                    G#m
-No dia em que o rei fez anos
-       F#m                 B
-Houve arraial e foguetes no ar
-    E             G#m
-O vinho correu à farta
-        F#m             B
-E a fanfarra não parou de tocar
+[REFRÃO]
 
      G        D
 E o povo saiu à rua

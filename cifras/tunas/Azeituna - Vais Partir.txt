@@ -4,6 +4,7 @@ artista: Azeituna
 tom: Bm
 ---
 
+[REFRÃO]
 Bm             Em 
 Vais partir naquela estrada 
         D   F#         Bm 
@@ -50,14 +51,6 @@ F#           F#
 De querermos amar 
 
 [REFRÃO]
-Bm             Em 
-Vais partir naquela estrada 
-        D   F#         Bm 
-Onde um dia chegaste a sorrir 
-     Bm     Em 
-Vais deixar abandonada 
-     D            F#     Bm 
-Essa flor que era amor a florir 
 
 [Continua com o mesmo padrão]
 

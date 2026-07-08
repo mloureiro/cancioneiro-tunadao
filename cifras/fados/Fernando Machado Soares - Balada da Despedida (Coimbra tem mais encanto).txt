@@ -6,6 +6,7 @@ tom: Ab
 
 [INTRO] Fm Bbm C# G7 C C7
 
+[REFRÃO]
 Fm                 Bbm      C#         C
 Coimbra tem mais encanto na hora da despedida
 Fm                 Bbm      C#         C      C7
@@ -37,14 +38,7 @@ Que para além do luar
 Bbm       C#        C7
 Há sempre uma noite escura
 
-Fm                 Bbm      C#         C
-Coimbra tem mais encanto na hora da despedida
-Fm                 Bbm      C#         C      C7
-Coimbra tem mais encanto na hora da despedida
-C                      Fm
-Que as lágrimas do meu pranto
-    Eb7              G#
-São a luz que lhe dá vida
+[REFRÃO]
 
 [SAÍDA]
 Fm                 Bbm      C#         C

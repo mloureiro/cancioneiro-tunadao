@@ -85,51 +85,10 @@ Então melhor não ter razão
 
 [Pré-Refrão]
 
-    C#m         C#m7M
-Só falta te querer
-       C#m7        F#7(9)
-Te ganhar e te perder
- F#m7
-Falta eu acordar
-            A°                 G#7
-Ser gente grande pra poder chorar
-
 [REFRÃO]
-
-          F#m7  E  B
-Me dá um beijo, então
-        E  G#m7  A
-Aperta minha    mão
-F#m7        G#7        C#m
-     Tolice é viver a vida
-          C#7  C#7(4)
-Assim sem aventura
- F#m  E  B
-Dei__xa ser
-     E G#7  A
-Pelo cora_ção
-        F#m  E
-E é loucu___ra
-   B              C/G
-Então melhor não ter razão
 
 ( Am7  C/B  C  D  D#  E )
 
-          F#m7  E  B
-Me dá um beijo, então
-        E  G#m7  A
-Aperta minha    mão
-F#m7        G#7        C#m
-     Tolice é viver a vida
-          C#7  C#7(4)
-Assim sem aventura
- F#m  E  B
-Dei__xa ser
-     E G#7  A
-Pelo cora_ção
-        F#m  E
-E é loucu___ra
-   B              C/G
-Então melhor não ter razão
+[REFRÃO]
 
 [Final] Am7  C/B  C  D  D#  E

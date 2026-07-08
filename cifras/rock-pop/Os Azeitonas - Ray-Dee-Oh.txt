@@ -119,13 +119,7 @@ Diz que a música era aquela que ainda agora deu no teu!
 C#m                         F#
 Diz que a música era aquela que ainda nem rebobinou!
 
-[Chorus]
-B       E   C#m        F#
-Ray-dee-oh, acabou de dar no meu
-B       E     C#m        F#          B
-Ray-dee-oh e se não me engano era em Stereo
-E       C#m       F#      B
-Ouvi eu lá no meu Ray-dee-ohh
+[REFRÃO]
 
 [Outro]
 E

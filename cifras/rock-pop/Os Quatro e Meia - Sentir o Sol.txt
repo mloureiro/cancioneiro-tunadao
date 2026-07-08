@@ -44,6 +44,7 @@ Beber uma cola
           G
 Ver a garotada a jogar à bola
 
+[REFRÃO]
        Dm            G
 Só quero, sentir o sol (sentir o sol)
 Dm          G
@@ -90,14 +91,7 @@ Beber uma cola
           G
 Ver a garotada a jogar à bola
 
-       Dm            G
-Só quero, sentir o sol (sentir o sol)
-Dm          G
- Sentir o sol
-       Dm            G
-Só quero, sentir o sol (sentir o sol)
-Dm         G
- Sentir o sol
+[REFRÃO]
 
 ( Dm  G  Dm  G )
 
@@ -137,14 +131,7 @@ Beber uma cola
           G
 Ver a garotada a jogar à bola
 
-       Dm            G
-Só quero, sentir o sol (sentir o sol)
-Dm          G
- Sentir o sol
-       Dm            G
-Só quero, sentir o sol (sentir o sol)
-Dm         G
- Sentir o sol
+[REFRÃO]
 
        Dm            G
 Só quero, sentir o sol (sentir o sol)

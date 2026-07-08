@@ -42,6 +42,7 @@ C#m
 B
  Mas
 
+[REFRÃO]
 Ela não sabe, pois não?
 E
  Que eu te conhecia de fora pra dentro
@@ -105,26 +106,4 @@ C#m
 B
  Mas
 
-Ela não sabe, pois não?
-E
- Que eu te conhecia de fora pra dentro
-B/D#
- Unha com carne, nós versus toda gente
-
-Ela não sabe, pois não?
-Amaj7
- Que eu não recebi convite para o teu casamento
-A                       B
- Mas tu pensaste se enviavas ou não
-                    E
-Convidaste toda a gente
-                            B/D#
-Menos eu e nós falamos telepaticamente
-
-Ela não sabe, pois não?
-Amaj7
- Que o nosso grande final foi vosso grande início
-A                                              E
- E eu apostava contigo, ela não sabe, pois não?
-                      B/D#                      Amaj7    A
-Ela não sabe, pois não? Ela não sabe, pois não?
+[REFRÃO]

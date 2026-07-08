@@ -30,6 +30,7 @@ Aquela pica de andar
 Ab
 Na outra direção
 
+[REFRÃO]
 Bbm
 E eu só sei que nada soube tão bem
 F
@@ -70,18 +71,7 @@ Aquela pica de andar
 Ab
 Na mesma direção
 
-Bbm
-E eu só sei que nada soube tão bem
-F
-Só sei que esqueci tudo o que sei
-Gb              Ab              Bbm
-Deixei à porta, olhei à volta e voou
-Bbm
-E oiço o sino a tocar, acabou a hora
-F
-O preço a dobrar, felizes agora
-Gb        Ab         Bbm
-Eu e tu, mais nenhum
+[REFRÃO]
 
 Gb      F
 Ouves o resto das pessoas
@@ -96,15 +86,4 @@ Estão aqui
 F
 Estão aqui
 
-Bbm
-E eu só sei que nada soube tão bem
-F
-Só sei que esqueci tudo o que sei
-Gb             Ab               Bbm
-Deixei à porta, olhei à volta e voou
-Bbm
-E oiço o sino a tocar, acabou a hora
-F
-O preço a dobrar, felizes agora
-Gb       Ab           Bbm
-Eu e tu, mais nenhum
+[REFRÃO]

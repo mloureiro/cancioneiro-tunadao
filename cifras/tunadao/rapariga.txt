@@ -28,6 +28,7 @@ Eu não quero mexericos
                     C
 E assim mesmo é que é
 
+[REFRÃO]
         F                C
 **Ai rapariga, se fores à fonte**
                G
@@ -51,16 +52,8 @@ Foi ao baile com o António
 E andaram na brincadeira
               F
 E agora já namoram
-        F                C
-**Ai rapariga, se fores à fonte**
-               G
-**Vai pelo carreiro**
-                       C
-**Que chegas lá mais depressa**
-           F               C
-**Ai tem cuidado, com os rapazes**
-             G                    C
-**Loucos por ti, vê lá se algum tropeça**
+
+[REFRÃO]
 
                        C
 E é tão bom de ver ai é
@@ -73,16 +66,7 @@ Qualquer dia vão casar
                     C
 E assim mesmo é que é
 
-        F                C
-**Ai rapariga, se fores à fonte**
-               G
-**Vai pelo carreiro**
-                       C
-**Que chegas lá mais depressa**
-           F               C
-**Ai tem cuidado, com os rapazes**
-             G                    C
-**Loucos por ti, vê lá se algum tropeça**
+[REFRÃO]
 
 [PASSAGEM]   F Fm C Am Dm G C (2x)
 

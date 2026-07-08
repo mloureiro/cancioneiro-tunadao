@@ -28,6 +28,8 @@ Mas só assim me dá vontade de cantar
         G7 G#º  Am7  D7
 Doce uuu       uuuuuu uuuuu (x2)
 
+[REFRÃO]
+
   Em                    C#m7(5-)
 Mas a dor existe e não dá pra esquecer
   Em                        C#m7(5-)
@@ -64,15 +66,7 @@ A Lua é mulher que hoje vou abraçar
         G7 G#º  Am7  D7
 Doce uuu       uuuuuu uuuuu (x2)
 
-  Em                    C#m7(5-)
-Mas a dor existe e não dá pra esquecer
-  Em                        C#m7(5-)
-Mas o peito insiste e não a deixa morrer
-   D                   D7            G
-E eu não vou deixar de beber como gin
-
-   A                                           D
-E para estar sóbrio não basta só pensar em mim
+[REFRÃO]
 
  G7  G#º  Am7  D7 (solo)
 

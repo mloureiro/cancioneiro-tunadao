@@ -7,6 +7,7 @@ tom: G
 
 C/G
 
+[REFRÃO]
 Eu sou feliz ao pé da minha Maria,
 Com vacas, porcos e cabras,
 Vivemos com alegria.
@@ -20,9 +21,7 @@ Ao fim de meses e picos
 Deu com muita alegria
 Oferta de três buzicos
 
-Eu sou feliz ao pé da minha Maria,
-Com vacas, porcos e cabras,
-Vivemos com alegria.
+[REFRÃO]
 
 Eu casei com a Maria
 Do sitio dos Lamaceiros,

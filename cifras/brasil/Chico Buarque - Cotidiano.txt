@@ -10,6 +10,8 @@ Gm  Bb  Eb7  D7/A
 Gm  Bb  Eb7  D7/A  Bbº
 
 [PRIMEIRA PARTE]
+
+[REFRÃO]
 C#º                                Gm7
    Todo dia ela faz tudo sempre igual   Me sacode às seis horas da manhã
 F7                         Eb7/Bb                 D7/A            Bbº
@@ -35,7 +37,4 @@ C#º                                   Gm7
 F7                                Eb7/Bb                  D7/A      Bbº
   E me aperta pra eu quase sufocar      E me morde com a boca de pavor
 
-C#º                                Gm7
-   Todo dia ela faz tudo sempre igual   Me sacode às seis horas da manhã
-F7                         Eb7/Bb                 D7/A            Bbº
-  Me sorri um sorriso pontual      E me beija com a boca de hortelã
+[REFRÃO]

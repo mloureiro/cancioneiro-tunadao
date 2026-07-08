@@ -28,6 +28,7 @@ De flor sem tempo
         D       Gm      
 É a certeza de viver
 
+[REFRÃO]
 Gm
 Canta o sol
      D
@@ -41,18 +42,7 @@ De tarde calma
 D#               D
 Ouve o que ele diz
 
-Gm
-Canta o sol
-     D
-Que tens na alma
-       G7     Cm
-És a flor de ser feliz
-F
-Olha o mar
-   A#
-De tarde calma
-D#               D
-Ouve o que ele diz
+[REFRÃO]
 
 ( Gm )
 
@@ -69,31 +59,9 @@ Alguém a via
            D    Gm
 É a certeza de te ver
 
-Gm
-Canta o sol
-     D
-Que tens na alma
-       G7     Cm
-És a flor de ser feliz
-F
-Olha o mar
-   A#
-De tarde calma
-D#               D        
-Ouve o que ele diz
+[REFRÃO]
 
-Gm
-Canta o sol
-     D
-Que tens na alma
-       G7     Cm
-És a flor de ser feliz
-F
-Olha o mar
-   A#
-De tarde calma
-D#               D        
-Ouve o que ele diz
+[REFRÃO]
 
 ( D# )
 

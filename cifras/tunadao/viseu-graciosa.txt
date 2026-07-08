@@ -16,6 +16,7 @@ Tens flores em teus recantos
      C           B7
 Ó Viseu tu és assim
 
+[REFRÃO]
       Am        D
 **Em ruelas e calçadas**
     G              C    Am
@@ -44,18 +45,7 @@ Dom Duarte, Infante Henrique
       C             B7
 Imponente sempre em pé
 
-      Am        D
-**Em ruelas e calçadas**
-    G              C    Am
-**Em cantos e guitarradas**
-             B7            Em   C B7
-**Canto a ti Viseu, minha cidade**
-      Am        D
-**Em vielas e arruadas**
-      G       C      Am
-**Em prosas e cantatas**
-             B7             Em
-**Canto a ti Viseu, minha saudade**
+[REFRÃO]
 
 [PASSAGEM]   C B7 Em (2x)
 
@@ -68,18 +58,7 @@ São marcos da tua glória
        C             B7
 Que o povo não esqueceu
 
-      Am        D
-**Em ruelas e calçadas**
-    G              C    Am
-**Em cantos e guitarradas**
-             B7            Em   C B7
-**Canto a ti Viseu, minha cidade**
-      Am        D
-**Em vielas e arruadas**
-      G       C      Am
-**Em prosas e cantatas**
-             B7             Em
-**Canto a ti Viseu, minha saudade**
+[REFRÃO]
 
 [PASSAGEM]   C B7 Em (2x)
 

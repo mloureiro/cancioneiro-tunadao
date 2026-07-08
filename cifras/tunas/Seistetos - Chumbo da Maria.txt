@@ -45,6 +45,7 @@ Muitos bichos como ela praxou
 Nenhum deles fugiu, a tradição lá se cumpriu
 E não foi desta que a pomba voou
 
+[REFRÃO]
 Ó Maria tu não faças isso
 Pois o curso tu tens de acabar
 Ó Maria tu vê lá que esta vida já não dá
@@ -53,10 +54,6 @@ Vais chumbar!!!!
 
 [Inst]
 
-Ó Maria tu não faças isso
-Pois o curso tu tens de acabar
-Ó Maria tu vê lá que esta vida já não dá
-Mariaaaaaaaaaaaaaaaaaaaa
-Vais chumbar!!!!
+[REFRÃO]
 
 CD: In Taberna

@@ -22,6 +22,7 @@ tom: D
        C         E 
  Os preconceitos ausentes 
 
+[REFRÃO]
 A      G         E  
 a lua estava lá fora 
 A      G         E 
@@ -49,14 +50,7 @@ Desse espantoso momento
          C          E 
  Ficou ainda mais bonita 
 
-A      G         E  
-a lua estava lá fora 
-A      G         E 
-Para além do firmamento 
-A      G        D  
-fingir que não sorria 
-     A           E 
-Desse espantoso momento
+[REFRÃO]
 
 Em                        D 
   Nunca ninguém me tinha dito 
@@ -75,11 +69,4 @@ Em                        D
              Em 
   Da nossa moral 
 
-A      G         E  
-a lua estava lá fora 
-A      G         E 
-Para além do firmamento 
-A      G        D  
-fingir que não sorria 
-     A           E 
-Desse espantoso momento
+[REFRÃO]

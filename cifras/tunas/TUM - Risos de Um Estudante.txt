@@ -28,6 +28,7 @@ Com as capas abraçadas
                         D
 Enquanto a sua alma chora
 
+[REFRÃO]
    A7
 O riso
                             D
@@ -66,19 +67,5 @@ Pró mundo tem um defeito
                        D
 Os segredos do teu peito
 
-   A7
-O riso
-                            D
-Nunca demonstra coisa alguma
-                        A7
-É fictício como as espuma
-                      D
-Duma onda que se solta
-   G
-O riso
-                    D
-É como o fumo enublado
-                          A7
-Que pelo vento é arrastado
-                          D
-E que vai, mas jamais volta
+[REFRÃO]
+
