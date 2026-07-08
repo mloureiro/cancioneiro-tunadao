@@ -385,7 +385,7 @@ function renderSong(song: Song, labelId: string, autor: string, autorFull = ""):
   // Qualificador entre parêntesis no fim do título → texto mais pequeno
   const { main, sub } = splitTitle(song.metadata.titulo);
   out += `#metadata("${escLiteral(song.metadata.titulo)}") <song-${labelId}>\n`;
-  out += `#song-title("${escLiteral(main)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}", autor-full: "${escLiteral(autorFull)}", sub: "${escLiteral(sub)}")\n`;
+  out += `#song-title("${escLiteral(main)}", "${escLiteral(song.metadata.tom)}", autor: "${escLiteral(autor)}", autor-full: "${escLiteral(autorFull)}", sub: "${escLiteral(sub)}", afinacao: "${escLiteral(song.metadata.afinacao || "")}")\n`;
 
   const seen = new Set<string>();
   for (let i = 0; i < song.parts.length; i++) {
@@ -794,7 +794,7 @@ function generate(input: LayoutInput): string {
 // sub: qualificador entre parêntesis no fim do título (ex: "(5º Ano
 // Jurídico 88/89)", "(versão de X)") — bastante mais pequeno que o título.
 // O tom não é mostrado (fica na metadata para transposição futura).
-#let song-title(titulo, tom, autor: "", autor-full: "", sub: "") = block(breakable: false, sticky: true, below: 0.9em, {
+#let song-title(titulo, tom, autor: "", autor-full: "", sub: "", afinacao: "") = block(breakable: false, sticky: true, below: 0.9em, {
   grid(
     columns: (auto, 1fr),
     column-gutter: 6pt,
@@ -821,6 +821,10 @@ function generate(input: LayoutInput): string {
         autor
       }
     })
+  }
+  if afinacao != "" {
+    v(2.5pt)
+    cond-text([afinação: #afinacao], size: 0.72em, fill: grey, weight: 500, tracking: 0.04em)
   }
 })
 

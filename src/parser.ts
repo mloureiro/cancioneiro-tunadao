@@ -184,6 +184,7 @@ function parseYamlHeader(lines: string[]): {
       tom: metadata["tom"] || "",
       artista: metadata["artista"],
       subtitulo: metadata["subtitulo"],
+      afinacao: metadata["afinação"] || metadata["afinacao"] || undefined,
       colunas: colunas === 1 || colunas === 2 ? colunas : undefined,
     },
     restIndex: endIndex + 1,
