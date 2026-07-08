@@ -23,7 +23,7 @@ Finge não ouvir a vizinhança
 E7
 E pede a Deus um pouco mais de esperança
 
-[Chorus]
+[REFRÃO]
 D       D#dim
 Ó Xico, ó Xico
 Bm7   E7     A
@@ -33,7 +33,7 @@ D        D#dim
 Bm7    E7        A
 Não me faças mais sofrer
 
-[Verse]
+[VERSO]
 A
 Desde pequena Dolores sonha em encontrar
 Bm7             E7
@@ -51,7 +51,7 @@ Dolores levou o essencial
 E7
 A velha caixa de costura e o avental
 
-[Chorus]
+[REFRÃO]
 D       D#dim
 Ó Xico, ó Xico
 Bm7     E7    A
@@ -61,7 +61,7 @@ D       D#dim
 Bm7     E7    A
 Não me faças mais sofrer
 
-[Bridge]
+[Ponte]
 C#m7        F#   Bm7
 Viveram dez anos sem igual
 C#m7        F#    Bm7
@@ -73,7 +73,7 @@ De Espanha nem bom vento
 E7
 Nem bom casamento
 
-[Chorus]
+[REFRÃO]
 D       D#dim
 Ó Xico, ó Xico
 Bm7     E7    A

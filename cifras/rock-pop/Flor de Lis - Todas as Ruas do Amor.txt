@@ -5,13 +5,9 @@ tom: C
 creditos: Música: Flor de Lis
 ---
 
-[Estrutura de acordes preservada do cancioneiro]
-
 G            Bm
 Se sou tinta, tu és tela
                    Em
 Se sou chuva, és aguarela
                         C
 Se sou sal, és branca areia
-
-[Estrutura musical completa conforme o cancioneiro original]

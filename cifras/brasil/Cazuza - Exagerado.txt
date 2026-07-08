@@ -68,7 +68,7 @@ F#m7(5-)           B7
 
 [REFRÃO]
 
-[SOLO] G  D  C
+[Inst] G  D  C
        G  D  C
        Em  D  C
 

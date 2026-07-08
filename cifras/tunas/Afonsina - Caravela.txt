@@ -4,7 +4,7 @@ artista: Afonsina
 tom: E
 ---
 
-[A cappella]
+> A cappella
 Uma vez um povo antigo
 Foi criado pelo mar
 Seguiu à destemido
@@ -34,7 +34,7 @@ Onde irei seguir agora
 G               A           A#           C
 Se não busco o além-mar?
 
-[Bridge, 4 voltas]          E, A
+[Ponte]   E, A (4x)
 
 [REFRÃO]
 E          D
@@ -52,7 +52,7 @@ Chegarei ao porto dela
 A              Am7 A
 P'ra nos seus olhos...
 
-[Bridge, 2 voltas]          E, A
+[Ponte]   E, A (2x)
 
 Fui daqui ao oriente
 Mas o vento eu fui gastar,
@@ -64,11 +64,11 @@ Pagas p'ra te revelar
 Serão mil as romarias
 Feitas para o festejar...
 
-[Bridge, 4 voltas]          E, A
+[Ponte]   E, A (4x)
 
 [REFRÃO]
 
-[Bridge, 2 voltas]          E, A
+[Ponte]   E, A (2x)
 
 [Instrumental, 4 voltas]
 E, E7sus4, E, E7sus4, Bm7, G, A, G
@@ -81,8 +81,9 @@ P'ra nos seus olhos...
            E , A
 ...sonhar!
 
-[Bridge, 4 voltas, seguindo o verso anterior]
+[Ponte]
+> 4 voltas, seguindo o verso anterior
 
-[Percussão apenas]
+> Percussão apenas
 
 [REFRÃO] (completo)

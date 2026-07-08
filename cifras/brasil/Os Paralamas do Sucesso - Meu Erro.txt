@@ -7,7 +7,7 @@ tom: C
 [INTRO]
 F5(9)  Fm
 
-[RIFF INTRO]
+[Inst]
 C  C7  F  Fm
 C/G  C7/G  F7M/A  Fm/Ab
 C/G  C/Bb  F7M/A  Fm/Ab

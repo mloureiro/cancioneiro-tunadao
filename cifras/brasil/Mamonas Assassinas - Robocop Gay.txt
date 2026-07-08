@@ -84,7 +84,7 @@ Ontem eu era católico
                     C5
 Ai, hoje eu sou um gay!
 
-[Solo] C5  G5  A5  F5 
+[Inst] C5  G5  A5  F5 
 
 [PRÉ-REFRÃO]
           C5
@@ -135,6 +135,6 @@ Ai, eu sei, eu sei
 Meu robocop gay
 
 Ai como dói!
-[SOLO FINAL]
+[Inst]
 
   H.A  \ /

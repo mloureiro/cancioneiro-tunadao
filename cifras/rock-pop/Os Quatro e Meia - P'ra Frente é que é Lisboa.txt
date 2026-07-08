@@ -22,7 +22,7 @@ Mas penso positivo e concluo que estar vivo
     Amaj7
 É motivo mais que bom p'ra me animar
 
-[Bridge]
+[Ponte]
 Dm7                 Em7                       Dm7
 E então saio de rompante, torno-me mais confiante
                   Am7
@@ -32,7 +32,7 @@ Escolho o meu melhor sorriso, e aceito o improviso
                      Amaj7
 Que o meu dia vai trazer
 
-[Chorus]
+[REFRÃO]
 F#m            B7                          D
 Aproveito ao segundo, tudo aquilo que este mundo
           E          A   F#m
@@ -42,10 +42,10 @@ Levo o dia numa boa, que "p'rá frente é que é Lisboa
                       D            E            Dmaj7
 Sinto-me de bem com a vida, seja o que tiver de ser
 
-[Intermission]
+[INTERLÚDIO]
 Amaj7  Dmaj7
 
-[Verse]
+[VERSO]
 Dmaj7
 Ergo-me da cama que me aquece, que me prende
         Amaj7
@@ -64,7 +64,7 @@ Mas penso positivo e concluo que estar vivo
     Amaj7
 É motivo mais que bom p'ra me animar
 
-[Bridge]
+[Ponte]
 Dm7                 Em7                       Dm7
 E então saio de rompante, torno-me mais confiante
                   Am7

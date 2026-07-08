@@ -13,7 +13,7 @@ que me importa o que serei
          A
 quero é viver
 
-[Verse 1]
+[VERSO 1]
                          E
 Amanhã, espero sempre um amanhã
                D
@@ -21,7 +21,7 @@ e acredito que será
         A
 mais um prazer
 
-[Verse 2]
+[VERSO 2]
     C#                       D
 e a vida é sempre uma curiosidade
                       E
@@ -35,11 +35,11 @@ que nasce da minha riqueza
                      A
 do meu prazer em descobrir
 
-[Pre-Chorus]
+[PRÉ-REFRÃO]
 A                        F             E
 encontrar, renovar, vou fugir ou repetir
 
-[Chorus]
+[REFRÃO]
      A
 Vou viver
           E
@@ -53,7 +53,7 @@ amanhã, espero sempre um amanhã
                 D               A
 e acredito que será mais um prazer
 
-[Verse 3]
+[VERSO 3]
     C#                       D
 e a vida é sempre uma curiosidade
                       E
@@ -67,11 +67,11 @@ que nasce da minha riqueza
                      A
 do meu prazer em descobrir
 
-[Pre-Chorus]
+[PRÉ-REFRÃO]
 A                        F             E       A
 encontrar, renovar, vou fugir ou repetir
 
-[Chorus]
+[REFRÃO]
 A
 vou viver
            E

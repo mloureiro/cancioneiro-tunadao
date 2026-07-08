@@ -62,7 +62,7 @@ Eu tô te esperando
            D#m7       E9
 Vê se não vai demorar
 
-[SOLO]
+[Inst]
 B5  C#5/G#  B5  C#5/G#
 A#5  B5  F#5
 
@@ -82,6 +82,6 @@ Dos afogados
               A#m  D#m7
 Eu tô te esperando
 
-[SOLO]
+[Inst]
 B9  B9(11+)  A#m  D#m7
 B9  B9(11+)  A#m  D#m7
