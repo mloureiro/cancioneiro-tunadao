@@ -1,0 +1,118 @@
+---
+titulo: A Marte
+artista: João Só
+tom: Dm
+---
+
+Intro
+     Gmaj7                Dm      D6(9) D6
+{:|                |                |:}
+
+[Verso 1]
+    Gmaj7
+Acordei de manhã
+       Dm            D6(9) D6
+Ainda meio baralhado
+         Gmaj7
+De teres sido tu a estrela
+        Dm            D6(9) D6
+Daquele filme alugado
+
+[Verso 2]
+         Gmaj7
+Deixámos o Bruce Lee
+            Dm             D6(9) D6
+Entregue às artes marciais
+         Gmaj7
+Quando olhaste para mim
+     Dsus2          C#sus2 Dsus2 Amaj7
+Sem efeitos especia -a     -a    -ais
+
+[Refrão]
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E {F#m7} E/G# Amaj7
+Eu vou a Marte!
+
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E {F#m7} E/G#
+Eu vou a Marte!
+
+[Verso 3]
+           Gmaj7
+Fui ter contigo ao café
+          Dm                   D6(9) D6
+Não me cansei de olhar para ti
+         Gmaj7
+Disseste mata-me a sede
+     Dm       D6(9) D6
+Tira-me daqui
+
+[Verso 4]
+       Gmaj7
+E o mercúrio subiu
+  Dm                  D6(9) D6
+E eu não sou de pedra
+         Gmaj7
+Pra uma Vénus como tu
+     Dsus2          Amaj7
+Não há água nesta terra!
+
+[Refrão]
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E {F#m7} E/G# Amaj7
+Eu vou a Marte!
+
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E
+Eu vou a Marte!
+
+[Ponte]
+  Dm
+Estou em terra
+   Gmaj7
+Se não me engano
+   Dm
+Fizeste de mim
+Gmaj7        Dsus2       Amaj7
+     Um verdadeiro marciano
+
+[Refrão]
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E {F#m7} E/G# Amaj7
+Eu vou a Marte!
+
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E {F#m7} E/G# Amaj7
+Eu vou a Marte!
+
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E {F#m7} E/G# Amaj7
+Eu vou a Marte!
+
+       F#m7
+A Marte, vou a Marte
+Bm7                     Dsus2
+   Se é o que tu queres
+                E {F#m7} E/G# Amaj7
+Eu vou a Marte!
