@@ -1,6 +1,6 @@
 ---
 titulo: Mãe
-artista: D.A.M.A
+artista: D.A.M.A.
 tom: E
 colunas: 1
 ---

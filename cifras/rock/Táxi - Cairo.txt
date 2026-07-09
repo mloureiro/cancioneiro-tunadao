@@ -1,6 +1,6 @@
 ---
 titulo: Cairo
-artista: Taxi
+artista: Táxi
 tom: G
 ---
 

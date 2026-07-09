@@ -22,9 +22,15 @@ sections:
   - name: Tradicional
     songs:
       - cifras/tradicional/*.txt
-  - name: Rock / Pop
+  - name: Rock
     songs:
-      - cifras/rock-pop/*.txt
+      - cifras/rock/*.txt
+  - name: Pop
+    songs:
+      - cifras/pop/*.txt
+  - name: Folk / Indie
+    songs:
+      - cifras/folk-indie/*.txt
   - name: Internacional
     songs:
       - cifras/internacional/*.txt
