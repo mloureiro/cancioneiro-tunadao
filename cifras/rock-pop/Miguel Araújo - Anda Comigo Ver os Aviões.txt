@@ -1,0 +1,70 @@
+---
+titulo: Anda Comigo Ver os Aviões
+artista: Miguel Araújo
+tom: A
+---
+
+Intro:
+
+    A                  C#7          F#m          F7M   F7M/A
+
+     E         A                  C#7       F#m
+
+    F         E4 E
+
+A                  C#7             F#m
+Anda comigo ver os aviões levantar vôo
+            Fmaj7   E
+A rasgar as nuvens, rasgar o céu
+A                    C#7                 F#m
+Anda comigo ao porto de Leixões ver os navios
+           Fmaj7  E
+A levantar ferro, rasgar o mar
+
+A                      E     C#7       F#m
+Um dia eu ganho a lotaria ou faço uma magia
+C#7         Dmaj7
+E que morra aqui
+          Ebdim7         E                   Fdim7       F#m
+Mulher tu sabes o quanto eu te amo, o quanto eu gosto de ti
+C#7              Dmaj7          Ebdim7          E
+Nem que eu morra aqui se um dia eu não te levo à América
+Fdim7              Bm     E   A
+Nem que eu leve a América até ti
+
+A                  C#7             F#m
+Anda comigo ver os automóveis à avenida
+            Fmaj7    E
+A rasgar as curvas, queimar pneus
+A                   C#7                F#m
+Um dia vamos ver os foguetões levantar voo
+            Fmaj7     E
+A rasgar as nuvens, queimar o céu
+
+A                      E     C#7       F#m
+Um dia eu ganho o totobola, ou pego na pistola
+C#7            Dmaj7           Ebdim7         E
+E que eu morra aqui, mulher tu sabes o quanto eu te amo
+         Fdim7       F#m
+O quanto eu gosto de ti
+C#              Dmaj7            Ebdim7          E
+E que eu morra aqui, se um dia eu não te levo à lua
+Fdim7              Bm   E       A
+Nem que eu roube a lua, só para ti
+
+    A                   E     C#m9       F#m   C#7   D7+
+
+    Ebdim  E    Fdim   F#m   C#7   D7+  Ebdim  E     Fdim
+
+    Bm       E      A
+
+A                      E     C#7       F#m
+Um dia eu vou jogar a bola, ou vendo esta viola
+C#7              Dmaj7           Ebdim7         E
+Nem que eu morra aqui, mulher tu sabes o quanto eu te amo
+         Fdim7       F#m
+O quanto eu gosto de ti
+C#7             Dmaj7              Ebdim7         E
+E que eu morra aqui, se um dia eu não te levo à América
+Fdim7              Bm      E   A
+Nem que eu leve a América até ti

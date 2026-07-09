@@ -135,3 +135,67 @@ _Última verificação: 2026-07-08._
 - [ ] Xutos & Pontapés - Fim do Mês
 - [ ] Xutos & Pontapés - Melga
 - [ ] Yellow W Van - O Que Eu Penso é o Que Eu Falo
+
+---
+
+# Passe 2026-07-09 — 3ª lista (A–Y, 182 músicas)
+
+Lista de 182 músicas. **48 já existiam** no acervo. Das 134 novas, **86 recuperadas** (72 por curl CifraClub/cifras.com.br + 14 por resolução de slug/fontes alternativas). Restam **47**: 1 só em Ultimate-Guitar (Guitar-Pro, atrás de Cloudflare), 1 ambígua (ver abaixo), 45 sem cifra publicada (só letra ou acordes auto-gerados Chordify/ChordU, que não se guardam).
+
+_Última verificação: 2026-07-09._
+
+## Ambígua (precisa de confirmação)
+
+- [ ] Gaivota - Hoje — não existe banda "Gaivota" com música "Hoje". Provavelmente refere-se a **Amália Hoje – A Gaivota** (cifra existe: cifraclub.com.br/amalia-hoje/a-gaivota, tom G#m). Confirmar identidade antes de guardar.
+
+## Precisam de navegador (Ultimate-Guitar / Cloudflare)
+
+- [ ] UHF - Matas-me Com o Teu Olhar
+
+## Sem cifra (só letra ou acordes auto-gerados)
+
+- [ ] Bárbara Tinoco - O Teu Namorado
+- [ ] Carlão - Assobia Para o Lado
+- [ ] Carlão - Os Tais
+- [ ] Clã - Adeus Amor
+- [ ] Clã - Conta-me Histórias
+- [ ] Da Weasel - Casos de Polícia
+- [ ] Da Weasel - Dialetos da Ternura
+- [ ] Da Weasel - Força
+- [ ] Da Weasel - Outro Nivel
+- [ ] Da Weasel - Sigue Sigue
+- [ ] Da Weasel - Tas Na Boa
+- [ ] Ena Pá 2000 - Dr. Bayard
+- [ ] Fernando Tordo - Adeus, Tristeza
+- [ ] Frankie Chavez - Slow Dance
+- [ ] Gaiteiros de Lisboa - Lenga Lenga
+- [ ] João Pedro Pais - Não Há
+- [ ] Linda Martini - Adeus Tristeza
+- [ ] Mesa - Arrefece
+- [ ] Mesa - Luz Vaga
+- [ ] Mesa - Quando as Palavras
+- [ ] Márcia - Às Vezes o Amor
+- [ ] Naifa - Música
+- [ ] Nancy Vieira - Corpo Encantado
+- [ ] Nuno Prata - Essa Dor Não Existe
+- [ ] O Martim - Razão da Distração
+- [ ] Oquestrada - Agarrem-me
+- [ ] Oquestrada - Creo Carino
+- [ ] Oquestrada - Fado Skazito
+- [ ] Oquestrada - Oxalá te Veja
+- [ ] Oquestrada - Qualquer Coisa Que Me Anima
+- [ ] Oquestrada - Se Esta Rua Fosse
+- [ ] Oquestrada - Vá Lá
+- [ ] Paulo de Carvalho - Nini dos Meus Quinze Anos
+- [ ] Ritual Tejo - Foram Cardos, Foram Prosas
+- [ ] Ritual Tejo - Nascer Outra Vez
+- [ ] Rui Veloso - Baile da Paróquia
+- [ ] Sétima Legião - Glória
+- [ ] TV Rural - Em Menos de Meia Hora
+- [ ] Teresa Radamanto - Chamar a Música
+- [ ] Trabalhadores do Comércio - Chamem a Polícia
+- [ ] UHF - Foge Comigo Maria
+- [ ] p3dro - Estou na Lei
+- [ ] p3dro - Perto Incerto
+- [ ] p3dro - Podes Crer
+- [ ] p3dro - Tu és Diferente
