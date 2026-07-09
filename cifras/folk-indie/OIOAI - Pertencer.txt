@@ -1,6 +1,6 @@
 ---
 titulo: Pertencer
-artista: Oioai
+artista: OIOAI
 tom: Am
 ---
 

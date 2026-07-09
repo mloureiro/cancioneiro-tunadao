@@ -146,7 +146,7 @@ _Última verificação: 2026-07-09._
 
 ## Ambígua (precisa de confirmação)
 
-- [ ] Gaivota - Hoje — não existe banda "Gaivota" com música "Hoje". Provavelmente refere-se a **Amália Hoje – A Gaivota** (cifra existe: cifraclub.com.br/amalia-hoje/a-gaivota, tom G#m). Confirmar identidade antes de guardar.
+- [x] Gaivota - Hoje — resolvido: era **Amália Hoje – A Gaivota** (versão cover). Descartada por ser a mesma progressão de _Amália Rodrigues – Gaivota_ (já no acervo), apenas transposta (Cm → G#m).
 
 ## Precisam de navegador (Ultimate-Guitar / Cloudflare)
 
