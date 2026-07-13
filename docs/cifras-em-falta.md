@@ -199,3 +199,15 @@ _Última verificação: 2026-07-09._
 - [ ] p3dro - Perto Incerto
 - [ ] p3dro - Podes Crer
 - [ ] p3dro - Tu és Diferente
+
+---
+
+# Passe 2026-07-13 — lista curta (7 músicas)
+
+Pedidas 7. **Recuperadas 6** — 4 do CifraClub por curl (Íris – Óh Mãe; Íris – Atira-te ao Mar; Grupo de Baile – Patchouly; Filarmónica Gil – Deixa-te Ficar em Minha Casa) e 2 do cifras.com.br (Filarmónica Gil – Saia Indiscreta; Hands on Approach – My Wonder Moon). Falta **1**: Filarmónica Gil – Vontade de Te Matar (já registada acima) — confirmado que em CifraClub, cifras.com.br, Recifra, bananacifras, e-chords e letras.mus.br só existe **letra**, nenhuma transcrição de acordes.
+
+_Última verificação: 2026-07-13._
+
+## Sem cifra (só letra)
+
+- [ ] Filarmónica Gil – Vontade de Te Matar
